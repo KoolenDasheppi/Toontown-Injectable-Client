@@ -1,5 +1,11 @@
 Toontown Infinite
 =================
+
+This is my edited fork of Toontown infinite to an a style "Injector" opened when launched. It also has some edited server source to run box exploits the same as they did in the original Toontown
+
+Old Description
+===============
+
 Toontown Infinite is a free, non-profit game inspired by _Disney's Toontown Online_.
 
 ### Contributing ###
