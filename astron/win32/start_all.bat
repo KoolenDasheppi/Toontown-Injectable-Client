@@ -1,3 +1,3 @@
 start start_astron_cluster
-start start_ai_server
+start start_all_ai
 start start_uberdog_server

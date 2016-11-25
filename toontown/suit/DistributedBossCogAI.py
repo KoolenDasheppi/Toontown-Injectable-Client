@@ -66,6 +66,17 @@ class DistributedBossCogAI(DistributedAvatarAI.DistributedAvatarAI):
         avId = self.air.getAvatarIdFromSender()
         self.removeToon(avId)
 
+    def skipBattleCheat(self):
+        '''
+        Used to simulate the old
+        safeZone.sendUpdate('enterSafeZone') glitch
+        '''
+        if self.battleA:
+            self.battleA.handleRewardDone()
+
+        if self.battleB:
+            self.battleB.handleRewardDone()
+
     def avatarNearEnter(self):
         avId = self.air.getAvatarIdFromSender()
         if avId not in self.nearToons:
@@ -455,7 +466,7 @@ class DistributedBossCogAI(DistributedAvatarAI.DistributedAvatarAI):
             self.battleB.requestDelete()
             self.battleB = None
             self.battleBId = 0
-            self.sendBattleIds()
+            self.sendBattleIdssendBattleIds()
         if self.arenaSide == None:
             self.b_setArenaSide(1)
         if not self.battleA and self.hasToons() and self.hasToonsAlive():

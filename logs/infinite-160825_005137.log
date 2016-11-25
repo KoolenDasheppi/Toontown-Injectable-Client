@@ -1,0 +1,335 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 234, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BFA6300>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BFA3328>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1C285EE0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_6/dna/storage_MM_sz.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-21
+TIMER startTime 1046
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33
+Battle Event localtoon-battle-event-39
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-51
+TIMER startTime 1046
+Battle Event localtoon-battle-event-57
+Battle Event localtoon-battle-event-63
+TIMER startTime 1046
+Battle Event localtoon-battle-event-69
+Battle Event localtoon-battle-event-75
+TIMER startTime 1046
+Battle Event localtoon-battle-event-81
+Battle Event localtoon-battle-event-87
+TIMER startTime 1046
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-99
+Battle Event localtoon-battle-event-105
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+frame rate: 6.8 fps|0.369d|5 avs||336|339||0x1002|0x6738|534.1MB|569.0MB|16330.4MB|827|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-111
+TIMER startTime 1046
+Battle Event localtoon-battle-event-117
+TIMER startTime 1046
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+TIMER startTime 1046
+Battle Event localtoon-battle-event-135
+Battle Event localtoon-battle-event-141
+TIMER startTime 1046
+Battle Event localtoon-battle-event-147
+Battle Event localtoon-battle-event-153
+TIMER startTime 1046
+Battle Event localtoon-battle-event-159
+TIMER startTime 1046
+Battle Event localtoon-battle-event-165
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+TIMER startTime 1046
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-171
+TIMER startTime 1046
+Battle Event localtoon-battle-event-177
+Battle Event localtoon-battle-event-183
+Battle Event localtoon-battle-event-189
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+Battle Event localtoon-battle-event-207
+TIMER startTime 1046
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+TIMER startTime 1046
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+Battle Event localtoon-battle-event-237
+Battle Event localtoon-battle-event-243
+Battle Event localtoon-battle-event-249
+frame rate: 8.3 fps|0.149d|7 avs||637|639||0x1002|0x6738|470.9MB|505.3MB|16330.4MB|1353|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-255
+TIMER startTime 1046
+Battle Event localtoon-battle-event-261
+Battle Event localtoon-battle-event-267
+TIMER startTime 1046
+Battle Event localtoon-battle-event-273
+TIMER startTime 1046
+Battle Event localtoon-battle-event-279
+Battle Event localtoon-battle-event-285
+TIMER startTime 1046
+Battle Event localtoon-battle-event-291
+TIMER startTime 1046
+Battle Event localtoon-battle-event-297
+TIMER startTime 1046
+Battle Event localtoon-battle-event-303
+Battle Event localtoon-battle-event-309
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+TIMER startTime 1046
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-315
+Battle Event localtoon-battle-event-321
+Battle Event localtoon-battle-event-327
+TIMER startTime 1046
+Battle Event localtoon-battle-event-333
+TIMER startTime 1046
+Battle Event localtoon-battle-event-339
+Battle Event localtoon-battle-event-345
+TIMER startTime 1046
+Battle Event localtoon-battle-event-351
+TIMER startTime 1046
+frame rate: 8.7 fps|0.068d|10 avs||937|939||0x1002|0x6738|502.1MB|537.2MB|16330.4MB|1704|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+frame rate: 17.0 fps|0.013d|1 avs||1237|1240||0x1002|0x6738|505.3MB|507.2MB|16330.4MB|1726|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+Battle Event localtoon-battle-event-357
+Battle Event localtoon-battle-event-363
+TIMER startTime 1046
+Battle Event localtoon-battle-event-369
+Battle Event localtoon-battle-event-375
+TIMER startTime 1046
+Battle Event localtoon-battle-event-381
+Battle Event localtoon-battle-event-387
+Battle Event localtoon-battle-event-393
+Battle Event localtoon-battle-event-399
+Battle Event localtoon-battle-event-405
+Battle Event localtoon-battle-event-411
+Battle Event localtoon-battle-event-417
+TIMER startTime 1046
+Battle Event localtoon-battle-event-423
+Battle Event localtoon-battle-event-429
+TIMER startTime 1046
+Battle Event localtoon-battle-event-435
+Battle Event localtoon-battle-event-441
+TIMER startTime 1046
+Battle Event localtoon-battle-event-447
+TIMER startTime 1046
+Battle Event localtoon-battle-event-453
+Battle Event localtoon-battle-event-459
+TIMER startTime 1046
+frame rate: 6.3 fps|0.184d|8 avs||1537|1540||0x1002|0x6738|528.0MB|562.5MB|16330.4MB|1898|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-465
+TIMER startTime 1046
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna

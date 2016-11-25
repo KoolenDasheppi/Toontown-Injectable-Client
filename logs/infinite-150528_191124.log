@@ -1,0 +1,47 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204C31C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 22.1 fps|0.013d|4 avs||325|327||0x1002|0x6738|441.1MB|498.4MB|16330.4MB|586|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 18.5 fps|0.009d|4 avs||625|627||0x1002|0x6738|441.6MB|498.8MB|16330.4MB|586|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.5 fps|0.009d|4 avs||925|927||0x1002|0x6738|442.0MB|499.2MB|16330.4MB|586|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.6 fps|0.008d|4 avs||1225|1227||0x1002|0x6738|442.4MB|499.5MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.9 fps|0.009d|4 avs||1525|1527||0x1002|0x6738|442.7MB|499.8MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.5 fps|0.009d|4 avs||1825|1827||0x1002|0x6738|442.7MB|499.8MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.6 fps|0.009d|4 avs||2125|2127||0x1002|0x6738|442.7MB|499.8MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 19.2 fps|0.010d|4 avs||2425|2427||0x1002|0x6738|443.4MB|499.8MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 20.1 fps|0.008d|4 avs||2725|2727||0x1002|0x6738|443.4MB|499.8MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 27.5 fps|0.003d|4 avs||3025|3027||0x1002|0x6738|443.7MB|500.0MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 27.4 fps|0.003d|4 avs||3325|3327||0x1002|0x6738|443.7MB|500.0MB|16330.4MB|587|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+frame rate: 41.1 fps|0.003d|4 avs||5022|5024||0x1002|0x6738|450.1MB|508.0MB|16330.4MB|967|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 21.2 fps|0.004d|4 avs||5322|5324||0x1002|0x6738|450.2MB|508.1MB|16330.4MB|968|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL

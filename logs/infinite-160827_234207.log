@@ -1,0 +1,231 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785918>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785990>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E670B48>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A30>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E670CB0>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785850>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_8/dna/storage_BR_sz.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.pdna
+empty flat building with no walls
+starting
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+frame rate: 14.3 fps|0.416d|2 avs||334|337||0x1002|0x6738|423.0MB|429.9MB|16330.4MB|473|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-8
+Battle Event localtoon-battle-event-13
+Battle Event localtoon-battle-event-18
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+collecting new task
+setting movie hook function
+iterating quest
+attemping to pick quest
+collecting new task
+setting movie hook function
+iterating quest
+attemping to pick quest
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-23
+Battle Event localtoon-battle-event-29
+Battle Event localtoon-battle-event-35
+Battle Event localtoon-battle-event-41
+Battle Event localtoon-battle-event-47
+Battle Event localtoon-battle-event-53
+Battle Event localtoon-battle-event-59
+Battle Event localtoon-battle-event-65
+Battle Event localtoon-battle-event-71
+Battle Event localtoon-battle-event-77
+Battle Event localtoon-battle-event-83
+Battle Event localtoon-battle-event-89
+Battle Event localtoon-battle-event-95
+Battle Event localtoon-battle-event-101
+Battle Event localtoon-battle-event-107
+Battle Event localtoon-battle-event-113
+Battle Event localtoon-battle-event-119
+Battle Event localtoon-battle-event-125
+Battle Event localtoon-battle-event-131
+Battle Event localtoon-battle-event-137
+frame rate: 10.1 fps|0.118d|5 avs||634|637||0x1002|0x6738|538.0MB|546.2MB|16330.4MB|568|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-143
+Battle Event localtoon-battle-event-149
+Battle Event localtoon-battle-event-155
+Battle Event localtoon-battle-event-161
+Battle Event localtoon-battle-event-167
+Battle Event localtoon-battle-event-173
+Battle Event localtoon-battle-event-179
+Battle Event localtoon-battle-event-185
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-191
+Battle Event localtoon-battle-event-197
+Battle Event localtoon-battle-event-203
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-209
+collecting new task
+setting movie hook function
+iterating quest
+attemping to pick quest
+Doing building quest
+starting
+frame rate: 7.8 fps|0.054d|10 avs||1052|1056||0x1002|0x6738|569.2MB|577.1MB|16330.4MB|636|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 8.3 fps|0.053d|8 avs||1353|1356||0x1002|0x6738|570.3MB|578.0MB|16330.4MB|636|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 8.1 fps|0.053d|10 avs||1653|1656||0x1002|0x6738|570.3MB|578.0MB|16330.4MB|636|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 253, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 2623, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 506, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 230, in __transition
+    self.__exitCurrent(exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 188, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 210, in exit
+    self.__exitChildren(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 189, in __exitChildren
+    fsm.request((fsm.getFinalState()).getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 479, in enterGameOff
+    OTPClientRepository.OTPClientRepository.enterGameOff(self)
+  File "otp\distributed\OTPClientRepository.py", line 1314, in enterGameOff
+    self._abandonShard()
+  File "toontown\distributed\ToontownClientRepository.py", line 1047, in _abandonShard
+    if obj.parentId == localAvatar.defaultShard and obj is not localAvatar:
+AttributeError: DistributedDoor instance has no attribute 'parentId'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 253, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 2623, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 506, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 230, in __transition
+    self.__exitCurrent(exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 188, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 210, in exit
+    self.__exitChildren(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 189, in __exitChildren
+    fsm.request((fsm.getFinalState()).getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 479, in enterGameOff
+    OTPClientRepository.OTPClientRepository.enterGameOff(self)
+  File "otp\distributed\OTPClientRepository.py", line 1314, in enterGameOff
+    self._abandonShard()
+  File "toontown\distributed\ToontownClientRepository.py", line 1047, in _abandonShard
+    if obj.parentId == localAvatar.defaultShard and obj is not localAvatar:
+AttributeError: DistributedDoor instance has no attribute 'parentId'

@@ -1,0 +1,342 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E772918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_6/dna/storage_MM_sz.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.pdna
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+attemping to pick quest
+4
+5
+Doing task
+starting
+Teleporting back
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-8
+Battle Event localtoon-battle-event-13
+Battle Event localtoon-battle-event-18
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-23
+Battle Event localtoon-battle-event-28
+Battle Event localtoon-battle-event-33
+frame rate: 29.3 fps|0.037d|3 avs||338|342||0x1002|0x6738|457.2MB|465.3MB|16330.4MB|496|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-38
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-43
+Battle Event localtoon-battle-event-48
+Battle Event localtoon-battle-event-53
+Battle Event localtoon-battle-event-58
+Battle Event localtoon-battle-event-63
+1
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+1
+1
+1
+1
+5109
+Battle Event localtoon-battle-event-68
+Battle Event localtoon-battle-event-73
+Battle Event localtoon-battle-event-78
+Battle Event localtoon-battle-event-83
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Teleporting back
+frame rate: 13.1 fps|0.148d|4 avs||638|642||0x1002|0x6738|550.5MB|559.2MB|16330.4MB|529|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(type(Quests.getQuest(base.localAvatar.quests[3][0]))
+                                                             ^
+SyntaxError: unexpected EOF while parsing
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(type(Quests.getQuest(base.localAvatar.quests[3][0])
+                                                            ^
+SyntaxError: unexpected EOF while parsing
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(type(Quests.getQuest(base.localAvatar.quests[3][0])
+                                                            ^
+SyntaxError: unexpected EOF while parsing
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(type(Quests.getQuest(base.localAvatar.quests[3][0]))))
+                                                               ^
+SyntaxError: invalid syntax
+
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+<type 'instance'>
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-88
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-98
+toontown.quest.Quests.CogQuest
+Battle Event localtoon-battle-event-103
+Battle Event localtoon-battle-event-108
+Reading DNA file... phase_8/dna/storage_BR_sz.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.pdna
+empty flat building with no walls
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-113
+Battle Event localtoon-battle-event-118
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-128
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(Quests.isQuestJustForFun(base.localAvatar.quests[3][0], base.localAvatar.quests[3][3])
+                                                                                               ^
+SyntaxError: unexpected EOF while parsing
+
+True
+frame rate: 9.2 fps|0.367d|5 avs||1021|1025||0x1002|0x6738|635.4MB|644.1MB|16330.4MB|647|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-133
+Battle Event localtoon-battle-event-138
+Battle Event localtoon-battle-event-143
+Battle Event localtoon-battle-event-148
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+4
+5
+Doing task
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest

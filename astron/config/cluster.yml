@@ -58,7 +58,7 @@ uberdogs:
 roles:
     - type: clientagent
       bind: 0.0.0.0:7199
-      version: "infinite-dev"
+      version: "ttr-beta-v1.9.4"
       client:
        relocate: true
        add_interest: enabled

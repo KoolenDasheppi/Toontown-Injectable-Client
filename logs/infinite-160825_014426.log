@@ -1,0 +1,77 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 234, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BE06300>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BE03328>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1C0E5EE0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_8/dna/storage_BR_sz.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.pdna
+empty flat building with no walls
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+<toontown.building.DistributedElevatorExt.DistributedElevatorExt instance at 0x24893490>
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+TypeError: handleEnterSphere() takes exactly 2 arguments (1 given)
+
+frame rate: 21.0 fps|0.011d|5 avs||331|334||0x1002|0x6738|413.3MB|412.3MB|16330.4MB|475|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+['DistributedObject_initialized', 'JumpOutOffsets', '_DistributedElevator__doorsClosed', '_DistributedElevator__preSetupState', '_DistributedElevator__toonTracks', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_MSGRmessengerId', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_getDoorsClosedInfo', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTask', 'allowedToEnter', 'announceGenerate', 'antiShuffle', 'autoInterests', 'b_setLocation', 'bigElevator', 'bldg', 'bldgDoId', 'bldgRequest', 'boardedAvIds', 'bossLevel', 'cacheable', 'canHideBoardingQuitBtn', 'children', 'classTree', 'clearNametag', 'clearToonTrack', 'clearToonTracks', 'closeDoors', 'closeSfx', 'countdown', 'countdownTime', 'cr', 'currentFloor', 'd_setLocation', 'dclass', 'deferredSlots', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'elevatorFSM', 'elevatorPoints', 'elevatorSphere', 'elevatorSphereNode', 'elevatorSphereNodePath', 'elevatorTripId', 'emptySlot', 'emptySlot0', 'emptySlot1', 'emptySlot2', 'emptySlot3', 'emptySlot4', 'emptySlot5', 'emptySlot6', 'emptySlot7', 'enterClosed', 'enterClosing', 'enterOff', 'enterOpening', 'enterWaitCountdown', 'enterWaitEmpty', 'execCommand', 'exitClosed', 'exitClosing', 'exitOff', 'exitOpening', 'exitWaitCountdown', 'exitWaitEmpty', 'fillSlot', 'fillSlot0', 'fillSlot1', 'fillSlot2', 'fillSlot3', 'fillSlot4', 'fillSlot5', 'fillSlot6', 'fillSlot7', 'fillSlotTrack', 'finalCloseSfx', 'finalOpenSfx', 'finishSetup', 'flushCachedData', 'forceDoorsClosed', 'forceDoorsOpen', 'fsm', 'generate', 'generateInit', 'getAllAccepting', 'getAntiShuffle', 'getAutoInterests', 'getBarrierData', 'getBldgDoorOrigin', 'getBoardingTrack', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDestName', 'getDisableEvent', 'getDoId', 'getElevatorModel', 'getElevatorTripId', 'getLocation', 'getMinLaff', 'getNeverDisable', 'getOffsetPos', 'getOffsetPosWrtRender', 'getOffsetPosWrtToonParent', 'getParentObj', 'getPlaceElevator', 'getZoneId', 'gotBldg', 'gotToon', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleEnterElevator', 'handleEnterSphere', 'handleExitButton', 'handleOkTeaser', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'isSetup', 'leftDoor', 'localToonOnBoard', 'minLaff', 'nametag', 'neverDisable', 'notify', 'notifyToonOffElevator', 'offsetNP', 'offsetNp', 'onDoorCloseFinish', 'openDoors', 'openSfx', 'parentId', 'postGenerateMessage', 'rejectBoard', 'removeAllTasks', 'removeInterest', 'removeTask', 'rightDoor', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setAntiShuffle', 'setBarrierData', 'setBldgDoId', 'setCacheable', 'setCachedData', 'setElevatorTripId', 'setFloor', 'setLocation', 'setMinLaff', 'setNeverDisable', 'setState', 'setupElevator', 'setupNametag', 'startCountdownClock', 'status', 'storeToonTrack', 'taskName', 'timerTask', 'toonRequests', 'type', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'zoneId']
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+TypeError: __doorsClosed() takes exactly 2 arguments (1 given)
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+TypeError: __doorsClosed() takes exactly 2 arguments (1 given)
+

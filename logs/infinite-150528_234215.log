@@ -1,0 +1,126 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 235, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204AA5D0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_N', 'QuitBtn_RLVR']
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "mods/Toon Bot.txt", line 408, in loadScript
+    self.options.update(self.scriptLoaded)
+  File "mods/Toon Bot.txt", line 247, in update
+    self.optionButtons.append(guiTools.createButton(eval(currentScript['options'][key]['command']), self.getButtonPos(currentScript['options'][key]['pos']), model, buttonImgs, colour=(0.5,0.1,0.5,1),text=key))
+  File "mods/Toon Bot.txt", line 43, in createButton
+    geom=None, pad=(0.01, 0.01), text=text, suppressKeys=0, pos=position, text_fg=(1,1,1,1), color=colour ,text_scale=0.059, borderWidth=(0.13, 0.01), scale=.7)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "mods/Toon Bot.txt", line 408, in loadScript
+    self.options.update(self.scriptLoaded)
+  File "mods/Toon Bot.txt", line 247, in update
+    self.optionButtons.append(guiTools.createButton(eval(currentScript['options'][key]['command']), self.getButtonPos(currentScript['options'][key]['pos']), model, buttonImgs, colour=(0.5,0.1,0.5,1),text=key))
+  File "mods/Toon Bot.txt", line 43, in createButton
+    geom=None, pad=(0.01, 0.01), text=text, suppressKeys=0, pos=position, text_fg=(1,1,1,1), color=colour ,text_scale=0.059, borderWidth=(0.13, 0.01), scale=.7)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx

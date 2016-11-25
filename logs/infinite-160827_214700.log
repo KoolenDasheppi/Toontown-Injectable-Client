@@ -1,0 +1,110 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AAD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A8F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AAF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A9E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E487300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E757918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AB70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AA08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AAA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AA80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A9B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AB98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AB48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AB20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E484328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76AA58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76A8A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E76ABC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_8/dna/storage_BR_sz.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.pdna
+empty flat building with no walls
+frame rate: 31.3 fps|0.003d|1 avs||349|364||0x1002|0x6738|343.4MB|387.9MB|16330.4MB|442|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 31.7 fps|0.003d|1 avs||649|664||0x1002|0x6738|343.5MB|387.9MB|16330.4MB|442|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+starting
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-8
+Battle Event localtoon-battle-event-13
+Battle Event localtoon-battle-event-18
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-23
+Battle Event localtoon-battle-event-28
+Battle Event localtoon-battle-event-33
+Battle Event localtoon-battle-event-38
+Battle Event localtoon-battle-event-43
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+starting
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+frame rate: 15.9 fps|0.202d|4 avs||949|964||0x1002|0x6738|486.2MB|511.0MB|16330.4MB|510|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-48
+Battle Event localtoon-battle-event-53
+Battle Event localtoon-battle-event-58
+Battle Event localtoon-battle-event-63
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-68
+Battle Event localtoon-battle-event-73
+Battle Event localtoon-battle-event-78
+Battle Event localtoon-battle-event-83
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-88
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-98
+Battle Event localtoon-battle-event-103
+frame rate: 36.9 fps|0.027d|0 avs||1249|1264||0x1002|0x6738|551.6MB|576.7MB|16330.4MB|527|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-108
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna

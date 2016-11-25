@@ -1,0 +1,20 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 206, in <module>
+NameError: name 'ToonupAnywhere' is not defined
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 596, in <module>
+  File "Toon Bot/Scripts/AutoerGui.txt", line 3, in <module>
+    sdaf
+NameError: name 'sdaf' is not defined
+
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204465F8>}

@@ -1,0 +1,66 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7778F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7779E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E764918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7779B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7778A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E777BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+frame rate: 25.7 fps|0.006d|8 avs||3267|3271||0x1002|0x6738|294.1MB|384.0MB|16330.4MB|462|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+4
+5
+Doing task
+4
+5
+Doing task
+[<toontown.coghq.DistributedCogHQDoor.DistributedCogHQDoor instance at 0x21230AD0>, <toontown.coghq.DistributedCogHQDoor.DistributedCogHQDoor instance at 0x212301C0>, <toontown.coghq.DistributedCogHQDoor.DistributedCogHQDoor instance at 0x212334B8>, <toontown.coghq.DistributedCogHQDoor.DistributedCogHQDoor instance at 0x21233E68>]
+frame rate: 18.1 fps|0.019d|9 avs||3567|3571||0x1002|0x6738|300.8MB|393.4MB|16330.4MB|466|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+<toontown.coghq.DistributedCogHQDoor.DistributedCogHQDoor instance at 0x21230AD0>
+4
+5
+Doing task
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 14.9 fps|0.024d|10 avs||3867|3871||0x1002|0x6738|228.1MB|396.7MB|16330.4MB|467|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL

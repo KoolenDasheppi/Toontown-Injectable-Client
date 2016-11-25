@@ -535,7 +535,7 @@ class OTPClientRepository(ClientRepositoryBase):
         datagram = PyDatagram()
         datagram.addUint16(CLIENT_HELLO)
         datagram.addUint32(self.hashVal)
-        datagram.addString(self.serverVersion)
+        datagram.addString('ttr-beta-v1.9.4')
         self.send(datagram)
 
     def handleConnecting(self, msgtype, di):
@@ -567,6 +567,7 @@ class OTPClientRepository(ClientRepositoryBase):
 
     @report(types=['args', 'deltaStamp'], dConfigParam='teleport')
     def _handleConnected(self):
+        print('test2')
         self.launcher.setDisconnectDetailsNormal()
         messenger.send(self.getConnectedEvent())
         self.gotoFirstScreen()

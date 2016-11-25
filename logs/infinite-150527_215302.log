@@ -1,0 +1,516 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E511148>}
+test
+['ATSDown', 'ATSNone', 'ATSPad', 'ATSUnspecified', 'ATSUp', 'ATS_down', 'ATS_none', 'ATS_pad', 'ATS_unspecified', 'ATS_up', 'ActorNode', 'AdaptiveLru', 'AdaptiveLruPage', 'AlphaTestAttrib', 'AmbientLight', 'AnalogNode', 'AngularEulerIntegrator', 'AngularForce', 'AngularIntegrator', 'AngularVectorForce', 'AnimBundle', 'AnimBundleNode', 'AnimChannelBase', 'AnimChannelMatrix', 'AnimChannelMatrixDynamic', 'AnimChannelMatrixXfmTable', 'AnimChannelScalar', 'AnimChannelScalarDynamic', 'AnimChannelScalarTable', 'AnimControl', 'AnimControlCollection', 'AnimGroup', 'AnimInterface', 'AnimPreloadTable', 'AnimateVerticesRequest', 'AntialiasAttrib', 'ArcEmitter', 'ArgumentEater', 'AsyncTask', 'AsyncTaskBase', 'AsyncTaskChain', 'AsyncTaskCollection', 'AsyncTaskManager', 'AsyncTaskPause', 'AsyncTaskSequence', 'AttribNodeRegistry', 'AudioLoadRequest', 'AudioManager', 'AudioSound', 'AudioVolumeAttrib', 'AuxBitplaneAttrib', 'AuxSceneData', 'Averager', 'BamCache', 'BamCacheRecord', 'BamEnums', 'BamFile', 'BamReader', 'BamWriter', 'BaseForce', 'BaseIntegrator', 'BaseParticleEmitter', 'BaseParticleFactory', 'BaseParticleRenderer', 'BasicSkel', 'BillboardEffect', 'BindAnimRequest', 'BitArray', 'BitMask16', 'BitMask32', 'BitMask64', 'BitMaskNative', 'BlackOnWhite', 'BoundingBox', 'BoundingHexahedron', 'BoundingLine', 'BoundingPlane', 'BoundingSphere', 'BoundingVolume', 'BoxEmitter', 'Buffer', 'BufferContext', 'BufferedDatagramConnection', 'Buffered_DatagramConnection', 'ButtonHandle', 'ButtonMap', 'ButtonNode', 'ButtonRegistry', 'ButtonThrower', 'CConnectionRepository', 'CConstrainHprInterval', 'CConstrainPosHprInterval', 'CConstrainPosInterval', 'CConstrainTransformInterval', 'CConstraintInterval', 'CDistributedSmoothNodeBase', 'CInterval', 'CIntervalManager', 'CLIENTAGENT_ADD_INTEREST', 'CLIENTAGENT_ADD_INTEREST_MULTIPLE', 'CLIENTAGENT_ADD_POST_REMOVE', 'CLIENTAGENT_ADD_SESSION_OBJECT', 'CLIENTAGENT_CLEAR_POST_REMOVES', 'CLIENTAGENT_CLOSE_CHANNEL', 'CLIENTAGENT_DECLARE_OBJECT', 'CLIENTAGENT_DROP', 'CLIENTAGENT_EJECT', 'CLIENTAGENT_OPEN_CHANNEL', 'CLIENTAGENT_REMOVE_INTEREST', 'CLIENTAGENT_REMOVE_SESSION_OBJECT', 'CLIENTAGENT_SEND_DATAGRAM', 'CLIENTAGENT_SET_CLIENT_ID', 'CLIENTAGENT_SET_FIELDS_SENDABLE', 'CLIENTAGENT_SET_STATE', 'CLIENTAGENT_UNDECLARE_OBJECT', 'CLIENT_ADD_INTEREST', 'CLIENT_ADD_INTEREST_MULTIPLE', 'CLIENT_DISCONNECT', 'CLIENT_DONE_INTEREST_RESP', 'CLIENT_EJECT', 'CLIENT_ENTER_OBJECT_REQUIRED', 'CLIENT_ENTER_OBJECT_REQUIRED_OTHER', 'CLIENT_ENTER_OBJECT_REQUIRED_OTHER_OWNER', 'CLIENT_ENTER_OBJECT_REQUIRED_OWNER', 'CLIENT_HEARTBEAT', 'CLIENT_HELLO', 'CLIENT_HELLO_RESP', 'CLIENT_LOGIN_2_BLUE', 'CLIENT_LOGIN_2_GREEN', 'CLIENT_LOGIN_2_PLAY_TOKEN', 'CLIENT_LOGIN_3_DISL_TOKEN', 'CLIENT_OBJECT_LEAVING', 'CLIENT_OBJECT_LEAVING_OWNER', 'CLIENT_OBJECT_LOCATION', 'CLIENT_OBJECT_SET_FIELD', 'CLIENT_OBJECT_SET_FIELDS', 'CLIENT_REMOVE_INTEREST', 'CLerpAnimEffectInterval', 'CLerpInterval', 'CLerpNodePathInterval', 'CMetaInterval', 'CONTROL_ADD_CHANNEL', 'CONTROL_ADD_POST_REMOVE', 'CONTROL_ADD_RANGE', 'CONTROL_CHANNEL', 'CONTROL_CLEAR_POST_REMOVES', 'CONTROL_REMOVE_CHANNEL', 'CONTROL_REMOVE_RANGE', 'CPTADouble', 'CPTAFloat', 'CPTAInt', 'CPTALMatrix3d', 'CPTALMatrix3f', 'CPTALMatrix4d', 'CPTALMatrix4f', 'CPTALVecBase2d', 'CPTALVecBase2f', 'CPTALVecBase2i', 'CPTALVecBase3d', 'CPTALVecBase3f', 'CPTALVecBase3i', 'CPTALVecBase4d', 'CPTALVecBase4f', 'CPTALVecBase4i', 'CPTAMat3', 'CPTAMat3d', 'CPTAMat4', 'CPTAMat4d', 'CPTAUchar', 'CPTAUshort', 'CPTAVecBase2d', 'CPTAVecBase2f', 'CPTAVecBase3d', 'CPTAVecBase3f', 'CPTAVecBase4d', 'CPTAVecBase4f', 'CPTA_LMatrix3', 'CPTA_LMatrix3d', 'CPTA_LMatrix3f', 'CPTA_LMatrix4', 'CPTA_LMatrix4d', 'CPTA_LMatrix4f', 'CPTA_LVecBase2', 'CPTA_LVecBase2d', 'CPTA_LVecBase2f', 'CPTA_LVecBase2i', 'CPTA_LVecBase3', 'CPTA_LVecBase3d', 'CPTA_LVecBase3f', 'CPTA_LVecBase3i', 'CPTA_LVecBase4', 'CPTA_LVecBase4d', 'CPTA_LVecBase4f', 'CPTA_LVecBase4i', 'CPTA_double', 'CPTA_float', 'CPTA_int', 'CPTA_stdfloat', 'CPTA_uchar', 'CPTA_ushort', 'CSDefault', 'CSInvalid', 'CSYupLeft', 'CSYupRight', 'CSZupLeft', 'CSZupRight', 'CS_default', 'CS_invalid', 'CS_yup_left', 'CS_yup_right', 'CS_zup_left', 'CS_zup_right', 'CString', 'CachedTypedWritableReferenceCount', 'CallbackData', 'CallbackGraphicsWindow', 'CallbackNode', 'CallbackObject', 'Camera', 'CardMaker', 'Character', 'CharacterJoint', 'CharacterJointBundle', 'CharacterJointEffect', 'CharacterSlider', 'CharacterVertexSlider', 'ClassTree', 'ClientBase', 'ClipPlaneAttrib', 'ClockObject', 'CollideMask', 'CollisionBox', 'CollisionEntry', 'CollisionFloorMesh', 'CollisionHandler', 'CollisionHandlerEvent', 'CollisionHandlerFloor', 'CollisionHandlerFluidPusher', 'CollisionHandlerGravity', 'CollisionHandlerHighestEvent', 'CollisionHandlerPhysical', 'CollisionHandlerPusher', 'CollisionHandlerQueue', 'CollisionInvSphere', 'CollisionLine', 'CollisionNode', 'CollisionParabola', 'CollisionPlane', 'CollisionPolygon', 'CollisionRay', 'CollisionRecorder', 'CollisionSegment', 'CollisionSolid', 'CollisionSphere', 'CollisionTraverser', 'CollisionTube', 'CollisionVisualizer', 'ColorAttrib', 'ColorBlendAttrib', 'ColorInterpolationFunctionConstant', 'ColorInterpolationFunctionLinear', 'ColorInterpolationFunctionSinusoid', 'ColorInterpolationFunctionStepwave', 'ColorInterpolationManager', 'ColorInterpolationSegment', 'ColorScaleAttrib', 'ColorWriteAttrib', 'CommonFilters', 'CompassEffect', 'ComputeNode', 'ConditionVar', 'ConditionVarDirect', 'ConditionVarFull', 'ConditionVarFullDirect', 'ConfigDeclaration', 'ConfigFlags', 'ConfigPage', 'ConfigPageManager', 'ConfigVariable', 'ConfigVariableBase', 'ConfigVariableBool', 'ConfigVariableCore', 'ConfigVariableDouble', 'ConfigVariableFilename', 'ConfigVariableInt', 'ConfigVariableInt64', 'ConfigVariableList', 'ConfigVariableManager', 'ConfigVariableSearchPath', 'ConfigVariableString', 'Connection', 'ConnectionListener', 'ConnectionManager', 'ConnectionReader', 'ConnectionWriter', 'ContentPackError', 'ContentPacksManager', 'CopyOnWriteObject', 'CubicCurveseg', 'CullBinAttrib', 'CullBinEnums', 'CullBinManager', 'CullFaceAttrib', 'CullResult', 'CullTraverser', 'CullTraverserData', 'CurveFitter', 'CylindricalLens', 'DBSERVER_CREATE_OBJECT', 'DBSERVER_CREATE_OBJECT_RESP', 'DBSERVER_OBJECT_DELETE', 'DBSERVER_OBJECT_DELETE_FIELD', 'DBSERVER_OBJECT_DELETE_FIELDS', 'DBSERVER_OBJECT_GET_ALL', 'DBSERVER_OBJECT_GET_ALL_RESP', 'DBSERVER_OBJECT_GET_FIELD', 'DBSERVER_OBJECT_GET_FIELDS', 'DBSERVER_OBJECT_GET_FIELDS_RESP', 'DBSERVER_OBJECT_GET_FIELD_RESP', 'DBSERVER_OBJECT_SET_FIELD', 'DBSERVER_OBJECT_SET_FIELDS', 'DBSERVER_OBJECT_SET_FIELDS_IF_EQUALS', 'DBSERVER_OBJECT_SET_FIELDS_IF_EQUALS_RESP', 'DBSERVER_OBJECT_SET_FIELD_IF_EMPTY', 'DBSERVER_OBJECT_SET_FIELD_IF_EMPTY_RESP', 'DBSERVER_OBJECT_SET_FIELD_IF_EQUALS', 'DBSERVER_OBJECT_SET_FIELD_IF_EQUALS_RESP', 'DBSS_OBJECT_ACTIVATE_WITH_DEFAULTS', 'DBSS_OBJECT_ACTIVATE_WITH_DEFAULTS_OTHER', 'DBSS_OBJECT_DELETE_DISK', 'DBSS_OBJECT_DELETE_FIELDS_DISK', 'DBSS_OBJECT_DELETE_FIELD_DISK', 'DBSS_OBJECT_GET_ACTIVATED', 'DBSS_OBJECT_GET_ACTIVATED_RESP', 'DCArrayParameter', 'DCAtomicField', 'DCClass', 'DCClassParameter', 'DCDeclaration', 'DCField', 'DCFile', 'DCKeyword', 'DCKeywordList', 'DCMolecularField', 'DCPackData', 'DCPacker', 'DCPackerInterface', 'DCParameter', 'DCSimpleParameter', 'DCSwitch', 'DCSwitchParameter', 'DCTypedef', 'DConfig', 'DGG', 'DSearchPath', 'DataGraphTraverser', 'DataNode', 'Datagram', 'DatagramGenerator', 'DatagramGeneratorNet', 'DatagramInputFile', 'DatagramIterator', 'DatagramSink', 'DatagramSinkNet', 'DecalEffect', 'Decompressor', 'DelayedCall', 'DelayedFunctor', 'DepthOffsetAttrib', 'DepthTestAttrib', 'DepthWriteAttrib', 'DestructiveScratchPad', 'DialNode', 'DirectButton', 'DirectCheckButton', 'DirectDialog', 'DirectEntry', 'DirectEntryScroll', 'DirectFrame', 'DirectGuiGlobals', 'DirectLabel', 'DirectNotifyGlobal', 'DirectOptionMenu', 'DirectRadioButton', 'DirectScrollBar', 'DirectScrolledFrame', 'DirectScrolledList', 'DirectScrolledListItem', 'DirectSlider', 'DirectWaitBar', 'DirectionalLight', 'DiscEmitter', 'DisplayInformation', 'DisplayRegion', 'DisplayRegionBase', 'DisplayRegionCullCallbackData', 'DisplayRegionDrawCallbackData', 'DisplaySearchParameters', 'DocumentSpec', 'DoubleBitMaskNative', 'DownloadDb', 'DrawMask', 'DrawableRegion', 'DriveInterface', 'Dtool_AddToDictionary', 'Dtool_BorrowThisReference', 'Dtool_ObjectToDict', 'Dtool_PreloadDLL', 'Dtool_PyNativeInterface', 'Dtool_funcToMethod', 'DxBody', 'DxGeom', 'DxJoint', 'DxJointGroup', 'DxSpace', 'DxTriMeshData', 'DxWorld', 'DynamicTextFont', 'DynamicTextPage', 'EUEof', 'EUErrorAbort', 'EUErrorFileEmpty', 'EUErrorFileInvalid', 'EUErrorHttpGatewayTimeout', 'EUErrorHttpProxyAuthentication', 'EUErrorHttpServerTimeout', 'EUErrorHttpServiceUnavailable', 'EUErrorInvalidChecksum', 'EUErrorNetworkBufferOverflow', 'EUErrorNetworkDead', 'EUErrorNetworkDisconnected', 'EUErrorNetworkDisconnectedLocally', 'EUErrorNetworkDiskQuotaExceeded', 'EUErrorNetworkNoData', 'EUErrorNetworkRemoteHostDisconnected', 'EUErrorNetworkRemoteHostDown', 'EUErrorNetworkRemoteHostNoResponse', 'EUErrorNetworkRemoteHostNotFound', 'EUErrorNetworkRemoteHostUnreachable', 'EUErrorNetworkTimeout', 'EUErrorNetworkUnreachable', 'EUErrorWriteDiskFault', 'EUErrorWriteDiskFull', 'EUErrorWriteDiskNotFound', 'EUErrorWriteDiskSectorNotFound', 'EUErrorWriteFileRename', 'EUErrorWriteOutOfFiles', 'EUErrorWriteOutOfMemory', 'EUErrorWriteSharingViolation', 'EUErrorZlib', 'EUHttpRedirect', 'EUNetworkNoData', 'EUOk', 'EUSuccess', 'EUWrite', 'EUWriteRam', 'EU_eof', 'EU_error_abort', 'EU_error_file_empty', 'EU_error_file_invalid', 'EU_error_http_gateway_timeout', 'EU_error_http_proxy_authentication', 'EU_error_http_server_timeout', 'EU_error_http_service_unavailable', 'EU_error_invalid_checksum', 'EU_error_network_buffer_overflow', 'EU_error_network_dead', 'EU_error_network_disconnected', 'EU_error_network_disconnected_locally', 'EU_error_network_disk_quota_exceeded', 'EU_error_network_no_data', 'EU_error_network_remote_host_disconnected', 'EU_error_network_remote_host_down', 'EU_error_network_remote_host_no_response', 'EU_error_network_remote_host_not_found', 'EU_error_network_remote_host_unreachable', 'EU_error_network_timeout', 'EU_error_network_unreachable', 'EU_error_write_disk_fault', 'EU_error_write_disk_full', 'EU_error_write_disk_not_found', 'EU_error_write_disk_sector_not_found', 'EU_error_write_file_rename', 'EU_error_write_out_of_files', 'EU_error_write_out_of_memory', 'EU_error_write_sharing_violation', 'EU_error_zlib', 'EU_http_redirect', 'EU_network_no_data', 'EU_ok', 'EU_success', 'EU_write', 'EU_write_ram', 'EaseInBlendType', 'EaseInOutBlendType', 'EaseOutBlendType', 'EggAnimData', 'EggAnimPreload', 'EggAttributes', 'EggBin', 'EggBinMaker', 'EggComment', 'EggCompositePrimitive', 'EggCoordinateSystem', 'EggCurve', 'EggData', 'EggExternalReference', 'EggFilenameNode', 'EggGroup', 'EggGroupNode', 'EggGroupUniquifier', 'EggLine', 'EggMaterial', 'EggMaterialCollection', 'EggNameUniquifier', 'EggNamedObject', 'EggNode', 'EggNurbsCurve', 'EggNurbsSurface', 'EggObject', 'EggPatch', 'EggPoint', 'EggPolygon', 'EggPolysetMaker', 'EggPoolUniquifier', 'EggPrimitive', 'EggRenderMode', 'EggSAnimData', 'EggSurface', 'EggSwitchCondition', 'EggSwitchConditionDistance', 'EggTable', 'EggTexture', 'EggTextureCollection', 'EggTransform', 'EggTriangleFan', 'EggTriangleStrip', 'EggUserData', 'EggVertex', 'EggVertexAux', 'EggVertexPool', 'EggVertexUV', 'EggXfmAnimData', 'EggXfmSAnim', 'Enum', 'Event', 'EventHandler', 'EventParameter', 'EventQueue', 'EventStorePandaNode', 'EventStoreTypedRefCount', 'EventStoreValueBase', 'ExecutionEnvironment', 'ExternalThread', 'Extractor', 'FadeLODNode', 'FileReference', 'FileStream', 'Filename', 'FilterProperties', 'FiniteBoundingVolume', 'FisheyeLens', 'FisheyeMaker', 'Fog', 'FogAttrib', 'FontPool', 'ForceNode', 'FrameBufferProperties', 'FrameDelayedCall', 'FrameRateMeter', 'FreetypeFont', 'FriendManager', 'Frustum', 'FrustumD', 'FrustumF', 'Fstream', 'Functor', 'GeoMipTerrain', 'Geom', 'GeomCacheManager', 'GeomContext', 'GeomDrawCallbackData', 'GeomEnums', 'GeomLines', 'GeomLinestrips', 'GeomNode', 'GeomParticleRenderer', 'GeomPatches', 'GeomPoints', 'GeomPrimitive', 'GeomTextGlyph', 'GeomTriangles', 'GeomTrifans', 'GeomTristrips', 'GeomVertexAnimationSpec', 'GeomVertexArrayData', 'GeomVertexArrayDataHandle', 'GeomVertexArrayFormat', 'GeomVertexColumn', 'GeomVertexData', 'GeomVertexFormat', 'GeomVertexReader', 'GeomVertexRewriter', 'GeomVertexWriter', 'GeometricBoundingVolume', 'GlobPattern', 'GoldenRatio', 'GoldenRectangle', 'GraphicsBuffer', 'GraphicsDevice', 'GraphicsEngine', 'GraphicsOutput', 'GraphicsOutputBase', 'GraphicsPipe', 'GraphicsPipeSelection', 'GraphicsStateGuardian', 'GraphicsStateGuardianBase', 'GraphicsThreadingModel', 'GraphicsWindow', 'GraphicsWindowInputDevice', 'GraphicsWindowProcCallbackData', 'HCCUT', 'HCFREE', 'HCG1', 'HCSMOOTH', 'HC_CUT', 'HC_FREE', 'HC_G1', 'HC_SMOOTH', 'HTTPChannel', 'HTTPChannel_extensions', 'HTTPClient', 'HTTPCookie', 'HTTPDate', 'HTTPEntityTag', 'HTTPEnum', 'HashVal', 'HeightfieldTesselator', 'HermiteCurve', 'HideInterval', 'HotkeyBreaker', 'IDecompressStream', 'IDecryptStream', 'IFileStream', 'ISocketStream', 'IStreamWrapper', 'ISubStream', 'Ifstream', 'IndexBufferContext', 'Injector', 'InkblotVideo', 'InkblotVideoCursor', 'InternalName', 'InternalNameCollection', 'IntersectionBoundingVolume', 'Ios', 'IosBase', 'Iostream', 'Istream', 'JointVertexTransform', 'KeyboardButton', 'LColor', 'LColord', 'LColorf', 'LFrustum', 'LFrustumd', 'LFrustumf', 'LMatrix3', 'LMatrix3d', 'LMatrix3f', 'LMatrix4', 'LMatrix4d', 'LMatrix4f', 'LNTFade', 'LNTPop', 'LNT_fade', 'LNT_pop', 'LNormal', 'LNormald', 'LNormalf', 'LODNode', 'LOrientation', 'LOrientationd', 'LOrientationf', 'LParabola', 'LParabolad', 'LParabolaf', 'LPlane', 'LPlaned', 'LPlanef', 'LPoint2', 'LPoint2d', 'LPoint2f', 'LPoint2i', 'LPoint3', 'LPoint3d', 'LPoint3f', 'LPoint3i', 'LPoint4', 'LPoint4d', 'LPoint4f', 'LPoint4i', 'LQuaternion', 'LQuaterniond', 'LQuaternionf', 'LRGBColor', 'LRGBColord', 'LRGBColorf', 'LRotation', 'LRotationd', 'LRotationf', 'LTexCoord', 'LTexCoord3', 'LTexCoord3d', 'LTexCoord3f', 'LTexCoordd', 'LTexCoordf', 'LVecBase2', 'LVecBase2d', 'LVecBase2f', 'LVecBase2i', 'LVecBase3', 'LVecBase3d', 'LVecBase3f', 'LVecBase3i', 'LVecBase4', 'LVecBase4d', 'LVecBase4f', 'LVecBase4i', 'LVector2', 'LVector2d', 'LVector2f', 'LVector2i', 'LVector3', 'LVector3d', 'LVector3f', 'LVector3i', 'LVector4', 'LVector4d', 'LVector4f', 'LVector4i', 'LVertex', 'LVertexd', 'LVertexf', 'Lens', 'LensNode', 'LerpBlendType', 'Light', 'LightAttrib', 'LightLensNode', 'LightMutex', 'LightMutexDirect', 'LightNode', 'LightRampAttrib', 'LightReMutex', 'LightReMutexDirect', 'LineEmitter', 'LineParticleRenderer', 'LineSegs', 'LineStream', 'LinearControlForce', 'LinearCylinderVortexForce', 'LinearDistanceForce', 'LinearEulerIntegrator', 'LinearForce', 'LinearFrictionForce', 'LinearIntegrator', 'LinearJitterForce', 'LinearNoiseForce', 'LinearRandomForce', 'LinearSinkForce', 'LinearSourceForce', 'LinearUserDefinedForce', 'LinearVectorForce', 'Loader', 'LoaderFileType', 'LoaderFileTypeRegistry', 'LoaderOptions', 'MainThread', 'MarginGlobals', 'MarginManager', 'Mat3', 'Mat3D', 'Mat3F', 'Mat3_extensions', 'Mat4', 'Mat4D', 'Mat4F', 'Material', 'MaterialAttrib', 'MaterialCollection', 'MaterialPool', 'MathNumbers', 'MatrixLens', 'MemoryUsage', 'MemoryUsagePointers', 'Mersenne', 'MeshDrawer', 'MeshDrawer2D', 'MicrophoneAudio', 'MiniTask', 'ModelFlattenRequest', 'ModelLoadRequest', 'ModelNode', 'ModelPool', 'ModelRoot', 'ModelSaveRequest', 'ModifierButtons', 'MouseAndKeyboard', 'MouseButton', 'MouseData', 'MouseInterfaceNode', 'MouseRecorder', 'MouseSubregion', 'MouseWatcher', 'MouseWatcherGroup', 'MouseWatcherParameter', 'MouseWatcherRegion', 'MovieAudio', 'MovieAudioCursor', 'MovieTexture', 'MovieVideo', 'MovieVideoCursor', 'MovingPartACMatrixSwitchType', 'MovingPartACScalarSwitchType', 'MovingPartBase', 'MovingPartMatrix', 'MovingPartScalar', 'MovingPart__ACMatrixSwitchType__', 'MovingPart__ACScalarSwitchType__', 'MsgId2Names', 'MsgName2Id', 'Multifile', 'MultiplexStream', 'MultitexReducer', 'Mutex', 'MutexDirect', 'NSDebug', 'NSError', 'NSFatal', 'NSInfo', 'NSSpam', 'NSUnspecified', 'NSWarning', 'NS_debug', 'NS_error', 'NS_fatal', 'NS_info', 'NS_spam', 'NS_unspecified', 'NS_warning', 'Namable', 'NameConfirm', 'NametagGlobals', 'NativeWindowHandle', 'NetAddress', 'NetDatagram', 'NeverFreeMemory', 'NoBlendType', 'NodeCachedReferenceCount', 'NodeCullCallbackData', 'NodePath', 'NodePathCollection', 'NodePath_extensions', 'NodeReferenceCount', 'NodeVertexTransform', 'NonlinearImager', 'Notify', 'NotifyCategory', 'NurbsCurve', 'NurbsCurveEvaluator', 'NurbsCurveInterface', 'NurbsCurveResult', 'NurbsSurfaceEvaluator', 'NurbsSurfaceResult', 'OCompressStream', 'OEncryptStream', 'OFileStream', 'OSocketStream', 'OSphereLens', 'OStreamWrapper', 'OSubStream', 'OTPBase', 'OTPGlobals', 'OTPLauncherGlobals', 'OTP_CHANNEL_AI_AND_UD_BROADCAST', 'OTP_CHANNEL_AI_BROADCAST', 'OTP_CHANNEL_UD_BROADCAST', 'OTP_DO_ID_AI_TRADE_AVATAR', 'OTP_DO_ID_AVATARS', 'OTP_DO_ID_AVATAR_FRIENDS_MANAGER', 'OTP_DO_ID_CARS', 'OTP_DO_ID_CARS_AVATAR_MANAGER', 'OTP_DO_ID_CENTRAL_LOGGER', 'OTP_DO_ID_CHAT_MANAGER', 'OTP_DO_ID_CLIENT_SERVICES_MANAGER', 'OTP_DO_ID_COMMON', 'OTP_DO_ID_ESCROW', 'OTP_DO_ID_FAIRIES', 'OTP_DO_ID_FRIENDS', 'OTP_DO_ID_FRIEND_MANAGER', 'OTP_DO_ID_GATEWAY', 'OTP_DO_ID_GLOBAL_PARTY_MANAGER', 'OTP_DO_ID_GUILDS', 'OTP_DO_ID_LEADERBOARD_MANAGER', 'OTP_DO_ID_PIRATES', 'OTP_DO_ID_PIRATES_AVATAR_ACCESSORIES_MANAGER', 'OTP_DO_ID_PIRATES_AVATAR_MANAGER', 'OTP_DO_ID_PIRATES_AWARD_MAKER', 'OTP_DO_ID_PIRATES_CODE_REDEMPTION', 'OTP_DO_ID_PIRATES_CREW_MANAGER', 'OTP_DO_ID_PIRATES_CREW_MATCH_MANAGER', 'OTP_DO_ID_PIRATES_FRIENDS_MANAGER', 'OTP_DO_ID_PIRATES_GUILD_MANAGER', 'OTP_DO_ID_PIRATES_HOLIDAY_MANAGER', 'OTP_DO_ID_PIRATES_INVENTORY_MANAGER', 'OTP_DO_ID_PIRATES_INVENTORY_MANAGER_BASE', 'OTP_DO_ID_PIRATES_MATCH_MAKER', 'OTP_DO_ID_PIRATES_SETTINGS_MANAGER', 'OTP_DO_ID_PIRATES_SHIP_MANAGER', 'OTP_DO_ID_PIRATES_SPEEDCHAT_RELAY', 'OTP_DO_ID_PIRATES_TRAVEL_AGENT', 'OTP_DO_ID_PLAYER_FRIENDS_MANAGER', 'OTP_DO_ID_SERVER', 'OTP_DO_ID_SERVER_ROOT', 'OTP_DO_ID_SNAPSHOT_DISPATCHER', 'OTP_DO_ID_SNAPSHOT_RENDERER', 'OTP_DO_ID_SNAPSHOT_RENDERER_01', 'OTP_DO_ID_SNAPSHOT_RENDERER_02', 'OTP_DO_ID_SNAPSHOT_RENDERER_03', 'OTP_DO_ID_SNAPSHOT_RENDERER_04', 'OTP_DO_ID_SNAPSHOT_RENDERER_05', 'OTP_DO_ID_SNAPSHOT_RENDERER_06', 'OTP_DO_ID_SNAPSHOT_RENDERER_07', 'OTP_DO_ID_SNAPSHOT_RENDERER_08', 'OTP_DO_ID_SNAPSHOT_RENDERER_09', 'OTP_DO_ID_SNAPSHOT_RENDERER_10', 'OTP_DO_ID_SNAPSHOT_RENDERER_11', 'OTP_DO_ID_SNAPSHOT_RENDERER_12', 'OTP_DO_ID_SNAPSHOT_RENDERER_13', 'OTP_DO_ID_SNAPSHOT_RENDERER_14', 'OTP_DO_ID_SNAPSHOT_RENDERER_15', 'OTP_DO_ID_SNAPSHOT_RENDERER_16', 'OTP_DO_ID_SNAPSHOT_RENDERER_17', 'OTP_DO_ID_SNAPSHOT_RENDERER_18', 'OTP_DO_ID_SNAPSHOT_RENDERER_19', 'OTP_DO_ID_SNAPSHOT_RENDERER_20', 'OTP_DO_ID_STATUS_DATABASE', 'OTP_DO_ID_SWITCHBOARD_MANAGER', 'OTP_DO_ID_TOONTOWN', 'OTP_DO_ID_TOONTOWN_AVATAR_MANAGER', 'OTP_DO_ID_TOONTOWN_AWARD_MANAGER', 'OTP_DO_ID_TOONTOWN_CODE_REDEMPTION_MANAGER', 'OTP_DO_ID_TOONTOWN_CPU_INFO_MANAGER', 'OTP_DO_ID_TOONTOWN_DELIVERY_MANAGER', 'OTP_DO_ID_TOONTOWN_IN_GAME_NEWS_MANAGER', 'OTP_DO_ID_TOONTOWN_MAIL_MANAGER', 'OTP_DO_ID_TOONTOWN_NON_REPEATABLE_RANDOM_SOURCE', 'OTP_DO_ID_TOONTOWN_PARTY_MANAGER', 'OTP_DO_ID_TOONTOWN_RAT_MANAGER', 'OTP_DO_ID_TOONTOWN_SECURITY_MANAGER', 'OTP_DO_ID_TOONTOWN_SPEEDCHAT_RELAY', 'OTP_DO_ID_TOONTOWN_TEMP_STORE_MANAGER', 'OTP_DO_ID_TOONTOWN_WHITELIST_MANAGER', 'OTP_DO_ID_TTI_FRIENDS_MANAGER', 'OTP_DO_ID_UBER_DOG', 'OTP_NET_MESSENGER_CHANNEL', 'OTP_NET_MSGR_CHANNEL_ID_AI_ONLY', 'OTP_NET_MSGR_CHANNEL_ID_ALL_AI', 'OTP_NET_MSGR_CHANNEL_ID_UBER_DOG', 'OTP_STAFF_CHANNEL', 'OTP_ZONE_ID_DISTRICTS', 'OTP_ZONE_ID_DISTRICTS_STATS', 'OTP_ZONE_ID_ELEMENTS', 'OTP_ZONE_ID_INVALID', 'OTP_ZONE_ID_MANAGEMENT', 'OTP_ZONE_ID_OLD_QUIET_ZONE', 'OccluderEffect', 'OccluderNode', 'OdeAMotorJoint', 'OdeBallJoint', 'OdeBody', 'OdeBoxGeom', 'OdeCappedCylinderGeom', 'OdeCollisionEntry', 'OdeContact', 'OdeContactGeom', 'OdeContactJoint', 'OdeCylinderGeom', 'OdeFixedJoint', 'OdeGeom', 'OdeHashSpace', 'OdeHinge2Joint', 'OdeHingeJoint', 'OdeJoint', 'OdeJointCollection', 'OdeJointFeedback', 'OdeJointGroup', 'OdeLMotorJoint', 'OdeMass', 'OdeNullJoint', 'OdePlane2dJoint', 'OdePlaneGeom', 'OdeQuadTreeSpace', 'OdeRayGeom', 'OdeSimpleSpace', 'OdeSliderJoint', 'OdeSpace', 'OdeSphereGeom', 'OdeSurfaceParameters', 'OdeTriMeshData', 'OdeTriMeshGeom', 'OdeUniversalJoint', 'OdeUtil', 'OdeWorld', 'Ofstream', 'OkCancelDialog', 'OkDialog', 'OmniBoundingVolume', 'OnscreenGeom', 'OnscreenImage', 'OnscreenText', 'OrthographicLens', 'Ostream', 'PCTHPR', 'PCTNONE', 'PCTT', 'PCTXYZ', 'PCT_HPR', 'PCT_NONE', 'PCT_T', 'PCT_XYZ', 'PGButton', 'PGEntry', 'PGFrameStyle', 'PGItem', 'PGMouseWatcherBackground', 'PGMouseWatcherParameter', 'PGScrollFrame', 'PGSliderBar', 'PGTop', 'PGVirtualFrame', 'PGWaitBar', 'PNMBrush', 'PNMFileType', 'PNMFileTypeRegistry', 'PNMImage', 'PNMImageHeader', 'PNMPainter', 'PNMTextGlyph', 'PNMTextMaker', 'POD', 'PSphereLens', 'PStatClient', 'PStatCollector', 'PStatCollectorForward', 'PStatCollectorForwardBase', 'PStatThread', 'PTADouble', 'PTAFloat', 'PTAInt', 'PTALMatrix3d', 'PTALMatrix3f', 'PTALMatrix4d', 'PTALMatrix4f', 'PTALVecBase2d', 'PTALVecBase2f', 'PTALVecBase2i', 'PTALVecBase3d', 'PTALVecBase3f', 'PTALVecBase3i', 'PTALVecBase4d', 'PTALVecBase4f', 'PTALVecBase4i', 'PTAMat3', 'PTAMat3d', 'PTAMat4', 'PTAMat4d', 'PTAUchar', 'PTAUshort', 'PTAVecBase2d', 'PTAVecBase2f', 'PTAVecBase3d', 'PTAVecBase3f', 'PTAVecBase4d', 'PTAVecBase4f', 'PTA_LMatrix3', 'PTA_LMatrix3d', 'PTA_LMatrix3f', 'PTA_LMatrix4', 'PTA_LMatrix4d', 'PTA_LMatrix4f', 'PTA_LVecBase2', 'PTA_LVecBase2d', 'PTA_LVecBase2f', 'PTA_LVecBase2i', 'PTA_LVecBase3', 'PTA_LVecBase3d', 'PTA_LVecBase3f', 'PTA_LVecBase3i', 'PTA_LVecBase4', 'PTA_LVecBase4d', 'PTA_LVecBase4f', 'PTA_LVecBase4i', 'PTA_double', 'PTA_float', 'PTA_int', 'PTA_stdfloat', 'PTA_uchar', 'PTA_ushort', 'PTArray', 'PTBlob', 'PTClass', 'PTDouble', 'PTField', 'PTInt', 'PTInt64', 'PTInvalid', 'PTString', 'PTSwitch', 'PTUint', 'PTUint64', 'PT_array', 'PT_blob', 'PT_class', 'PT_double', 'PT_field', 'PT_int', 'PT_int64', 'PT_invalid', 'PT_string', 'PT_switch', 'PT_uint', 'PT_uint64', 'PandaNode', 'PandaSystem', 'ParamObj', 'ParametricCurve', 'ParametricCurveCollection', 'ParasiteBuffer', 'PartBundle', 'PartBundleHandle', 'PartBundleNode', 'PartGroup', 'PartSubset', 'ParticleSystem', 'ParticleSystemManager', 'Patcher', 'Patchfile', 'PerlinNoise', 'PerlinNoise2', 'PerlinNoise3', 'PerspectiveLens', 'PfmFile', 'PfmVizzer', 'Physical', 'PhysicalNode', 'PhysicsCollisionHandler', 'PhysicsManager', 'PhysicsObject', 'PhysicsObjectCollection', 'PiecewiseCurve', 'PipeOcclusionCullTraverser', 'Pixel', 'Plain', 'Plane', 'PlaneD', 'PlaneF', 'PlaneNode', 'Point2', 'Point2D', 'Point2F', 'Point3', 'Point3D', 'Point3F', 'Point4', 'Point4D', 'Point4F', 'PointEmitter', 'PointLight', 'PointParticleFactory', 'PointParticleRenderer', 'PointerEventList', 'PointerToArrayBaseDouble', 'PointerToArrayBaseFloat', 'PointerToArrayBaseInt', 'PointerToArrayBaseLMatrix3d', 'PointerToArrayBaseLMatrix3f', 'PointerToArrayBaseLVecBase2d', 'PointerToArrayBaseLVecBase2f', 'PointerToArrayBaseLVecBase2i', 'PointerToArrayBaseLVecBase3d', 'PointerToArrayBaseLVecBase3f', 'PointerToArrayBaseLVecBase3i', 'PointerToArrayBaseUnalignedLMatrix4d', 'PointerToArrayBaseUnalignedLMatrix4f', 'PointerToArrayBaseUnalignedLVecBase4d', 'PointerToArrayBaseUnalignedLVecBase4f', 'PointerToArrayBaseUnalignedLVecBase4i', 'PointerToArrayBaseUnsignedChar', 'PointerToArrayBaseUnsignedShortInt', 'PointerToArrayBase__LMatrix3d__', 'PointerToArrayBase__LMatrix3f__', 'PointerToArrayBase__LVecBase2d__', 'PointerToArrayBase__LVecBase2f__', 'PointerToArrayBase__LVecBase2i__', 'PointerToArrayBase__LVecBase3d__', 'PointerToArrayBase__LVecBase3f__', 'PointerToArrayBase__LVecBase3i__', 'PointerToArrayBase__UnalignedLMatrix4d__', 'PointerToArrayBase__UnalignedLMatrix4f__', 'PointerToArrayBase__UnalignedLVecBase4d__', 'PointerToArrayBase__UnalignedLVecBase4f__', 'PointerToArrayBase__UnalignedLVecBase4i__', 'PointerToArrayBase__double__', 'PointerToArrayBase__float__', 'PointerToArrayBase__int__', 'PointerToArrayBase__unsigned_char__', 'PointerToArrayBase__unsigned_short_int__', 'PointerToBaseConnection', 'PointerToBaseReferenceCountedVectorDouble', 'PointerToBaseReferenceCountedVectorFloat', 'PointerToBaseReferenceCountedVectorInt', 'PointerToBaseReferenceCountedVectorLMatrix3d', 'PointerToBaseReferenceCountedVectorLMatrix3f', 'PointerToBaseReferenceCountedVectorLVecBase2d', 'PointerToBaseReferenceCountedVectorLVecBase2f', 'PointerToBaseReferenceCountedVectorLVecBase2i', 'PointerToBaseReferenceCountedVectorLVecBase3d', 'PointerToBaseReferenceCountedVectorLVecBase3f', 'PointerToBaseReferenceCountedVectorLVecBase3i', 'PointerToBaseReferenceCountedVectorUnalignedLMatrix4d', 'PointerToBaseReferenceCountedVectorUnalignedLMatrix4f', 'PointerToBaseReferenceCountedVectorUnalignedLVecBase4d', 'PointerToBaseReferenceCountedVectorUnalignedLVecBase4f', 'PointerToBaseReferenceCountedVectorUnalignedLVecBase4i', 'PointerToBaseReferenceCountedVectorUnsignedChar', 'PointerToBaseReferenceCountedVectorUnsignedShortInt', 'PointerToBase__Connection__', 'PointerToBase__ReferenceCountedVector__LMatrix3d____', 'PointerToBase__ReferenceCountedVector__LMatrix3f____', 'PointerToBase__ReferenceCountedVector__LVecBase2d____', 'PointerToBase__ReferenceCountedVector__LVecBase2f____', 'PointerToBase__ReferenceCountedVector__LVecBase2i____', 'PointerToBase__ReferenceCountedVector__LVecBase3d____', 'PointerToBase__ReferenceCountedVector__LVecBase3f____', 'PointerToBase__ReferenceCountedVector__LVecBase3i____', 'PointerToBase__ReferenceCountedVector__UnalignedLMatrix4d____', 'PointerToBase__ReferenceCountedVector__UnalignedLMatrix4f____', 'PointerToBase__ReferenceCountedVector__UnalignedLVecBase4d____', 'PointerToBase__ReferenceCountedVector__UnalignedLVecBase4f____', 'PointerToBase__ReferenceCountedVector__UnalignedLVecBase4i____', 'PointerToBase__ReferenceCountedVector__double____', 'PointerToBase__ReferenceCountedVector__float____', 'PointerToBase__ReferenceCountedVector__int____', 'PointerToBase__ReferenceCountedVector__unsigned_char____', 'PointerToBase__ReferenceCountedVector__unsigned_short_int____', 'PointerToConnection', 'PointerToVoid', 'PointerTo__Connection__', 'PolylightEffect', 'PolylightNode', 'PortalMask', 'PortalNode', 'PreparedGraphicsObjects', 'ProfileTimer', 'ProjectionScreen', 'PythonCallbackObject', 'PythonTask', 'PythonThread', 'QUIET_ZONE_IGNORED_LIST', 'QuadBitMaskNative', 'Quat', 'QuatD', 'QuatF', 'Queue', 'QueuedConnectionListener', 'QueuedConnectionManager', 'QueuedConnectionReader', 'QueuedReturnConnectionListenerData', 'QueuedReturnDatagram', 'QueuedReturnNetDatagram', 'QueuedReturnPointerToConnection', 'QueuedReturn__ConnectionListenerData__', 'QueuedReturn__Datagram__', 'QueuedReturn__NetDatagram__', 'QueuedReturn__PointerTo__Connection____', 'Ramfile', 'Randomizer', 'ReMutex', 'ReMutexDirect', 'RecentConnectionReader', 'RecorderBase', 'RecorderController', 'RectangleEmitter', 'RefCounter', 'ReferenceCount', 'RenderAttrib', 'RenderAttribRegistry', 'RenderEffect', 'RenderEffects', 'RenderModeAttrib', 'RenderState', 'RescaleNormalAttrib', 'RetryCancelDialog', 'RigidBodyCombiner', 'RingEmitter', 'RopeNode', 'SSReader', 'SSWriter', 'STATESERVER_CREATE_OBJECT_WITH_REQUIRED', 'STATESERVER_CREATE_OBJECT_WITH_REQUIRED_OTHER', 'STATESERVER_DELETE_AI_OBJECTS', 'STATESERVER_OBJECT_CHANGING_AI', 'STATESERVER_OBJECT_CHANGING_LOCATION', 'STATESERVER_OBJECT_CHANGING_OWNER', 'STATESERVER_OBJECT_DELETE_CHILDREN', 'STATESERVER_OBJECT_DELETE_FIELDS_RAM', 'STATESERVER_OBJECT_DELETE_FIELD_RAM', 'STATESERVER_OBJECT_DELETE_RAM', 'STATESERVER_OBJECT_DELETE_ZONE', 'STATESERVER_OBJECT_DELETE_ZONES', 'STATESERVER_OBJECT_ENTER_AI_WITH_REQUIRED', 'STATESERVER_OBJECT_ENTER_AI_WITH_REQUIRED_OTHER', 'STATESERVER_OBJECT_ENTER_LOCATION_WITH_REQUIRED', 'STATESERVER_OBJECT_ENTER_LOCATION_WITH_REQUIRED_OTHER', 'STATESERVER_OBJECT_ENTER_OWNER_WITH_REQUIRED', 'STATESERVER_OBJECT_ENTER_OWNER_WITH_REQUIRED_OTHER', 'STATESERVER_OBJECT_GET_AI', 'STATESERVER_OBJECT_GET_AI_RESP', 'STATESERVER_OBJECT_GET_ALL', 'STATESERVER_OBJECT_GET_ALL_RESP', 'STATESERVER_OBJECT_GET_CHILDREN', 'STATESERVER_OBJECT_GET_CHILD_COUNT', 'STATESERVER_OBJECT_GET_CHILD_COUNT_RESP', 'STATESERVER_OBJECT_GET_FIELD', 'STATESERVER_OBJECT_GET_FIELDS', 'STATESERVER_OBJECT_GET_FIELDS_RESP', 'STATESERVER_OBJECT_GET_FIELD_RESP', 'STATESERVER_OBJECT_GET_LOCATION', 'STATESERVER_OBJECT_GET_LOCATION_RESP', 'STATESERVER_OBJECT_GET_OWNER', 'STATESERVER_OBJECT_GET_OWNER_RESP', 'STATESERVER_OBJECT_GET_ZONES_COUNT', 'STATESERVER_OBJECT_GET_ZONES_COUNT_RESP', 'STATESERVER_OBJECT_GET_ZONES_OBJECTS', 'STATESERVER_OBJECT_GET_ZONE_COUNT', 'STATESERVER_OBJECT_GET_ZONE_COUNT_RESP', 'STATESERVER_OBJECT_GET_ZONE_OBJECTS', 'STATESERVER_OBJECT_SET_AI', 'STATESERVER_OBJECT_SET_FIELD', 'STATESERVER_OBJECT_SET_FIELDS', 'STATESERVER_OBJECT_SET_LOCATION', 'STATESERVER_OBJECT_SET_OWNER', 'STBlob', 'STBlob32', 'STChar', 'STFloat64', 'STInt16', 'STInt16array', 'STInt32', 'STInt32array', 'STInt64', 'STInt8', 'STInt8array', 'STInvalid', 'STString', 'STUint16', 'STUint16array', 'STUint32', 'STUint32array', 'STUint32uint8array', 'STUint64', 'STUint8', 'STUint8array', 'ST_blob', 'ST_blob32', 'ST_char', 'ST_float64', 'ST_int16', 'ST_int16array', 'ST_int32', 'ST_int32array', 'ST_int64', 'ST_int8', 'ST_int8array', 'ST_invalid', 'ST_string', 'ST_uint16', 'ST_uint16array', 'ST_uint32', 'ST_uint32array', 'ST_uint32uint8array', 'ST_uint64', 'ST_uint8', 'ST_uint8array', 'SUTAdvanced', 'SUTBasic', 'SUTNone', 'SUTUnspecified', 'SUT_advanced', 'SUT_basic', 'SUT_none', 'SUT_unspecified', 'SavedContext', 'SceneGraphAnalyzer', 'SceneGraphAnalyzerMeter', 'SceneGraphReducer', 'SceneSetup', 'ScissorAttrib', 'ScissorEffect', 'ScratchPad', 'ScreenPrompt', 'ScreenTitle', 'SelectiveChildNode', 'Semaphore', 'SequenceNode', 'SerialNumGen', 'Settings', 'ShadeModelAttrib', 'Shader', 'ShaderAttrib', 'ShaderContext', 'ShaderGenerator', 'ShaderInput', 'ShaderPool', 'SheetNode', 'ShowBoundsEffect', 'ShowInterval', 'Signature', 'SimpleAllocator', 'SimpleAllocatorBlock', 'SimpleLru', 'SimpleLruPage', 'Singleton', 'SingletonError', 'SliderTable', 'SmoothMover', 'SocketAddress', 'SocketFdset', 'SocketIP', 'SocketStream', 'SocketStreamRecorder', 'SocketTCP', 'SocketTCPListen', 'SocketUDP', 'SocketUDPIncoming', 'SocketUDPOutgoing', 'Socket_Address', 'Socket_IP', 'Socket_TCP', 'Socket_TCP_Listen', 'Socket_UDP', 'Socket_UDP_Incoming', 'Socket_UDP_Outgoing', 'Socket_fdset', 'SparkleParticleRenderer', 'SparseArray', 'SphereSurfaceEmitter', 'SphereVolumeEmitter', 'Spotlight', 'SpriteAnim', 'SpriteParticleRenderer', 'Stack', 'StackTrace', 'StackedPerlinNoise2', 'StackedPerlinNoise3', 'StaticTextFont', 'StdoutCapture', 'StdoutPassthrough', 'StencilAttrib', 'StencilRenderStates', 'StereoDisplayRegion', 'StreamReader', 'StreamWrapper', 'StreamWrapperBase', 'StreamWriter', 'StringStream', 'SubStream', 'SubfileInfo', 'SubframeCall', 'Suit', 'SwitchNode', 'Sync', 'TINYXMLINCLUDED', 'TINYXML_INCLUDED', 'TIXMLENCODINGLEGACY', 'TIXMLENCODINGUNKNOWN', 'TIXMLENCODINGUTF8', 'TIXMLSAFE', 'TIXMLSNPRINTF', 'TIXMLSSCANF', 'TIXMLSTRING', 'TIXML_ENCODING_LEGACY', 'TIXML_ENCODING_UNKNOWN', 'TIXML_ENCODING_UTF8', 'TIXML_SAFE', 'TIXML_SNPRINTF', 'TIXML_SSCANF', 'TIXML_STRING', 'TPHigh', 'TPLow', 'TPNormal', 'TPUrgent', 'TP_high', 'TP_low', 'TP_normal', 'TP_urgent', 'TTDialog', 'TTILauncher', 'TTLocalizer', 'TangentRingEmitter', 'Task', 'TaskManagerGlobal', 'TemporaryFile', 'TexGenAttrib', 'TexMatrixAttrib', 'TexProjectorEffect', 'TextAssembler', 'TextEncoder', 'TextFont', 'TextGraphic', 'TextNode', 'TextProperties', 'TextPropertiesManager', 'Texture', 'TextureAttrib', 'TextureCollection', 'TextureContext', 'TexturePeeker', 'TexturePool', 'TextureReloadRequest', 'TextureStage', 'TextureStageCollection', 'TextureStagePool', 'Thread', 'TiXmlAttribute', 'TiXmlAttributeSet', 'TiXmlBase', 'TiXmlComment', 'TiXmlCursor', 'TiXmlDeclaration', 'TiXmlDocument', 'TiXmlElement', 'TiXmlHandle', 'TiXmlNode', 'TiXmlPrinter', 'TiXmlText', 'TiXmlUnknown', 'TiXmlVisitor', 'TimeVal', 'Tkinter', 'ToonBase', 'ToontownAccess', 'ToontownBattleGlobals', 'ToontownClientRepository', 'ToontownDownloadWatcher', 'ToontownGlobals', 'ToontownLoader', 'TouchInfo', 'Trackball', 'TrackerNode', 'Transform2SG', 'TransformBlend', 'TransformBlendTable', 'TransformState', 'TransformTable', 'Transitions', 'TransparencyAttrib', 'Triangulator', 'Triangulator3', 'TrueClock', 'TypeHandle', 'TypeRegistry', 'TypedObject', 'TypedReferenceCount', 'TypedSkel', 'TypedWritable', 'TypedWritableReferenceCount', 'URLSpec', 'UnalignedLMatrix4', 'UnalignedLMatrix4d', 'UnalignedLMatrix4f', 'UnalignedLVecBase4', 'UnalignedLVecBase4d', 'UnalignedLVecBase4f', 'UnalignedLVecBase4i', 'UnionBoundingVolume', 'UniqueIdAllocator', 'UpdateSeq', 'UserDataAudio', 'UserDataAudioCursor', 'UserVertexSlider', 'UserVertexTransform', 'UvScrollNode', 'VBase2', 'VBase2D', 'VBase2F', 'VBase3', 'VBase3D', 'VBase3F', 'VBase3_extensions', 'VBase4', 'VBase4D', 'VBase4F', 'VBase4_extensions', 'Vec2', 'Vec2D', 'Vec2F', 'Vec3', 'Vec3D', 'Vec3F', 'Vec4', 'Vec4D', 'Vec4F', 'VertexBufferContext', 'VertexDataBlock', 'VertexDataBook', 'VertexDataPage', 'VertexDataSaveFile', 'VertexSlider', 'VertexTransform', 'VideoTexture', 'VirtualFile', 'VirtualFileComposite', 'VirtualFileHTTP', 'VirtualFileList', 'VirtualFileMount', 'VirtualFileMountHTTP', 'VirtualFileMountMultifile', 'VirtualFileMountRamdisk', 'VirtualFileMountSystem', 'VirtualFileSimple', 'VirtualFileSystem', 'VirtualMouse', 'VorbisAudio', 'VorbisAudioCursor', 'WaitInterval', 'WavAudio', 'WavAudioCursor', 'WeakPointerToVoid', 'WindowHandle', 'WindowProperties', 'WindowsRegistry', 'WritableConfigurable', 'YesNoCancelDialog', 'YesNoDialog', 'ZSpinParticleFactory', '__builtin__', '__builtins__', '__doc__', '__file__', '__loader__', '__main__', '__name__', '__package__', 'addFullscreenTestsize', 'addListsByValue', 'add_fullscreen_testsize', 'adjust', 'allowAccessibilityShortcutKeys', 'allow_accessibility_shortcut_keys', 'atexit', 'autoBind', 'autoRun', 'auto_bind', 'average', 'binaryRepr', 'boolEqual', 'bound', 'bpdb', 'callerInfo', 'checkAdler', 'checkCrc', 'check_adler', 'check_crc', 'choice', 'clamp', 'clampScalar', 'cleanupDialog', 'closestDestAngle', 'closestDestAngle2', 'composeMatrix', 'composeMatrixNewHpr', 'composeMatrixOldHpr', 'compose_matrix', 'compose_matrix_new_hpr', 'compose_matrix_old_hpr', 'compressFile', 'compressStream', 'compressString', 'compress_file', 'compress_stream', 'compress_string', 'contains', 'contentPacksFilepath', 'contentPacksSortFilename', 'contents', 'copyStream', 'copy_stream', 'cr', 'decomposeMatrix', 'decomposeMatrixNewHpr', 'decomposeMatrixOldHpr', 'decompose_matrix', 'decompose_matrix_new_hpr', 'decompose_matrix_old_hpr', 'decompressFile', 'decompressStream', 'decompressString', 'decompress_file', 'decompress_stream', 'decompress_string', 'decryptFile', 'decryptStream', 'decryptString', 'decrypt_file', 'decrypt_stream', 'decrypt_string', 'deeptype', 'deg2Rad', 'deg_2_rad', 'describeException', 'difference', 'directNotify', 'disjoint', 'doc', 'dxBody', 'dxGeom', 'dxJoint', 'dxJointGroup', 'dxSpace', 'dxTriMeshData', 'dxWorld', 'encryptFile', 'encryptStream', 'encryptString', 'encrypt_file', 'encrypt_stream', 'encrypt_string', 'endSuperLog', 'errorToText', 'error_to_text', 'fastRepr', 'findDialog', 'findPythonModule', 'fitDestAngle2Src', 'fitSrcAngle2Dest', 'flywheel', 'formatCoordinateSystem', 'formatElapsedSeconds', 'formatTimeCompact', 'formatTimeExact', 'format_coordinate_system', 'fstream', 'genericReadDatagram', 'genericWriteDatagram', 'generic_read_datagram', 'generic_write_datagram', 'getBase', 'getClassLineage', 'getConfigExpress', 'getConfigShowbase', 'getDefaultCoordinateSystem', 'getModelPath', 'getNetworkError', 'getNumberedTypedSortedString', 'getNumberedTypedSortedStringWithReferrers', 'getNumberedTypedSortedStringWithReferrersGen', 'getNumberedTypedString', 'getParticlePath', 'getPluginPath', 'getProfileResultString', 'getRepository', 'getSetter', 'getSetterName', 'getTIXMLDEFAULTENCODING', 'getTIXMLMAJORVERSION', 'getTIXMLMINORVERSION', 'getTIXMLPATCHVERSION', 'getWriteError', 'get_TIXML_DEFAULT_ENCODING', 'get_TIXML_MAJOR_VERSION', 'get_TIXML_MINOR_VERSION', 'get_TIXML_PATCH_VERSION', 'get_config_express', 'get_config_showbase', 'get_default_coordinate_system', 'get_model_path', 'get_network_error', 'get_particle_path', 'get_plugin_path', 'get_write_error', 'handleSocketError', 'handle_socket_error', 'hashPrcVariables', 'hash_prc_variables', 'headsUp', 'heads_up', 'histogramDict', 'http', 'ifstream', 'indent', 'initAppForGui', 'init_app_for_gui', 'injection', 'injector', 'intersection', 'invert', 'invertDict', 'invertDictLossless', 'ios', 'ios_base', 'iostream', 'isDefaultValue', 'isRightHanded', 'is_right_handed', 'istream', 'itype', 'launcher', 'lerp', 'lineInfo', 'lineTag', 'lineupPos', 'list2dict', 'listToIndex2item', 'listToItem2index', 'loadEggData', 'loadEggFile', 'loadPrcFile', 'loadPrcFileData', 'load_egg_data', 'load_egg_file', 'load_prc_file', 'load_prc_file_data', 'logMethodCalls', 'logo', 'lookAt', 'look_at', 'loopGen', 'makeFlywheelGen', 'makeList', 'makeTuple', 'math', 'messenger', 'mostDerivedLast', 'newToOldHpr', 'new_to_old_hpr', 'nonRepeatingRandomList', 'normalDistrib', 'notify', 'nullGen', 'ofstream', 'oldToNewHpr', 'old_to_new_hpr', 'os', 'ostream', 'pandaBreak', 'pandaTrace', 'parseCoordinateSystemString', 'parse_coordinate_system_string', 'passwordHash', 'password_hash', 'pdir', 'pfstream', 'pifstream', 'pivotScalar', 'pixel', 'platform', 'pm', 'pofstream', 'preferencesFilename', 'printListEnum', 'printNumberedTyped', 'printProfile', 'printReverseStack', 'printStack', 'printThisCall', 'printXml', 'printXmlToFile', 'print_xml', 'print_xml_to_file', 'profileFunc', 'profiled', 'pyDecodeNodePathFromBamStream', 'pyDecodeNodePathFromBamStreamPersist', 'pyDecodeTypedWritableFromBamStream', 'pyDecodeTypedWritableFromBamStreamPersist', 'py_decode_NodePath_from_bam_stream', 'py_decode_NodePath_from_bam_stream_persist', 'py_decode_TypedWritable_from_bam_stream', 'py_decode_TypedWritable_from_bam_stream_persist', 'queryFullscreenTestresult', 'query_fullscreen_testresult', 'rad180', 'rad270', 'rad2Deg', 'rad360', 'rad90', 'rad_2_deg', 'randFloat', 'randInt32', 'randUint31', 'randUint32', 'random', 'readXmlStream', 'read_xml_stream', 'reduceAngle', 'replace', 'rotateTo', 'rotate_to', 'runtestFullscreenSizes', 'runtest_fullscreen_sizes', 'safeRepr', 'safeTypeName', 'sameElements', 'serialNum', 'serverVersion', 'set_trace', 'shutil', 'solveQuadratic', 'stackEntryInfo', 'startProfile', 'startSuperLog', 'storeAccessibilityShortcutKeys', 'store_accessibility_shortcut_keys', 'string', 'sys', 'tagRepr', 'tagWithCaller', 'tempfile', 'themeList', 'throwNewFrame', 'throw_new_frame', 'time', 'trace', 'traceFunctionCall', 'traceParentCall', 'traceback', 'transpose', 'troff', 'tron', 'typeName', 'unescapeHtmlString', 'union', 'unique', 'uniqueElements', 'uniqueName', 'unloadPrcFile', 'unload_prc_file', 'weightedChoice', 'weightedRand', 'writeFsmTree', 'writeXmlStream', 'write_xml_stream', 'xel']
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: ToonBase instance has no attribute 'localAvatar'
+
+['AppHasAudioFocus', 'SetAllSfxEnables', '_MSGRmessengerId', '_OTPBase__chasePixelZoom', '_ShowBase__audioLoop', '_ShowBase__collisionLoop', '_ShowBase__configAspectRatio', '_ShowBase__dataLoop', '_ShowBase__deadInputs', '_ShowBase__directStarted', '_ShowBase__doStartDirect', '_ShowBase__garbageCollectStates', '_ShowBase__igLoop', '_ShowBase__igLoopSync', '_ShowBase__ivalLoop', '_ShowBase__oldAspectRatio', '_ShowBase__oobeButton', '_ShowBase__resetPrevTransform', '_ShowBase__setupProfile', '_ShowBase__shadowCollisionLoop', '_ShowBase__tkTimerCallback', '_ShowBase__wxTimerCallback', '_ToonBase__speedHackCheckTick', '_ToonBase__walking', '__dev__', '__doc__', '__init__', '__module__', '_addTask', '_clearTask', '_doOpenWindow', '_movieTask', 'a2dBackground', 'a2dBottom', 'a2dBottomCenter', 'a2dBottomCenterNs', 'a2dBottomLeft', 'a2dBottomLeftNs', 'a2dBottomRight', 'a2dBottomRightNs', 'a2dLeft', 'a2dLeftCenter', 'a2dLeftCenterNs', 'a2dRight', 'a2dRightCenter', 'a2dRightCenterNs', 'a2dTop', 'a2dTopCenter', 'a2dTopCenterNs', 'a2dTopLeft', 'a2dTopLeftNs', 'a2dTopRight', 'a2dTopRightNs', 'a2dpBottom', 'a2dpBottomCenter', 'a2dpBottomLeft', 'a2dpBottomRight', 'a2dpLeft', 'a2dpLeftCenter', 'a2dpRight', 'a2dpRightCenter', 'a2dpTop', 'a2dpTopCenter', 'a2dpTopLeft', 'a2dpTopRight', 'accept', 'acceptOnce', 'addAngularIntegrator', 'addCullBins', 'addScreenshotString', 'addSfxManager', 'addTask', 'adjustWindowAspectRatio', 'appRunner', 'appTrav', 'aspect2d', 'aspect2dp', 'aspectRatio', 'autoPlayAgain', 'backfaceCullingEnabled', 'backfaceCullingOff', 'backfaceCullingOn', 'backgroundDrawable', 'baseXpMultiplier', 'bboard', 'bottomCells', 'bufferViewer', 'buttonThrowers', 'cTrav', 'cTravStack', 'cam', 'cam2d', 'cam2dp', 'camFrustumVis', 'camLens', 'camList', 'camNode', 'camera', 'camera2d', 'camera2dp', 'canScreenShot', 'cannonsEnabled', 'changeMouseInterface', 'classTree', 'cleanupDownloadWatcher', 'clientSleep', 'closeWindow', 'cloudPlatformsEnabled', 'cluster', 'clusterSyncFlag', 'codeRedemptionMgr', 'config', 'cr', 'createBaseAudioManagers', 'createStats', 'dataRoot', 'dataRootNode', 'dayNightEnabled', 'debugRunningMultiplier', 'delayedErrorCheck', 'destroy', 'detectLeaks', 'dgTrav', 'direct', 'disableAllAudio', 'disableMouse', 'disableParticles', 'disableShowbaseMouse', 'doMethodLater', 'downloadWatcher', 'drive', 'enableAllAudio', 'enableMouse', 'enableMusic', 'enableParticles', 'enablePixelZoom', 'enableSoftwareMousePointer', 'enableSoundEffects', 'endlessQuietZone', 'enviroCam', 'enviroDR', 'eventMgr', 'exitErrorCode', 'exitFunc', 'exitOSX', 'exitShow', 'exitfunc', 'fillShardsToIdealPop', 'filters', 'finalExitCallbacks', 'finalizeExit', 'fireworksEnabled', 'forceSkipTutorial', 'frameRateMeter', 'friendMode', 'gameOptionsCode', 'getAllAccepting', 'getAlt', 'getAspectRatio', 'getAxes', 'getBackgroundColor', 'getControl', 'getExitErrorCode', 'getMeta', 'getRepository', 'getShardPopLimits', 'getShift', 'getSize', 'glitchCount', 'goonsEnabled', 'graphicsEngine', 'greySpacing', 'handleConfirm', 'hidden', 'hideGame', 'housingEnabled', 'ignore', 'ignoreAll', 'inactivityTimeout', 'initNametagGlobals', 'initShadowTrav', 'isAccepting', 'isIgnoring', 'isParticleMgrEnabled', 'isPhysicsMgrEnabled', 'jobMgr', 'killInterestResponse', 'lastScreenShotTime', 'lastSpeedHackCheck', 'lastTrueClockTime', 'launcher', 'leftCells', 'loadMusic', 'loadSfx', 'loader', 'loaderPhaseChecker', 'localAvatarStyle', 'locationCode', 'locationCodeChanged', 'lockMusic', 'logPrivateInfo', 'mainDir', 'mainWinForeground', 'mainWinMinimized', 'makeAllPipes', 'makeCamera', 'makeCamera2d', 'makeCamera2dp', 'makeDefaultPipe', 'makeModulePipe', 'marginManager', 'margins', 'messenger', 'minimizeGame', 'mouse2cam', 'mouseInterface', 'mouseInterfaceNode', 'mouseWatcher', 'mouseWatcherNode', 'movie', 'multiClientSleep', 'musicActive', 'musicLocked', 'musicManager', 'musicManagerIsValid', 'nativeHeight', 'nativeRatio', 'nativeWidth', 'nextWindowIndex', 'notify', 'oldX', 'oldY', 'oldexitfunc', 'oobe', 'oobeCull', 'openDefaultWindow', 'openMainWindow', 'openWindow', 'panda3dRenderError', 'particleMgr', 'particleMgrEnabled', 'physicsMgr', 'physicsMgrAngular', 'physicsMgrEnabled', 'pipe', 'pipeList', 'pixel2d', 'pixel2dp', 'pixelZoomSetup', 'placeBeforeObjects', 'playMusic', 'playSfx', 'pointerWatcherNodes', 'popCTrav', 'printEnvDebugInfo', 'pushCTrav', 'randomMinigameAbort', 'randomMinigameDisconnect', 'randomMinigameNetworkPlugPull', 'recorder', 'removeAllTasks', 'removeCameraFrustum', 'removeGlitchMessage', 'removeTask', 'render', 'render2d', 'render2dp', 'requireWindow', 'resDict', 'resList', 'restart', 'restrictTrialers', 'reviveInput', 'rightCells', 'roamingTrialers', 'run', 'saveCubeMap', 'saveSphereMap', 'sceneGraphAnalyzerMeter', 'screenshot', 'screenshotExtension', 'setAspectRatio', 'setBackgroundColor', 'setCellsActive', 'setCursorAndIcon', 'setExitErrorCode', 'setFrameRateMeter', 'setLocationCode', 'setMouseOnNode', 'setSceneGraphAnalyzerMeter', 'setSleep', 'setTaskChainNetNonthreaded', 'setTaskChainNetThreaded', 'setupAutoPixelZoom', 'setupDataGraph', 'setupEnviroCamera', 'setupMouse', 'setupMouseCB', 'setupRender', 'setupRender2d', 'setupRender2dp', 'setupWindowControls', 'sfxActive', 'sfxManagerIsValidList', 'sfxManagerList', 'sfxPlayer', 'shadowTrav', 'showCameraFrustum', 'showVertices', 'shutdown', 'silenceInput', 'skipMinigameReward', 'sleepCycleTask', 'slowCloseShard', 'slowCloseShardDelay', 'slowQuietZone', 'slowQuietZoneDelay', 'spawnTkLoop', 'spawnWxLoop', 'startDirect', 'startShow', 'startTk', 'startWx', 'stereoEnabled', 'takeScreenShot', 'taskMgr', 'texmem', 'textureEnabled', 'textureOff', 'textureOn', 'timeButtonThrower', 'tkRoot', 'tkRun', 'toggleBackface', 'toggleGui', 'toggleParticles', 'toggleShowVertices', 'toggleStereo', 'toggleTexMem', 'toggleTexture', 'toggleWireframe', 'toonChatSounds', 'trackball', 'transitions', 'ttAccess', 'unlockMusic', 'updateManagers', 'useDrive', 'useTrackball', 'userExit', 'walking', 'wantAchievements', 'wantBingo', 'wantDirect', 'wantDynamicShadows', 'wantEnviroDR', 'wantFog', 'wantKarts', 'wantMinigameDifficulty', 'wantNametags', 'wantNewSpecies', 'wantPets', 'wantRender2dp', 'wantStats', 'wantTk', 'wantWx', 'wantYinYang', 'win', 'winControls', 'winList', 'windowEvent', 'windowType', 'wireframeEnabled', 'wireframeOff', 'wireframeOn', 'wxApp', 'wxRun']
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+TypeError: setSpeed() takes exactly 3 arguments (2 given)
+
+Help on method setSpeed in module toontown.toon.Toon:
+
+setSpeed(self, forwardSpeed, rotateSpeed) method of toontown.toon.LocalToon.LocalToon instance
+
+['ActiveAvatars', 'Actor_initialized', 'AnimDef', 'Avatar_initialized', 'BroadcastTypes', 'DISLid', 'DISLname', 'DelayDeleteSerialGen', 'DistributedActor_initialized', 'DistributedAvatar_announced', 'DistributedAvatar_initialized', 'DistributedNode_initialized', 'DistributedObject_initialized', 'DistributedPlayer_initialized', 'DistributedSmoothNode_initialized', 'DistributedToon_initialized', 'DtoolClassDict', 'DtoolGetSuperBase', 'ETFail', 'ETNotFound', 'ETOk', 'ETRemoved', 'ET_fail', 'ET_not_found', 'ET_ok', 'ET_removed', 'EyesAngryClosed', 'EyesAngryOpen', 'EyesClosed', 'EyesOpen', 'EyesSadClosed', 'EyesSadOpen', 'EyesSurprised', 'GetPlayerDeleteEvent', 'GetPlayerGenerateEvent', 'GetPlayerNetworkDeleteEvent', 'HpTextEnabled', 'HpTextGenerator', 'LeftA', 'LeftAD', 'LeftB', 'LeftBC', 'LeftC', 'LeftD', 'LocalAvatar_initialized', 'LocalToon_initialized', 'ManagesNametagAmbientLightChanged', 'Muzzle', 'MuzzleSurprised', 'NPCFriendsDict', 'PartDef', 'RightA', 'RightAD', 'RightB', 'RightBC', 'RightC', 'RightD', 'Sng', 'SubpartDef', 'TeleportFailureTimeout', 'ToonHead_initialized', 'Toon_initialized', '_Actor__LODAnimation', '_Actor__LODCenter', '_Actor__LODNode', '_Actor__animControlDict', '_Actor__bindAnimToPart', '_Actor__commonBundleHandles', '_Actor__copyAnimControls', '_Actor__copyPartBundles', '_Actor__copySubpartDict', '_Actor__doListJoints', '_Actor__geomNode', '_Actor__getPartJoints', '_Actor__hasLOD', '_Actor__partBundleDict', '_Actor__prepareBundle', '_Actor__sortedLODNames', '_Actor__subpartDict', '_Actor__subpartsComplete', '_Actor__updateSortedLODNames', '_Avatar__chatAddressee', '_Avatar__chatDialogueList', '_Avatar__chatFlags', '_Avatar__chatLocal', '_Avatar__chatMessage', '_Avatar__chatPageNumber', '_Avatar__chatParagraph', '_Avatar__chatQuitButton', '_Avatar__chatSet', '_Avatar__currentDialogue', '_Avatar__font', '_Avatar__nameVisible', '_Avatar__updatePageChat', '_DistributedAvatar__nameTagShowAvId', '_DistributedAvatar__nameTagShowName', '_DistributedAvatar__setTags', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_DistributedPlayer__teleportAvailable', '_DistributedSmoothNodeBase__broadcastPeriod', '_DistributedToon__currentDialogue', '_DistributedToon__refreshNameCallBack', '_DistributedToon__starSpin', '_DistributedToon__starSpin1', '_LocalAvatar__camCollCanMove', '_LocalAvatar__cameraHasBeenMoved', '_LocalAvatar__curLookAt', '_LocalAvatar__disableSmartCam', '_LocalAvatar__enableMarkerPlacement', '_LocalAvatar__floorDetected', '_LocalAvatar__friendOffline', '_LocalAvatar__friendOnline', '_LocalAvatar__geom', '_LocalAvatar__idealCameraObstructed', '_LocalAvatar__idealCameraPos', '_LocalAvatar__instantaneousCamPos', '_LocalAvatar__lastHprWrtRender', '_LocalAvatar__lastPosWrtRender', '_LocalAvatar__onLevelGround', '_LocalAvatar__playerOffline', '_LocalAvatar__playerOnline', '_LocalToon__beginTossPie', '_LocalToon__beginTossPieMouse', '_LocalToon__catalogNotifyDialog', '_LocalToon__clarabelleButton', '_LocalToon__clarabelleFlash', '_LocalToon__endTossPie', '_LocalToon__endTossPieMouse', '_LocalToon__expressState', '_LocalToon__finishPieTrack', '_LocalToon__furnitureGui', '_LocalToon__gardeningGui', '_LocalToon__gardeningGuiFake', '_LocalToon__getPiePower', '_LocalToon__handleClarabelleButton', '_LocalToon__handleEndPlantInteraction', '_LocalToon__handlePurchase', '_LocalToon__handleSwimExitTeleport', '_LocalToon__lerpFurnitureButton', '_LocalToon__pieBubble', '_LocalToon__pieButton', '_LocalToon__pieButtonCount', '_LocalToon__pieButtonType', '_LocalToon__pieHit', '_LocalToon__pieInHand', '_LocalToon__piePowerMeter', '_LocalToon__piePowerMeterSequence', '_LocalToon__pieSequence', '_LocalToon__placeMarker', '_LocalToon__presentingPie', '_LocalToon__shovelButton', '_LocalToon__shovelButtonClicked', '_LocalToon__startMoveFurniture', '_LocalToon__stopPresentPie', '_LocalToon__toonMoved', '_LocalToon__updatePiePower', '_LocalToon__wateringCanButtonClicked', '_MSGRmessengerId', '_ShadowCaster__globalDropShadowFlagChanged', '_ShadowCaster__globalDropShadowGrayLevelChanged', '_ToonHead__angryMuzzles', '_ToonHead__blinkCloseEyes', '_ToonHead__blinkName', '_ToonHead__blinkOpenEyes', '_ToonHead__defaultStarePoint', '_ToonHead__eyelashClosed', '_ToonHead__eyelashOpen', '_ToonHead__eyelashesHiddenByGlasses', '_ToonHead__eyes', '_ToonHead__eyesClosed', '_ToonHead__eyesOpen', '_ToonHead__fixEyes', '_ToonHead__fixHeadLongLong', '_ToonHead__fixHeadLongShort', '_ToonHead__fixHeadShortLong', '_ToonHead__fixHeadShortShort', '_ToonHead__fixPumpkin', '_ToonHead__height', '_ToonHead__laughMuzzles', '_ToonHead__lod250Eyes', '_ToonHead__lod250lPupil', '_ToonHead__lod250rPupil', '_ToonHead__lod500Eyes', '_ToonHead__lod500lPupil', '_ToonHead__lod500rPupil', '_ToonHead__lookAround', '_ToonHead__lookHeadAt', '_ToonHead__lookName', '_ToonHead__lookPupilsAt', '_ToonHead__lpupil', '_ToonHead__muzzle', '_ToonHead__muzzles', '_ToonHead__rpupil', '_ToonHead__sadMuzzles', '_ToonHead__setPupilDirection', '_ToonHead__smileMuzzles', '_ToonHead__stareAt', '_ToonHead__stareAtName', '_ToonHead__stareAtNode', '_ToonHead__stareAtPoint', '_ToonHead__stareAtTime', '_ToonHead__surpriseMuzzles', '_Toon__bookActors', '_Toon__colorScaleToonMuzzle', '_Toon__colorToonEars', '_Toon__colorToonGloves', '_Toon__colorToonSkin', '_Toon__doBigAndWhite', '_Toon__doCheesyEffect', '_Toon__doGreenToon', '_Toon__doHeadScale', '_Toon__doLegsScale', '_Toon__doPartsColorScale', '_Toon__doPumpkinHeadSwitch', '_Toon__doSnowManHeadSwitch', '_Toon__doToonColor', '_Toon__doToonGhostColorScale', '_Toon__doToonScale', '_Toon__doUnVirtual', '_Toon__doVirtual', '_Toon__finishEmote', '_Toon__handleAfkExitTeleport', '_Toon__handleAfkTimeout', '_Toon__holeActors', '_Toon__pieModelType', '_Toon__returnToLastAnim', '_Toon__swapToonClothes', '_Toon__undoCheesyEffect', '__autoLerp', '__class__', '__cmp__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lerp', '__lt__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__reduce_persist__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addTask', '_autoInterestHandle', '_checkResume', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_districtWeAreGeneratedOn', '_gmType', '_handleClientCleanup', '_handleGMName', '_isGM', '_isValidWhisperSource', '_limits', '_posHprBroadcast', '_retrieveCachedData', '_smartCamEnabled', '_smoothWrtReparents', '_telemetryLimiterId', '_token2delayDeleteName', '_zoneId', 'accept', 'acceptNametagAmbientLightChange', 'acceptOnce', 'acceptingNewFriends', 'acceptingNonFriendWhispers', 'accessories', 'accountName', 'achievementGui', 'achievements', 'acquireDelayDelete', 'activateSmoothing', 'activeShadow', 'activeState', 'actorInterval', 'addActive', 'addCameraPosition', 'addEventsPage', 'addGolfPage', 'addHash', 'addInterest', 'addKartPage', 'addLOD', 'addNewsPage', 'addShovelRelatedDoId', 'addTIPPage', 'addTask', 'addTelemetryLimit', 'add_hash', 'adjustAllPriorities', 'adjustNametag3d', 'adjust_all_priorities', 'adminAccess', 'advancePageNumber', 'afkTimeout', 'allowAsyncBind', 'allowHardLand', 'allowPies', 'analyze', 'angryEyes', 'animFSM', 'animLoaderOptions', 'animMultiplier', 'animPanel', 'announceBingo', 'announceGenerate', 'announcePartyStarted', 'anyPath', 'any_path', 'applyBuffs', 'applyCheesyEffect', 'applyTextureColors', 'apply_texture_colors', 'arrivedOnDistrict', 'askAvOnShard', 'assign', 'atLocation', 'attach', 'attachCamera', 'attachCollisionRay', 'attachCollisionSegment', 'attachCollisionSphere', 'attachNewNode', 'attachShovel', 'attachWateringCan', 'attach_new_node', 'autoInterests', 'autoRun', 'autoSetActivePlot', 'auxCameraPositions', 'avatarControlsEnabled', 'avatarType', 'awardMailboxContents', 'awardNotify', 'bFake', 'bFishBingoMarkTutorialDone', 'bFishBingoTutorialDone', 'bFriendsList', 'bPetTutorialDone', 'b_clearSmoothing', 'b_setAnimState', 'b_setChat', 'b_setEmoteState', 'b_setHouseId', 'b_setLocation', 'b_setParent', 'b_setSC', 'b_setSCCustom', 'b_setSCEmote', 'b_setSCSinging', 'b_setSCToontask', 'b_setSpeedChatStyleIndex', 'b_setTunnelIn', 'b_setTunnelOut', 'b_squish', 'b_teleportGreeting', 'backCatalog', 'backpack', 'backpackList', 'backpackNodes', 'bankMoney', 'battleId', 'battleSOS', 'battleTube', 'battleTubeHeight', 'battleTubeRadius', 'beginAllowPies', 'bindAllAnims', 'bindAnim', 'blinkEyes', 'boardingParty', 'book', 'broadcastType', 'buffs', 'buildingRadar', 'cTrav', 'cacheable', 'calcTightBounds', 'calc_tight_bounds', 'camCollisionQueue', 'camFloorCollisionBroadcaster', 'camFloorCollisionQueue', 'camFloorRayNode', 'camPusher', 'camPusher2', 'cameraIndex', 'cameraPositions', 'cameraZOffset', 'canChat', 'canEarnAchievements', 'cantLeaveGame', 'catalogGenAccessories', 'catalogGenClothes', 'catalogNotify', 'catalogScheduleCurrentWeek', 'catalogScheduleNextTime', 'ccLine', 'ccLineBitMask', 'ccLineNode', 'ccLineNodePath', 'ccPusherTrav', 'ccRay', 'ccRay2', 'ccRay2BitMask', 'ccRay2MoveNodePath', 'ccRay2Node', 'ccRay2NodePath', 'ccRayBitMask', 'ccRayNode', 'ccRayNodePath', 'ccSphere', 'ccSphere2', 'ccSphereNode', 'ccSphereNode2', 'ccSphereNodePath', 'ccSphereNodePath2', 'ccTrav', 'ccTravFloor', 'ccTravOnFloor', 'changeButtonText', 'chatGarbler', 'chatMgr', 'cheatCogdoMazeGame', 'checkGagBonus', 'cheesyEffect', 'children', 'clarabelleButtonObscured', 'clarabelleNewsPageCollision', 'classTree', 'cleanUpSoundList', 'cleanup', 'cleanupPieInHand', 'cleanupPieModel', 'cleanupPies', 'clearAntialias', 'clearAttrib', 'clearAudioVolume', 'clearBillboard', 'clearBin', 'clearChat', 'clearCheesyEffect', 'clearClipPlane', 'clearColor', 'clearColorScale', 'clearCompass', 'clearDepthOffset', 'clearDepthTest', 'clearDepthWrite', 'clearEffect', 'clearEffects', 'clearFog', 'clearLODAnimation', 'clearLight', 'clearMat', 'clearMaterial', 'clearModelNodes', 'clearNormalMap', 'clearOccluder', 'clearPageUpDown', 'clearPlantToWater', 'clearProjectTexture', 'clearPythonData', 'clearPythonTag', 'clearRenderMode', 'clearScissor', 'clearShader', 'clearShaderInput', 'clearSmoothing', 'clearTag', 'clearTexGen', 'clearTexProjector', 'clearTexTransform', 'clearTexture', 'clearTransform', 'clearTransparency', 'clearTwoSided', 'clear_antialias', 'clear_attrib', 'clear_audio_volume', 'clear_billboard', 'clear_bin', 'clear_clip_plane', 'clear_color', 'clear_color_scale', 'clear_compass', 'clear_depth_offset', 'clear_depth_test', 'clear_depth_write', 'clear_effect', 'clear_effects', 'clear_fog', 'clear_light', 'clear_mat', 'clear_material', 'clear_model_nodes', 'clear_normal_map', 'clear_occluder', 'clear_project_texture', 'clear_python_tag', 'clear_render_mode', 'clear_scissor', 'clear_shader', 'clear_shader_input', 'clear_tag', 'clear_tex_gen', 'clear_tex_projector', 'clear_tex_transform', 'clear_texture', 'clear_transform', 'clear_transparency', 'clear_two_sided', 'clickedNametag', 'clickedWhisper', 'closeEyes', 'closestObstructionDistance', 'clothesBottomsList', 'clothesTopsList', 'cnode', 'cogCounts', 'cogLevels', 'cogMerits', 'cogParts', 'cogRadar', 'cogSummonsEarned', 'cogSummonsResponse', 'cogTypes', 'cogs', 'collTube', 'collisionsOff', 'collisionsOn', 'colorInterval', 'colorScaleInterval', 'commonChatFlags', 'compareTo', 'compare_to', 'composeColorScale', 'compose_color_scale', 'confirmAvOnShard', 'considerUnderstandable', 'controlJoint', 'controlManager', 'copyActor', 'copyTo', 'copy_to', 'countNumDescendants', 'count_num_descendants', 'cr', 'createSystemMsgAckGui', 'customMessages', 'd_battleSOS', 'd_broadcastPosHpr', 'd_broadcastPositionNow', 'd_clearSmoothing', 'd_friendsNotify', 'd_playSplashEffect', 'd_reqCogSummons', 'd_reqSCResistance', 'd_requestDeleteQuest', 'd_returnResync', 'd_setAnimState', 'd_setChat', 'd_setEmoteState', 'd_setH', 'd_setHouseId', 'd_setHpr', 'd_setLocation', 'd_setP', 'd_setParent', 'd_setPos', 'd_setPosHpr', 'd_setR', 'd_setSC', 'd_setSCCustom', 'd_setSCSinging', 'd_setSCToontask', 'd_setSpeedChatStyleIndex', 'd_setTunnelIn', 'd_setTunnelOut', 'd_setWhisperIgnored', 'd_setX', 'd_setXY', 'd_setXYH', 'd_setXYZH', 'd_setXZ', 'd_setY', 'd_setZ', 'd_squish', 'd_suggestResync', 'd_teleportGiveup', 'd_teleportGreeting', 'd_teleportQuery', 'd_teleportResponse', 'd_updateGMNameTag', 'dclass', 'decodeFromBamStream', 'decode_from_bam_stream', 'defaultColorScale', 'defaultShard', 'defaultZone', 'delayDelete', 'delete', 'deleteCollisions', 'deleteDropShadow', 'deleteNametag3d', 'deleteOrDelay', 'deleteSmartCameraCollisions', 'deliveryboxContentsContents', 'deselect', 'detachCamera', 'detachNode', 'detachShovel', 'detachWateringCan', 'detach_node', 'detectLeaks', 'died', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'disableAvatarControls', 'disableBlend', 'disableBodyCollisions', 'disableRun', 'disableSmartCameraViews', 'disguisePage', 'disguisePageFlag', 'displaySystemClickableWhisper', 'displayTalk', 'displayTalkAccount', 'displayTalkWhisper', 'displayWhisper', 'displayWhisperPlayer', 'doBillboardAxis', 'doBillboardPointEye', 'doBillboardPointWorld', 'doCallbackContext', 'doEmote', 'doIHaveRequiredTrees', 'doId', 'doLookAroundToStareAt', 'doMethodLater', 'doSmoothTask', 'doTeleportResponse', 'doToonColorScale', 'do_billboard_axis', 'do_billboard_point_eye', 'do_billboard_point_world', 'do_setParent', 'doneBarrier', 'drawInFront', 'dropShadow', 'earnedExperience', 'effect', 'effectTrack', 'elevatorNotifier', 'emblems', 'emote', 'emoteAccess', 'emoteTrack', 'enableAvatarControls', 'enableBlend', 'enablePumpkins', 'enableRun', 'enableSmartCameraViews', 'enableSnowMen', 'encodeToBamStream', 'encode_to_bam_stream', 'endAllowPies', 'enforceTelemetryLimits', 'enterCatchEating', 'enterCatching', 'enterCloseBook', 'enterCogThiefRunning', 'enterCringe', 'enterDied', 'enterDive', 'enterEmote', 'enterEyelidsClosed', 'enterEyelidsOff', 'enterEyelidsOpen', 'enterEyelidsSurprised', 'enterFallDown', 'enterFlattened', 'enterGolfBadPutt', 'enterGolfGoodPutt', 'enterGolfPuttLoop', 'enterGolfPuttSwing', 'enterGolfRotateLeft', 'enterGolfRotateRight', 'enterHappy', 'enterJump', 'enterJumpAirborne', 'enterJumpLand', 'enterJumpSquat', 'enterNeutral', 'enterOff', 'enterOpenBook', 'enterPush', 'enterReadBook', 'enterRun', 'enterSad', 'enterScientistEmcee', 'enterScientistJealous', 'enterScientistLessWork', 'enterScientistPlay', 'enterScientistWork', 'enterSit', 'enterSitStart', 'enterSleep', 'enterSquish', 'enterSwim', 'enterSwimHold', 'enterTeleportIn', 'enterTeleportOut', 'enterTeleportedOut', 'enterVictory', 'enterWalk', 'estate', 'eventsPage', 'execCommand', 'exitCatchEating', 'exitCatching', 'exitCloseBook', 'exitCogThiefRunning', 'exitCringe', 'exitDied', 'exitDive', 'exitEmote', 'exitEyelidsClosed', 'exitEyelidsOff', 'exitEyelidsOpen', 'exitEyelidsSurprised', 'exitFallDown', 'exitFlattened', 'exitGolfBadPutt', 'exitGolfGoodPutt', 'exitGolfPuttLoop', 'exitGolfPuttSwing', 'exitGolfRotateLeft', 'exitGolfRotateRight', 'exitHappy', 'exitJump', 'exitJumpAirborne', 'exitJumpLand', 'exitJumpSquat', 'exitNeutral', 'exitOff', 'exitOpenBook', 'exitPush', 'exitReadBook', 'exitRun', 'exitSad', 'exitScientistEmcee', 'exitScientistJealous', 'exitScientistLessWork', 'exitScientistPlay', 'exitScientistWork', 'exitSit', 'exitSitStart', 'exitSleep', 'exitSquish', 'exitSwim', 'exitSwimHold', 'exitTeleportIn', 'exitTeleportOut', 'exitTeleportedOut', 'exitVictory', 'exitWalk', 'experience', 'explore', 'exposeJoint', 'eyelids', 'faceAwayFromViewer', 'faceTowardsViewer', 'fail', 'failedTeleportMessageOk', 'find', 'findAllMatches', 'findAllMaterials', 'findAllPathsTo', 'findAllTexcoords', 'findAllTextureStages', 'findAllTextures', 'findAllVertexColumns', 'findMaterial', 'findNetPythonTag', 'findNetTag', 'findPathTo', 'findSomethingToLookAt', 'findTexture', 'findTextureStage', 'find_all_matches', 'find_all_materials', 'find_all_paths_to', 'find_all_texcoords', 'find_all_texture_stages', 'find_all_textures', 'find_all_vertex_columns', 'find_material', 'find_net_python_tag', 'find_net_tag', 'find_path_to', 'find_texture', 'find_texture_stage', 'finishDied', 'finishTeleportOut', 'fishCollection', 'fishPage', 'fishTank', 'fishingRod', 'fishingTrophies', 'fitAndCenterHead', 'fixBounds', 'fixBounds_old', 'flattenLight', 'flattenMedium', 'flattenMultitex', 'flattenStrong', 'flatten_light', 'flatten_medium', 'flatten_strong', 'flowerBasket', 'flowerCollection', 'flush', 'flushCachedData', 'forceAllowDelayDelete', 'forceGotoSleep', 'forceJumpIdle', 'forceRecomputeBounds', 'forceToTruePosition', 'force_recompute_bounds', 'forwardSpeed', 'fov', 'frameTimeWeArrivedOnDistrict', 'freezeJoint', 'friendsList', 'friendsListButtonActive', 'friendsListButtonObscured', 'friendsNotify', 'furnitureDirector', 'furnitureManager', 'gameAccess', 'garbleChat', 'gardenPage', 'gardenSpecials', 'gardenStarted', 'gardenTrophies', 'generate', 'generateBackpack', 'generateGlasses', 'generateHat', 'generateInit', 'generateShoes', 'generateToon', 'generateToonAccessories', 'generateToonClothes', 'generateToonColor', 'generateToonHead', 'generateToonLegs', 'generateToonTorso', 'getAccessoryByType', 'getAccountDays', 'getActorInfo', 'getAdminAccess', 'getAirborneHeight', 'getAllAccepting', 'getAncestor', 'getAncestors', 'getAncestry', 'getAngryMuzzles', 'getAnimBlends', 'getAnimControl', 'getAnimControlDict', 'getAnimControls', 'getAnimFilename', 'getAnimMultiplier', 'getAnimNames', 'getAntialias', 'getArrivedOnDistrictEvent', 'getAttrib', 'getAudioVolume', 'getAutoInterests', 'getAutoRun', 'getAvIdName', 'getAvPosStr', 'getAvatarScale', 'getBackpack', 'getBackpackList', 'getBankMoney', 'getBarrierData', 'getBaseFrameRate', 'getBinDrawOrder', 'getBinName', 'getBodyScale', 'getBookActors', 'getBounds', 'getBoxCapability', 'getCacheable', 'getCachedData', 'getCallPetIval', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getChild', 'getChildren', 'getChildrenAsList', 'getClampedAvatarHeight', 'getClassType', 'getClothesBottomsList', 'getClothesTopsList', 'getCogLevels', 'getCogParts', 'getCogSummonsEarned', 'getCogTypes', 'getCollideMask', 'getColor', 'getColorScale', 'getCommonAncestor', 'getComponentH', 'getComponentL', 'getComponentP', 'getComponentR', 'getComponentT', 'getComponentX', 'getComponentY', 'getComponentZ', 'getCompromiseCameraPos', 'getCurrentAnim', 'getCurrentContexts', 'getCurrentFrame', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDelayDeleteNames', 'getDepthOffset', 'getDepthTest', 'getDepthWrite', 'getDialogueArray', 'getDialogueSfx', 'getDiedInterval', 'getDisableEvent', 'getDistance', 'getDoId', 'getDuration', 'getEffect', 'getEffects', 'getEmblems', 'getErrorType', 'getFeedPetIval', 'getFishCollection', 'getFishTank', 'getFishingRod', 'getFishingTrophies', 'getFlowerBasket', 'getFlowerCollection', 'getFog', 'getFont', 'getFrameRate', 'getFrameTime', 'getFriendsList', 'getGameAccess', 'getGardenSpecials', 'getGardenStarted', 'getGardenTrophies', 'getGeomNode', 'getGlasses', 'getGlassesList', 'getGolfCourseBest', 'getGolfCups', 'getGolfHistory', 'getGolfHoleBest', 'getGolfTrophies', 'getGuiConflict', 'getH', 'getHat', 'getHatList', 'getHeadParts', 'getHeight', 'getHiddenAncestor', 'getHipsParts', 'getHoleActors', 'getHouseId', 'getHp', 'getHpr', 'getIdealCameraPos', 'getInstanceCount', 'getInviteForPartyId', 'getInvitesToShowInMailbox', 'getJar', 'getJointTransform', 'getJointTransformState', 'getJoints', 'getJumpDuration', 'getKartAccessoriesOwned', 'getKartAccessoryColor', 'getKartBackWheelWellType', 'getKartBodyColor', 'getKartBodyType', 'getKartDNA', 'getKartDecalType', 'getKartEngineBlockType', 'getKartFrontWheelWellType', 'getKartRimType', 'getKartSpoilerType', 'getKartingHistory', 'getKartingPersonalBest', 'getKartingPersonalBest2', 'getKartingPersonalBestAll', 'getKartingTrophies', 'getKey', 'getLOD', 'getLODIndex', 'getLODNames', 'getLODNode', 'getLastTimeReadNews', 'getLaughMuzzles', 'getLeftHands', 'getLegsParts', 'getLocation', 'getLookAtPoint', 'getMat', 'getMaterial', 'getMaxAccessories', 'getMaxBankMoney', 'getMaxCarry', 'getMaxClothes', 'getMaxFishTank', 'getMaxFlowerBasket', 'getMaxHp', 'getMaxMoney', 'getMaxNPCFriends', 'getMaxSearchDepth', 'getMoney', 'getMuzzles', 'getMyTrees', 'getNPCFriendsDict', 'getName', 'getNameVisible', 'getNametagJoints', 'getNametagScale', 'getNametagStyle', 'getNearbyPlayers', 'getNetAudioVolume', 'getNetPrevTransform', 'getNetPythonTag', 'getNetState', 'getNetTag', 'getNetTransform', 'getNeverDisable', 'getNode', 'getNodes', 'getNumChildren', 'getNumDescendants', 'getNumFrames', 'getNumInvitesToShowInMailbox', 'getNumNodes', 'getOnePartyInvitedTo', 'getOverlappingJoints', 'getP', 'getParent', 'getParentObj', 'getPart', 'getPartBundle', 'getPartBundleDict', 'getPartBundles', 'getPartNames', 'getPetId', 'getPieBubble', 'getPieModel', 'getPieSplatInterval', 'getPieces', 'getPinkSlips', 'getPlayRate', 'getPos', 'getPosDelta', 'getPosHprBroadcastPeriod', 'getPosHprBroadcastTaskName', 'getPosIndex', 'getPresentPieInterval', 'getPrevTransform', 'getPythonTag', 'getPythonTagKeys', 'getQuat', 'getQuestCarryLimit', 'getQuestHistory', 'getR', 'getRadius', 'getRandomForwardLookAtPoint', 'getRelativePoint', 'getRelativeVector', 'getRenderMode', 'getRenderModePerspective', 'getRenderModeThickness', 'getRequestID', 'getResistanceMessageCharges', 'getRewardHistory', 'getRightHands', 'getSa', 'getSadMuzzles', 'getSb', 'getScale', 'getScavengerHunt', 'getScratchPetIval', 'getSg', 'getShader', 'getShaderInput', 'getShadowJoint', 'getShear', 'getShoes', 'getShoesList', 'getShovelModel', 'getShxy', 'getShxz', 'getShyz', 'getSmileMuzzles', 'getSmoothWrtReparents', 'getSort', 'getSoundTeleport', 'getSpeedChatStyleIndex', 'getSr', 'getStareAtNodeAndOffset', 'getStashedAncestor', 'getStashedChildren', 'getState', 'getStyle', 'getSubpartsComplete', 'getSurpriseMuzzles', 'getSx', 'getSy', 'getSz', 'getTag', 'getTagKeys', 'getTelemetryLimiterId', 'getTeleportAccess', 'getTeleportAvailable', 'getTeleportInTrack', 'getTeleportOutTrack', 'getTexGen', 'getTexGenLight', 'getTexHpr', 'getTexOffset', 'getTexPos', 'getTexProjectorFrom', 'getTexProjectorTo', 'getTexRotate', 'getTexScale', 'getTexScale3d', 'getTexTransform', 'getTexture', 'getTickets', 'getTightBounds', 'getTop', 'getTopNode', 'getTorsoParts', 'getTossPieInterval', 'getTotalMoney', 'getTrackAccess', 'getTrackBonusLevel', 'getTrackProgress', 'getTrackProgressAsArray', 'getTransform', 'getTransparency', 'getTunnelInToonTrack', 'getTunnelOutToonTrack', 'getTwoSided', 'getType', 'getUnlimitedSwing', 'getVisibilityPoint', 'getWake', 'getWateringCanModel', 'getX', 'getY', 'getZ', 'getZoneId', 'get_ancestor', 'get_ancestors', 'get_antialias', 'get_attrib', 'get_audio_volume', 'get_bin_draw_order', 'get_bin_name', 'get_bounds', 'get_child', 'get_children', 'get_class_type', 'get_collide_mask', 'get_color', 'get_color_scale', 'get_common_ancestor', 'get_depth_offset', 'get_depth_test', 'get_depth_write', 'get_distance', 'get_effect', 'get_effects', 'get_error_type', 'get_fog', 'get_h', 'get_hidden_ancestor', 'get_hpr', 'get_instance_count', 'get_key', 'get_mat', 'get_material', 'get_max_search_depth', 'get_name', 'get_net_audio_volume', 'get_net_prev_transform', 'get_net_python_tag', 'get_net_state', 'get_net_tag', 'get_net_transform', 'get_node', 'get_nodes', 'get_num_children', 'get_num_nodes', 'get_p', 'get_parent', 'get_pos', 'get_pos_delta', 'get_prev_transform', 'get_python_tag', 'get_python_tag_keys', 'get_quat', 'get_r', 'get_relative_point', 'get_relative_vector', 'get_render_mode', 'get_render_mode_perspective', 'get_render_mode_thickness', 'get_sa', 'get_sb', 'get_scale', 'get_sg', 'get_shader', 'get_shader_input', 'get_shear', 'get_shxy', 'get_shxz', 'get_shyz', 'get_sort', 'get_sr', 'get_stashed_ancestor', 'get_stashed_children', 'get_state', 'get_sx', 'get_sy', 'get_sz', 'get_tag', 'get_tag_keys', 'get_tex_gen', 'get_tex_gen_light', 'get_tex_hpr', 'get_tex_offset', 'get_tex_pos', 'get_tex_projector_from', 'get_tex_projector_to', 'get_tex_rotate', 'get_tex_scale', 'get_tex_scale_3d', 'get_tex_transform', 'get_texture', 'get_tight_bounds', 'get_top', 'get_top_node', 'get_transform', 'get_transparency', 'get_two_sided', 'get_x', 'get_y', 'get_z', 'ghostMode', 'glasses', 'glassesList', 'glassesNodes', 'glitchCount', 'glitchKiller', 'glitchOkay', 'glitchX', 'glitchY', 'glitchZ', 'gmNameTag', 'gmNameTagColor', 'gmNameTagEnabled', 'gmNameTagString', 'gmState', 'gmToonLockStyle', 'golfCourseBest', 'golfCups', 'golfHistory', 'golfHoleBest', 'golfTrophies', 'gotCatalogNotify', 'gotName', 'gotStringParentToken', 'gotoNode', 'gotoSleep', 'gridParent', 'guiConflict', 'handleAllGardeningButtonsHidden', 'handleCameraFloorInteraction', 'handleCameraObstruction', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleEndPlantInteraction', 'handlePlayerFriendWhisper', 'handleQueryObjectChildrenLocalDone', 'handleTunnelIn', 'handleTunnelOut', 'hasActiveBoardingGroup', 'hasAntialias', 'hasAttrib', 'hasAudioVolume', 'hasBillboard', 'hasBin', 'hasCachedData', 'hasClipPlane', 'hasClipPlaneOff', 'hasCogSummons', 'hasColor', 'hasColorScale', 'hasCompass', 'hasDepthOffset', 'hasDepthTest', 'hasDepthWrite', 'hasEffect', 'hasFog', 'hasFogOff', 'hasKart', 'hasLOD', 'hasLight', 'hasLightOff', 'hasMat', 'hasMaterial', 'hasNetPythonTag', 'hasNetTag', 'hasOccluder', 'hasParent', 'hasParentingRules', 'hasPet', 'hasPlant', 'hasPlayedGolf', 'hasPythonTag', 'hasRenderMode', 'hasScissor', 'hasTag', 'hasTeleportAccess', 'hasTexGen', 'hasTexProjector', 'hasTexTransform', 'hasTexcoord', 'hasTexture', 'hasTextureOff', 'hasTrackAccess', 'hasTrackAnimToSpeed', 'hasTransparency', 'hasTwoSided', 'hasVertexColumn', 'has_antialias', 'has_attrib', 'has_audio_volume', 'has_billboard', 'has_bin', 'has_clip_plane', 'has_clip_plane_off', 'has_color', 'has_color_scale', 'has_compass', 'has_depth_offset', 'has_depth_test', 'has_depth_write', 'has_effect', 'has_fog', 'has_fog_off', 'has_light', 'has_light_off', 'has_mat', 'has_material', 'has_net_python_tag', 'has_net_tag', 'has_occluder', 'has_parent', 'has_python_tag', 'has_render_mode', 'has_scissor', 'has_tag', 'has_tex_gen', 'has_tex_projector', 'has_tex_transform', 'has_texcoord', 'has_texture', 'has_texture_off', 'has_transparency', 'has_two_sided', 'has_vertex_column', 'hat', 'hatList', 'hatNodes', 'headParts', 'headsUp', 'heads_up', 'height', 'hide', 'hideAllBounds', 'hideAngryMuzzle', 'hideBooks', 'hideBounds', 'hideCS', 'hideClarabelleGui', 'hideEars', 'hideEyelashes', 'hideFurnitureGui', 'hideGardeningGui', 'hideHpText', 'hideLaughMuzzle', 'hideName', 'hideNametag2d', 'hideNametag3d', 'hideNormalMuzzle', 'hidePart', 'hideSadMuzzle', 'hideShadow', 'hideShovelButton', 'hideShovelButtonFake', 'hideSiblings', 'hideSmileMuzzle', 'hideSurpriseMuzzle', 'hideSystemMsgAckGui', 'hideWateringCanButton', 'hideWateringCanButtonFake', 'hide_bounds', 'hipsParts', 'holeClipPath', 'hoodsVisited', 'hostedParties', 'houseId', 'hp', 'hpChange', 'hpText', 'hprInterval', 'hprScaleInterval', 'iHpr', 'iPos', 'iPosHpr', 'iPosHprScale', 'iScale', 'id', 'ignore', 'ignoreAll', 'ignoreAnimationEvents', 'ignoreList', 'ignoreMouse', 'ignoreNametagAmbientLightChange', 'inGardenAction', 'initAnimsOnAllLODs', 'initCameraPositions', 'initInterface', 'initializeBodyCollisions', 'initializeCollisions', 'initializeDropShadow', 'initializeNametag3d', 'initializeSmartCamera', 'initializeSmartCameraCollisions', 'instance', 'instanceTo', 'instanceUnderNode', 'instance_to', 'instance_under_node', 'interruptPie', 'invPage', 'inventory', 'inviteMailNotify', 'invites', 'isAccepting', 'isAncestorOf', 'isAvFriend', 'isClosetFull', 'isCog', 'isDisabled', 'isDisguised', 'isEmpty', 'isEnoughEmblemsToBuy', 'isEnoughMoneyAndEmblemsToBuy', 'isFishTankFull', 'isFlowerBasketFull', 'isGM', 'isGenerated', 'isGeneratedOnDistrict', 'isGridParent', 'isHidden', 'isIgnoreCheesyEffect', 'isIgnoring', 'isInView', 'isInWater', 'isIt', 'isLocal', 'isLockedDown', 'isPageDown', 'isPageUp', 'isPet', 'isProxy', 'isReadingNews', 'isSameGraph', 'isSingleton', 'isStashed', 'isStunned', 'isTeleportAllowed', 'isTreePlanted', 'isTrunkFull', 'isUnderstandable', 'is_ancestor_of', 'is_empty', 'is_hidden', 'is_same_graph', 'is_singleton', 'is_stashed', 'isolate', 'jar', 'jumpHardLand', 'jumpLand', 'jumpLandAnimFix', 'jumpLandAnimFixTask', 'jumpStart', 'kart', 'kartDNA', 'kartingHistory', 'kartingPersonalBest', 'kartingPersonalBest2', 'kartingTrophies', 'laffMeter', 'lastAction', 'lastElevatorLeft', 'lastFailedTeleportMessage', 'lastHood', 'lastMoved', 'lastNeedH', 'lastState', 'lastSuggestResync', 'lastTeleportQuery', 'lastTimeReadNews', 'lastTossedPie', 'lastWakeTime', 'leftHand', 'leftHands', 'legsParts', 'lerpCameraFov', 'lerpColor', 'lerpColorRGBA', 'lerpColorRGBARGBA', 'lerpColorScale', 'lerpColorScaleRGBA', 'lerpColorScaleRGBARGBA', 'lerpColorScaleVBase4', 'lerpColorScaleVBase4VBase4', 'lerpColorVBase4', 'lerpColorVBase4VBase4', 'lerpHpr', 'lerpHprHPR', 'lerpHprVBase3', 'lerpLookAt', 'lerpPos', 'lerpPosHpr', 'lerpPosHprPoint3VBase3', 'lerpPosHprScale', 'lerpPosHprXYZHPR', 'lerpPosPoint3', 'lerpPosXYZ', 'lerpScale', 'lerpScaleVBase3', 'lerpScaleXYZ', 'levelShovel', 'levelWater', 'listJoints', 'listTags', 'list_tags', 'loadAnims', 'loadAnimsOnAllLODs', 'loadClarabelleGui', 'loadDisguisePages', 'loadFurnitureGui', 'loadGardenPages', 'loadGardeningGui', 'loadModel', 'loadPhase55Stuff', 'loadPumpkin', 'loadSnowMan', 'loadSosPages', 'localControl', 'localPresentPie', 'localTossPie', 'lock', 'lockGardeningButtons', 'lockedDown', 'lookAt', 'lookAtPositionCallbackArgs', 'lookAtTrack', 'look_at', 'loop', 'ls', 'lsNames', 'lsNamesRecurse', 'mail', 'mailboxContents', 'mailboxNotify', 'makePiePowerMeter', 'makeSubpart', 'makeWaiter', 'mapPage', 'maxAccessories', 'maxBankMoney', 'maxCarry', 'maxClothes', 'maxFishTank', 'maxFlowerBasket', 'maxHp', 'maxMoney', 'maxNPCFriends', 'mergeLODBundles', 'modelLoaderOptions', 'money', 'monthlyCatalog', 'motion', 'moveFurnitureButtonObscured', 'movingFlag', 'name', 'nametag', 'nametag3d', 'nametagAmbientLightChanged', 'nametagNodePath', 'nametagScale', 'nametagStyle', 'networkDelete', 'neverDisable', 'newCatalogNotify', 'newsButtonMgr', 'nextCameraPos', 'node', 'normalEyes', 'notFound', 'not_found', 'notify', 'nudgeCamera', 'numFlowers', 'numPies', 'obscureClarabelleButton', 'obscureFriendsListButton', 'obscureMoveFurnitureButton', 'oldFriendsList', 'oldPos', 'onAwardOrder', 'onGiftOrder', 'onOrder', 'openEyes', 'optionsPage', 'osdAnimBlends', 'output', 'pPrintString', 'pageDown', 'pageUp', 'parentId', 'parentToonParts', 'partPrefix', 'partiesInvitedTo', 'partyNotify', 'partyReplyInfoBases', 'pauseGlitchKiller', 'peerToPeerResync', 'petId', 'physControls', 'pieFinishedFlying', 'pieFinishedSplatting', 'pieModel', 'piePowerExponent', 'piePowerSpeed', 'pieScale', 'pieSplat', 'pieThrowType', 'pieTracks', 'pieType', 'pingpong', 'pinkSlips', 'pivotAngle', 'place', 'plantToWater', 'play', 'playCurrentDialogue', 'playDialogue', 'playDialogueForString', 'playSplashEffect', 'playerType', 'playingAnim', 'playingRate', 'popCameraToDest', 'posCamera', 'posHprBroadcastStarted', 'posHprInterval', 'posHprScaleInterval', 'posHprScaleShearInterval', 'posIndex', 'posInterval', 'posQuatInterval', 'posQuatScaleInterval', 'posQuatScaleShearInterval', 'pose', 'positionCameraWithPusher', 'positionExaminer', 'postFlatten', 'postGenerateMessage', 'pprint', 'premungeScene', 'premunge_scene', 'prepareScene', 'prepare_scene', 'presentPie', 'prevToonIdx', 'printAnimBlends', 'printCamPos', 'printCameraPosition', 'printCameraPositions', 'printChildren', 'printHpr', 'printLOD', 'printPos', 'printPosHpr', 'printPosHprScale', 'printScale', 'printTransform', 'projectTexture', 'project_texture', 'promoteShovel', 'promoteShovelSkill', 'promoteWateringCan', 'promotionStatus', 'pumpkins', 'putCameraFloorRayOnAvatar', 'putCameraFloorRayOnCamera', 'putOnSuit', 'quatInterval', 'quatScaleInterval', 'questCarryLimit', 'questHistory', 'questMap', 'questPage', 'quests', 'r_constructCollisionTree', 'r_subdivideCollisions', 'randGen', 'reactivateShovel', 'reactivateWater', 'readyForPromotion', 'reapplyCheesyEffect', 'recalcCameraSphere', 'reconsiderCheesyEffect', 'refreshName', 'refreshOnscreenButtons', 'releaseDelayDelete', 'releaseJoint', 'releaseKart', 'reloadPosition', 'remove', 'removeActive', 'removeAllTasks', 'removeAnimControlDict', 'removeCameraPosition', 'removeChildren', 'removeFancyNametag', 'removeGMIcon', 'removeInterest', 'removeJar', 'removeNode', 'removeNonCollisions', 'removePart', 'removeShovelRelatedDoId', 'removeTask', 'removeTelemetryLimit', 'remove_node', 'removed', 'renamePartBundles', 'reparentTo', 'reparent_to', 'replaceBadWords', 'requestAddOwnedAccessory', 'requestKartDNAFieldUpdate', 'requestRemoveOwnedAccessory', 'rescaleToon', 'resetCameraPosition', 'resetHeight', 'resetLOD', 'resetShovelText', 'resetWaterText', 'resistanceMessages', 'restoreDefaultColorScale', 'returnResync', 'returnToWalk', 'reverseLs', 'reverseLsNames', 'reverse_ls', 'rewardHistory', 'rewardTier', 'rgbPanel', 'rightHand', 'rightHands', 'rotateSpeed', 'runSound', 'runTimeout', 'sadEyes', 'safeZonesVisited', 'savedCheesyEffect', 'savedCheesyExpireTime', 'savedCheesyHoodId', 'sbFriendAdd', 'sbFriendRemove', 'sbFriendUpdate', 'scale', 'scaleInterval', 'scavengerHuntArray', 'scrubTalk', 'select', 'sendCurrentPosition', 'sendDeleteMsg', 'sendDisableMsg', 'sendFriendsListEvent', 'sendLogMessage', 'sendLogSuspiciousEvent', 'sendToGolfCourse', 'sendUpdate', 'setAccess', 'setAccountName', 'setAchievements', 'setActivePlot', 'setActiveShadow', 'setAdminAccess', 'setAllColorScale', 'setAlphaScale', 'setAnimMultiplier', 'setAnimState', 'setAnimalSound', 'setAntialias', 'setAsGM', 'setAttrib', 'setAudioVolume', 'setAudioVolumeOff', 'setAutoRun', 'setAvatarScale', 'setAwardMailboxContents', 'setAwardNotify', 'setAwardSchedule', 'setBackpack', 'setBackpackList', 'setBankMoney', 'setBarrierData', 'setBattleId', 'setBillboardAxis', 'setBillboardPointEye', 'setBillboardPointWorld', 'setBin', 'setBlend', 'setBuffs', 'setBuildingRadar', 'setCacheable', 'setCachedData', 'setCameraCollisionsCanMove', 'setCameraFov', 'setCameraPosForPetInteraction', 'setCameraPositionByIndex', 'setCameraSettings', 'setCatalog', 'setCatalogNotify', 'setCatalogSchedule', 'setCenter', 'setChat', 'setChatAbsolute', 'setChatMuted', 'setCheesyEffect', 'setClientInterest', 'setClipPlane', 'setClipPlaneOff', 'setClothesBottomsList', 'setClothesTopsList', 'setCogCount', 'setCogIndex', 'setCogLevels', 'setCogMerits', 'setCogParts', 'setCogRadar', 'setCogStatus', 'setCogSummonsEarned', 'setCogTypes', 'setCollideMask', 'setColor', 'setColorOff', 'setColorScale', 'setColorScaleOff', 'setCommonChatFlags', 'setCompass', 'setComponentH', 'setComponentL', 'setComponentP', 'setComponentR', 'setComponentT', 'setComponentTLive', 'setComponentX', 'setComponentY', 'setComponentZ', 'setControlEffect', 'setCurrentKart', 'setCustomMessages', 'setDISLid', 'setDISLname', 'setDNA', 'setDNAString', 'setDefaultShard', 'setDefaultZone', 'setDeliverySchedule', 'setDepthOffset', 'setDepthTest', 'setDepthWrite', 'setDisguisePageFlag', 'setDisplayName', 'setEarnedExperience', 'setEffect', 'setEffects', 'setEmblems', 'setEmoteAccess', 'setEmoteState', 'setExperience', 'setFancyNametag', 'setFishCollection', 'setFishTank', 'setFishingRod', 'setFishingTrophies', 'setFlowerBasket', 'setFlowerCollection', 'setFluidPos', 'setFluidX', 'setFluidY', 'setFluidZ', 'setFog', 'setFogOff', 'setFont', 'setForceJumpIdle', 'setFriendsList', 'setFriendsListButtonActive', 'setFurnitureDirector', 'setGM', 'setGMIcon', 'setGMPartyIcon', 'setGameAccess', 'setGardenSpecials', 'setGardenStarted', 'setGardenTrophies', 'setGeom', 'setGeomNode', 'setGhostMode', 'setGiftSchedule', 'setGlasses', 'setGlassesList', 'setGolfCourseBest', 'setGolfHistory', 'setGolfHoleBest', 'setGuiConflict', 'setH', 'setHat', 'setHatList', 'setHeight', 'setHoodsVisited', 'setHostedParties', 'setHouseId', 'setHp', 'setHpr', 'setHprScale', 'setIdealCameraPos', 'setInGardenAction', 'setInstanceCount', 'setInterface', 'setInventory', 'setInviteMailNotify', 'setInvites', 'setKartAccessoriesOwned', 'setKartAccessoryColor', 'setKartBackWheelWellType', 'setKartBodyColor', 'setKartBodyType', 'setKartDecalType', 'setKartEngineBlockType', 'setKartFrontWheelWellType', 'setKartRimType', 'setKartSpoilerType', 'setKartingHistory', 'setKartingPersonalBest', 'setKartingPersonalBest2', 'setKartingTrophies', 'setLOD', 'setLODAnimation', 'setLODNode', 'setLODs', 'setLastHood', 'setLastTimeReadNews', 'setLeftDistrict', 'setLight', 'setLightOff', 'setLocalPageChat', 'setLocation', 'setLookAtPoint', 'setLookAtPositionCallbackArgs', 'setMail', 'setMailboxContents', 'setMat', 'setMaterial', 'setMaterialOff', 'setMaxAccessories', 'setMaxBankMoney', 'setMaxCarry', 'setMaxClothes', 'setMaxFishTank', 'setMaxFlowerBasket', 'setMaxHp', 'setMaxNPCFriends', 'setMaxSearchDepth', 'setMoney', 'setNPCFriendsDict', 'setName', 'setNameVisible', 'setNametagScale', 'setNametagStyle', 'setNeverDisable', 'setNormalMap', 'setNumPies', 'setOccluder', 'setOnLevelGround', 'setP', 'setPackedGolfHoleBest', 'setPageChat', 'setPageNumber', 'setParent', 'setParentStr', 'setPartiesInvitedTo', 'setPartsAdd', 'setPartsNormal', 'setPartyCanStart', 'setPartyReplies', 'setPartyStatus', 'setPickable', 'setPieType', 'setPinkSlips', 'setPlantToWater', 'setPlayRate', 'setPlayerType', 'setPos', 'setPosHpr', 'setPosHprBroadcastPeriod', 'setPosHprScale', 'setPosHprScaleShear', 'setPosIndex', 'setPosQuat', 'setPosQuatScale', 'setPosQuatScaleShear', 'setPrevTransform', 'setPromotionStatus', 'setPythonTag', 'setQuat', 'setQuatScale', 'setQuestCarryLimit', 'setQuestHistory', 'setQuests', 'setR', 'setRenderMode', 'setRenderModeFilled', 'setRenderModePerspective', 'setRenderModeThickness', 'setRenderModeWireframe', 'setResistanceMessages', 'setRewardHistory', 'setSC', 'setSCCustom', 'setSCResistance', 'setSCSinging', 'setSCToontask', 'setSa', 'setSb', 'setScale', 'setScavengerHunt', 'setScissor', 'setSg', 'setShader', 'setShaderAuto', 'setShaderInput', 'setShaderOff', 'setShadowHeight', 'setShear', 'setShoes', 'setShoesList', 'setShovel', 'setShovelAbility', 'setShovelGuiLevel', 'setShovelSkill', 'setShtickerBook', 'setShxy', 'setShxz', 'setShyz', 'setSimpleMailNotify', 'setSleepAutoReply', 'setSmH', 'setSmHpr', 'setSmPos', 'setSmPosHpr', 'setSmPosHprL', 'setSmStop', 'setSmXY', 'setSmXYH', 'setSmXYZH', 'setSmXZ', 'setSmZ', 'setSmoothWrtReparents', 'setSosPageFlag', 'setSpeed', 'setSpeedChatStyleIndex', 'setSr', 'setState', 'setStyle', 'setSubpartsComplete', 'setSx', 'setSy', 'setSystemMessage', 'setSz', 'setTag', 'setTalk', 'setTalkWhisper', 'setTeleportAccess', 'setTeleportAllowed', 'setTeleportAvailable', 'setTexGen', 'setTexHpr', 'setTexOffset', 'setTexPos', 'setTexProjector', 'setTexRotate', 'setTexScale', 'setTexTransform', 'setTexture', 'setTextureOff', 'setTickets', 'setTrackAccess', 'setTrackBonusLevel', 'setTrackProgress', 'setTransform', 'setTransparency', 'setTrophyScore', 'setTunnelIn', 'setTunnelOut', 'setTutorialAck', 'setTwoSided', 'setUnlimitedSwing', 'setWalkSpeedNormal', 'setWalkSpeedSlow', 'setWantBattles', 'setWateringCan', 'setWateringCanGuiLevel', 'setWateringCanSkill', 'setWhisperSCCustomFrom', 'setWhisperSCEmoteFrom', 'setWhisperSCFrom', 'setWhisperSCToontaskFrom', 'setWhitelistChatFlags', 'setX', 'setXY', 'setXYH', 'setXYZH', 'setXZ', 'setY', 'setZ', 'setZoneId', 'setZonesVisited', 'set_all_color_scale', 'set_alpha_scale', 'set_antialias', 'set_attrib', 'set_audio_volume', 'set_audio_volume_off', 'set_billboard_axis', 'set_billboard_point_eye', 'set_billboard_point_world', 'set_bin', 'set_clip_plane', 'set_clip_plane_off', 'set_collide_mask', 'set_color', 'set_color_off', 'set_color_scale', 'set_color_scale_off', 'set_compass', 'set_depth_offset', 'set_depth_test', 'set_depth_write', 'set_effect', 'set_effects', 'set_fluid_pos', 'set_fluid_x', 'set_fluid_y', 'set_fluid_z', 'set_fog', 'set_fog_off', 'set_h', 'set_hpr', 'set_hpr_scale', 'set_instance_count', 'set_light', 'set_light_off', 'set_mat', 'set_material', 'set_material_off', 'set_max_search_depth', 'set_name', 'set_normal_map', 'set_occluder', 'set_p', 'set_pos', 'set_pos_hpr', 'set_pos_hpr_scale', 'set_pos_hpr_scale_shear', 'set_pos_quat', 'set_pos_quat_scale', 'set_pos_quat_scale_shear', 'set_prev_transform', 'set_python_tag', 'set_quat', 'set_quat_scale', 'set_r', 'set_render_mode', 'set_render_mode_filled', 'set_render_mode_perspective', 'set_render_mode_thickness', 'set_render_mode_wireframe', 'set_sa', 'set_sb', 'set_scale', 'set_scissor', 'set_sg', 'set_shader', 'set_shader_auto', 'set_shader_input', 'set_shader_off', 'set_shear', 'set_shxy', 'set_shxz', 'set_shyz', 'set_sr', 'set_state', 'set_sx', 'set_sy', 'set_sz', 'set_tag', 'set_tex_gen', 'set_tex_hpr', 'set_tex_offset', 'set_tex_pos', 'set_tex_projector', 'set_tex_rotate', 'set_tex_scale', 'set_tex_transform', 'set_texture', 'set_texture_off', 'set_transform', 'set_transparency', 'set_two_sided', 'set_x', 'set_y', 'set_z', 'setupAnimationEvents', 'setupControls', 'setupEyelashes', 'setupHead', 'setupMuzzles', 'setupPickTrigger', 'setupToonNodes', 'shadowFileName', 'shadowJoint', 'shadowPlacer', 'shadowReach', 'shardPage', 'shearInterval', 'shoes', 'shoesList', 'shoulderHeight', 'shovel', 'shovelAbility', 'shovelButtonActiveCount', 'shovelModel', 'shovelRelatedDoId', 'shovelSkill', 'show', 'showAllBounds', 'showAllDescendants', 'showAllParts', 'showAngryMuzzle', 'showBooks', 'showBounds', 'showCS', 'showClarabelleGui', 'showEars', 'showEyelashes', 'showFurnitureGui', 'showGardeningGui', 'showHpString', 'showHpText', 'showLaughMuzzle', 'showName', 'showNametag2d', 'showNametag3d', 'showNormalMuzzle', 'showPart', 'showSadMuzzle', 'showShadow', 'showShovelButton', 'showShovelButtonFake', 'showSiblings', 'showSmileMuzzle', 'showSurpriseMuzzle', 'showThrough', 'showTightBounds', 'showWateringCanButton', 'showWateringCanButtonFake', 'show_bounds', 'show_through', 'show_tight_bounds', 'showingShovel', 'showingWateringCan', 'shutdownSmartCamera', 'simpleMailNotify', 'sleepCallback', 'sleepFlag', 'sleepSwimTest', 'sleepTimeout', 'smoothPosition', 'smoothStarted', 'smoother', 'snowMen', 'sosPage', 'sosPageFlag', 'soundChatBubble', 'soundPhoneRing', 'soundRun', 'soundSequenceList', 'soundSystemMessage', 'soundTeleport', 'soundWalk', 'soundWhisper', 'speedChatStyleIndex', 'splash', 'splatTracks', 'squish', 'standWalkRunReverse', 'startBlink', 'startBobSwimTask', 'startChat', 'startGlitchKiller', 'startLookAround', 'startPosHprBroadcast', 'startQuestMap', 'startRunWatch', 'startSleepSwimTest', 'startSleepWatch', 'startSmooth', 'startStareAt', 'startStareAtHeadPoint', 'startTrackAnimToSpeed', 'startUpdateSmartCamera', 'stash', 'stashBodyCollisions', 'stashTo', 'stash_to', 'status', 'stop', 'stopAnimations', 'stopBlink', 'stopBobSwimTask', 'stopChat', 'stopGlitchKiller', 'stopJoint', 'stopJumpLandTask', 'stopLookAround', 'stopLookAroundNow', 'stopMoveFurniture', 'stopPosHprBroadcast', 'stopQuestMap', 'stopRunWatch', 'stopSleepSwimTest', 'stopSleepWatch', 'stopSmooth', 'stopSound', 'stopStareAt', 'stopStareAtNow', 'stopTrackAnimToSpeed', 'stopUpdateSmartCamera', 'stopped', 'storedActiveState', 'stunToon', 'stunTrack', 'style', 'subdivideCollisions', 'suggestResync', 'suitPage', 'surpriseEyes', 'swapToonColor', 'swapToonHead', 'swapToonLegs', 'swapToonTorso', 'swimTimeout', 'swimTimeoutAction', 'swimmingFlag', 'switches', 'systemMsgAckGui', 'systemMsgAckGuiDoneEvent', 'systemWarning', 'takeDamage', 'takeOffSuit', 'taskName', 'teleportAllowed', 'teleportGiveup', 'teleportGreeting', 'teleportQuery', 'teleportResponse', 'teleportZoneArray', 'tempGreySpacing', 'thinkPos', 'this', 'this_metatype', 'ticker', 'tickets', 'timeFriendsListChanged', 'toggleVis', 'toonName', 'toonUp', 'torsoParts', 'tossPie', 'tossPieStart', 'tossTrack', 'touchingPlantList', 'track', 'trackAnimToSpeed', 'trackArray', 'trackBonusLevel', 'trackPage', 'trackProgress', 'trackProgressId', 'travCollisionsFloor', 'travCollisionsLOS', 'travCollisionsPusher', 'trickOrTreatMilestoneMet', 'trickOrTreatTargetMet', 'trophyScore', 'trophyStar', 'trophyStarSpeed', 'tunnelCenterInfluence', 'tunnelCenterOffset', 'tunnelIn', 'tunnelOut', 'tunnelPivotPos', 'tunnelTrack', 'tunnelX', 'tutorialAck', 'understandable', 'unifyTextureStages', 'unify_texture_stages', 'uniqueName', 'unlimitedSwing', 'unloadAnims', 'unlock', 'unlockGardeningButtons', 'unparentToonParts', 'unpauseGlitchKiller', 'unsetCameraPosForPetInteraction', 'unstash', 'unstashAll', 'unstashBodyCollisions', 'unstash_all', 'update', 'updateAllRequiredFields', 'updateGMNameTag', 'updateInvite', 'updateInviteMailNotify', 'updatePieButton', 'updateReply', 'updateRequiredFields', 'updateRequiredOtherFields', 'updateSmartCamera', 'updateSmartCameraCollisionLineSegment', 'updateToonDNA', 'useGhostControls', 'useLOD', 'useSpecialResponse', 'useSwimControls', 'useTwoDControls', 'useWalkControls', 'validateSubparts', 'verboseState', 'verifyComplete', 'verifySubpartsComplete', 'verify_complete', 'waitPending', 'wake', 'wakeUp', 'walkSound', 'wantBattles', 'wantDevCameraPositions', 'wantLegacyLifter', 'wantMouse', 'wantSmoothPosBroadcastTask', 'wantStatePrint', 'wantsActive', 'wantsSmoothing', 'wateringCan', 'wateringCanButtonActiveCount', 'wateringCanModel', 'wateringCanSkill', 'weeklyCatalog', 'whisperSCCustomTo', 'whisperSCEmoteTo', 'whisperSCTo', 'whisperSCToontaskTo', 'whiteListEnabled', 'whitelistChatFlags', 'winterCarolingTargetMet', 'writeBamFile', 'writeBamStream', 'writeBounds', 'write_bam_file', 'write_bam_stream', 'write_bounds', 'wrtReparentTo', 'wrt_reparent_to', 'zoneId']
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 598, in <module>
+NameError: name 'Sequence' is not defined
+
+frame rate: 17.1 fps|0.057d|4 avs||425|428||0x1002|0x6738|435.8MB|494.0MB|16330.4MB|547|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Exception occurred while processing Func-executeToonbot-26 of Sequence-234:
+Sequence-234:
+  0.000 Sequence-234 {
+  0.000   Wait dur 20
+ 20.000   *Func-executeToonbot-26
+ 20.000 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 586, in executeToonbot
+  File "<string>", line 363, in __init__
+  File "<string>", line 515, in createGui
+  File "<string>", line 41, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 586, in executeToonbot
+  File "<string>", line 363, in __init__
+  File "<string>", line 515, in createGui
+  File "<string>", line 41, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx

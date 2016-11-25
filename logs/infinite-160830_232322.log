@@ -1,0 +1,342 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E772918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+iterating quest
+3
+3
+Doing task
+3
+3
+Doing task
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-15
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-21
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33
+Battle Event localtoon-battle-event-39
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-51
+Battle Event localtoon-battle-event-57
+Battle Event localtoon-battle-event-63
+Battle Event localtoon-battle-event-69
+Battle Event localtoon-battle-event-75
+Battle Event localtoon-battle-event-81
+Battle Event localtoon-battle-event-87
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-99
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-105
+Battle Event localtoon-battle-event-111
+TIMER startTime 2195
+Battle Event localtoon-battle-event-117
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+Battle Event localtoon-battle-event-135
+Battle Event localtoon-battle-event-141
+Battle Event localtoon-battle-event-147
+Battle Event localtoon-battle-event-153
+Battle Event localtoon-battle-event-159
+Battle Event localtoon-battle-event-165
+Battle Event localtoon-battle-event-171
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-177
+TIMER startTime 3549
+Battle Event localtoon-battle-event-183
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Battle Event localtoon-battle-event-189
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-207
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+Battle Event localtoon-battle-event-237
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-243
+Battle Event localtoon-battle-event-249
+Battle Event localtoon-battle-event-255
+Battle Event localtoon-battle-event-261
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Battle Event localtoon-battle-event-267
+Battle Event localtoon-battle-event-273
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Battle Event localtoon-battle-event-279
+Battle Event localtoon-battle-event-285
+Battle Event localtoon-battle-event-291
+Battle Event localtoon-battle-event-297
+3
+3
+Doing task
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+3
+3
+Doing task
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2
+3

@@ -1,0 +1,29 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 158, in <module>
+    from toontown.distributed import ToontownClientRepository
+  File "toontown\distributed\ToontownClientRepository.py", line 20, in <module>
+    from otp.distributed import OTPClientRepository
+  File "otp\distributed\OTPClientRepository.py", line 30, in <module>
+    from otp.distributed import DCClassImports
+  File "otp\distributed\DCClassImports.py", line 9, in <module>
+    from toontown.classicchars import DistributedCCharBase, DistributedMickey, DistributedVampireMickey, DistributedMinnie, DistributedWitchMinnie, DistributedGoofy, DistributedSuperGoofy, DistributedDaisy, DistributedSockHopDaisy, DistributedChip, DistributedPoliceChip, DistributedDale, DistributedJailbirdDale, DistributedGoofySpeedway, DistributedDonald, DistributedFrankenDonald, DistributedDonaldDock, DistributedPluto, DistributedWesternPluto
+  File "toontown\classicchars\DistributedMickey.py", line 9, in <module>
+    from toontown.hood import DGHood
+  File "toontown\hood\DGHood.py", line 2, in <module>
+    import ToonHood
+  File "toontown\hood\ToonHood.py", line 12, in <module>
+    from toontown.cogdominium import CogdoInterior
+  File "toontown\cogdominium\CogdoInterior.py", line 13, in <module>
+    class CogdoInterior(Place.Place):
+AttributeError: class Place has no attribute 'Place'

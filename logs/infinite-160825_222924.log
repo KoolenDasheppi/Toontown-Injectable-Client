@@ -1,0 +1,340 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BA80>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B8A0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B918>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BAD0>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BA58>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B6300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E659B48>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BB20>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BA08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B8F0>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BAF8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BAA8>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B968>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BA30>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B990>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BB70>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E659CB0>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B9B8>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74B850>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E74BB48>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(dir(toontown.battle.DistributedBattleLevel.DistributedBattleLevel)
+                                                                           ^
+SyntaxError: unexpected EOF while parsing
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'DistributedBattleLevel'
+
+Battle Event localtoon-battle-event-3
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'DistributedLevelBattle'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'DistributedLevelBattle'
+
+['DtoolClassDict', 'DtoolGetSuperBase', 'ETFail', 'ETNotFound', 'ETOk', 'ETRemoved', 'ET_fail', 'ET_not_found', 'ET_ok', 'ET_removed', 'PlayGameSetPlaceEvent', '_DistributedBattleBase__adjust', '_DistributedBattleBase__adjustDone', '_DistributedBattleBase__adjustTownBattle', '_DistributedBattleBase__cleanupIntervals', '_DistributedBattleBase__countdown', '_DistributedBattleBase__createJoinInterval', '_DistributedBattleBase__enterLocalToonWaitForInput', '_DistributedBattleBase__handleAdjustDone', '_DistributedBattleBase__handleDied', '_DistributedBattleBase__handleLocalToonBattleEvent', '_DistributedBattleBase__handleLocalToonCollision', '_DistributedBattleBase__handleMovieDone', '_DistributedBattleBase__handleSuitJoinDone', '_DistributedBattleBase__handleToonJoinDone', '_DistributedBattleBase__handleUnexpectedExit', '_DistributedBattleBase__listenForUnexpectedExit', '_DistributedBattleBase__makeAvsActive', '_DistributedBattleBase__makeSuitPending', '_DistributedBattleBase__makeToonJoin', '_DistributedBattleBase__makeToonPending', '_DistributedBattleBase__makeToonRun', '_DistributedBattleBase__removeSuit', '_DistributedBattleBase__removeToon', '_DistributedBattleBase__requestAdjustTownBattle', '_DistributedBattleBase__stopAdjusting', '_DistributedBattleBase__stopTimer', '_DistributedBattleBase__teleportToSafeZone', '_DistributedBattleBase__timedOut', '_DistributedBattle__faceOff', '_DistributedBattle__handleFaceOffDone', '_DistributedLevelBattle__faceOff', '_DistributedLevelBattle__handleFaceOffDone', '_DistributedLevelBattle__handleFloorRewardDone', '_DistributedLevelBattle__playReward', '__autoLerp', '__class__', '__cmp__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lerp', '__lt__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__reduce_persist__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addTask', '_clearTask', '_deactivateDO', '_destroyDO', '_removeMembersKeep', '_retrieveCachedData', 'accept', 'acceptOnce', 'addHash', 'addHelpfulToon', 'addInterest', 'addTask', 'add_hash', 'adjust', 'adjustAllPriorities', 'adjust_all_priorities', 'allPoints', 'analyze', 'announceGenerate', 'anyPath', 'any_path', 'applyTextureColors', 'apply_texture_colors', 'assign', 'attachCollisionRay', 'attachCollisionSegment', 'attachCollisionSphere', 'attachNewNode', 'attach_new_node', 'autoInterests', 'b_setLocation', 'b_setParent', 'battleCleanedUp', 'buildJoinPointList', 'calcFaceoffTime', 'calcInteractiveProp', 'calcSuitMoveTime', 'calcTightBounds', 'calcToonMoveTime', 'calc_tight_bounds', 'camFOFov', 'camFOPos', 'camFov', 'camHpr', 'camJoinHpr', 'camJoinPos', 'camMenuFov', 'camPos', 'classTree', 'cleanupBattle', 'clearAntialias', 'clearAttrib', 'clearAudioVolume', 'clearBillboard', 'clearBin', 'clearClipPlane', 'clearColor', 'clearColorScale', 'clearCompass', 'clearDepthOffset', 'clearDepthTest', 'clearDepthWrite', 'clearEffect', 'clearEffects', 'clearFog', 'clearInterval', 'clearLight', 'clearMat', 'clearMaterial', 'clearModelNodes', 'clearNormalMap', 'clearOccluder', 'clearProjectTexture', 'clearPythonTag', 'clearRenderMode', 'clearScissor', 'clearShader', 'clearShaderInput', 'clearTag', 'clearTexGen', 'clearTexProjector', 'clearTexTransform', 'clearTexture', 'clearTransform', 'clearTransparency', 'clearTwoSided', 'clear_antialias', 'clear_attrib', 'clear_audio_volume', 'clear_billboard', 'clear_bin', 'clear_clip_plane', 'clear_color', 'clear_color_scale', 'clear_compass', 'clear_depth_offset', 'clear_depth_test', 'clear_depth_write', 'clear_effect', 'clear_effects', 'clear_fog', 'clear_light', 'clear_mat', 'clear_material', 'clear_model_nodes', 'clear_normal_map', 'clear_occluder', 'clear_project_texture', 'clear_python_tag', 'clear_render_mode', 'clear_scissor', 'clear_shader', 'clear_shader_input', 'clear_tag', 'clear_tex_gen', 'clear_tex_projector', 'clear_tex_transform', 'clear_texture', 'clear_transform', 'clear_transparency', 'clear_two_sided', 'closeBattleCollision', 'colorInterval', 'colorScaleInterval', 'compareTo', 'compare_to', 'composeColorScale', 'compose_color_scale', 'copyTo', 'copy_to', 'countNumDescendants', 'count_num_descendants', 'createAdjustInterval', 'd_adjustDone', 'd_faceOffDone', 'd_joinDone', 'd_movieDone', 'd_requestAttack', 'd_requestPetProxy', 'd_rewardDone', 'd_setH', 'd_setHpr', 'd_setLocation', 'd_setP', 'd_setParent', 'd_setPos', 'd_setPosHpr', 'd_setR', 'd_setX', 'd_setXY', 'd_setXYH', 'd_setXYZH', 'd_setXZ', 'd_setY', 'd_setZ', 'd_timeout', 'd_toonDied', 'd_toonRequestJoin', 'd_toonRequestRun', 'decodeFromBamStream', 'decode_from_bam_stream', 'delayDeleteMembers', 'delete', 'deleteOrDelay', 'denyLocalToonJoin', 'deselect', 'detachNode', 'detach_node', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'disableCollision', 'doBillboardAxis', 'doBillboardPointEye', 'doBillboardPointWorld', 'doCallbackContext', 'doMethodLater', 'do_billboard_axis', 'do_billboard_point_eye', 'do_billboard_point_world', 'do_setParent', 'doneBarrier', 'enableCollision', 'encodeToBamStream', 'encode_to_bam_stream', 'enterAdjusting', 'enterFaceOff', 'enterHasLocalToon', 'enterMakeMovie', 'enterNoLocalToon', 'enterNotAdjusting', 'enterOff', 'enterPlayMovie', 'enterResume', 'enterReward', 'enterWaitForInput', 'enterWaitForJoin', 'enterWaitForServer', 'execCommand', 'exitAdjusting', 'exitFaceOff', 'exitHasLocalToon', 'exitMakeMovie', 'exitNoLocalToon', 'exitNotAdjusting', 'exitOff', 'exitPlayMovie', 'exitResume', 'exitReward', 'exitWaitForInput', 'exitWaitForJoin', 'exitWaitForServer', 'explore', 'fail', 'find', 'findAllMatches', 'findAllMaterials', 'findAllPathsTo', 'findAllTexcoords', 'findAllTextureStages', 'findAllTextures', 'findAllVertexColumns', 'findMaterial', 'findNetPythonTag', 'findNetTag', 'findPathTo', 'findSuit', 'findTexture', 'findTextureStage', 'findToon', 'find_all_matches', 'find_all_materials', 'find_all_paths_to', 'find_all_texcoords', 'find_all_texture_stages', 'find_all_textures', 'find_all_vertex_columns', 'find_material', 'find_net_python_tag', 'find_net_tag', 'find_path_to', 'find_texture', 'find_texture_stage', 'finishInterval', 'flattenLight', 'flattenMedium', 'flattenMultitex', 'flattenStrong', 'flatten_light', 'flatten_medium', 'flatten_strong', 'flushCachedData', 'forceRecomputeBounds', 'force_recompute_bounds', 'generate', 'generateInit', 'getActorPosHpr', 'getAllAccepting', 'getAncestor', 'getAncestors', 'getAncestry', 'getAntialias', 'getAttrib', 'getAudioVolume', 'getAutoInterests', 'getBarrierData', 'getBinDrawOrder', 'getBinName', 'getBounds', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getChild', 'getChildren', 'getChildrenAsList', 'getClassType', 'getCollideMask', 'getCollisionName', 'getColor', 'getColorScale', 'getCommonAncestor', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDepthOffset', 'getDepthTest', 'getDepthWrite', 'getDisableEvent', 'getDistance', 'getDoId', 'getEffect', 'getEffects', 'getErrorType', 'getFireCount', 'getFog', 'getH', 'getHiddenAncestor', 'getHpr', 'getInstanceCount', 'getInteractivePropTrackBonus', 'getKey', 'getLocation', 'getMat', 'getMaterial', 'getMaxSearchDepth', 'getName', 'getNetAudioVolume', 'getNetPrevTransform', 'getNetPythonTag', 'getNetState', 'getNetTag', 'getNetTransform', 'getNeverDisable', 'getNode', 'getNodes', 'getNumChildren', 'getNumDescendants', 'getNumNodes', 'getP', 'getParent', 'getParentObj', 'getPos', 'getPosDelta', 'getPrevTransform', 'getPythonTag', 'getPythonTagKeys', 'getQuat', 'getR', 'getRelativePoint', 'getRelativeVector', 'getRenderMode', 'getRenderModePerspective', 'getRenderModeThickness', 'getSa', 'getSb', 'getScale', 'getSg', 'getShader', 'getShaderInput', 'getShear', 'getShxy', 'getShxz', 'getShyz', 'getSort', 'getSr', 'getStashedAncestor', 'getStashedChildren', 'getState', 'getSx', 'getSy', 'getSz', 'getTag', 'getTagKeys', 'getTexGen', 'getTexGenLight', 'getTexHpr', 'getTexOffset', 'getTexPos', 'getTexProjectorFrom', 'getTexProjectorTo', 'getTexRotate', 'getTexScale', 'getTexScale3d', 'getTexTransform', 'getTexture', 'getTightBounds', 'getToon', 'getTop', 'getTopNode', 'getTransform', 'getTransparency', 'getTwoSided', 'getX', 'getY', 'getZ', 'get_ancestor', 'get_ancestors', 'get_antialias', 'get_attrib', 'get_audio_volume', 'get_bin_draw_order', 'get_bin_name', 'get_bounds', 'get_child', 'get_children', 'get_class_type', 'get_collide_mask', 'get_color', 'get_color_scale', 'get_common_ancestor', 'get_depth_offset', 'get_depth_test', 'get_depth_write', 'get_distance', 'get_effect', 'get_effects', 'get_error_type', 'get_fog', 'get_h', 'get_hidden_ancestor', 'get_hpr', 'get_instance_count', 'get_key', 'get_mat', 'get_material', 'get_max_search_depth', 'get_name', 'get_net_audio_volume', 'get_net_prev_transform', 'get_net_python_tag', 'get_net_state', 'get_net_tag', 'get_net_transform', 'get_node', 'get_nodes', 'get_num_children', 'get_num_nodes', 'get_p', 'get_parent', 'get_pos', 'get_pos_delta', 'get_prev_transform', 'get_python_tag', 'get_python_tag_keys', 'get_quat', 'get_r', 'get_relative_point', 'get_relative_vector', 'get_render_mode', 'get_render_mode_perspective', 'get_render_mode_thickness', 'get_sa', 'get_sb', 'get_scale', 'get_sg', 'get_shader', 'get_shader_input', 'get_shear', 'get_shxy', 'get_shxz', 'get_shyz', 'get_sort', 'get_sr', 'get_stashed_ancestor', 'get_stashed_children', 'get_state', 'get_sx', 'get_sy', 'get_sz', 'get_tag', 'get_tag_keys', 'get_tex_gen', 'get_tex_gen_light', 'get_tex_hpr', 'get_tex_offset', 'get_tex_pos', 'get_tex_projector_from', 'get_tex_projector_to', 'get_tex_rotate', 'get_tex_scale', 'get_tex_scale_3d', 'get_tex_transform', 'get_texture', 'get_tight_bounds', 'get_top', 'get_top_node', 'get_transform', 'get_transparency', 'get_two_sided', 'get_x', 'get_y', 'get_z', 'handleBattleBlockerCollision', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleQueryObjectChildrenLocalDone', 'handleResumeAfterReward', 'handleRewardDone', 'hasAntialias', 'hasAttrib', 'hasAudioVolume', 'hasBillboard', 'hasBin', 'hasCachedData', 'hasClipPlane', 'hasClipPlaneOff', 'hasColor', 'hasColorScale', 'hasCompass', 'hasDepthOffset', 'hasDepthTest', 'hasDepthWrite', 'hasEffect', 'hasFog', 'hasFogOff', 'hasLight', 'hasLightOff', 'hasLocalToon', 'hasMat', 'hasMaterial', 'hasNetPythonTag', 'hasNetTag', 'hasOccluder', 'hasParent', 'hasParentingRules', 'hasPythonTag', 'hasRenderMode', 'hasScissor', 'hasTag', 'hasTexGen', 'hasTexProjector', 'hasTexTransform', 'hasTexcoord', 'hasTexture', 'hasTextureOff', 'hasTransparency', 'hasTwoSided', 'hasVertexColumn', 'has_antialias', 'has_attrib', 'has_audio_volume', 'has_billboard', 'has_bin', 'has_clip_plane', 'has_clip_plane_off', 'has_color', 'has_color_scale', 'has_compass', 'has_depth_offset', 'has_depth_test', 'has_depth_write', 'has_effect', 'has_fog', 'has_fog_off', 'has_light', 'has_light_off', 'has_mat', 'has_material', 'has_net_python_tag', 'has_net_tag', 'has_occluder', 'has_parent', 'has_python_tag', 'has_render_mode', 'has_scissor', 'has_tag', 'has_tex_gen', 'has_tex_projector', 'has_tex_transform', 'has_texcoord', 'has_texture', 'has_texture_off', 'has_transparency', 'has_two_sided', 'has_vertex_column', 'headsUp', 'heads_up', 'hide', 'hideBounds', 'hideCS', 'hideSiblings', 'hide_bounds', 'hprInterval', 'hprScaleInterval', 'iHpr', 'iPos', 'iPosHpr', 'iPosHprScale', 'iScale', 'id', 'ignore', 'ignoreAll', 'instanceTo', 'instanceUnderNode', 'instance_to', 'instance_under_node', 'isAccepting', 'isAncestorOf', 'isDisabled', 'isEmpty', 'isGenerated', 'isGridParent', 'isHidden', 'isIgnoring', 'isLocal', 'isSameGraph', 'isSingleton', 'isStashed', 'isSuitLured', 'is_ancestor_of', 'is_empty', 'is_hidden', 'is_same_graph', 'is_singleton', 'is_stashed', 'isolate', 'lerpColor', 'lerpColorRGBA', 'lerpColorRGBARGBA', 'lerpColorScale', 'lerpColorScaleRGBA', 'lerpColorScaleRGBARGBA', 'lerpColorScaleVBase4', 'lerpColorScaleVBase4VBase4', 'lerpColorVBase4', 'lerpColorVBase4VBase4', 'lerpHpr', 'lerpHprHPR', 'lerpHprVBase3', 'lerpPos', 'lerpPosHpr', 'lerpPosHprPoint3VBase3', 'lerpPosHprScale', 'lerpPosHprXYZHPR', 'lerpPosPoint3', 'lerpPosXYZ', 'lerpScale', 'lerpScaleVBase3', 'lerpScaleXYZ', 'listTags', 'list_tags', 'loadTrap', 'localToonActive', 'localToonActiveOrRunning', 'localToonPendingOrActive', 'localToonRunning', 'lockLevelViz', 'lookAt', 'look_at', 'ls', 'lsNames', 'lsNamesRecurse', 'lureSuit', 'makeSuitJoin', 'neverDisable', 'node', 'notFound', 'not_found', 'notify', 'onWaitingForJoin', 'openBattleCollision', 'output', 'pPrintString', 'pause', 'place', 'playReward', 'posA', 'posB', 'posC', 'posD', 'posE', 'posF', 'posG', 'posH', 'posHprInterval', 'posHprScaleInterval', 'posHprScaleShearInterval', 'posInterval', 'posQuatInterval', 'posQuatScaleInterval', 'posQuatScaleShearInterval', 'postGenerateMessage', 'premungeScene', 'premunge_scene', 'prepareScene', 'prepare_scene', 'printChildren', 'printHpr', 'printPos', 'printPosHpr', 'printPosHprScale', 'printScale', 'printTransform', 'projectTexture', 'project_texture', 'quatInterval', 'quatScaleInterval', 'r_constructCollisionTree', 'r_subdivideCollisions', 'remove', 'removeAllTasks', 'removeChildren', 'removeCollisionData', 'removeInactiveLocalToon', 'removeInterest', 'removeLocalToon', 'removeNode', 'removeNonCollisions', 'removeTask', 'removeTrap', 'remove_node', 'removed', 'reparentTo', 'reparent_to', 'resetLists', 'reverseLs', 'reverseLsNames', 'reverse_ls', 'rgbPanel', 'scaleInterval', 'select', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setAllColorScale', 'setAlphaScale', 'setAntialias', 'setAttrib', 'setAudioVolume', 'setAudioVolumeOff', 'setBarrierData', 'setBattleCellId', 'setBattleExperience', 'setBillboardAxis', 'setBillboardPointEye', 'setBillboardPointWorld', 'setBin', 'setBossBattle', 'setCacheable', 'setCachedData', 'setChosenToonAttacks', 'setClipPlane', 'setClipPlaneOff', 'setCollideMask', 'setColor', 'setColorOff', 'setColorScale', 'setColorScaleOff', 'setCompass', 'setDepthOffset', 'setDepthTest', 'setDepthWrite', 'setEffect', 'setEffects', 'setFireCount', 'setFluidPos', 'setFluidX', 'setFluidY', 'setFluidZ', 'setFog', 'setFogOff', 'setH', 'setHpr', 'setHprScale', 'setInitialSuitPos', 'setInstanceCount', 'setInteractivePropTrackBonus', 'setLevelDoId', 'setLight', 'setLightOff', 'setLocation', 'setMat', 'setMaterial', 'setMaterialOff', 'setMaxSearchDepth', 'setMembers', 'setMovie', 'setName', 'setNeverDisable', 'setNormalMap', 'setOccluder', 'setP', 'setParent', 'setParentStr', 'setPos', 'setPosHpr', 'setPosHprScale', 'setPosHprScaleShear', 'setPosQuat', 'setPosQuatScale', 'setPosQuatScaleShear', 'setPosition', 'setPrevTransform', 'setPythonTag', 'setQuat', 'setQuatScale', 'setR', 'setRenderMode', 'setRenderModeFilled', 'setRenderModePerspective', 'setRenderModeThickness', 'setRenderModeWireframe', 'setSa', 'setSb', 'setScale', 'setScissor', 'setSg', 'setShader', 'setShaderAuto', 'setShaderInput', 'setShaderOff', 'setShear', 'setShxy', 'setShxz', 'setShyz', 'setSkippingRewardMovie', 'setSr', 'setState', 'setSx', 'setSy', 'setSz', 'setTag', 'setTexGen', 'setTexHpr', 'setTexOffset', 'setTexPos', 'setTexProjector', 'setTexRotate', 'setTexScale', 'setTexTransform', 'setTexture', 'setTextureOff', 'setTransform', 'setTransparency', 'setTwoSided', 'setX', 'setXY', 'setXYH', 'setXYZH', 'setXZ', 'setY', 'setZ', 'setZoneId', 'set_all_color_scale', 'set_alpha_scale', 'set_antialias', 'set_attrib', 'set_audio_volume', 'set_audio_volume_off', 'set_billboard_axis', 'set_billboard_point_eye', 'set_billboard_point_world', 'set_bin', 'set_clip_plane', 'set_clip_plane_off', 'set_collide_mask', 'set_color', 'set_color_off', 'set_color_scale', 'set_color_scale_off', 'set_compass', 'set_depth_offset', 'set_depth_test', 'set_depth_write', 'set_effect', 'set_effects', 'set_fluid_pos', 'set_fluid_x', 'set_fluid_y', 'set_fluid_z', 'set_fog', 'set_fog_off', 'set_h', 'set_hpr', 'set_hpr_scale', 'set_instance_count', 'set_light', 'set_light_off', 'set_mat', 'set_material', 'set_material_off', 'set_max_search_depth', 'set_name', 'set_normal_map', 'set_occluder', 'set_p', 'set_pos', 'set_pos_hpr', 'set_pos_hpr_scale', 'set_pos_hpr_scale_shear', 'set_pos_quat', 'set_pos_quat_scale', 'set_pos_quat_scale_shear', 'set_prev_transform', 'set_python_tag', 'set_quat', 'set_quat_scale', 'set_r', 'set_render_mode', 'set_render_mode_filled', 'set_render_mode_perspective', 'set_render_mode_thickness', 'set_render_mode_wireframe', 'set_sa', 'set_sb', 'set_scale', 'set_scissor', 'set_sg', 'set_shader', 'set_shader_auto', 'set_shader_input', 'set_shader_off', 'set_shear', 'set_shxy', 'set_shxz', 'set_shyz', 'set_sr', 'set_state', 'set_sx', 'set_sy', 'set_sz', 'set_tag', 'set_tex_gen', 'set_tex_hpr', 'set_tex_offset', 'set_tex_pos', 'set_tex_projector', 'set_tex_rotate', 'set_tex_scale', 'set_tex_transform', 'set_texture', 'set_texture_off', 'set_transform', 'set_transparency', 'set_two_sided', 'set_x', 'set_y', 'set_z', 'setupCollisions', 'shearInterval', 'show', 'showAllDescendants', 'showBounds', 'showCS', 'showSiblings', 'showThrough', 'showTightBounds', 'show_bounds', 'show_through', 'show_tight_bounds', 'startTimer', 'stash', 'stashTo', 'stash_to', 'status', 'storeInterval', 'subdivideCollisions', 'suitCCwise', 'suitCwise', 'suitPendingPoints', 'suitPoints', 'suitSpeed', 'taskName', 'this', 'this_metatype', 'toggleVis', 'toonCCwise', 'toonCwise', 'toonPendingPoints', 'toonPoints', 'toonSpeed', 'unifyTextureStages', 'unify_texture_stages', 'uniqueBattleName', 'uniqueName', 'unlockLevelViz', 'unlureSuit', 'unpause', 'unstash', 'unstashAll', 'unstash_all', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'verifyComplete', 'verify_complete', 'visualize', 'writeBamFile', 'writeBamStream', 'writeBounds', 'write_bam_file', 'write_bam_stream', 'write_bounds', 'wrtReparentTo', 'wrt_reparent_to']
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+['DtoolClassDict', 'DtoolGetSuperBase', 'ETFail', 'ETNotFound', 'ETOk', 'ETRemoved', 'ET_fail', 'ET_not_found', 'ET_ok', 'ET_removed', 'PlayGameSetPlaceEvent', '_DistributedBattleBase__adjust', '_DistributedBattleBase__adjustDone', '_DistributedBattleBase__adjustTownBattle', '_DistributedBattleBase__cleanupIntervals', '_DistributedBattleBase__countdown', '_DistributedBattleBase__createJoinInterval', '_DistributedBattleBase__enterLocalToonWaitForInput', '_DistributedBattleBase__handleAdjustDone', '_DistributedBattleBase__handleDied', '_DistributedBattleBase__handleLocalToonBattleEvent', '_DistributedBattleBase__handleLocalToonCollision', '_DistributedBattleBase__handleMovieDone', '_DistributedBattleBase__handleSuitJoinDone', '_DistributedBattleBase__handleToonJoinDone', '_DistributedBattleBase__handleUnexpectedExit', '_DistributedBattleBase__listenForUnexpectedExit', '_DistributedBattleBase__makeAvsActive', '_DistributedBattleBase__makeSuitPending', '_DistributedBattleBase__makeToonJoin', '_DistributedBattleBase__makeToonPending', '_DistributedBattleBase__makeToonRun', '_DistributedBattleBase__removeSuit', '_DistributedBattleBase__removeToon', '_DistributedBattleBase__requestAdjustTownBattle', '_DistributedBattleBase__stopAdjusting', '_DistributedBattleBase__stopTimer', '_DistributedBattleBase__teleportToSafeZone', '_DistributedBattleBase__timedOut', '_DistributedBattleFactory__handleFactoryRewardDone', '_DistributedBattle__faceOff', '_DistributedBattle__handleFaceOffDone', '_DistributedLevelBattle__faceOff', '_DistributedLevelBattle__handleFaceOffDone', '_DistributedLevelBattle__handleFloorRewardDone', '_DistributedLevelBattle__playReward', '__autoLerp', '__class__', '__cmp__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lerp', '__lt__', '__module__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__reduce_persist__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_addTask', '_clearTask', '_deactivateDO', '_destroyDO', '_removeMembersKeep', '_retrieveCachedData', 'accept', 'acceptOnce', 'addHash', 'addHelpfulToon', 'addInterest', 'addTask', 'add_hash', 'adjust', 'adjustAllPriorities', 'adjust_all_priorities', 'allPoints', 'analyze', 'announceGenerate', 'anyPath', 'any_path', 'applyTextureColors', 'apply_texture_colors', 'assign', 'attachCollisionRay', 'attachCollisionSegment', 'attachCollisionSphere', 'attachNewNode', 'attach_new_node', 'autoInterests', 'b_setLocation', 'b_setParent', 'battleCleanedUp', 'buildJoinPointList', 'calcFaceoffTime', 'calcInteractiveProp', 'calcSuitMoveTime', 'calcTightBounds', 'calcToonMoveTime', 'calc_tight_bounds', 'camFOFov', 'camFOPos', 'camFov', 'camHpr', 'camJoinHpr', 'camJoinPos', 'camMenuFov', 'camPos', 'classTree', 'cleanupBattle', 'clearAntialias', 'clearAttrib', 'clearAudioVolume', 'clearBillboard', 'clearBin', 'clearClipPlane', 'clearColor', 'clearColorScale', 'clearCompass', 'clearDepthOffset', 'clearDepthTest', 'clearDepthWrite', 'clearEffect', 'clearEffects', 'clearFog', 'clearInterval', 'clearLight', 'clearMat', 'clearMaterial', 'clearModelNodes', 'clearNormalMap', 'clearOccluder', 'clearProjectTexture', 'clearPythonTag', 'clearRenderMode', 'clearScissor', 'clearShader', 'clearShaderInput', 'clearTag', 'clearTexGen', 'clearTexProjector', 'clearTexTransform', 'clearTexture', 'clearTransform', 'clearTransparency', 'clearTwoSided', 'clear_antialias', 'clear_attrib', 'clear_audio_volume', 'clear_billboard', 'clear_bin', 'clear_clip_plane', 'clear_color', 'clear_color_scale', 'clear_compass', 'clear_depth_offset', 'clear_depth_test', 'clear_depth_write', 'clear_effect', 'clear_effects', 'clear_fog', 'clear_light', 'clear_mat', 'clear_material', 'clear_model_nodes', 'clear_normal_map', 'clear_occluder', 'clear_project_texture', 'clear_python_tag', 'clear_render_mode', 'clear_scissor', 'clear_shader', 'clear_shader_input', 'clear_tag', 'clear_tex_gen', 'clear_tex_projector', 'clear_tex_transform', 'clear_texture', 'clear_transform', 'clear_transparency', 'clear_two_sided', 'closeBattleCollision', 'colorInterval', 'colorScaleInterval', 'compareTo', 'compare_to', 'composeColorScale', 'compose_color_scale', 'copyTo', 'copy_to', 'countNumDescendants', 'count_num_descendants', 'createAdjustInterval', 'd_adjustDone', 'd_faceOffDone', 'd_joinDone', 'd_movieDone', 'd_requestAttack', 'd_requestPetProxy', 'd_rewardDone', 'd_setH', 'd_setHpr', 'd_setLocation', 'd_setP', 'd_setParent', 'd_setPos', 'd_setPosHpr', 'd_setR', 'd_setX', 'd_setXY', 'd_setXYH', 'd_setXYZH', 'd_setXZ', 'd_setY', 'd_setZ', 'd_timeout', 'd_toonDied', 'd_toonRequestJoin', 'd_toonRequestRun', 'decodeFromBamStream', 'decode_from_bam_stream', 'delayDeleteMembers', 'delete', 'deleteOrDelay', 'denyLocalToonJoin', 'deselect', 'detachNode', 'detach_node', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'disableCollision', 'doBillboardAxis', 'doBillboardPointEye', 'doBillboardPointWorld', 'doCallbackContext', 'doMethodLater', 'do_billboard_axis', 'do_billboard_point_eye', 'do_billboard_point_world', 'do_setParent', 'doneBarrier', 'enableCollision', 'encodeToBamStream', 'encode_to_bam_stream', 'enterAdjusting', 'enterFaceOff', 'enterFactoryReward', 'enterHasLocalToon', 'enterMakeMovie', 'enterNoLocalToon', 'enterNotAdjusting', 'enterOff', 'enterPlayMovie', 'enterResume', 'enterReward', 'enterWaitForInput', 'enterWaitForJoin', 'enterWaitForServer', 'execCommand', 'exitAdjusting', 'exitFaceOff', 'exitFactoryReward', 'exitHasLocalToon', 'exitMakeMovie', 'exitNoLocalToon', 'exitNotAdjusting', 'exitOff', 'exitPlayMovie', 'exitResume', 'exitReward', 'exitWaitForInput', 'exitWaitForJoin', 'exitWaitForServer', 'explore', 'fail', 'find', 'findAllMatches', 'findAllMaterials', 'findAllPathsTo', 'findAllTexcoords', 'findAllTextureStages', 'findAllTextures', 'findAllVertexColumns', 'findMaterial', 'findNetPythonTag', 'findNetTag', 'findPathTo', 'findSuit', 'findTexture', 'findTextureStage', 'findToon', 'find_all_matches', 'find_all_materials', 'find_all_paths_to', 'find_all_texcoords', 'find_all_texture_stages', 'find_all_textures', 'find_all_vertex_columns', 'find_material', 'find_net_python_tag', 'find_net_tag', 'find_path_to', 'find_texture', 'find_texture_stage', 'finishInterval', 'flattenLight', 'flattenMedium', 'flattenMultitex', 'flattenStrong', 'flatten_light', 'flatten_medium', 'flatten_strong', 'flushCachedData', 'forceRecomputeBounds', 'force_recompute_bounds', 'generate', 'generateInit', 'getActorPosHpr', 'getAllAccepting', 'getAncestor', 'getAncestors', 'getAncestry', 'getAntialias', 'getAttrib', 'getAudioVolume', 'getAutoInterests', 'getBarrierData', 'getBinDrawOrder', 'getBinName', 'getBounds', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getChild', 'getChildren', 'getChildrenAsList', 'getClassType', 'getCollideMask', 'getCollisionName', 'getColor', 'getColorScale', 'getCommonAncestor', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDepthOffset', 'getDepthTest', 'getDepthWrite', 'getDisableEvent', 'getDistance', 'getDoId', 'getEffect', 'getEffects', 'getErrorType', 'getFireCount', 'getFog', 'getH', 'getHiddenAncestor', 'getHpr', 'getInstanceCount', 'getInteractivePropTrackBonus', 'getKey', 'getLocation', 'getMat', 'getMaterial', 'getMaxSearchDepth', 'getName', 'getNetAudioVolume', 'getNetPrevTransform', 'getNetPythonTag', 'getNetState', 'getNetTag', 'getNetTransform', 'getNeverDisable', 'getNode', 'getNodes', 'getNumChildren', 'getNumDescendants', 'getNumNodes', 'getP', 'getParent', 'getParentObj', 'getPos', 'getPosDelta', 'getPrevTransform', 'getPythonTag', 'getPythonTagKeys', 'getQuat', 'getR', 'getRelativePoint', 'getRelativeVector', 'getRenderMode', 'getRenderModePerspective', 'getRenderModeThickness', 'getSa', 'getSb', 'getScale', 'getSg', 'getShader', 'getShaderInput', 'getShear', 'getShxy', 'getShxz', 'getShyz', 'getSort', 'getSr', 'getStashedAncestor', 'getStashedChildren', 'getState', 'getSx', 'getSy', 'getSz', 'getTag', 'getTagKeys', 'getTexGen', 'getTexGenLight', 'getTexHpr', 'getTexOffset', 'getTexPos', 'getTexProjectorFrom', 'getTexProjectorTo', 'getTexRotate', 'getTexScale', 'getTexScale3d', 'getTexTransform', 'getTexture', 'getTightBounds', 'getToon', 'getTop', 'getTopNode', 'getTransform', 'getTransparency', 'getTwoSided', 'getX', 'getY', 'getZ', 'get_ancestor', 'get_ancestors', 'get_antialias', 'get_attrib', 'get_audio_volume', 'get_bin_draw_order', 'get_bin_name', 'get_bounds', 'get_child', 'get_children', 'get_class_type', 'get_collide_mask', 'get_color', 'get_color_scale', 'get_common_ancestor', 'get_depth_offset', 'get_depth_test', 'get_depth_write', 'get_distance', 'get_effect', 'get_effects', 'get_error_type', 'get_fog', 'get_h', 'get_hidden_ancestor', 'get_hpr', 'get_instance_count', 'get_key', 'get_mat', 'get_material', 'get_max_search_depth', 'get_name', 'get_net_audio_volume', 'get_net_prev_transform', 'get_net_python_tag', 'get_net_state', 'get_net_tag', 'get_net_transform', 'get_node', 'get_nodes', 'get_num_children', 'get_num_nodes', 'get_p', 'get_parent', 'get_pos', 'get_pos_delta', 'get_prev_transform', 'get_python_tag', 'get_python_tag_keys', 'get_quat', 'get_r', 'get_relative_point', 'get_relative_vector', 'get_render_mode', 'get_render_mode_perspective', 'get_render_mode_thickness', 'get_sa', 'get_sb', 'get_scale', 'get_sg', 'get_shader', 'get_shader_input', 'get_shear', 'get_shxy', 'get_shxz', 'get_shyz', 'get_sort', 'get_sr', 'get_stashed_ancestor', 'get_stashed_children', 'get_state', 'get_sx', 'get_sy', 'get_sz', 'get_tag', 'get_tag_keys', 'get_tex_gen', 'get_tex_gen_light', 'get_tex_hpr', 'get_tex_offset', 'get_tex_pos', 'get_tex_projector_from', 'get_tex_projector_to', 'get_tex_rotate', 'get_tex_scale', 'get_tex_scale_3d', 'get_tex_transform', 'get_texture', 'get_tight_bounds', 'get_top', 'get_top_node', 'get_transform', 'get_transparency', 'get_two_sided', 'get_x', 'get_y', 'get_z', 'handleBattleBlockerCollision', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleQueryObjectChildrenLocalDone', 'handleResumeAfterReward', 'handleRewardDone', 'hasAntialias', 'hasAttrib', 'hasAudioVolume', 'hasBillboard', 'hasBin', 'hasCachedData', 'hasClipPlane', 'hasClipPlaneOff', 'hasColor', 'hasColorScale', 'hasCompass', 'hasDepthOffset', 'hasDepthTest', 'hasDepthWrite', 'hasEffect', 'hasFog', 'hasFogOff', 'hasLight', 'hasLightOff', 'hasLocalToon', 'hasMat', 'hasMaterial', 'hasNetPythonTag', 'hasNetTag', 'hasOccluder', 'hasParent', 'hasParentingRules', 'hasPythonTag', 'hasRenderMode', 'hasScissor', 'hasTag', 'hasTexGen', 'hasTexProjector', 'hasTexTransform', 'hasTexcoord', 'hasTexture', 'hasTextureOff', 'hasTransparency', 'hasTwoSided', 'hasVertexColumn', 'has_antialias', 'has_attrib', 'has_audio_volume', 'has_billboard', 'has_bin', 'has_clip_plane', 'has_clip_plane_off', 'has_color', 'has_color_scale', 'has_compass', 'has_depth_offset', 'has_depth_test', 'has_depth_write', 'has_effect', 'has_fog', 'has_fog_off', 'has_light', 'has_light_off', 'has_mat', 'has_material', 'has_net_python_tag', 'has_net_tag', 'has_occluder', 'has_parent', 'has_python_tag', 'has_render_mode', 'has_scissor', 'has_tag', 'has_tex_gen', 'has_tex_projector', 'has_tex_transform', 'has_texcoord', 'has_texture', 'has_texture_off', 'has_transparency', 'has_two_sided', 'has_vertex_column', 'headsUp', 'heads_up', 'hide', 'hideBounds', 'hideCS', 'hideSiblings', 'hide_bounds', 'hprInterval', 'hprScaleInterval', 'iHpr', 'iPos', 'iPosHpr', 'iPosHprScale', 'iScale', 'id', 'ignore', 'ignoreAll', 'instanceTo', 'instanceUnderNode', 'instance_to', 'instance_under_node', 'isAccepting', 'isAncestorOf', 'isDisabled', 'isEmpty', 'isGenerated', 'isGridParent', 'isHidden', 'isIgnoring', 'isLocal', 'isSameGraph', 'isSingleton', 'isStashed', 'isSuitLured', 'is_ancestor_of', 'is_empty', 'is_hidden', 'is_same_graph', 'is_singleton', 'is_stashed', 'isolate', 'lerpColor', 'lerpColorRGBA', 'lerpColorRGBARGBA', 'lerpColorScale', 'lerpColorScaleRGBA', 'lerpColorScaleRGBARGBA', 'lerpColorScaleVBase4', 'lerpColorScaleVBase4VBase4', 'lerpColorVBase4', 'lerpColorVBase4VBase4', 'lerpHpr', 'lerpHprHPR', 'lerpHprVBase3', 'lerpPos', 'lerpPosHpr', 'lerpPosHprPoint3VBase3', 'lerpPosHprScale', 'lerpPosHprXYZHPR', 'lerpPosPoint3', 'lerpPosXYZ', 'lerpScale', 'lerpScaleVBase3', 'lerpScaleXYZ', 'listTags', 'list_tags', 'loadTrap', 'localToonActive', 'localToonActiveOrRunning', 'localToonPendingOrActive', 'localToonRunning', 'lockLevelViz', 'lookAt', 'look_at', 'ls', 'lsNames', 'lsNamesRecurse', 'lureSuit', 'makeSuitJoin', 'neverDisable', 'node', 'notFound', 'not_found', 'notify', 'onWaitingForJoin', 'openBattleCollision', 'output', 'pPrintString', 'pause', 'place', 'playReward', 'posA', 'posB', 'posC', 'posD', 'posE', 'posF', 'posG', 'posH', 'posHprInterval', 'posHprScaleInterval', 'posHprScaleShearInterval', 'posInterval', 'posQuatInterval', 'posQuatScaleInterval', 'posQuatScaleShearInterval', 'postGenerateMessage', 'premungeScene', 'premunge_scene', 'prepareScene', 'prepare_scene', 'printChildren', 'printHpr', 'printPos', 'printPosHpr', 'printPosHprScale', 'printScale', 'printTransform', 'projectTexture', 'project_texture', 'quatInterval', 'quatScaleInterval', 'r_constructCollisionTree', 'r_subdivideCollisions', 'remove', 'removeAllTasks', 'removeChildren', 'removeCollisionData', 'removeInactiveLocalToon', 'removeInterest', 'removeLocalToon', 'removeNode', 'removeNonCollisions', 'removeTask', 'removeTrap', 'remove_node', 'removed', 'reparentTo', 'reparent_to', 'resetLists', 'reverseLs', 'reverseLsNames', 'reverse_ls', 'rgbPanel', 'scaleInterval', 'select', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setAllColorScale', 'setAlphaScale', 'setAntialias', 'setAttrib', 'setAudioVolume', 'setAudioVolumeOff', 'setBarrierData', 'setBattleCellId', 'setBattleExperience', 'setBillboardAxis', 'setBillboardPointEye', 'setBillboardPointWorld', 'setBin', 'setBossBattle', 'setCacheable', 'setCachedData', 'setChosenToonAttacks', 'setClipPlane', 'setClipPlaneOff', 'setCollideMask', 'setColor', 'setColorOff', 'setColorScale', 'setColorScaleOff', 'setCompass', 'setDepthOffset', 'setDepthTest', 'setDepthWrite', 'setEffect', 'setEffects', 'setFireCount', 'setFluidPos', 'setFluidX', 'setFluidY', 'setFluidZ', 'setFog', 'setFogOff', 'setH', 'setHpr', 'setHprScale', 'setInitialSuitPos', 'setInstanceCount', 'setInteractivePropTrackBonus', 'setLevelDoId', 'setLight', 'setLightOff', 'setLocation', 'setMat', 'setMaterial', 'setMaterialOff', 'setMaxSearchDepth', 'setMembers', 'setMovie', 'setName', 'setNeverDisable', 'setNormalMap', 'setOccluder', 'setP', 'setParent', 'setParentStr', 'setPos', 'setPosHpr', 'setPosHprScale', 'setPosHprScaleShear', 'setPosQuat', 'setPosQuatScale', 'setPosQuatScaleShear', 'setPosition', 'setPrevTransform', 'setPythonTag', 'setQuat', 'setQuatScale', 'setR', 'setRenderMode', 'setRenderModeFilled', 'setRenderModePerspective', 'setRenderModeThickness', 'setRenderModeWireframe', 'setSa', 'setSb', 'setScale', 'setScissor', 'setSg', 'setShader', 'setShaderAuto', 'setShaderInput', 'setShaderOff', 'setShear', 'setShxy', 'setShxz', 'setShyz', 'setSkippingRewardMovie', 'setSr', 'setState', 'setSx', 'setSy', 'setSz', 'setTag', 'setTexGen', 'setTexHpr', 'setTexOffset', 'setTexPos', 'setTexProjector', 'setTexRotate', 'setTexScale', 'setTexTransform', 'setTexture', 'setTextureOff', 'setTransform', 'setTransparency', 'setTwoSided', 'setX', 'setXY', 'setXYH', 'setXYZH', 'setXZ', 'setY', 'setZ', 'setZoneId', 'set_all_color_scale', 'set_alpha_scale', 'set_antialias', 'set_attrib', 'set_audio_volume', 'set_audio_volume_off', 'set_billboard_axis', 'set_billboard_point_eye', 'set_billboard_point_world', 'set_bin', 'set_clip_plane', 'set_clip_plane_off', 'set_collide_mask', 'set_color', 'set_color_off', 'set_color_scale', 'set_color_scale_off', 'set_compass', 'set_depth_offset', 'set_depth_test', 'set_depth_write', 'set_effect', 'set_effects', 'set_fluid_pos', 'set_fluid_x', 'set_fluid_y', 'set_fluid_z', 'set_fog', 'set_fog_off', 'set_h', 'set_hpr', 'set_hpr_scale', 'set_instance_count', 'set_light', 'set_light_off', 'set_mat', 'set_material', 'set_material_off', 'set_max_search_depth', 'set_name', 'set_normal_map', 'set_occluder', 'set_p', 'set_pos', 'set_pos_hpr', 'set_pos_hpr_scale', 'set_pos_hpr_scale_shear', 'set_pos_quat', 'set_pos_quat_scale', 'set_pos_quat_scale_shear', 'set_prev_transform', 'set_python_tag', 'set_quat', 'set_quat_scale', 'set_r', 'set_render_mode', 'set_render_mode_filled', 'set_render_mode_perspective', 'set_render_mode_thickness', 'set_render_mode_wireframe', 'set_sa', 'set_sb', 'set_scale', 'set_scissor', 'set_sg', 'set_shader', 'set_shader_auto', 'set_shader_input', 'set_shader_off', 'set_shear', 'set_shxy', 'set_shxz', 'set_shyz', 'set_sr', 'set_state', 'set_sx', 'set_sy', 'set_sz', 'set_tag', 'set_tex_gen', 'set_tex_hpr', 'set_tex_offset', 'set_tex_pos', 'set_tex_projector', 'set_tex_rotate', 'set_tex_scale', 'set_tex_transform', 'set_texture', 'set_texture_off', 'set_transform', 'set_transparency', 'set_two_sided', 'set_x', 'set_y', 'set_z', 'setupCollisions', 'shearInterval', 'show', 'showAllDescendants', 'showBounds', 'showCS', 'showSiblings', 'showThrough', 'showTightBounds', 'show_bounds', 'show_through', 'show_tight_bounds', 'startTimer', 'stash', 'stashTo', 'stash_to', 'status', 'storeInterval', 'subdivideCollisions', 'suitCCwise', 'suitCwise', 'suitPendingPoints', 'suitPoints', 'suitSpeed', 'taskName', 'this', 'this_metatype', 'toggleVis', 'toonCCwise', 'toonCwise', 'toonPendingPoints', 'toonPoints', 'toonSpeed', 'unifyTextureStages', 'unify_texture_stages', 'uniqueBattleName', 'uniqueName', 'unlockLevelViz', 'unlureSuit', 'unpause', 'unstash', 'unstashAll', 'unstash_all', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'verifyComplete', 'verify_complete', 'visualize', 'writeBamFile', 'writeBamStream', 'writeBounds', 'write_bam_file', 'write_bam_stream', 'write_bounds', 'wrtReparentTo', 'wrt_reparent_to']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+test
+spec = {'parentEntId': 10064, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-9
+frame rate: 8.0 fps|0.177d|3 avs||342|346||0x1002|0x6738|418.8MB|444.9MB|16330.4MB|527|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Exception occurred while processing Func-__handleFactoryRewardDone-1152 of movie-reward-track-with-cam-414008170:
+movie-reward-track-with-cam-414008170:
+  0.000 movie-reward-track-with-cam-414008170 {
+  0.000   movie-reward-track-414008170 {
+  0.000     Sequence-980 {
+  0.000       Parallel-988 {
+  0.000         Sequence-982 {
+  0.000           *Func-show-1074
+  0.000           *Func-setForceOnscreenChat-1075
+  0.000           *Func-_setupSkipListen-1076
+  0.000           *Func-_teardownSkipListen-1144
+  0.000           *Func-_setupSkipListen-1145
+  0.000           Sequence-985 {
+  0.000             *Func-initGagFrame-1077
+  0.000             Wait dur 1
+  1.000             *Func-showTrackIncLabel-1078
+  1.000             *Func-incrementExp-1079
+  1.000             Wait dur 0.0166667
+  1.017             *Func-incrementExp-1080
+  1.017             Wait dur 0.0166667
+  1.034             *Func-incrementExp-1081
+  1.034             Wait dur 0.0166667
+  1.051             *Func-incrementExp-1082
+  1.051             Wait dur 0.0166667
+  1.068             *Func-incrementExp-1083
+  1.068             Wait dur 0.0166667
+  1.085             *Func-incrementExp-1084
+  1.085             Wait dur 0.0166667
+  1.102             *Func-incrementExp-1085
+  1.102             Wait dur 0.0166667
+  1.119             *Func-incrementExp-1086
+  1.119             Wait dur 0.0166667
+  1.136             *Func-incrementExp-1087
+  1.136             Wait dur 0.0166667
+  1.153             *Func-incrementExp-1088
+  1.153             Wait dur 0.0166667
+  1.170             *Func-incrementExp-1089
+  1.170             Wait dur 0.0166667
+  1.187             *Func-incrementExp-1090
+  1.187             Wait dur 0.0166667
+  1.204             *Func-incrementExp-1091
+  1.204             Wait dur 0.0166667
+  1.221             *Func-incrementExp-1092
+  1.221             Wait dur 0.0166667
+  1.238             *Func-incrementExp-1093
+  1.238             Wait dur 0.0166667
+  1.255             *Func-incrementExp-1094
+  1.255             Wait dur 0.0166667
+  1.272             *Func-incrementExp-1095
+  1.272             Wait dur 0.0166667
+  1.289             *Func-incrementExp-1096
+  1.289             Wait dur 0.0166667
+  1.306             *Func-incrementExp-1097
+  1.306             Wait dur 0.0166667
+  1.323             *Func-incrementExp-1098
+  1.323             Wait dur 0.0166667
+  1.340             *Func-incrementExp-1099
+  1.340             Wait dur 0.0166667
+  1.357             *Func-incrementExp-1100
+  1.357             Wait dur 0.0166667
+  1.374             *Func-incrementExp-1101
+  1.374             Wait dur 0.0166667
+  1.391             *Func-incrementExp-1102
+  1.391             Wait dur 0.0166667
+  1.408             *Func-incrementExp-1103
+  1.408             Wait dur 0.0166667
+  1.425             *Func-incrementExp-1104
+  1.425             Wait dur 0.0166667
+  1.442             *Func-incrementExp-1105
+  1.442             Wait dur 0.0166667
+  1.459             *Func-incrementExp-1106
+  1.459             Wait dur 0.0166667
+  1.476             *Func-incrementExp-1107
+  1.476             Wait dur 0.0166667
+  1.493             *Func-incrementExp-1108
+  1.493             Wait dur 0.0166667
+  1.510             *Func-resetBarColor-1109
+  1.510             Wait dur 0.1
+  1.610             *Func-showTrackIncLabel-1110
+  1.610             *Func-incrementExp-1111
+  1.610             Wait dur 0.0166667
+  1.627             *Func-incrementExp-1112
+  1.627             Wait dur 0.0166667
+  1.644             *Func-incrementExp-1113
+  1.644             Wait dur 0.0166667
+  1.661             *Func-incrementExp-1114
+  1.661             Wait dur 0.0166667
+  1.678             *Func-incrementExp-1115
+  1.678             Wait dur 0.0166667
+  1.695             *Func-incrementExp-1116
+  1.695             Wait dur 0.0166667
+  1.712             *Func-incrementExp-1117
+  1.712             Wait dur 0.0166667
+  1.729             *Func-incrementExp-1118
+  1.729             Wait dur 0.0166667
+  1.746             *Func-incrementExp-1119
+  1.746             Wait dur 0.0166667
+  1.763             *Func-incrementExp-1120
+  1.763             Wait dur 0.0166667
+  1.780             *Func-incrementExp-1121
+  1.780             Wait dur 0.0166667
+  1.797             *Func-incrementExp-1122
+  1.797             Wait dur 0.0166667
+  1.814             *Func-incrementExp-1123
+  1.814             Wait dur 0.0166667
+  1.831             *Func-incrementExp-1124
+  1.831             Wait dur 0.0166667
+  1.848             *Func-incrementExp-1125
+  1.848             Wait dur 0.0166667
+  1.865             *Func-incrementExp-1126
+  1.865             Wait dur 0.0166667
+  1.882             *Func-incrementExp-1127
+  1.882             Wait dur 0.0166667
+  1.899             *Func-incrementExp-1128
+  1.899             Wait dur 0.0166667
+  1.916             *Func-incrementExp-1129
+  1.916             Wait dur 0.0166667
+  1.933             *Func-incrementExp-1130
+  1.933             Wait dur 0.0166667
+  1.950             *Func-incrementExp-1131
+  1.950             Wait dur 0.0166667
+  1.967             *Func-incrementExp-1132
+  1.967             Wait dur 0.0166667
+  1.984             *Func-incrementExp-1133
+  1.984             Wait dur 0.0166667
+  2.001             *Func-incrementExp-1134
+  2.001             Wait dur 0.0166667
+  2.018             *Func-incrementExp-1135
+  2.018             Wait dur 0.0166667
+  2.035             *Func-incrementExp-1136
+  2.035             Wait dur 0.0166667
+  2.052             *Func-incrementExp-1137
+  2.052             Wait dur 0.0166667
+  2.069             *Func-incrementExp-1138
+  2.069             Wait dur 0.0166667
+  2.086             *Func-incrementExp-1139
+  2.086             Wait dur 0.0166667
+  2.103             *Func-incrementExp-1140
+  2.103             Wait dur 0.0166667
+  2.120             *Func-resetBarColor-1141
+  2.120             Wait dur 0.1
+  2.220             Wait dur 0.75
+  2.970             *Func-initCogPartFrame-1143
+  2.970             Wait dur 0.25
+  3.220             *Func-setProp-1142
+  3.220             Wait dur 1
+  4.220             Wait dur 0.5
+  4.720             Wait dur 0.25
+  4.970           }
+  4.970           *Func-_teardownSkipListen-1148
+  4.970           *Func-destroy-1149
+  4.970           *Func-hide-1150
+  4.970           *Func-setForceOnscreenChat-1151
+  4.970           Sequence-984 {
+  4.970           }
+  4.970         }
+  0.000         *Sound-76 dur 4.97
+  4.970       }
+  4.970       *Func-__handleFactoryRewardDone-1152
+  4.970     }
+  4.970   }
+  0.000   Sequence-981 {
+  0.000     Sequence-983 {
+  0.000       Sequence-987 {
+  0.000         *Func-chooseRewardShotNow-1147
+  0.000         Wait dur 4.97
+  4.970       }
+  4.970     }
+  4.970   }
+  4.970 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\coghq\DistributedLevelBattle.py", line 66, in disable
+    DistributedBattle.DistributedBattle.disable(self)
+  File "toontown\battle\DistributedBattle.py", line 34, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\coghq\DistributedLevelBattle.py", line 66, in disable
+    DistributedBattle.DistributedBattle.disable(self)
+  File "toontown\battle\DistributedBattle.py", line 34, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError

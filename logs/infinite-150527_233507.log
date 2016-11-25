@@ -1,0 +1,39 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204C31C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+['DistributedObject_initialized', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTarget', 'addTask', 'announceGenerate', 'area', 'autoInterests', 'b_setLocation', 'cacheable', 'checkTargets', 'children', 'classTree', 'cleanupBingoMgr', 'cr', 'd_hitTarget', 'd_setLocation', 'dclass', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'execCommand', 'flushCachedData', 'generate', 'generateInit', 'getAllAccepting', 'getArea', 'getAutoInterests', 'getBarrierData', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDisableEvent', 'getDoId', 'getLocalToonSpot', 'getLocation', 'getNeverDisable', 'getParentObj', 'getPondBingoManager', 'handleBingoBoot', 'handleBingoCatch', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'hasPondBingoManager', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'localToonBobPos', 'localToonSpot', 'neverDisable', 'notify', 'parentId', 'pollInterval', 'pondBingoMgr', 'postGenerateMessage', 'removeAllTasks', 'removeInterest', 'removePondBingoManager', 'removeTarget', 'removeTask', 'resetSpotGui', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setArea', 'setBarrierData', 'setCacheable', 'setCachedData', 'setLocalToonSpot', 'setLocation', 'setNeverDisable', 'setPondBingoManager', 'setSpotGui', 'showBingoGui', 'startCheckingTargets', 'status', 'stopCheckingTargets', 'targets', 'taskName', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'visitedSpots', 'zoneId']
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_5/dna/storage_TT_town.pdna
+Reading DNA file... phase_5/dna/toontown_central_2300.pdna
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+AttributeError: 'NoneType' object has no attribute 'sendUpdate'
+
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+frame rate: 33.9 fps|0.008d|4 avs||326|329||0x1002|0x6738|500.1MB|537.2MB|16330.4MB|756|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 31.9 fps|0.007d|4 avs||626|629||0x1002|0x6738|502.9MB|539.1MB|16330.4MB|759|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 24.8 fps|0.003d|4 avs||926|929||0x1002|0x6738|504.2MB|540.3MB|16330.4MB|764|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 24.5 fps|0.003d|4 avs||1226|1229||0x1002|0x6738|504.3MB|540.5MB|16330.4MB|764|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 24.4 fps|0.003d|4 avs||1526|1529||0x1002|0x6738|504.6MB|540.8MB|16330.4MB|764|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 23.1 fps|0.003d|4 avs||1826|1829||0x1002|0x6738|504.8MB|541.0MB|16330.4MB|764|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna

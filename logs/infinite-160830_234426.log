@@ -1,0 +1,170 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E772918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 17.3 fps|0.020d|4 avs||340|343||0x1002|0x6738|409.3MB|450.7MB|16330.4MB|786|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+frame rate: 7.2 fps|0.196d|8 avs||641|644||0x1002|0x6738|421.6MB|463.2MB|16330.4MB|790|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902
+2
+5
+collecting new task
+setting movie hook function
+iterating quest
+iterating quest
+attemping to pick quest
+900
+2902

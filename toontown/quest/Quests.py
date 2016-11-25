@@ -528,8 +528,7 @@ class CogQuest(LocationBasedQuest):
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         questCogType = self.getCogType()
-        return (questCogType == Any or questCogType == cogDict['type']) and \
-               (avId in avList) and self.isLocationMatch(zoneId)
+        return (questCogType is Any or questCogType is cogDict['type']) and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class CogNewbieQuest(CogQuest, NewbieQuest):
@@ -549,8 +548,8 @@ class CogNewbieQuest(CogQuest, NewbieQuest):
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         if CogQuest.doesCogCount(self, avId, cogDict, zoneId, avList):
             return self.getNumNewbies(avId, avList)
-
-        return 0
+        else:
+            return 0
 
 
 class CogTrackQuest(CogQuest):
@@ -618,7 +617,7 @@ class CogTrackQuest(CogQuest):
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         questCogTrack = self.getCogTrack()
-        return (questCogTrack == cogDict['track']) and (avId in avList) and self.isLocationMatch(zoneId)
+        return questCogTrack == cogDict['track'] and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class CogLevelQuest(CogQuest):
@@ -678,7 +677,7 @@ class CogLevelQuest(CogQuest):
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         questCogLevel = self.getCogLevel()
-        return (questCogLevel <= cogDict['level']) and (avId in avList) and self.isLocationMatch(zoneId)
+        return questCogLevel <= cogDict['level'] and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class SkelecogQBase:
@@ -690,7 +689,7 @@ class SkelecogQBase:
             return TTLocalizer.SkeletonP
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
-        return cogDict['isSkelecog'] and (avId in avList) and self.isLocationMatch(zoneId)
+        return cogDict['isSkelecog'] and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class SkelecogQuest(CogQuest, SkelecogQBase):
@@ -722,8 +721,8 @@ class SkelecogNewbieQuest(SkelecogQuest, NewbieQuest):
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         if SkelecogQuest.doesCogCount(self, avId, cogDict, zoneId, avList):
             return self.getNumNewbies(avId, avList)
-
-        return 0
+        else:
+            return 0
 
 
 class SkelecogTrackQuest(CogTrackQuest, SkelecogQBase):
@@ -773,7 +772,7 @@ class SkeleReviveQBase:
             return TTLocalizer.v2CogP
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
-        return cogDict['hasRevives'] and avId in avList and self.isLocationMatch(zoneId)
+        return cogDict['hasRevives'] and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class SkeleReviveQuest(CogQuest, SkeleReviveQBase):
@@ -1719,7 +1718,7 @@ class RecoverItemQuest(LocationBasedQuest):
 
     def doesCogCount(self, avId, cogDict, zoneId, avList):
         questCogType = self.getHolder()
-        return (questCogType == Any or questCogType == cogDict[self.getHolderType()]) and avId in avList and self.isLocationMatch(zoneId)
+        return (questCogType is Any or questCogType is cogDict[self.getHolderType()]) and avId in cogDict['activeToons'] and self.isLocationMatch(zoneId)
 
 
 class TrackChoiceQuest(Quest):
@@ -4665,17 +4664,11 @@ RewardDict = {
     2969: (CheesyEffectReward, ToontownGlobals.CETransparent, 1, 43200),
     2970: (CheesyEffectReward, ToontownGlobals.CENoColor, 1, 43200),
     2971: (CheesyEffectReward, ToontownGlobals.CEInvisible, 1, 43200),
-    # Buff rewards (BuffID, Time):
-    # Movement Speed Increase
+    # Buff rewards (BuffID, Time)
     3001: (BuffReward, ToontownGlobals.BMovementSpeed, 30),
     3002: (BuffReward, ToontownGlobals.BMovementSpeed, 60),
     3003: (BuffReward, ToontownGlobals.BMovementSpeed, 180),
-    3004: (BuffReward, ToontownGlobals.BMovementSpeed, 360),
-    # Gag Accuracy Increase
-    3005: (BuffReward, ToontownGlobals.BGagAccuracy, 30),
-    3006: (BuffReward, ToontownGlobals.BGagAccuracy, 60),
-    3007: (BuffReward, ToontownGlobals.BGagAccuracy, 180),
-    3008: (BuffReward, ToontownGlobals.BGagAccuracy, 360) }
+    3004: (BuffReward, ToontownGlobals.BMovementSpeed, 360) }
 
 
 def getNumTiers():
@@ -4730,23 +4723,23 @@ RequiredRewardTrackDict = {
 OptionalRewardTrackDict = {
     TT_TIER: (),
     TT_TIER + 1: (),
-    TT_TIER + 2: (1000, 601, 601, 602, 602, 2205, 2206, 2205, 2206, 3001, 3001, 3001, 3001, 3005, 3005, 3005, 3005),
-    TT_TIER + 3: (601, 601, 602, 602, 2205, 2206, 2205, 2206, 3002, 3001, 3001, 3001, 3006, 3005, 3005, 3005),
-    DD_TIER: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3001, 3006, 3006, 3006, 3005),
-    DD_TIER + 1: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3001, 3006, 3006, 3006, 3005),
-    DD_TIER + 2: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3002, 3006, 3006, 3006, 3006),
-    DG_TIER: (1000, 603, 603, 604, 604, 2501, 2502, 2503, 2504, 2505, 2506, 3002, 3002, 3002, 3002, 3006, 3006, 3006, 3006),
-    MM_TIER: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3002, 3002, 3002, 3002, 3006, 3006, 3006, 3006),
-    MM_TIER + 1: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3003, 3003, 3002, 3002, 3007, 3007, 3007, 3006),
-    MM_TIER + 2: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3003, 3003, 3002, 3002, 3007, 3007, 3007, 3006),
-    BR_TIER: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003, 3007, 3007, 3007, 3007),
-    BR_TIER + 1: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003, 3007, 3007, 3007, 3007),
-    BR_TIER + 2: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003, 3007, 3007, 3007, 3007),
-    DL_TIER: (607, 607, 607, 607, 608, 608, 608, 608, 2901, 2902, 2907, 2908, 2909, 2910, 2911, 3003, 3003, 3004, 3004, 3007, 3007, 3008, 3008),
-    DL_TIER + 1: (1000, 607, 607, 607, 607, 608, 608, 608, 608, 2923, 2924, 2927, 2928, 2929, 2930, 2931, 3003, 3003, 3004, 3004, 3007, 3007, 3008, 3008),
-    DL_TIER + 2: (608, 608, 608, 608, 609, 609, 609, 609, 2941, 2942, 2943, 2944, 2947, 2948, 2949, 2950, 2951, 3004, 3004, 3004, 3004, 3008, 3008, 3008, 3008),
-    DL_TIER + 3: (1000, 609, 609, 609, 609, 609, 609, 2961, 2962, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 3004, 3004, 3004, 3004, 3008, 3008, 3008, 3008),
-    ELDER_TIER: (1000, 1000, 610, 611, 612, 613, 614, 615, 616, 617, 618, 2961, 2962, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 3004, 3004, 3004, 3008, 3008, 3008)
+    TT_TIER + 2: (1000, 601, 601, 602, 602, 2205, 2206, 2205, 2206, 3001, 3001, 3001, 3001),
+    TT_TIER + 3: (601, 601, 602, 602, 2205, 2206, 2205, 2206, 3002, 3001, 3001, 3001),
+    DD_TIER: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3001),
+    DD_TIER + 1: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3001),
+    DD_TIER + 2: (1000, 602, 602, 603, 603, 2101, 2102, 2105, 2106, 3002, 3002, 3002, 3002),
+    DG_TIER: (1000, 603, 603, 604, 604, 2501, 2502, 2503, 2504, 2505, 2506, 3002, 3002, 3002, 3002),
+    MM_TIER: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3002, 3002, 3002, 3002),
+    MM_TIER + 1: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3003, 3003, 3002, 3002),
+    MM_TIER + 2: (1000, 604, 604, 605, 605, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 3003, 3003, 3002, 3002),
+    BR_TIER: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003),
+    BR_TIER + 1: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003),
+    BR_TIER + 2: (1000, 606, 606, 606, 606, 606, 607, 607, 607, 607, 607, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 3003, 3003, 3003, 3003),
+    DL_TIER: (607, 607, 607, 607, 608, 608, 608, 608, 2901, 2902, 2907, 2908, 2909, 2910, 2911, 3003, 3003, 3004, 3004),
+    DL_TIER + 1: (1000, 607, 607, 607, 607, 608, 608, 608, 608, 2923, 2924, 2927, 2928, 2929, 2930, 2931, 3003, 3003, 3004, 3004),
+    DL_TIER + 2: (608, 608, 608, 608, 609, 609, 609, 609, 2941, 2942, 2943, 2944, 2947, 2948, 2949, 2950, 2951, 3004, 3004, 3004, 3004),
+    DL_TIER + 3: (1000, 609, 609, 609, 609, 609, 609, 2961, 2962, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 3004, 3004, 3004, 3004),
+    ELDER_TIER: (1000, 1000, 610, 611, 612, 613, 614, 615, 616, 617, 618, 2961, 2962, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 3004, 3004, 3004)
 }
 
 def isRewardOptional(tier, rewardId):

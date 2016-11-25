@@ -1,0 +1,82 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1F4F4148>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+frame rate: 20.3 fps|0.013d|4 avs||339|341||0x1002|0x6738|433.2MB|491.6MB|16330.4MB|544|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1943, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1546, in handlePlayGame
+    self.handleGenerateWithRequired(di)
+  File "otp\distributed\OTPClientRepository.py", line 2025, in handleGenerateWithRequired
+    return self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2089, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\minigame\DistributedMinigame.py", line 108, in announceGenerate
+    self.load()
+  File "toontown\minigame\DistributedTugOfWarGame.py", line 131, in load
+    self.powerMeter = MinigamePowerMeter.MinigamePowerMeter(17)
+  File "toontown\minigame\MinigamePowerMeter.py", line 16, in __init__
+    self.tooSlow = DirectLabel(parent=self, relief=None, text=TTLocalizer.MinigamePowerMeterTooSlow, scale=TTLocalizer.MPMtooSlow, pos=(-.15, 0, 0.05), color=(0.1, 0.3, 0.6))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectLabel.py", line 37, in __init__
+    DirectFrame.__init__(self, parent)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 45, in __init__
+    DirectGuiWidget.__init__(self, parent)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 757, in __init__
+    self.setColor(self['color'])
+TypeError: NodePath.set_color() argument 1 must be LVecBase4f, not tuple
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1943, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1546, in handlePlayGame
+    self.handleGenerateWithRequired(di)
+  File "otp\distributed\OTPClientRepository.py", line 2025, in handleGenerateWithRequired
+    return self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2089, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\minigame\DistributedMinigame.py", line 108, in announceGenerate
+    self.load()
+  File "toontown\minigame\DistributedTugOfWarGame.py", line 131, in load
+    self.powerMeter = MinigamePowerMeter.MinigamePowerMeter(17)
+  File "toontown\minigame\MinigamePowerMeter.py", line 16, in __init__
+    self.tooSlow = DirectLabel(parent=self, relief=None, text=TTLocalizer.MinigamePowerMeterTooSlow, scale=TTLocalizer.MPMtooSlow, pos=(-.15, 0, 0.05), color=(0.1, 0.3, 0.6))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectLabel.py", line 37, in __init__
+    DirectFrame.__init__(self, parent)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 45, in __init__
+    DirectGuiWidget.__init__(self, parent)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 757, in __init__
+    self.setColor(self['color'])
+TypeError: NodePath.set_color() argument 1 must be LVecBase4f, not tuple

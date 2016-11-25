@@ -1,0 +1,1342 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E772918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-3
+TIMER startTime 2836
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-15
+Battle Event localtoon-battle-event-21
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33
+TIMER startTime 2836
+Battle Event localtoon-battle-event-39
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-51
+TIMER startTime 2836
+Battle Event localtoon-battle-event-57
+Battle Event localtoon-battle-event-63
+TIMER startTime 2836
+Battle Event localtoon-battle-event-69
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-75
+frame rate: 7.4 fps|0.097d|13 avs||342|346||0x1002|0x6738|430.9MB|456.9MB|16330.4MB|987|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 2836
+TIMER startTime 2836
+TIMER startTime 2836
+TIMER startTime 2836
+Battle Event localtoon-battle-event-81
+TIMER startTime 2836
+Battle Event localtoon-battle-event-87
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-99
+TIMER startTime 2836
+Battle Event localtoon-battle-event-105
+Battle Event localtoon-battle-event-111
+Battle Event localtoon-battle-event-117
+TIMER startTime 2836
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+TIMER startTime 2836
+Battle Event localtoon-battle-event-135
+Battle Event localtoon-battle-event-141
+Battle Event localtoon-battle-event-147
+TIMER startTime 2836
+Battle Event localtoon-battle-event-153
+Battle Event localtoon-battle-event-159
+TIMER startTime 2836
+Battle Event localtoon-battle-event-165
+Battle Event localtoon-battle-event-171
+TIMER startTime 2836
+frame rate: 8.7 fps|0.140d|7 avs||642|646||0x1002|0x6738|456.6MB|516.0MB|16330.4MB|1171|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-177
+Battle Event localtoon-battle-event-183
+Battle Event localtoon-battle-event-189
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+TIMER startTime 2836
+Battle Event localtoon-battle-event-207
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+TIMER startTime 2836
+Battle Event localtoon-battle-event-237
+Battle Event localtoon-battle-event-243
+Battle Event localtoon-battle-event-249
+Battle Event localtoon-battle-event-255
+Battle Event localtoon-battle-event-261
+Battle Event localtoon-battle-event-267
+TIMER startTime 2836
+Battle Event localtoon-battle-event-273
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-279
+Battle Event localtoon-battle-event-285
+TIMER startTime 2836
+Battle Event localtoon-battle-event-291
+Battle Event localtoon-battle-event-297
+Battle Event localtoon-battle-event-303
+Battle Event localtoon-battle-event-309
+Battle Event localtoon-battle-event-315
+TIMER startTime 2836
+Battle Event localtoon-battle-event-321
+Battle Event localtoon-battle-event-327
+TIMER startTime 2836
+frame rate: 8.6 fps|0.109d|9 avs||942|946||0x1002|0x6738|506.6MB|567.2MB|16330.4MB|1869|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-333
+Battle Event localtoon-battle-event-339
+TIMER startTime 2836
+Battle Event localtoon-battle-event-345
+TIMER startTime 2836
+Battle Event localtoon-battle-event-351
+Battle Event localtoon-battle-event-357
+Battle Event localtoon-battle-event-363
+TIMER startTime 2836
+Battle Event localtoon-battle-event-369
+Battle Event localtoon-battle-event-375
+TIMER startTime 2836
+Battle Event localtoon-battle-event-381
+Battle Event localtoon-battle-event-387
+TIMER startTime 2836
+Battle Event localtoon-battle-event-393
+Battle Event localtoon-battle-event-399
+TIMER startTime 2836
+Battle Event localtoon-battle-event-405
+Battle Event localtoon-battle-event-411
+Battle Event localtoon-battle-event-417
+TIMER startTime 2836
+Battle Event localtoon-battle-event-423
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-429
+Battle Event localtoon-battle-event-435
+Battle Event localtoon-battle-event-441
+TIMER startTime 2836
+Battle Event localtoon-battle-event-447
+Battle Event localtoon-battle-event-453
+TIMER startTime 2836
+Battle Event localtoon-battle-event-459
+Battle Event localtoon-battle-event-465
+Battle Event localtoon-battle-event-471
+TIMER startTime 2836
+Battle Event localtoon-battle-event-477
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+frame rate: 8.7 fps|0.378d|10 avs||1246|1250||0x1002|0x6738|543.4MB|570.7MB|16330.4MB|2407|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-483
+Battle Event localtoon-battle-event-489
+TIMER startTime 2836
+Battle Event localtoon-battle-event-495
+Battle Event localtoon-battle-event-501
+TIMER startTime 2836
+Battle Event localtoon-battle-event-507
+Battle Event localtoon-battle-event-513
+TIMER startTime 2836
+Battle Event localtoon-battle-event-519
+Battle Event localtoon-battle-event-525
+TIMER startTime 2836
+Battle Event localtoon-battle-event-531
+Battle Event localtoon-battle-event-537
+Battle Event localtoon-battle-event-543
+TIMER startTime 2836
+Battle Event localtoon-battle-event-549
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-555
+TIMER startTime 2836
+Battle Event localtoon-battle-event-561
+Battle Event localtoon-battle-event-567
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-573
+Battle Event localtoon-battle-event-579
+Battle Event localtoon-battle-event-585
+Battle Event localtoon-battle-event-591
+Battle Event localtoon-battle-event-597
+TIMER startTime 2836
+Battle Event localtoon-battle-event-603
+Battle Event localtoon-battle-event-609
+Battle Event localtoon-battle-event-615
+TIMER startTime 2836
+Battle Event localtoon-battle-event-621
+Battle Event localtoon-battle-event-627
+TIMER startTime 2836
+Battle Event localtoon-battle-event-633
+Battle Event localtoon-battle-event-639
+frame rate: 7.5 fps|0.161d|8 avs||1546|1550||0x1002|0x6738|533.9MB|657.3MB|16330.4MB|3079|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-645
+TIMER startTime 2836
+Battle Event localtoon-battle-event-651
+Battle Event localtoon-battle-event-657
+TIMER startTime 2836
+Battle Event localtoon-battle-event-663
+Battle Event localtoon-battle-event-669
+Battle Event localtoon-battle-event-675
+TIMER startTime 2836
+Battle Event localtoon-battle-event-681
+Battle Event localtoon-battle-event-687
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-693
+Battle Event localtoon-battle-event-699
+Battle Event localtoon-battle-event-705
+Battle Event localtoon-battle-event-711
+Battle Event localtoon-battle-event-717
+Battle Event localtoon-battle-event-723
+Battle Event localtoon-battle-event-729
+TIMER startTime 2836
+Battle Event localtoon-battle-event-735
+Battle Event localtoon-battle-event-741
+Battle Event localtoon-battle-event-747
+TIMER startTime 2836
+Battle Event localtoon-battle-event-753
+Battle Event localtoon-battle-event-759
+Battle Event localtoon-battle-event-765
+Battle Event localtoon-battle-event-771
+Battle Event localtoon-battle-event-777
+TIMER startTime 2836
+Battle Event localtoon-battle-event-783
+Battle Event localtoon-battle-event-789
+Battle Event localtoon-battle-event-795
+Battle Event localtoon-battle-event-801
+Battle Event localtoon-battle-event-807
+TIMER startTime 2836
+Battle Event localtoon-battle-event-813
+Battle Event localtoon-battle-event-819
+Battle Event localtoon-battle-event-825
+Battle Event localtoon-battle-event-831
+Battle Event localtoon-battle-event-837
+TIMER startTime 2836
+Battle Event localtoon-battle-event-843
+frame rate: 7.4 fps|0.174d|7 avs||1845|1849||0x1002|0x6738|514.5MB|688.3MB|16330.4MB|3427|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-849
+Battle Event localtoon-battle-event-855
+Battle Event localtoon-battle-event-861
+Battle Event localtoon-battle-event-867
+TIMER startTime 2836
+Battle Event localtoon-battle-event-873
+Battle Event localtoon-battle-event-879
+TIMER startTime 2836
+Battle Event localtoon-battle-event-885
+Battle Event localtoon-battle-event-891
+Battle Event localtoon-battle-event-897
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-903
+Battle Event localtoon-battle-event-909
+TIMER startTime 2836
+Battle Event localtoon-battle-event-915
+Battle Event localtoon-battle-event-921
+Battle Event localtoon-battle-event-927
+TIMER startTime 2836
+Battle Event localtoon-battle-event-933
+Battle Event localtoon-battle-event-939
+TIMER startTime 2836
+Battle Event localtoon-battle-event-945
+Battle Event localtoon-battle-event-951
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-957
+Battle Event localtoon-battle-event-963
+Battle Event localtoon-battle-event-969
+frame rate: 4.9 fps|0.569d|9 avs||2146|2150||0x1002|0x6738|564.4MB|750.1MB|16330.4MB|4279|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-975
+Battle Event localtoon-battle-event-981
+TIMER startTime 2836
+Battle Event localtoon-battle-event-987
+Battle Event localtoon-battle-event-993
+Battle Event localtoon-battle-event-999
+Battle Event localtoon-battle-event-1005
+Battle Event localtoon-battle-event-1011
+Battle Event localtoon-battle-event-1017
+Battle Event localtoon-battle-event-1023
+Battle Event localtoon-battle-event-1029
+Battle Event localtoon-battle-event-1035
+Battle Event localtoon-battle-event-1041
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1047
+Battle Event localtoon-battle-event-1053
+Battle Event localtoon-battle-event-1059
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1065
+Battle Event localtoon-battle-event-1071
+Battle Event localtoon-battle-event-1077
+Battle Event localtoon-battle-event-1083
+Battle Event localtoon-battle-event-1089
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1095
+Battle Event localtoon-battle-event-1101
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1107
+Battle Event localtoon-battle-event-1113
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1119
+Battle Event localtoon-battle-event-1125
+Battle Event localtoon-battle-event-1131
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1137
+Battle Event localtoon-battle-event-1143
+Battle Event localtoon-battle-event-1149
+Battle Event localtoon-battle-event-1155
+Battle Event localtoon-battle-event-1161
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1167
+Battle Event localtoon-battle-event-1173
+frame rate: 5.0 fps|0.552d|10 avs||2446|2450||0x1002|0x6738|581.0MB|781.4MB|16330.4MB|4627|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1179
+Battle Event localtoon-battle-event-1185
+Battle Event localtoon-battle-event-1191
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1197
+Battle Event localtoon-battle-event-1203
+Battle Event localtoon-battle-event-1209
+Battle Event localtoon-battle-event-1215
+Battle Event localtoon-battle-event-1221
+Battle Event localtoon-battle-event-1227
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1233
+Battle Event localtoon-battle-event-1239
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1245
+Battle Event localtoon-battle-event-1251
+Battle Event localtoon-battle-event-1257
+Battle Event localtoon-battle-event-1263
+Battle Event localtoon-battle-event-1269
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1275
+Battle Event localtoon-battle-event-1281
+Battle Event localtoon-battle-event-1287
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1293
+Battle Event localtoon-battle-event-1299
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1305
+Battle Event localtoon-battle-event-1311
+Battle Event localtoon-battle-event-1317
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1323
+Battle Event localtoon-battle-event-1329
+Battle Event localtoon-battle-event-1335
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1341
+frame rate: 5.9 fps|0.504d|13 avs||2747|2750||0x1002|0x6738|608.1MB|823.5MB|16330.4MB|5289|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-1347
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1353
+Battle Event localtoon-battle-event-1359
+Battle Event localtoon-battle-event-1365
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1371
+Battle Event localtoon-battle-event-1377
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1383
+Battle Event localtoon-battle-event-1389
+Battle Event localtoon-battle-event-1395
+Battle Event localtoon-battle-event-1401
+Battle Event localtoon-battle-event-1407
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1413
+Battle Event localtoon-battle-event-1419
+Battle Event localtoon-battle-event-1425
+Battle Event localtoon-battle-event-1431
+Battle Event localtoon-battle-event-1437
+Battle Event localtoon-battle-event-1443
+Battle Event localtoon-battle-event-1449
+Battle Event localtoon-battle-event-1455
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1461
+Battle Event localtoon-battle-event-1467
+Battle Event localtoon-battle-event-1473
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1479
+Battle Event localtoon-battle-event-1485
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1491
+Battle Event localtoon-battle-event-1497
+Battle Event localtoon-battle-event-1503
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1509
+Battle Event localtoon-battle-event-1515
+Battle Event localtoon-battle-event-1521
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1527
+Battle Event localtoon-battle-event-1533
+Battle Event localtoon-battle-event-1539
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1545
+Battle Event localtoon-battle-event-1551
+Battle Event localtoon-battle-event-1557
+TIMER startTime 2836
+frame rate: 6.0 fps|0.196d|9 avs||3047|3050||0x1002|0x6738|610.9MB|851.9MB|16330.4MB|5635|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-1563
+Battle Event localtoon-battle-event-1569
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1575
+Battle Event localtoon-battle-event-1581
+Battle Event localtoon-battle-event-1587
+Battle Event localtoon-battle-event-1593
+Battle Event localtoon-battle-event-1599
+Battle Event localtoon-battle-event-1605
+Battle Event localtoon-battle-event-1611
+Battle Event localtoon-battle-event-1617
+Battle Event localtoon-battle-event-1623
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1629
+Battle Event localtoon-battle-event-1635
+Battle Event localtoon-battle-event-1641
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1647
+Battle Event localtoon-battle-event-1653
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1659
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1665
+Battle Event localtoon-battle-event-1671
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1677
+Battle Event localtoon-battle-event-1683
+Battle Event localtoon-battle-event-1689
+Battle Event localtoon-battle-event-1695
+Battle Event localtoon-battle-event-1701
+Battle Event localtoon-battle-event-1707
+Battle Event localtoon-battle-event-1713
+Battle Event localtoon-battle-event-1719
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1725
+Battle Event localtoon-battle-event-1731
+Battle Event localtoon-battle-event-1737
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1743
+Battle Event localtoon-battle-event-1749
+Battle Event localtoon-battle-event-1755
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1761
+Battle Event localtoon-battle-event-1767
+Battle Event localtoon-battle-event-1773
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1779
+Battle Event localtoon-battle-event-1785
+Battle Event localtoon-battle-event-1791
+TIMER startTime 2836
+frame rate: 6.2 fps|0.179d|11 avs||3347|3350||0x1002|0x6738|625.2MB|887.1MB|16330.4MB|5980|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-1797
+Battle Event localtoon-battle-event-1803
+Battle Event localtoon-battle-event-1809
+Battle Event localtoon-battle-event-1815
+Battle Event localtoon-battle-event-1821
+Battle Event localtoon-battle-event-1827
+Battle Event localtoon-battle-event-1833
+Battle Event localtoon-battle-event-1839
+Battle Event localtoon-battle-event-1845
+Battle Event localtoon-battle-event-1851
+Battle Event localtoon-battle-event-1857
+Battle Event localtoon-battle-event-1863
+Battle Event localtoon-battle-event-1869
+Battle Event localtoon-battle-event-1875
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1881
+Battle Event localtoon-battle-event-1887
+Battle Event localtoon-battle-event-1893
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1899
+Battle Event localtoon-battle-event-1905
+Battle Event localtoon-battle-event-1911
+Battle Event localtoon-battle-event-1917
+Battle Event localtoon-battle-event-1923
+Battle Event localtoon-battle-event-1929
+TIMER startTime 2836
+Battle Event localtoon-battle-event-1935
+Battle Event localtoon-battle-event-1941
+Battle Event localtoon-battle-event-1947
+Battle Event localtoon-battle-event-1953
+Battle Event localtoon-battle-event-1959
+Battle Event localtoon-battle-event-1965
+Battle Event localtoon-battle-event-1971
+Battle Event localtoon-battle-event-1977
+Battle Event localtoon-battle-event-1983
+Battle Event localtoon-battle-event-1989
+Battle Event localtoon-battle-event-1995
+Battle Event localtoon-battle-event-2001
+Battle Event localtoon-battle-event-2007
+Battle Event localtoon-battle-event-2013
+Battle Event localtoon-battle-event-2019
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2025
+Battle Event localtoon-battle-event-2031
+Battle Event localtoon-battle-event-2037
+Battle Event localtoon-battle-event-2043
+Battle Event localtoon-battle-event-2049
+Battle Event localtoon-battle-event-2055
+Battle Event localtoon-battle-event-2061
+Battle Event localtoon-battle-event-2067
+Battle Event localtoon-battle-event-2073
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2079
+Battle Event localtoon-battle-event-2085
+Battle Event localtoon-battle-event-2091
+frame rate: 5.9 fps|0.202d|9 avs||3647|3651||0x1002|0x6738|621.2MB|898.9MB|16330.4MB|6008|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-2097
+Battle Event localtoon-battle-event-2103
+Battle Event localtoon-battle-event-2109
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2115
+Battle Event localtoon-battle-event-2121
+Battle Event localtoon-battle-event-2127
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2133
+Battle Event localtoon-battle-event-2139
+Battle Event localtoon-battle-event-2145
+Battle Event localtoon-battle-event-2151
+Battle Event localtoon-battle-event-2157
+Battle Event localtoon-battle-event-2163
+Battle Event localtoon-battle-event-2169
+Battle Event localtoon-battle-event-2175
+Battle Event localtoon-battle-event-2181
+Battle Event localtoon-battle-event-2187
+Battle Event localtoon-battle-event-2193
+Battle Event localtoon-battle-event-2199
+Battle Event localtoon-battle-event-2205
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2211
+Battle Event localtoon-battle-event-2217
+Battle Event localtoon-battle-event-2223
+Battle Event localtoon-battle-event-2229
+Battle Event localtoon-battle-event-2235
+Battle Event localtoon-battle-event-2241
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2247
+Battle Event localtoon-battle-event-2253
+Battle Event localtoon-battle-event-2259
+Battle Event localtoon-battle-event-2265
+Battle Event localtoon-battle-event-2271
+Battle Event localtoon-battle-event-2277
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2283
+Battle Event localtoon-battle-event-2289
+Battle Event localtoon-battle-event-2295
+Battle Event localtoon-battle-event-2301
+Battle Event localtoon-battle-event-2307
+Battle Event localtoon-battle-event-2313
+Battle Event localtoon-battle-event-2319
+Battle Event localtoon-battle-event-2325
+Battle Event localtoon-battle-event-2331
+Battle Event localtoon-battle-event-2337
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2343
+Battle Event localtoon-battle-event-2349
+Battle Event localtoon-battle-event-2355
+Battle Event localtoon-battle-event-2361
+Battle Event localtoon-battle-event-2367
+Battle Event localtoon-battle-event-2373
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2379
+Battle Event localtoon-battle-event-2385
+Battle Event localtoon-battle-event-2391
+Battle Event localtoon-battle-event-2397
+frame rate: 6.5 fps|0.178d|5 avs||3947|3951||0x1002|0x6738|632.0MB|909.2MB|16330.4MB|6027|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-2403
+Battle Event localtoon-battle-event-2409
+Battle Event localtoon-battle-event-2415
+Battle Event localtoon-battle-event-2421
+Battle Event localtoon-battle-event-2427
+Battle Event localtoon-battle-event-2433
+Battle Event localtoon-battle-event-2439
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2445
+Battle Event localtoon-battle-event-2451
+Battle Event localtoon-battle-event-2457
+Battle Event localtoon-battle-event-2463
+Battle Event localtoon-battle-event-2469
+Battle Event localtoon-battle-event-2475
+Battle Event localtoon-battle-event-2481
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2487
+Battle Event localtoon-battle-event-2493
+Battle Event localtoon-battle-event-2499
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2505
+Battle Event localtoon-battle-event-2511
+Battle Event localtoon-battle-event-2517
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2523
+Battle Event localtoon-battle-event-2529
+Battle Event localtoon-battle-event-2535
+Battle Event localtoon-battle-event-2541
+Battle Event localtoon-battle-event-2547
+Battle Event localtoon-battle-event-2553
+Battle Event localtoon-battle-event-2559
+Battle Event localtoon-battle-event-2565
+Battle Event localtoon-battle-event-2571
+Battle Event localtoon-battle-event-2577
+Battle Event localtoon-battle-event-2583
+Battle Event localtoon-battle-event-2589
+Battle Event localtoon-battle-event-2595
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2601
+Battle Event localtoon-battle-event-2607
+Battle Event localtoon-battle-event-2613
+Battle Event localtoon-battle-event-2619
+Battle Event localtoon-battle-event-2625
+Battle Event localtoon-battle-event-2631
+Battle Event localtoon-battle-event-2637
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2643
+Battle Event localtoon-battle-event-2649
+Battle Event localtoon-battle-event-2655
+Battle Event localtoon-battle-event-2661
+Battle Event localtoon-battle-event-2667
+Battle Event localtoon-battle-event-2673
+Battle Event localtoon-battle-event-2679
+Battle Event localtoon-battle-event-2685
+Battle Event localtoon-battle-event-2691
+Battle Event localtoon-battle-event-2697
+Battle Event localtoon-battle-event-2703
+Battle Event localtoon-battle-event-2709
+Battle Event localtoon-battle-event-2715
+Battle Event localtoon-battle-event-2721
+frame rate: 6.2 fps|0.185d|6 avs||4247|4251||0x1002|0x6738|622.0MB|920.7MB|16330.4MB|6047|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-2727
+Battle Event localtoon-battle-event-2733
+Battle Event localtoon-battle-event-2739
+Battle Event localtoon-battle-event-2745
+Battle Event localtoon-battle-event-2751
+Battle Event localtoon-battle-event-2757
+Battle Event localtoon-battle-event-2763
+Battle Event localtoon-battle-event-2769
+Battle Event localtoon-battle-event-2775
+Battle Event localtoon-battle-event-2781
+Battle Event localtoon-battle-event-2787
+Battle Event localtoon-battle-event-2793
+Battle Event localtoon-battle-event-2799
+Battle Event localtoon-battle-event-2805
+Battle Event localtoon-battle-event-2811
+Battle Event localtoon-battle-event-2817
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2823
+Battle Event localtoon-battle-event-2829
+Battle Event localtoon-battle-event-2835
+Battle Event localtoon-battle-event-2841
+Battle Event localtoon-battle-event-2847
+Battle Event localtoon-battle-event-2853
+Battle Event localtoon-battle-event-2859
+Battle Event localtoon-battle-event-2865
+Battle Event localtoon-battle-event-2871
+Battle Event localtoon-battle-event-2877
+Battle Event localtoon-battle-event-2883
+Battle Event localtoon-battle-event-2889
+Battle Event localtoon-battle-event-2895
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2901
+Battle Event localtoon-battle-event-2907
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2913
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 2836
+TIMER startTime 2836
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-2919
+Battle Event localtoon-battle-event-2925
+Battle Event localtoon-battle-event-2931
+Battle Event localtoon-battle-event-2937
+Battle Event localtoon-battle-event-2943
+Battle Event localtoon-battle-event-2949
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2955
+Battle Event localtoon-battle-event-2961
+TIMER startTime 2836
+Battle Event localtoon-battle-event-2967
+Battle Event localtoon-battle-event-2973
+Battle Event localtoon-battle-event-2979
+TIMER startTime 2836
+frame rate: 5.8 fps|0.195d|6 avs||4547|4551||0x1002|0x6738|654.0MB|960.6MB|16330.4MB|6386|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-2985
+Battle Event localtoon-battle-event-2991
+Battle Event localtoon-battle-event-2997
+Battle Event localtoon-battle-event-3003
+Battle Event localtoon-battle-event-3009
+Battle Event localtoon-battle-event-3015
+Battle Event localtoon-battle-event-3021
+Battle Event localtoon-battle-event-3027
+Battle Event localtoon-battle-event-3033
+Battle Event localtoon-battle-event-3039
+Battle Event localtoon-battle-event-3045
+Battle Event localtoon-battle-event-3051
+Battle Event localtoon-battle-event-3057
+Battle Event localtoon-battle-event-3063
+Battle Event localtoon-battle-event-3069
+Battle Event localtoon-battle-event-3075
+Battle Event localtoon-battle-event-3081
+Battle Event localtoon-battle-event-3087
+Battle Event localtoon-battle-event-3093
+Battle Event localtoon-battle-event-3099
+Battle Event localtoon-battle-event-3105
+TIMER startTime 2836
+Battle Event localtoon-battle-event-3111
+Battle Event localtoon-battle-event-3117
+Battle Event localtoon-battle-event-3123
+Battle Event localtoon-battle-event-3129
+Battle Event localtoon-battle-event-3135
+Battle Event localtoon-battle-event-3141
+Battle Event localtoon-battle-event-3147
+Battle Event localtoon-battle-event-3153
+Battle Event localtoon-battle-event-3159
+Battle Event localtoon-battle-event-3165
+Battle Event localtoon-battle-event-3171
+Battle Event localtoon-battle-event-3177
+Battle Event localtoon-battle-event-3183
+Battle Event localtoon-battle-event-3189
+Battle Event localtoon-battle-event-3195
+Battle Event localtoon-battle-event-3201
+Battle Event localtoon-battle-event-3207
+Battle Event localtoon-battle-event-3213
+Battle Event localtoon-battle-event-3219
+Battle Event localtoon-battle-event-3225
+Battle Event localtoon-battle-event-3231
+Battle Event localtoon-battle-event-3237
+Battle Event localtoon-battle-event-3243
+Battle Event localtoon-battle-event-3249
+TIMER startTime 2836
+Battle Event localtoon-battle-event-3255
+Battle Event localtoon-battle-event-3261
+Battle Event localtoon-battle-event-3267
+Battle Event localtoon-battle-event-3273
+Battle Event localtoon-battle-event-3279
+Battle Event localtoon-battle-event-3285
+Battle Event localtoon-battle-event-3291
+TIMER startTime 2836
+Battle Event localtoon-battle-event-3297
+Battle Event localtoon-battle-event-3303
+Battle Event localtoon-battle-event-3309
+Battle Event localtoon-battle-event-3315
+Battle Event localtoon-battle-event-3321
+Battle Event localtoon-battle-event-3327
+Battle Event localtoon-battle-event-3333
+frame rate: 7.5 fps|0.131d|6 avs||4847|4851||0x1002|0x6738|662.1MB|966.9MB|16330.4MB|6400|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-3339
+Battle Event localtoon-battle-event-3345
+Battle Event localtoon-battle-event-3351
+Battle Event localtoon-battle-event-3357
+Battle Event localtoon-battle-event-3363
+Battle Event localtoon-battle-event-3369
+Battle Event localtoon-battle-event-3375
+Battle Event localtoon-battle-event-3381
+Battle Event localtoon-battle-event-3387
+Battle Event localtoon-battle-event-3393
+Battle Event localtoon-battle-event-3399
+Battle Event localtoon-battle-event-3405
+Battle Event localtoon-battle-event-3411
+Battle Event localtoon-battle-event-3417
+Battle Event localtoon-battle-event-3423
+Battle Event localtoon-battle-event-3429
+Battle Event localtoon-battle-event-3435
+Battle Event localtoon-battle-event-3441
+Battle Event localtoon-battle-event-3447
+TIMER startTime 2836
+Battle Event localtoon-battle-event-3453
+Battle Event localtoon-battle-event-3459
+Battle Event localtoon-battle-event-3465
+Battle Event localtoon-battle-event-3471
+Battle Event localtoon-battle-event-3477
+Battle Event localtoon-battle-event-3483
+Battle Event localtoon-battle-event-3489
+Battle Event localtoon-battle-event-3495
+Battle Event localtoon-battle-event-3501
+Battle Event localtoon-battle-event-3507
+Battle Event localtoon-battle-event-3513
+Battle Event localtoon-battle-event-3519
+Battle Event localtoon-battle-event-3525
+Battle Event localtoon-battle-event-3531
+Battle Event localtoon-battle-event-3537
+Battle Event localtoon-battle-event-3543
+Battle Event localtoon-battle-event-3549
+Battle Event localtoon-battle-event-3555
+Battle Event localtoon-battle-event-3561
+Battle Event localtoon-battle-event-3567
+Battle Event localtoon-battle-event-3573
+Battle Event localtoon-battle-event-3579
+Battle Event localtoon-battle-event-3585
+Battle Event localtoon-battle-event-3591
+Battle Event localtoon-battle-event-3597
+Battle Event localtoon-battle-event-3603
+Battle Event localtoon-battle-event-3609
+Battle Event localtoon-battle-event-3615
+Battle Event localtoon-battle-event-3621
+Battle Event localtoon-battle-event-3627
+Battle Event localtoon-battle-event-3633
+Battle Event localtoon-battle-event-3639
+Battle Event localtoon-battle-event-3645
+Battle Event localtoon-battle-event-3651
+Battle Event localtoon-battle-event-3657
+Battle Event localtoon-battle-event-3663
+Battle Event localtoon-battle-event-3669
+Battle Event localtoon-battle-event-3675
+Battle Event localtoon-battle-event-3681
+Battle Event localtoon-battle-event-3687
+Battle Event localtoon-battle-event-3693
+Battle Event localtoon-battle-event-3699
+Battle Event localtoon-battle-event-3705
+frame rate: 7.0 fps|0.160d|5 avs||5147|5151||0x1002|0x6738|652.6MB|975.1MB|16330.4MB|6412|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-3711
+Battle Event localtoon-battle-event-3717
+Battle Event localtoon-battle-event-3723
+Battle Event localtoon-battle-event-3729
+Battle Event localtoon-battle-event-3735
+Battle Event localtoon-battle-event-3741
+Battle Event localtoon-battle-event-3747
+Battle Event localtoon-battle-event-3753
+Battle Event localtoon-battle-event-3759
+Battle Event localtoon-battle-event-3765
+Battle Event localtoon-battle-event-3771
+Battle Event localtoon-battle-event-3777
+Battle Event localtoon-battle-event-3783
+Battle Event localtoon-battle-event-3789
+Battle Event localtoon-battle-event-3795
+Battle Event localtoon-battle-event-3801
+Battle Event localtoon-battle-event-3807
+Battle Event localtoon-battle-event-3813
+Battle Event localtoon-battle-event-3819
+Battle Event localtoon-battle-event-3825
+Battle Event localtoon-battle-event-3831
+Battle Event localtoon-battle-event-3837
+Battle Event localtoon-battle-event-3843
+Battle Event localtoon-battle-event-3849
+Battle Event localtoon-battle-event-3855
+Battle Event localtoon-battle-event-3861
+Battle Event localtoon-battle-event-3867
+Battle Event localtoon-battle-event-3873
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+Battle Event localtoon-battle-event-3879
+Battle Event localtoon-battle-event-3885
+Battle Event localtoon-battle-event-3891
+Battle Event localtoon-battle-event-3897
+Battle Event localtoon-battle-event-3903
+Battle Event localtoon-battle-event-3909
+Battle Event localtoon-battle-event-3915
+TIMER startTime 2836
+Battle Event localtoon-battle-event-3921
+Battle Event localtoon-battle-event-3927
+Battle Event localtoon-battle-event-3933
+Battle Event localtoon-battle-event-3939
+Battle Event localtoon-battle-event-3945
+Battle Event localtoon-battle-event-3951
+Battle Event localtoon-battle-event-3957
+Battle Event localtoon-battle-event-3963
+Battle Event localtoon-battle-event-3969
+Battle Event localtoon-battle-event-3975
+Battle Event localtoon-battle-event-3981
+Battle Event localtoon-battle-event-3987
+Battle Event localtoon-battle-event-3993
+Battle Event localtoon-battle-event-3999
+Battle Event localtoon-battle-event-4005
+Battle Event localtoon-battle-event-4011
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4017
+Battle Event localtoon-battle-event-4023
+Battle Event localtoon-battle-event-4029
+Battle Event localtoon-battle-event-4035
+Battle Event localtoon-battle-event-4041
+Battle Event localtoon-battle-event-4047
+Battle Event localtoon-battle-event-4053
+Battle Event localtoon-battle-event-4059
+Battle Event localtoon-battle-event-4065
+Battle Event localtoon-battle-event-4071
+Battle Event localtoon-battle-event-4077
+Battle Event localtoon-battle-event-4083
+Battle Event localtoon-battle-event-4089
+frame rate: 7.8 fps|0.118d|4 avs||5447|5451||0x1002|0x6738|653.4MB|975.6MB|16330.4MB|6415|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-4095
+Battle Event localtoon-battle-event-4101
+Battle Event localtoon-battle-event-4107
+Battle Event localtoon-battle-event-4113
+Battle Event localtoon-battle-event-4119
+Battle Event localtoon-battle-event-4125
+Battle Event localtoon-battle-event-4131
+Battle Event localtoon-battle-event-4137
+Battle Event localtoon-battle-event-4143
+Battle Event localtoon-battle-event-4149
+Battle Event localtoon-battle-event-4155
+Battle Event localtoon-battle-event-4161
+Battle Event localtoon-battle-event-4167
+Battle Event localtoon-battle-event-4173
+Battle Event localtoon-battle-event-4179
+Battle Event localtoon-battle-event-4185
+Battle Event localtoon-battle-event-4191
+Battle Event localtoon-battle-event-4197
+Battle Event localtoon-battle-event-4203
+Battle Event localtoon-battle-event-4209
+Battle Event localtoon-battle-event-4215
+Battle Event localtoon-battle-event-4221
+Battle Event localtoon-battle-event-4227
+Battle Event localtoon-battle-event-4233
+Battle Event localtoon-battle-event-4239
+Battle Event localtoon-battle-event-4245
+Battle Event localtoon-battle-event-4251
+Battle Event localtoon-battle-event-4257
+Battle Event localtoon-battle-event-4263
+Battle Event localtoon-battle-event-4269
+Battle Event localtoon-battle-event-4275
+Battle Event localtoon-battle-event-4281
+Battle Event localtoon-battle-event-4287
+Battle Event localtoon-battle-event-4293
+Battle Event localtoon-battle-event-4299
+Battle Event localtoon-battle-event-4305
+Battle Event localtoon-battle-event-4311
+Battle Event localtoon-battle-event-4317
+Battle Event localtoon-battle-event-4323
+Battle Event localtoon-battle-event-4329
+Battle Event localtoon-battle-event-4335
+Battle Event localtoon-battle-event-4341
+Battle Event localtoon-battle-event-4347
+Battle Event localtoon-battle-event-4353
+Battle Event localtoon-battle-event-4359
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4365
+Battle Event localtoon-battle-event-4371
+Battle Event localtoon-battle-event-4377
+Battle Event localtoon-battle-event-4383
+Battle Event localtoon-battle-event-4389
+Battle Event localtoon-battle-event-4395
+Battle Event localtoon-battle-event-4401
+Battle Event localtoon-battle-event-4407
+Battle Event localtoon-battle-event-4413
+Battle Event localtoon-battle-event-4419
+Battle Event localtoon-battle-event-4425
+Battle Event localtoon-battle-event-4431
+Battle Event localtoon-battle-event-4437
+Battle Event localtoon-battle-event-4443
+Battle Event localtoon-battle-event-4449
+Battle Event localtoon-battle-event-4455
+Battle Event localtoon-battle-event-4461
+Battle Event localtoon-battle-event-4467
+Battle Event localtoon-battle-event-4473
+frame rate: 6.9 fps|0.176d|4 avs||5747|5751||0x1002|0x6738|654.8MB|977.1MB|16330.4MB|6419|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-4479
+Battle Event localtoon-battle-event-4485
+Battle Event localtoon-battle-event-4491
+Battle Event localtoon-battle-event-4497
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4503
+Battle Event localtoon-battle-event-4509
+Battle Event localtoon-battle-event-4515
+Battle Event localtoon-battle-event-4521
+Battle Event localtoon-battle-event-4527
+Battle Event localtoon-battle-event-4533
+Battle Event localtoon-battle-event-4539
+Battle Event localtoon-battle-event-4545
+Battle Event localtoon-battle-event-4551
+Battle Event localtoon-battle-event-4557
+Battle Event localtoon-battle-event-4563
+Battle Event localtoon-battle-event-4569
+Battle Event localtoon-battle-event-4575
+Battle Event localtoon-battle-event-4581
+Battle Event localtoon-battle-event-4587
+Battle Event localtoon-battle-event-4593
+Battle Event localtoon-battle-event-4599
+Battle Event localtoon-battle-event-4605
+Battle Event localtoon-battle-event-4611
+Battle Event localtoon-battle-event-4617
+Battle Event localtoon-battle-event-4623
+Battle Event localtoon-battle-event-4629
+Battle Event localtoon-battle-event-4635
+Battle Event localtoon-battle-event-4641
+Battle Event localtoon-battle-event-4647
+Battle Event localtoon-battle-event-4653
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4659
+Battle Event localtoon-battle-event-4665
+Battle Event localtoon-battle-event-4671
+Battle Event localtoon-battle-event-4677
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4683
+Battle Event localtoon-battle-event-4689
+Battle Event localtoon-battle-event-4695
+Battle Event localtoon-battle-event-4701
+Battle Event localtoon-battle-event-4707
+Battle Event localtoon-battle-event-4713
+Battle Event localtoon-battle-event-4719
+Battle Event localtoon-battle-event-4725
+Battle Event localtoon-battle-event-4731
+Battle Event localtoon-battle-event-4737
+Battle Event localtoon-battle-event-4743
+Battle Event localtoon-battle-event-4749
+Battle Event localtoon-battle-event-4755
+Battle Event localtoon-battle-event-4761
+Battle Event localtoon-battle-event-4767
+Battle Event localtoon-battle-event-4773
+Battle Event localtoon-battle-event-4779
+Battle Event localtoon-battle-event-4785
+Battle Event localtoon-battle-event-4791
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4797
+Battle Event localtoon-battle-event-4803
+Battle Event localtoon-battle-event-4809
+Battle Event localtoon-battle-event-4815
+Battle Event localtoon-battle-event-4821
+Battle Event localtoon-battle-event-4827
+Battle Event localtoon-battle-event-4833
+Battle Event localtoon-battle-event-4839
+Battle Event localtoon-battle-event-4845
+Battle Event localtoon-battle-event-4851
+frame rate: 6.9 fps|0.159d|6 avs||6047|6051||0x1002|0x6738|659.9MB|981.6MB|16330.4MB|6428|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-4857
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4863
+Battle Event localtoon-battle-event-4869
+Battle Event localtoon-battle-event-4875
+Battle Event localtoon-battle-event-4881
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4887
+Battle Event localtoon-battle-event-4893
+Battle Event localtoon-battle-event-4899
+Battle Event localtoon-battle-event-4905
+Battle Event localtoon-battle-event-4911
+Battle Event localtoon-battle-event-4917
+Battle Event localtoon-battle-event-4923
+Battle Event localtoon-battle-event-4929
+Battle Event localtoon-battle-event-4935
+Battle Event localtoon-battle-event-4941
+Battle Event localtoon-battle-event-4947
+Battle Event localtoon-battle-event-4953
+Battle Event localtoon-battle-event-4959
+Battle Event localtoon-battle-event-4965
+Battle Event localtoon-battle-event-4971
+TIMER startTime 2836
+Battle Event localtoon-battle-event-4977
+Battle Event localtoon-battle-event-4983
+Battle Event localtoon-battle-event-4989
+Battle Event localtoon-battle-event-4995
+Battle Event localtoon-battle-event-5001
+Battle Event localtoon-battle-event-5007
+Battle Event localtoon-battle-event-5013
+Battle Event localtoon-battle-event-5019
+Battle Event localtoon-battle-event-5025
+Battle Event localtoon-battle-event-5031
+Battle Event localtoon-battle-event-5037
+Battle Event localtoon-battle-event-5043
+TIMER startTime 2836
+Battle Event localtoon-battle-event-5049
+Battle Event localtoon-battle-event-5055
+Battle Event localtoon-battle-event-5061
+Battle Event localtoon-battle-event-5067
+Battle Event localtoon-battle-event-5073
+Battle Event localtoon-battle-event-5079
+Battle Event localtoon-battle-event-5085
+Battle Event localtoon-battle-event-5091
+Battle Event localtoon-battle-event-5097
+Battle Event localtoon-battle-event-5103
+Battle Event localtoon-battle-event-5109
+Battle Event localtoon-battle-event-5115
+Battle Event localtoon-battle-event-5121
+Battle Event localtoon-battle-event-5127
+Battle Event localtoon-battle-event-5133
+Battle Event localtoon-battle-event-5139
+Battle Event localtoon-battle-event-5145
+Battle Event localtoon-battle-event-5151
+Battle Event localtoon-battle-event-5157
+Battle Event localtoon-battle-event-5163
+Battle Event localtoon-battle-event-5169
+Battle Event localtoon-battle-event-5175
+Battle Event localtoon-battle-event-5181
+Battle Event localtoon-battle-event-5187
+Battle Event localtoon-battle-event-5193
+Battle Event localtoon-battle-event-5199
+Battle Event localtoon-battle-event-5205
+Battle Event localtoon-battle-event-5211
+Battle Event localtoon-battle-event-5217
+frame rate: 7.6 fps|0.131d|6 avs||6347|6351||0x1002|0x6738|663.7MB|985.6MB|16330.4MB|6434|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-5223
+Battle Event localtoon-battle-event-5229
+Battle Event localtoon-battle-event-5235
+Battle Event localtoon-battle-event-5241
+Battle Event localtoon-battle-event-5247
+Battle Event localtoon-battle-event-5253
+Battle Event localtoon-battle-event-5259
+Battle Event localtoon-battle-event-5265
+Battle Event localtoon-battle-event-5271
+Battle Event localtoon-battle-event-5277
+Battle Event localtoon-battle-event-5283
+Battle Event localtoon-battle-event-5289
+Battle Event localtoon-battle-event-5295
+Battle Event localtoon-battle-event-5301
+Battle Event localtoon-battle-event-5307
+Battle Event localtoon-battle-event-5313
+Battle Event localtoon-battle-event-5319
+Battle Event localtoon-battle-event-5325
+Battle Event localtoon-battle-event-5331
+Battle Event localtoon-battle-event-5337
+Battle Event localtoon-battle-event-5343
+Battle Event localtoon-battle-event-5349
+Battle Event localtoon-battle-event-5355
+TIMER startTime 2836
+Battle Event localtoon-battle-event-5361
+Battle Event localtoon-battle-event-5367
+Battle Event localtoon-battle-event-5373
+Battle Event localtoon-battle-event-5379
+Battle Event localtoon-battle-event-5385
+Battle Event localtoon-battle-event-5391
+Battle Event localtoon-battle-event-5397
+Battle Event localtoon-battle-event-5403
+TIMER startTime 2836
+frame rate: 7.5 fps|0.065d|12 avs||6647|6651||0x1002|0x6738|665.6MB|987.4MB|16330.4MB|6437|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 2836
+TIMER startTime 2836
+frame rate: 7.4 fps|0.064d|13 avs||6947|6951||0x1002|0x6738|668.4MB|990.2MB|16330.4MB|6441|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 2836
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna

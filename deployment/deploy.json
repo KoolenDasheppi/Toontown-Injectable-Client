@@ -1,7 +1,7 @@
 {
   "ftp-address": "167.114.18.121",
   "ftp-username": "ttidownload",
-  "ftp-password": "",
+  "ftp-password": "1",
   "platform": "win32",
   "distribution": "test",
   "branch": "master",
@@ -10,7 +10,7 @@
   "version-prefix": "test-v",
   "launcher-version": "1.0.0",
   "account-server": "gameserver.toontowninfinite.com",
-  "client-agent": "167.114.28.238",
+  "client-agent": "127.0.0.1",
   "patcher-includes": [
     "GameData.bin", 
     "infinite.exe", 

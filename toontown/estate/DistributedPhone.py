@@ -196,7 +196,6 @@ class DistributedPhone(DistributedFurnitureItem.DistributedFurnitureItem):
             self.hasLocalAvatar = 0
         self.ignore(self.pickupMovieDoneEvent)
         self.accept(self.phoneSphereEnterEvent, self.__handleEnterSphere)
-        self.stopSmooth()
         self.lastTime = globalClock.getFrameTime()
 
     def setLimits(self, numHouseItems):

@@ -1,0 +1,133 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x20425170>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-10
+Battle Event localtoon-battle-event-17
+Battle Event localtoon-battle-event-24
+Battle Event localtoon-battle-event-31
+Battle Event localtoon-battle-event-38
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-52
+Battle Event localtoon-battle-event-59
+Battle Event localtoon-battle-event-66
+Battle Event localtoon-battle-event-73
+Battle Event localtoon-battle-event-80
+Battle Event localtoon-battle-event-87
+Battle Event localtoon-battle-event-94
+Battle Event localtoon-battle-event-101
+Battle Event localtoon-battle-event-108
+frame rate: 16.1 fps|0.089d|23 avs||401|403||0x1002|0x6738|404.7MB|432.2MB|16330.4MB|503|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-115
+Battle Event localtoon-battle-event-122
+Battle Event localtoon-battle-event-129
+Battle Event localtoon-battle-event-136
+Battle Event localtoon-battle-event-143
+Battle Event localtoon-battle-event-150
+Battle Event localtoon-battle-event-157
+Battle Event localtoon-battle-event-164
+Battle Event localtoon-battle-event-171
+Battle Event localtoon-battle-event-178
+Battle Event localtoon-battle-event-185
+Battle Event localtoon-battle-event-192
+Battle Event localtoon-battle-event-199
+Battle Event localtoon-battle-event-206
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-220
+frame rate: 15.5 fps|0.091d|2 avs||701|703||0x1002|0x6738|408.3MB|435.8MB|16330.4MB|560|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-227
+Battle Event localtoon-battle-event-234
+Battle Event localtoon-battle-event-241
+Battle Event localtoon-battle-event-248
+Battle Event localtoon-battle-event-255
+Battle Event localtoon-battle-event-262
+Battle Event localtoon-battle-event-269
+Battle Event localtoon-battle-event-276
+Battle Event localtoon-battle-event-283
+Battle Event localtoon-battle-event-290
+Battle Event localtoon-battle-event-297
+Battle Event localtoon-battle-event-304
+Battle Event localtoon-battle-event-311
+Battle Event localtoon-battle-event-318
+Battle Event localtoon-battle-event-325
+Battle Event localtoon-battle-event-332
+frame rate: 16.1 fps|0.066d|1 avs||1001|1004||0x1002|0x6738|408.9MB|436.2MB|16330.4MB|622|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-339
+Battle Event localtoon-battle-event-346
+Battle Event localtoon-battle-event-353
+Battle Event localtoon-battle-event-360
+Traceback (most recent call last):
+  File "Toon Bot/Scripts/AutoerGui.txt", line 385, in updateAllText
+    self.text[3].setText(self.catagories[3]+': '+eval(self.statsMethods[3]))
+  File "<string>", line 1, in <module>
+AttributeError: ToonBase instance has no attribute 'localAvatar'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "Toon Bot/Scripts/AutoerGui.txt", line 385, in updateAllText
+    self.text[3].setText(self.catagories[3]+': '+eval(self.statsMethods[3]))
+  File "<string>", line 1, in <module>
+AttributeError: ToonBase instance has no attribute 'localAvatar'

@@ -1,0 +1,68 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1F4F31C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+Exception occurred while processing Func-tick-1345 of Sequence-1611:
+Sequence-1611:
+  0.000 Sequence-1611 {
+  0.000   Wait dur 0.5
+  0.500   *Func-tick-1345
+  0.500 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 70, in tick
+  File "<string>", line 22, in catch
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 359, in sendUpdate
+    fieldName, sendToId or self.doId, args)
+AssertionError: Don't know how to pack object: render/DistributedFishingTarget at line 857 of c:\users\toontowninfinite\desktop\github\panda3d\direct\src\dcparser\dcPacker.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 70, in tick
+  File "<string>", line 22, in catch
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 359, in sendUpdate
+    fieldName, sendToId or self.doId, args)
+AssertionError: Don't know how to pack object: render/DistributedFishingTarget at line 857 of c:\users\toontowninfinite\desktop\github\panda3d\direct\src\dcparser\dcPacker.cxx

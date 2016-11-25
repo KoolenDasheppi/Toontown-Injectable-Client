@@ -1,0 +1,148 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB841C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+:05-27-2015 22:53:44: setTalk: 100000003, 'Little Zippy', 'test'
+:05-27-2015 22:53:57: setTalk: 100000003, 'Little Zippy', 'test'
+:05-27-2015 22:54:00: setTalk: 100000003, 'Little Zippy', 'sdfgsdf'
+:05-27-2015 22:54:00: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 22:54:01: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 22:54:01: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 22:54:01: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 22:54:01: setTalk: 100000003, 'Little Zippy', 'g'
+:05-27-2015 22:54:02: setTalk: 100000003, 'Little Zippy', 'dfg'
+:05-27-2015 22:54:02: setTalk: 100000003, 'Little Zippy', 'gfdh'
+:05-27-2015 22:54:02: setTalk: 100000003, 'Little Zippy', 'f'
+:05-27-2015 22:54:02: setTalk: 100000003, 'Little Zippy', 'gj'
+:05-27-2015 22:54:03: setTalk: 100000003, 'Little Zippy', 'fghj'
+:05-27-2015 22:54:03: setTalk: 100000003, 'Little Zippy', 'gfjgj'
+frame rate: 5.0 fps|0.106d|5 avs||328|331||0x1002|0x6738|437.9MB|495.8MB|16330.4MB|17796|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 11.8 fps|0.072d|6 avs||628|631||0x1002|0x6738|439.0MB|496.7MB|16330.4MB|68065|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+:05-27-2015 23:03:54: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat request join lol'
+:05-27-2015 23:04:11: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat ping'
+:05-27-2015 23:04:20: receiveWhisperTalk: 100000005, 'Colonel Huey', 0, None, 100000003, 'Little Zippy', 'toon chat request join lol'
+:05-27-2015 23:04:31: receiveWhisperTalk: 100000005, 'Colonel Huey', 0, None, 100000003, 'Little Zippy', 'toon chat typed \x01WLDisplay\x01\x01WLDisplay\x01deh\x02\x02 hello lol'
+:05-27-2015 23:06:05: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat request join lol'
+:05-27-2015 23:06:11: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat ping'
+:05-27-2015 23:06:21: setTalk: 100000003, 'Little Zippy', 'testing'
+:05-27-2015 23:06:25: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 23:06:25: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'saf'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'das'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'dsd'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'fg'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'hd'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'fgh'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'dfhj'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'k'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'j'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'hk'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'hj'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'kg'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'g'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'hjk'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'hjg'
+:05-27-2015 23:06:31: setTalk: 100000003, 'Little Zippy', 'kfuck'
+:05-27-2015 23:06:32: setTalk: 100000003, 'Little Zippy', 'fuck'
+:05-27-2015 23:06:34: setTalk: 100000003, 'Little Zippy', 'shit'
+:05-27-2015 23:06:44: receiveWhisperTalk: 100000005, 'Colonel Huey', 0, None, 100000003, 'Little Zippy', 'toon chat typed \x01WLDisplay\x01\x01WLDisplay\x01kek\x02\x02 lol'
+:05-27-2015 23:07:13: receiveWhisperTalk: 100000005, 'Colonel Huey', 0, None, 100000003, 'Little Zippy', 'toon chat typed \x01WLDisplay\x01\x01WLDisplay\x01kek\x02\x02 lol'
+:05-27-2015 23:07:53: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat request join grub'
+:05-27-2015 23:08:11: receiveWhisperTalk: 100000003, 'Little Zippy', 0, None, 100000003, 'Little Zippy', 'toon chat ping'
+frame rate: 13.7 fps|0.028d|6 avs||928|931||0x1002|0x6738|439.9MB|497.4MB|16330.4MB|68066|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+:05-27-2015 23:09:54: setTalk: 100000007, 'Zippy Hulamush', 'adsfasd'
+:05-27-2015 23:09:55: setTalk: 100000005, 'Colonel Huey', 'adad'
+:05-27-2015 23:09:57: setTalk: 100000007, 'Zippy Hulamush', 'adfas'
+:05-27-2015 23:09:58: setTalk: 100000003, 'Little Zippy', 'aadsf'
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+[<toontown.fishing.DistributedFishingPond.DistributedFishingPond instance at 0x1F82E210>]
+render/DistributedFishingTarget
+frame rate: 19.4 fps|0.017d|4 avs||1228|1231||0x1002|0x6738|445.3MB|502.0MB|16330.4MB|68113|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 24.0 fps|0.003d|4 avs||1528|1531||0x1002|0x6738|445.5MB|502.7MB|16330.4MB|68113|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+frame rate: 79.3 fps|0.001d|0 avs||1828|1831||0x1002|0x6738|446.0MB|479.4MB|16330.4MB|68159|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "toontown\shtiker\ShtikerBook.py", line 364, in __open
+    messenger.send('enterStickerBook')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\safezone\PublicWalk.py", line 47, in __handleStickerBookEntry
+    messenger.send(self.doneEvent, [doneStatus])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 248, in handleWalkDone
+    self.fsm.request('stickerBook')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 264, in request
+    (self.__name, aStateName))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\directnotify\Notifier.py", line 136, in error
+    raise exception(errorString)
+StandardError: [CogHQLobby]: request: stickerBook, no such state
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "toontown\shtiker\ShtikerBook.py", line 364, in __open
+    messenger.send('enterStickerBook')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\safezone\PublicWalk.py", line 47, in __handleStickerBookEntry
+    messenger.send(self.doneEvent, [doneStatus])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 248, in handleWalkDone
+    self.fsm.request('stickerBook')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 264, in request
+    (self.__name, aStateName))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\directnotify\Notifier.py", line 136, in error
+    raise exception(errorString)
+StandardError: [CogHQLobby]: request: stickerBook, no such state

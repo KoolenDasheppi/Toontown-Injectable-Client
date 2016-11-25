@@ -25,5 +25,3 @@ want-chestnut-park-construction #t
 # Temporary:
 want-phone-quest #f
 
-# Staff events:
-cfo-staff-event #t

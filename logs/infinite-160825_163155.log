@@ -1,0 +1,582 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB48710>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB48828>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB48850>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1B866300>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1B863328>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB48760>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB487D8>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB48878>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB35EE0>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1BB487B0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_6/dna/storage_MM_sz.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-15
+Battle Event localtoon-battle-event-21
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DG_town.pdna
+Reading DNA file... phase_8/dna/daisys_garden_5100.pdna
+Battle Event localtoon-battle-event-39
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DG_town.pdna
+Reading DNA file... phase_8/dna/daisys_garden_5200.pdna
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-51
+Battle Event localtoon-battle-event-57
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DG_town.pdna
+Reading DNA file... phase_8/dna/daisys_garden_5300.pdna
+Battle Event localtoon-battle-event-63
+Battle Event localtoon-battle-event-69
+Battle Event localtoon-battle-event-75
+Battle Event localtoon-battle-event-81
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DG_town.pdna
+Reading DNA file... phase_8/dna/daisys_garden_5100.pdna
+Battle Event localtoon-battle-event-87
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-99
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DG_town.pdna
+Reading DNA file... phase_8/dna/daisys_garden_5200.pdna
+Battle Event localtoon-battle-event-105
+Battle Event localtoon-battle-event-111
+Battle Event localtoon-battle-event-117
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+Battle Event localtoon-battle-event-135
+Battle Event localtoon-battle-event-141
+Battle Event localtoon-battle-event-147
+Battle Event localtoon-battle-event-153
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-159
+Battle Event localtoon-battle-event-165
+Battle Event localtoon-battle-event-171
+Battle Event localtoon-battle-event-177
+Battle Event localtoon-battle-event-183
+Battle Event localtoon-battle-event-189
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+Battle Event localtoon-battle-event-207
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+Battle Event localtoon-battle-event-237
+Battle Event localtoon-battle-event-243
+Battle Event localtoon-battle-event-249
+Battle Event localtoon-battle-event-255
+Battle Event localtoon-battle-event-261
+Battle Event localtoon-battle-event-267
+Battle Event localtoon-battle-event-273
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-279
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Battle Event localtoon-battle-event-285
+frame rate: 20.8 fps|0.154d|0 avs||587|590||0x1002|0x6738|541.5MB|570.0MB|16330.4MB|692|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-291
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-297
+Battle Event localtoon-battle-event-303
+Battle Event localtoon-battle-event-309
+Battle Event localtoon-battle-event-315
+Battle Event localtoon-battle-event-321
+Battle Event localtoon-battle-event-327
+Battle Event localtoon-battle-event-333
+Battle Event localtoon-battle-event-339
+Battle Event localtoon-battle-event-345
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Battle Event localtoon-battle-event-351
+Battle Event localtoon-battle-event-357
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-363
+Battle Event localtoon-battle-event-369
+Battle Event localtoon-battle-event-375
+Battle Event localtoon-battle-event-381
+Battle Event localtoon-battle-event-387
+Battle Event localtoon-battle-event-393
+Battle Event localtoon-battle-event-399
+Battle Event localtoon-battle-event-405
+Battle Event localtoon-battle-event-411
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Battle Event localtoon-battle-event-417
+Battle Event localtoon-battle-event-423
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Battle Event localtoon-battle-event-429
+Battle Event localtoon-battle-event-435
+Battle Event localtoon-battle-event-441
+Battle Event localtoon-battle-event-447
+Battle Event localtoon-battle-event-453
+Battle Event localtoon-battle-event-459
+Battle Event localtoon-battle-event-465
+Battle Event localtoon-battle-event-471
+Battle Event localtoon-battle-event-477
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Battle Event localtoon-battle-event-483
+Battle Event localtoon-battle-event-489
+Battle Event localtoon-battle-event-495
+Battle Event localtoon-battle-event-501
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-507
+Battle Event localtoon-battle-event-513
+Battle Event localtoon-battle-event-519
+Battle Event localtoon-battle-event-525
+Battle Event localtoon-battle-event-531
+Battle Event localtoon-battle-event-537
+Battle Event localtoon-battle-event-543
+Battle Event localtoon-battle-event-549
+Battle Event localtoon-battle-event-555
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-561
+Battle Event localtoon-battle-event-567
+Battle Event localtoon-battle-event-573
+Battle Event localtoon-battle-event-579
+Battle Event localtoon-battle-event-585
+Battle Event localtoon-battle-event-591
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-597
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-603
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-609
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-615
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Battle Event localtoon-battle-event-621
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-627
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-633
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-639
+Battle Event localtoon-battle-event-645
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+  File "Gag Trainer Toontask.txt", line 1459, in setLocation
+    elif round(zoneId,-3)!=zoneId:
+TypeError: a float is required
+
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Battle Event localtoon-battle-event-651
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9100.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_DL_town.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_9200.pdna
+Battle Event localtoon-battle-event-657
+Battle Event localtoon-battle-event-663
+Doing building quest
+starting
+Teleporting back
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Battle Event localtoon-battle-event-669
+Battle Event localtoon-battle-event-674
+Battle Event localtoon-battle-event-679
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4100.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-684
+Battle Event localtoon-battle-event-690
+Battle Event localtoon-battle-event-696
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+frame rate: 11.4 fps|0.267d|3 avs||2920|2924||0x1002|0x6738|749.0MB|931.8MB|16330.4MB|1846|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-702
+Battle Event localtoon-battle-event-708
+Battle Event localtoon-battle-event-714
+Battle Event localtoon-battle-event-720
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+Battle Event localtoon-battle-event-726
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-732
+Battle Event localtoon-battle-event-738
+Battle Event localtoon-battle-event-744
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-750
+Battle Event localtoon-battle-event-756
+Battle Event localtoon-battle-event-762
+Battle Event localtoon-battle-event-768
+Battle Event localtoon-battle-event-774
+Battle Event localtoon-battle-event-780
+Battle Event localtoon-battle-event-786
+Battle Event localtoon-battle-event-792
+Battle Event localtoon-battle-event-798
+Battle Event localtoon-battle-event-804
+Battle Event localtoon-battle-event-810
+Battle Event localtoon-battle-event-816
+Battle Event localtoon-battle-event-822
+Battle Event localtoon-battle-event-828
+Battle Event localtoon-battle-event-834
+Battle Event localtoon-battle-event-840
+Battle Event localtoon-battle-event-846
+Battle Event localtoon-battle-event-852
+Battle Event localtoon-battle-event-858
+Battle Event localtoon-battle-event-864
+Battle Event localtoon-battle-event-870
+Battle Event localtoon-battle-event-876
+Battle Event localtoon-battle-event-882
+Battle Event localtoon-battle-event-888
+Battle Event localtoon-battle-event-894
+Battle Event localtoon-battle-event-900
+Battle Event localtoon-battle-event-906
+Battle Event localtoon-battle-event-912
+Battle Event localtoon-battle-event-918
+Battle Event localtoon-battle-event-924
+Battle Event localtoon-battle-event-930
+Battle Event localtoon-battle-event-936
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1559, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1839, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1863, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 2044, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2090, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\event\DistributedScienceFair.py", line 9, in announceGenerate
+    self.tent = loader.loadModel('phase_4/models/events/event_tent.bam')
+  File "toontown\toonbase\ToontownLoader.py", line 72, in loadModel
+    ret = Loader.Loader.loadModel(self, *args, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Loader.py", line 170, in loadModel
+    raise IOError, message
+IOError: Could not load model file(s): ['phase_4/models/events/event_tent.bam']
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1559, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1839, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1863, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 2044, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2090, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 337, in updateRequiredFields
+    self.announceGenerate()
+  File "toontown\event\DistributedScienceFair.py", line 9, in announceGenerate
+    self.tent = loader.loadModel('phase_4/models/events/event_tent.bam')
+  File "toontown\toonbase\ToontownLoader.py", line 72, in loadModel
+    ret = Loader.Loader.loadModel(self, *args, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Loader.py", line 170, in loadModel
+    raise IOError, message
+IOError: Could not load model file(s): ['phase_4/models/events/event_tent.bam']

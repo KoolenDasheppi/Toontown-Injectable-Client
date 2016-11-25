@@ -156,6 +156,12 @@ def assignRewards(activeToons, toonSkillPtsGained, suitsKilled, zoneId, helpfulT
         if toon != None:
             activeToonList.append(toon)
 
+    if activeToonList:
+        toon = activeToonList[0]
+        if toon.currentEvent:
+            for suit in suitsKilled:
+                messenger.send('suit-killed-%s' % toon.currentEvent.doId, [suit])
+
     for toon in activeToonList:
         for i in xrange(len(ToontownBattleGlobals.Tracks)):
             uberIndex = ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1
@@ -177,19 +183,17 @@ def assignRewards(activeToons, toonSkillPtsGained, suitsKilled, zoneId, helpfulT
                     newGagList = toon.experience.getNewGagIndexList(i, exp)
                     toon.experience.addExp(i, amount=exp)
                     toon.inventory.addItemWithList(i, newGagList)
-
         toon.b_setExperience(toon.experience.makeNetString())
         toon.d_setInventory(toon.inventory.makeNetString())
         toon.b_setAnimState('victory', 1)
 
         if simbase.air.config.GetBool('battle-passing-no-credit', True):
-            # Check if the toon was a helpful toon
             if helpfulToons and toon.doId in helpfulToons:
-
-                # Notify the AI that the toon killed cogs
                 simbase.air.questManager.toonKilledCogs(toon, suitsKilled, zoneId, activeToonList)
                 simbase.air.cogPageManager.toonKilledCogs(toon, suitsKilled, zoneId)
-
-            # Looks like the toon wasnt too helpful...
             else:
                 BattleExperienceAINotify.debug('toon=%d unhelpful not getting killed cog quest credit' % toon.doId)
+        else:
+            simbase.air.questManager.toonKilledCogs(toon, suitsKilled, zoneId, activeToonList)
+            simbase.air.cogPageManager.toonKilledCogs(toon, suitsKilled, zoneId)
+    return

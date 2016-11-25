@@ -1,0 +1,137 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1F50C1C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+Exception occurred while processing Func-catch-200 of Sequence-218:
+Sequence-218:
+  0.000 Sequence-218 {
+  0.000   *Func-catch-200
+  0.000   Wait dur 0.05
+  0.050   *Func-catch-201
+  0.050   Wait dur 0.05
+  0.100   *Func-catch-202
+  0.100   Wait dur 0.05
+  0.150   *Func-catch-203
+  0.150   Wait dur 0.05
+  0.200   *Func-catch-204
+  0.200   Wait dur 0.05
+  0.250   *Func-catch-205
+  0.250   Wait dur 0.05
+  0.300   *Func-catch-206
+  0.300   Wait dur 0.05
+  0.350   *Func-catch-207
+  0.350   Wait dur 0.05
+  0.400   *Func-catch-208
+  0.400   Wait dur 0.05
+  0.450   *Func-catch-209
+  0.450   Wait dur 0.05
+  0.500   *Func-catch-210
+  0.500   Wait dur 0.05
+  0.550   *Func-catch-211
+  0.550   Wait dur 0.05
+  0.600   *Func-catch-212
+  0.600   Wait dur 0.05
+  0.650   *Func-catch-213
+  0.650   Wait dur 0.05
+  0.700   *Func-catch-214
+  0.700   Wait dur 0.05
+  0.750   *Func-catch-215
+  0.750   Wait dur 0.05
+  0.800   *Func-catch-216
+  0.800   Wait dur 0.05
+  0.850   *Func-catch-217
+  0.850   Wait dur 0.05
+  0.900   *Func-catch-218
+  0.900   Wait dur 0.05
+  0.950   *Func-catch-219
+  0.950   Wait dur 0.05
+  1.000   *Func-catch-220
+  1.000   Wait dur 0.05
+  1.050   *Func-catch-221
+  1.050   Wait dur 0.05
+  1.100   *Func-catch-222
+  1.100   Wait dur 0.05
+  1.150   Wait dur 1e-005
+  1.150   *Func-sell-223
+  1.150   Wait dur 0.75
+  1.900 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 23, in catch
+  File "toontown\fishing\DistributedFishingPond.py", line 78, in d_hitTarget
+    self.localToonSpot.hitTarget()
+AttributeError: 'NoneType' object has no attribute 'hitTarget'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 23, in catch
+  File "toontown\fishing\DistributedFishingPond.py", line 78, in d_hitTarget
+    self.localToonSpot.hitTarget()
+AttributeError: 'NoneType' object has no attribute 'hitTarget'

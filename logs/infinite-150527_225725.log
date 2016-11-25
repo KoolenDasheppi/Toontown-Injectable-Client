@@ -1,0 +1,41 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1F5051C0>}
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+frame rate: 11.4 fps|0.022d|6 avs||390|394||0x1002|0x6738|438.9MB|475.3MB|16330.4MB|3778|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+:05-27-2015 23:06:21: setTalk: 100000003, 'Little Zippy', 'testing'
+:05-27-2015 23:06:25: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'sdf'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'saf'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'das'
+:05-27-2015 23:06:26: setTalk: 100000003, 'Little Zippy', 'dsd'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'fg'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'hd'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'fgh'
+:05-27-2015 23:06:27: setTalk: 100000003, 'Little Zippy', 'dfhj'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'k'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'j'
+:05-27-2015 23:06:28: setTalk: 100000003, 'Little Zippy', 'hk'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'hj'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'kg'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'g'
+:05-27-2015 23:06:29: setTalk: 100000003, 'Little Zippy', 'hjk'
+:05-27-2015 23:06:30: setTalk: 100000003, 'Little Zippy', 'hjg'
+:05-27-2015 23:06:31: setTalk: 100000003, 'Little Zippy', 'kfuck'
+:05-27-2015 23:06:32: setTalk: 100000003, 'Little Zippy', 'fuck'
+:05-27-2015 23:06:34: setTalk: 100000003, 'Little Zippy', 'shit'
+frame rate: 14.1 fps|0.021d|6 avs||690|694||0x1002|0x6738|439.8MB|476.2MB|16330.4MB|3780|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+:05-27-2015 23:09:53: setTalk: 100000007, 'Zippy Hulamush', 'adsfasd'
+:05-27-2015 23:09:55: setTalk: 100000005, 'Colonel Huey', 'adad'
+:05-27-2015 23:09:57: setTalk: 100000007, 'Zippy Hulamush', 'adfas'
+:05-27-2015 23:09:58: setTalk: 100000003, 'Little Zippy', 'aadsf'

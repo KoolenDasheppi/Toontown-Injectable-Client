@@ -1,0 +1,261 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E5231C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+[]
+[]
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'LocalToon' object has no attribute 'd_doCast'
+
+frame rate: 31.2 fps|0.004d|4 avs||388|391||0x1002|0x6738|420.4MB|474.7MB|16330.4MB|541|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+  File "toontown\safezone\DistributedFishingSpot.py", line 201, in d_doCast
+    self.sendUpdate('doCast', [power, heading])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 359, in sendUpdate
+    fieldName, sendToId or self.doId, args)
+ValueError: Value out of range on field: doCast[1000, 1000]
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+  File "toontown\safezone\DistributedFishingSpot.py", line 201, in d_doCast
+    self.sendUpdate('doCast', [power, heading])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 359, in sendUpdate
+    fieldName, sendToId or self.doId, args)
+ValueError: Value out of range on field: doCast[20, 20]
+
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: DistributedFishingSpot instance has no attribute 'requestEnter'
+
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940620>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940E18>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944710>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944FD0>
+Actor Little Zippy, parts = ['head', 'legs', 'torso'], LODs = ['1000', '500', '250'], anims = ['right-hand-start', 'firehose', 'rotateL-putt', 'slip-forward', 'catch-eatnrun', 'tickle', 'water-gun', 'leverNeutral', 'swim', 'catch-run', 'sad-neutral', 'pet-loop', 'jump-squat', 'taunt', 'wave', 'reel-neutral', 'pole-neutral', 'bank', 'scientistGame', 'takePhone', 'good-putt', 'victory', 'lose', 'cringe', 'right', 'headdown-putt', 'conked', 'jump', 'into-putt', 'fish-end', 'running-jump-land', 'shrug', 'sprinkle-dust', 'hold-bottle', 'right-hand', 'melt', 'pet-start', 'look-putt', 'loop-putt', 'lookloop-putt', 'juggle', 'run', 'pushbutton', 'sidestep-right', 'water', 'right-point-start', 'jump-land', 'struggle', 'running-jump', 'callPet', 'throw', 'catch-eatneutral', 'tug-o-war', 'bow', 'swing', 'climb', 'scientistWork', 'think', 'catch-intro-throw', 'walk', 'down', 'pole', 'periscope', 'duck', 'curtsy', 'bad-putt', 'loop-dig', 'angry', 'bored', 'swing-putt', 'pet-end', 'spit', 'right-point', 'start-dig', 'castlong', 'running-jump-squat', 'neutral', 'jump-idle', 'reel', 'slip-backward', 'sound', 'sidestep-left', 'up', 'fish-again', 'cast', 'phoneBack', 'phoneNeutral', 'scientistJealous', 'battlecast', 'sit-start', 'toss', 'happy-dance', 'confused', 'teleport', 'sit', 'sad-walk', 'give-props-start', 'book', 'fish-neutral', 'scientistEmcee', 'leverPull', 'tutorial-neutral', 'badloop-putt', 'give-props', 'hold-magnet', 'hypnotize', 'left-point', 'leverReach', 'feedPet', 'reel-H', 'applause', 'smooch', 'rotateR-putt', 'running-jump-idle', 'push', 'catch-neutral', 'left']
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940620>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940E18>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944710>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944FD0>
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+AttributeError: 'ToontownClientRepository' object has no attribute 'doFindAllInstance'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1
+    print(dir(base.cr)))
+                       ^
+SyntaxError: invalid syntax
+
+['CM_HTTP', 'CM_NATIVE', 'CM_NET', 'ClearInterest', 'ClearInterestDoneEvent', 'DISLToken', 'DtoolClassDict', 'DtoolGetSuperBase', 'EmuSetZoneDoneEvent', 'GameGlobalsId', 'GarbageCollectTaskName', 'GarbageThresholdTaskName', 'ITAG_AVATAR', 'ITAG_GAME', 'ITAG_PERM', 'ITAG_SHARD', 'ITAG_WORLD', 'InterestDebug', 'KeepSubShardObjects', 'SetInterest', 'SetZoneDoneEvent', 'SupportTutorial', 'WishNameResult', '_ClientRepositoryBase__doUpdate', '_ClientRepositoryBase__doUpdateOwner', '_ContextIdMask', '_ContextIdSerialNum', '_DoInterestManager__verbose', '_HandleMask', '_HandleSerialNum', '_MSGRmessengerId', '_OTPClientRepository__currentAvId', '_OTPClientRepository__doGenerate', '_OTPClientRepository__doId2pendingInterest', '_OTPClientRepository__giveUpWaitingForDatabase', '_OTPClientRepository__gotTimeSync', '_OTPClientRepository__handleAfkOk', '_OTPClientRepository__handleCancelWaiting', '_OTPClientRepository__handleCreateAccountDone', '_OTPClientRepository__handleFailedToConnectAck', '_OTPClientRepository__handleFailedToGetConstantsAck', '_OTPClientRepository__handleLoginDone', '_OTPClientRepository__handleLostConnectionAck', '_OTPClientRepository__handleMissingGameRootObjectAck', '_OTPClientRepository__handleNoShardsAck', '_OTPClientRepository__handlePeriodOk', '_OTPClientRepository__handleRejectRemoveAvatar', '_OTPClientRepository__isPaid', '_OTPClientRepository__pendingGenerates', '_OTPClientRepository__pendingMessages', '_OTPClientRepository__periodTimerExpired', '_OTPClientRepository__periodTimerWarning', '_OTPClientRepository__playBackGenerates', '_OTPClientRepository__playBackMessages', '_OTPClientRepository__recordObjectMessage', '_OTPClientRepository__showWaitingForDatabase', '_SerialGen', '_SerialNum', '_ToontownClientRepository__forbidCheesyEffects', '_ToontownClientRepository__handleAvatarChooserDone', '_ToontownClientRepository__handleCongrats', '_ToontownClientRepository__handleDownloadAck', '_ToontownClientRepository__handleMakeAToon', '_ToontownClientRepository__handleReject', '_ToontownClientRepository__handleSkipTutorialAnswered', '_ToontownClientRepository__handleStartTutorial', '_ToontownClientRepository__queryAvatarMap', '_ToontownClientRepository__requestSkipTutorial', '_ToontownClientRepository__requestTutorial', '_ToontownClientRepository__sendGetAvatarDetails', '__class__', '__cmp__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_abandonShard', '_addDebugInterestHistory', '_addDelayDeletedDO', '_addInterestEvent', '_addInterestOpToQueue', '_addTask', '_adjustGcThreshold', '_allInterestsCompleteCallbacks', '_callRemoveShardInterestCallback', '_clearTask', '_compareDistance', '_completeDelayedCallback', '_completeEventCount', '_considerRemoveInterest', '_crashOnProactiveLeakDetect', '_debug_interestHistory', '_debug_maxDescriptionLen', '_delayDeletedDOs', '_deletedSubShardDoIds', '_doHierarchy', '_doIdIsOnCurrentShard', '_garbageCollect', '_gcDefaultThreshold', '_getAddInterestEvent', '_getAnonymousEvent', '_getDistanceFromLA', '_getInterestState', '_getLostConnectionEvent', '_getMsgName', '_getNextContextId', '_getNextHandle', '_getRemoveInterestEvent', '_handleConnected', '_handleEmuSetZoneDone', '_handleOldShardGone', '_interests', '_isInvalidPlayerAvatarGenerate', '_isPlayerDclass', '_isValidPlayerLocation', '_logFailedDisable', '_noNewInterests', '_playerAvDclass', '_printObjects', '_proactiveLeakChecks', '_removeAllOV', '_removeCurrentShardInterest', '_removeDelayDeletedDO', '_removeEmulatedSetZone', '_removeInterestEvent', '_removeLocalAvFromStateServer', '_removeShardInterestComplete', '_requestAvatarList', '_returnObjects', '_sendAddInterest', '_sendHello', '_sendNextSetZone', '_sendRemoveAIInterest', '_sendRemoveInterest', '_serverAddress', '_shardsAreReady', '_tcrRemoveShardInterestDone', '_tcrRemoveUberZoneInterest', '_userLoggingOut', '_wantShardListComplete', 'abandonMessageBundles', 'abandon_message_bundles', 'accept', 'acceptOnce', 'accountOldAuth', 'activeDistrictMap', 'addAutoInterest', 'addAvatarToFriendsList', 'addDOToTables', 'addInterest', 'addPetToFriendsMap', 'addTaggedInterest', 'addTask', 'allocateContext', 'allowAnyTypedChat', 'allowFreeNames', 'allowOpenChat', 'allowSecretChat', 'allowWhiteListChat', 'alterInterest', 'areCheesyEffectsAllowed', 'askAvatarKnown', 'avChoice', 'avChoiceDoneEvent', 'avData', 'avList', 'avatarFriendsManager', 'avatarLimit', 'bankManager', 'betterlucknexttime', 'blue', 'bootedIndex', 'bootedText', 'bundleMsg', 'bundle_msg', 'cache', 'cacheOwner', 'callbackWithDo', 'callbackWithOwnerView', 'cancelAvatarDetailsRequest', 'catalogManager', 'centralLogger', 'chatAgent', 'checkDatagram', 'checkHttp', 'check_datagram', 'classTree', 'cleanGameExit', 'cleanPetsFromFriendsMap', 'cleanupWaitAllInterestsComplete', 'cleanupWaitingForDatabase', 'clearFriendState', 'closeAutoInterests', 'codeRedemptionManager', 'config', 'congratulations', 'connect', 'connectHttp', 'connectMethod', 'considerFlush', 'considerHeartbeat', 'consider_flush', 'context', 'countObjects', 'createAvatarClass', 'csm', 'dateObject', 'dcSuffix', 'dclassesByName', 'dclassesByNumber', 'deferInterval', 'deferredDoIds', 'deferredGenerates', 'deleteDistributedObjects', 'deleteObject', 'deleteObjectLocation', 'deliveryManager', 'detectLeakedEvents', 'detectLeakedGarbage', 'detectLeakedIntervals', 'detectLeakedTasks', 'detectLeaks', 'disableDoId', 'disconnect', 'distributedDistrict', 'doByDistance', 'doDataCache', 'doDeferredGenerate', 'doFind', 'doFindAll', 'doFindAllInstances', 'doFindAllMatching', 'doFindAllOfType', 'doGenerate', 'doId2do', 'doId2ownerView', 'doMethodLater', 'dosByDistance', 'dumpAllSubShardObjects', 'elderFriendsMap', 'enterAfkTimeout', 'enterChooseAvatar', 'enterCloseShard', 'enterConnect', 'enterCreateAccount', 'enterCreateAvatar', 'enterFailedToConnect', 'enterFailedToGetServerConstants', 'enterGameOff', 'enterLogin', 'enterLoginOff', 'enterMissingGameRootObject', 'enterNoConnection', 'enterNoShards', 'enterNoShardsWait', 'enterPeriodTimeout', 'enterPlayGame', 'enterPlayingGame', 'enterReject', 'enterRejectRemoveAvatar', 'enterShutdown', 'enterSkipTutorialRequest', 'enterSwitchShards', 'enterTutorialQuestion', 'enterWaitForAvatarList', 'enterWaitForDeleteAvatarResponse', 'enterWaitForGameList', 'enterWaitForSetAvatarResponse', 'enterWaitForShardList', 'enterWaitOnEnterResponses', 'estateMgr', 'event', 'exitAfkTimeout', 'exitChooseAvatar', 'exitCloseShard', 'exitConnect', 'exitCreateAccount', 'exitCreateAvatar', 'exitFailedToConnect', 'exitFailedToGetServerConstants', 'exitGameOff', 'exitLogin', 'exitLoginOff', 'exitMissingGameRootObject', 'exitNoConnection', 'exitNoShards', 'exitNoShardsWait', 'exitPeriodTimeout', 'exitPlayGame', 'exitPlayingGame', 'exitReject', 'exitRejectRemoveAvatar', 'exitShutdown', 'exitSkipTutorialRequest', 'exitSwitchShards', 'exitTutorialQuestion', 'exitWaitForAvatarList', 'exitWaitForDeleteAvatarResponse', 'exitWaitForGameList', 'exitWaitForSetAvatarResponse', 'exitWaitForShardList', 'exitWaitOnEnterResponses', 'failedToConnect', 'fillUpFriendsMap', 'findAnyOfType', 'flush', 'flushGenerates', 'forbidCheesyEffects', 'freeTimeExpiresAt', 'freeTimeLeft', 'friendManager', 'friendPendingChatSettings', 'friendsListError', 'friendsMap', 'friendsMapPending', 'friendsOnline', 'furnitureManager', 'gameDoDirectory', 'gameDoneEvent', 'gameFSM', 'garbageLeakLogger', 'gcNotify', 'generateGlobalObject', 'generateWithRequiredFields', 'generateWithRequiredOtherFields', 'generateWithRequiredOtherFieldsOwner', 'getAllAccepting', 'getAllInterestsCompleteEvent', 'getAllOfType', 'getAvatarDetails', 'getClientDatagram', 'getConnectedEvent', 'getCw', 'getDatagram', 'getDatagramIterator', 'getDcFile', 'getDo', 'getDoIdList', 'getDoList', 'getDoTable', 'getFirstBattle', 'getFriendFlags', 'getGameDoId', 'getHandleCUpdates', 'getHandleDatagramsInternally', 'getInQuietZone', 'getLastSetZoneDoneEvent', 'getMsgChannel', 'getMsgChannelCount', 'getMsgSender', 'getMsgType', 'getNextSetZoneDoneEvent', 'getObjectsInZone', 'getObjectsOfClass', 'getObjectsOfClassInZone', 'getObjectsOfExactClass', 'getOverflowEventName', 'getOwnerView', 'getOwnerViewDoIdList', 'getOwnerViewDoList', 'getPlayerAvatars', 'getQcm', 'getQcr', 'getQuietZoneLeftEvent', 'getServerAddress', 'getServerDelta', 'getServerTimeOfDay', 'getServerVersion', 'getShardName', 'getSimulatedDisconnect', 'getStartingDistrict', 'getStream', 'getTables', 'getTcpHeaderSize', 'getTimeWarning', 'getVerbose', 'getWantMessageBundling', 'getWishNameResultMsg', 'getWorld', 'get_client_datagram', 'get_cw', 'get_datagram', 'get_datagram_iterator', 'get_dc_file', 'get_handle_c_updates', 'get_handle_datagrams_internally', 'get_in_quiet_zone', 'get_msg_channel', 'get_msg_channel_count', 'get_msg_sender', 'get_msg_type', 'get_overflow_event_name', 'get_qcm', 'get_qcr', 'get_simulated_disconnect', 'get_stream', 'get_tcp_header_size', 'get_time_warning', 'get_verbose', 'get_want_message_bundling', 'goToPickAName', 'gotInterestDoneMessage', 'gotObjectLocationMessage', 'gotTimeSync', 'gotWishnameResponse', 'gotoFirstScreen', 'handleAvatarResponseMsg', 'handleAvatarsList', 'handleCloseShard', 'handleConnecting', 'handleDatagram', 'handleDelete', 'handleDisable', 'handleFriendOffline', 'handleFriendOnline', 'handleGameDone', 'handleGenerateWithRequired', 'handleGenerateWithRequiredOtherOwner', 'handleGetAvatarDetailsResp', 'handleGetFriendsList', 'handleGetFriendsListExtended', 'handleGoGetLost', 'handleInterestDoneMessage', 'handleMessageType', 'handleObjectLocation', 'handlePlayGame', 'handleQuietZoneGenerateWithRequired', 'handleQuietZoneGenerateWithRequiredOther', 'handleQuietZoneUpdateField', 'handleReaderOverflow', 'handleServerHeartbeat', 'handleSetLocation', 'handleSetShardComplete', 'handleSystemMessage', 'handleSystemMessageAknowledge', 'handleUpdateField', 'handler', 'handlerArgs', 'hasOwnerView', 'hasOwnerViewDoId', 'has_owner_view', 'hashFiles', 'hashVal', 'heartbeatInterval', 'heartbeatStarted', 'hoodMgr', 'http', 'httpConnectCallback', 'identifyAvatar', 'identifyFriend', 'identifyPlayer', 'ignore', 'ignoreAll', 'importModule', 'inGameNewsMgr', 'isAccepting', 'isAvatarFriend', 'isBlue', 'isBundlingMessages', 'isConnected', 'isFreeTimeExpired', 'isFriend', 'isFriendOnline', 'isFriendsMapComplete', 'isGameListCorrect', 'isIgnoring', 'isInDoTables', 'isLive', 'isLocalId', 'isPaid', 'isParentPasswordSet', 'isShardAvailable', 'isShardInterestOpen', 'isValidInterestHandle', 'isValidLocationTuple', 'isWebPlayToken', 'is_bundling_messages', 'is_connected', 'lastGenerate', 'lastHeartbeat', 'lastLoggedIn', 'launcher', 'listActiveShards', 'loadingBlocker', 'localAvatarDoId', 'logAccountInfo', 'loginFSM', 'loginInterface', 'lostConnection', 'moveOnFromUberZone', 'music', 'n_handleGetAvatarDetailsResp', 'needParentPasswordForSecretChat', 'networkPlugPulled', 'newsManager', 'noDefer', 'noNewInterests', 'notify', 'objectManager', 'old_setzone_interest_handle', 'openAutoInterests', 'openChatAllowed', 'parentMgr', 'parentPasswordSet', 'partyManager', 'periodTimerExpired', 'periodTimerSecondsRemaining', 'periodTimerStarted', 'playGame', 'playToken', 'playerFriendsManager', 'printDelayDeletes', 'printInterestHistory', 'printInterestSets', 'printInterests', 'printInterestsIfDebug', 'printObjectCount', 'printObjects', 'private__di', 'productName', 'pullNetworkPlug', 'queryObjectField', 'queueAllInterestsCompleteEvent', 'queueRequestAvatarInfo', 'readDCFile', 'readerPollOnce', 'readerPollTaskObj', 'readerPollUntilEmpty', 'recordPeriodTimer', 'recorder', 'relatedObjectMgr', 'relayMessage', 'removeAIInterest', 'removeAllTasks', 'removeAutoInterest', 'removeDOFromTables', 'removeFriend', 'removeInterest', 'removePetFromFriendsMap', 'removeShardInterest', 'removeTask', 'renderFrame', 'replaceMethod', 'replayDeferredGenerate', 'requestAvatarInfo', 'requiredLogin', 'resetDeletedSubShardDoIds', 'resetInterestStateForConnectionLoss', 'resetPeriodTimer', 'restoreNetworkPlug', 'secretChatAllowed', 'secretChatNeedsParentPassword', 'send', 'sendAvatarInfoRequests', 'sendDatagram', 'sendDisconnect', 'sendGetFriendsListRequest', 'sendHeartbeat', 'sendHeartbeatTask', 'sendMessageBundle', 'sendQuietZoneRequest', 'sendSetAvatarIdMsg', 'sendSetAvatarMsg', 'sendSetLocation', 'sendSetZoneMsg', 'sendWishName', 'sendWishNameAnonymous', 'send_datagram', 'send_message_bundle', 'serverDelta', 'serverList', 'serverVersion', 'setAllInterestsCompleteCallback', 'setClientDatagram', 'setConnectionHttp', 'setDeferInterval', 'setHandleCUpdates', 'setHandleDatagramsInternally', 'setInQuietZone', 'setIsNotNewInstallation', 'setIsPaid', 'setNoNewInterests', 'setPythonRepository', 'setServerDelta', 'setSimulatedDisconnect', 'setTcpHeaderSize', 'setTimeWarning', 'setVerbose', 'setWantMessageBundling', 'setZoneQueue', 'setZonesEmulated', 'set_client_datagram', 'set_connection_http', 'set_handle_c_updates', 'set_handle_datagrams_internally', 'set_in_quiet_zone', 'set_python_repository', 'set_simulated_disconnect', 'set_tcp_header_size', 'set_time_warning', 'set_verbose', 'set_want_message_bundling', 'shardDetailStatsComplete', 'shardListHandle', 'shutdown', 'specialName', 'specialNameNumber', 'speedchatRelay', 'startHeartbeat', 'startLeakDetector', 'startMessageBundle', 'startPeriodTimer', 'startReaderPollTask', 'start_message_bundle', 'stopHeartbeat', 'stopPeriodTimer', 'stopReaderPollTask', 'storeObjectLocation', 'streetSign', 'systemMessageSfx', 'taskChain', 'taskPriority', 'telemetryLimiter', 'this', 'this_metatype', 'timeManager', 'toggleVerbose', 'toggle_verbose', 'toonNameDict', 'toons', 'toontownTimeManager', 'trophyManager', 'tryConnectNet', 'try_connect_net', 'ttiFriendsManager', 'tutorialManager', 'uberZoneInterest', 'uberZoneInterestComplete', 'uniqueId', 'uniqueName', 'updateInterestDescription', 'userSignature', 'waitForDatabaseTimeout', 'waitForGetGameListResponse', 'waitForNextHeartBeat', 'waitingForDatabase', 'wantCogdominiums', 'wantEmblems', 'wantMagicWords', 'wantSwitchboard', 'wantSwitchboardHacks', 'webPrintObjectCount', 'welcomeValleyManager', 'whiteListChatEnabled', 'whitelistMgr']
+_ClientRepositoryBase__doUpdate
+_ClientRepositoryBase__doUpdateOwner
+_OTPClientRepository__doGenerate
+_OTPClientRepository__doId2pendingInterest
+__doc__
+_abandonShard
+_doHierarchy
+_doIdIsOnCurrentShard
+abandonMessageBundles
+abandon_message_bundles
+doByDistance
+doDataCache
+doDeferredGenerate
+doFind
+doFindAll
+doFindAllInstances
+doFindAllMatching
+doFindAllOfType
+doGenerate
+doId2do
+doId2ownerView
+doMethodLater
+dosByDistance
+enterShutdown
+exitShutdown
+shutdown
+wantCogdominiums
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940620>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940E18>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944710>
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24944FD0>
+['DistributedObject_initialized', '_DistributedFishingSpot__allowSellFish', '_DistributedFishingSpot__appendBingoMethod', '_DistributedFishingSpot__avatarGone', '_DistributedFishingSpot__doBobBob', '_DistributedFishingSpot__dropPole', '_DistributedFishingSpot__handleEnterSphere', '_DistributedFishingSpot__hideBob', '_DistributedFishingSpot__hideCastGui', '_DistributedFishingSpot__hideHowTo', '_DistributedFishingSpot__hideLine', '_DistributedFishingSpot__hideSellFishConfirmDialog', '_DistributedFishingSpot__hideSellFishDialog', '_DistributedFishingSpot__holdPole', '_DistributedFishingSpot__initCastGui', '_DistributedFishingSpot__itemGuiClose', '_DistributedFishingSpot__loadStuff', '_DistributedFishingSpot__makeGui', '_DistributedFishingSpot__moneyChange', '_DistributedFishingSpot__placeAvatar', '_DistributedFishingSpot__removePole', '_DistributedFishingSpot__sellFish', '_DistributedFishingSpot__sellFishConfirm', '_DistributedFishingSpot__setBingoCastGui', '_DistributedFishingSpot__setFishItemPos', '_DistributedFishingSpot__setItemLabel', '_DistributedFishingSpot__showBob', '_DistributedFishingSpot__showBobFloat', '_DistributedFishingSpot__showBootItem', '_DistributedFishingSpot__showBroke', '_DistributedFishingSpot__showCastGui', '_DistributedFishingSpot__showFailureReason', '_DistributedFishingSpot__showFishItem', '_DistributedFishingSpot__showFishTankFull', '_DistributedFishingSpot__showHowTo', '_DistributedFishingSpot__showJellybeanItem', '_DistributedFishingSpot__showLineCasting', '_DistributedFishingSpot__showLineReeling', '_DistributedFishingSpot__showLineWaiting', '_DistributedFishingSpot__showQuestItem', '_DistributedFishingSpot__showSellFishConfirmDialog', '_DistributedFishingSpot__showSellFishDialog', '_DistributedFishingSpot__unmakeGui', '_DistributedFishingSpot__updateFishTankGui', '_DistributedFishingSpot__userExit', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_MSGRmessengerId', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTask', 'allowedToEnter', 'angleMax', 'angleNP', 'announceGenerate', 'area', 'arrow', 'arrowTail', 'arrowTip', 'autoInterests', 'av', 'avId', 'b_setLocation', 'bob', 'bobBobTask', 'bobStartPos', 'brokeDialog', 'bucket', 'cacheable', 'castButton', 'castGui', 'castTrack', 'children', 'classTree', 'cleanupFishPanel', 'collNode', 'collNodePath', 'collSphere', 'cr', 'createCastTrack', 'd_doCast', 'd_requestEnter', 'd_requestExit', 'd_setLocation', 'dclass', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'enterDistCasting', 'enterFishing', 'enterLeaving', 'enterLocalAdjusting', 'enterLocalCasting', 'enterOff', 'enterReward', 'enterSellFish', 'enterWaitForAI', 'enterWaiting', 'execCommand', 'exitButton', 'exitDistCasting', 'exitFishing', 'exitLeaving', 'exitLocalAdjusting', 'exitLocalCasting', 'exitOff', 'exitReward', 'exitSellFish', 'exitWaitForAI', 'exitWaiting', 'failureDialog', 'firstCast', 'fishInit', 'fishPanel', 'flushCachedData', 'fsm', 'generate', 'generateInit', 'getAllAccepting', 'getAutoInterests', 'getBarrierData', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDisableEvent', 'getDoId', 'getLocation', 'getMouse', 'getNeverDisable', 'getParentNodePath', 'getParentObj', 'getSphereRadius', 'getStareAtNodeAndOffset', 'guiTrack', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleOkTeaser', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'hideBootPanel', 'hitTarget', 'howToDialog', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'itemBoot', 'itemFrame', 'itemGui', 'itemGuiCloseButton', 'itemJellybean', 'itemLabel', 'itemPackage', 'jar', 'lastAvId', 'lastFrame', 'line', 'lineSphere', 'localAdjustingCastTask', 'localAdjustingCastTaskIndAxes', 'localToonFishing', 'madeGui', 'moveBobTask', 'neverDisable', 'nodePath', 'notify', 'parentId', 'placedAvatar', 'pole', 'poleNode', 'pond', 'pondDoId', 'postGenerateMessage', 'power', 'ptop', 'rejectEnter', 'removeAllTasks', 'removeInterest', 'removeTask', 'resetCastGui', 'ripples', 'sellFishComplete', 'sellFishConfirmDialog', 'sellFishDialog', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setBarrierData', 'setCacheable', 'setCachedData', 'setCastGui', 'setJarAmount', 'setLocation', 'setMovie', 'setNeverDisable', 'setOccupied', 'setPond', 'setPondDoId', 'setPosHpr', 'splashSounds', 'startAngleNP', 'startMoveBobTask', 'status', 'taskName', 'timer', 'track', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'vZeroMax', 'waterLevel', 'zoneId']
+['DistributedObject_initialized', '_DistributedFishingSpot__allowSellFish', '_DistributedFishingSpot__appendBingoMethod', '_DistributedFishingSpot__avatarGone', '_DistributedFishingSpot__doBobBob', '_DistributedFishingSpot__dropPole', '_DistributedFishingSpot__handleEnterSphere', '_DistributedFishingSpot__hideBob', '_DistributedFishingSpot__hideCastGui', '_DistributedFishingSpot__hideHowTo', '_DistributedFishingSpot__hideLine', '_DistributedFishingSpot__hideSellFishConfirmDialog', '_DistributedFishingSpot__hideSellFishDialog', '_DistributedFishingSpot__holdPole', '_DistributedFishingSpot__initCastGui', '_DistributedFishingSpot__itemGuiClose', '_DistributedFishingSpot__loadStuff', '_DistributedFishingSpot__makeGui', '_DistributedFishingSpot__moneyChange', '_DistributedFishingSpot__placeAvatar', '_DistributedFishingSpot__removePole', '_DistributedFishingSpot__sellFish', '_DistributedFishingSpot__sellFishConfirm', '_DistributedFishingSpot__setBingoCastGui', '_DistributedFishingSpot__setFishItemPos', '_DistributedFishingSpot__setItemLabel', '_DistributedFishingSpot__showBob', '_DistributedFishingSpot__showBobFloat', '_DistributedFishingSpot__showBootItem', '_DistributedFishingSpot__showBroke', '_DistributedFishingSpot__showCastGui', '_DistributedFishingSpot__showFailureReason', '_DistributedFishingSpot__showFishItem', '_DistributedFishingSpot__showFishTankFull', '_DistributedFishingSpot__showHowTo', '_DistributedFishingSpot__showJellybeanItem', '_DistributedFishingSpot__showLineCasting', '_DistributedFishingSpot__showLineReeling', '_DistributedFishingSpot__showLineWaiting', '_DistributedFishingSpot__showQuestItem', '_DistributedFishingSpot__showSellFishConfirmDialog', '_DistributedFishingSpot__showSellFishDialog', '_DistributedFishingSpot__unmakeGui', '_DistributedFishingSpot__updateFishTankGui', '_DistributedFishingSpot__userExit', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_MSGRmessengerId', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTask', 'allowedToEnter', 'angleMax', 'angleNP', 'announceGenerate', 'area', 'autoInterests', 'av', 'avId', 'b_setLocation', 'bob', 'bobBobTask', 'bobStartPos', 'cacheable', 'castGui', 'castTrack', 'children', 'classTree', 'cleanupFishPanel', 'collNode', 'collNodePath', 'collSphere', 'cr', 'createCastTrack', 'd_doCast', 'd_requestEnter', 'd_requestExit', 'd_setLocation', 'dclass', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'enterDistCasting', 'enterFishing', 'enterLeaving', 'enterLocalAdjusting', 'enterLocalCasting', 'enterOff', 'enterReward', 'enterSellFish', 'enterWaitForAI', 'enterWaiting', 'execCommand', 'exitDistCasting', 'exitFishing', 'exitLeaving', 'exitLocalAdjusting', 'exitLocalCasting', 'exitOff', 'exitReward', 'exitSellFish', 'exitWaitForAI', 'exitWaiting', 'firstCast', 'fishInit', 'fishPanel', 'flushCachedData', 'fsm', 'generate', 'generateInit', 'getAllAccepting', 'getAutoInterests', 'getBarrierData', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDisableEvent', 'getDoId', 'getLocation', 'getMouse', 'getNeverDisable', 'getParentNodePath', 'getParentObj', 'getSphereRadius', 'getStareAtNodeAndOffset', 'guiTrack', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleOkTeaser', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'hideBootPanel', 'hitTarget', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'itemGui', 'lastAvId', 'lastFrame', 'line', 'lineSphere', 'localAdjustingCastTask', 'localAdjustingCastTaskIndAxes', 'localToonFishing', 'madeGui', 'moveBobTask', 'neverDisable', 'nodePath', 'notify', 'parentId', 'placedAvatar', 'pole', 'poleNode', 'pond', 'pondDoId', 'postGenerateMessage', 'power', 'ptop', 'rejectEnter', 'removeAllTasks', 'removeInterest', 'removeTask', 'resetCastGui', 'ripples', 'sellFishComplete', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setBarrierData', 'setCacheable', 'setCachedData', 'setCastGui', 'setJarAmount', 'setLocation', 'setMovie', 'setNeverDisable', 'setOccupied', 'setPond', 'setPondDoId', 'setPosHpr', 'splashSounds', 'startAngleNP', 'startMoveBobTask', 'status', 'taskName', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'vZeroMax', 'waterLevel', 'zoneId']
+['DistributedObject_initialized', '_DistributedFishingSpot__allowSellFish', '_DistributedFishingSpot__appendBingoMethod', '_DistributedFishingSpot__avatarGone', '_DistributedFishingSpot__doBobBob', '_DistributedFishingSpot__dropPole', '_DistributedFishingSpot__handleEnterSphere', '_DistributedFishingSpot__hideBob', '_DistributedFishingSpot__hideCastGui', '_DistributedFishingSpot__hideHowTo', '_DistributedFishingSpot__hideLine', '_DistributedFishingSpot__hideSellFishConfirmDialog', '_DistributedFishingSpot__hideSellFishDialog', '_DistributedFishingSpot__holdPole', '_DistributedFishingSpot__initCastGui', '_DistributedFishingSpot__itemGuiClose', '_DistributedFishingSpot__loadStuff', '_DistributedFishingSpot__makeGui', '_DistributedFishingSpot__moneyChange', '_DistributedFishingSpot__placeAvatar', '_DistributedFishingSpot__removePole', '_DistributedFishingSpot__sellFish', '_DistributedFishingSpot__sellFishConfirm', '_DistributedFishingSpot__setBingoCastGui', '_DistributedFishingSpot__setFishItemPos', '_DistributedFishingSpot__setItemLabel', '_DistributedFishingSpot__showBob', '_DistributedFishingSpot__showBobFloat', '_DistributedFishingSpot__showBootItem', '_DistributedFishingSpot__showBroke', '_DistributedFishingSpot__showCastGui', '_DistributedFishingSpot__showFailureReason', '_DistributedFishingSpot__showFishItem', '_DistributedFishingSpot__showFishTankFull', '_DistributedFishingSpot__showHowTo', '_DistributedFishingSpot__showJellybeanItem', '_DistributedFishingSpot__showLineCasting', '_DistributedFishingSpot__showLineReeling', '_DistributedFishingSpot__showLineWaiting', '_DistributedFishingSpot__showQuestItem', '_DistributedFishingSpot__showSellFishConfirmDialog', '_DistributedFishingSpot__showSellFishDialog', '_DistributedFishingSpot__unmakeGui', '_DistributedFishingSpot__updateFishTankGui', '_DistributedFishingSpot__userExit', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_MSGRmessengerId', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTask', 'allowedToEnter', 'angleMax', 'angleNP', 'announceGenerate', 'area', 'autoInterests', 'av', 'avId', 'b_setLocation', 'bob', 'bobBobTask', 'bobStartPos', 'cacheable', 'castGui', 'castTrack', 'children', 'classTree', 'cleanupFishPanel', 'collNode', 'collNodePath', 'collSphere', 'cr', 'createCastTrack', 'd_doCast', 'd_requestEnter', 'd_requestExit', 'd_setLocation', 'dclass', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'enterDistCasting', 'enterFishing', 'enterLeaving', 'enterLocalAdjusting', 'enterLocalCasting', 'enterOff', 'enterReward', 'enterSellFish', 'enterWaitForAI', 'enterWaiting', 'execCommand', 'exitDistCasting', 'exitFishing', 'exitLeaving', 'exitLocalAdjusting', 'exitLocalCasting', 'exitOff', 'exitReward', 'exitSellFish', 'exitWaitForAI', 'exitWaiting', 'firstCast', 'fishInit', 'fishPanel', 'flushCachedData', 'fsm', 'generate', 'generateInit', 'getAllAccepting', 'getAutoInterests', 'getBarrierData', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDisableEvent', 'getDoId', 'getLocation', 'getMouse', 'getNeverDisable', 'getParentNodePath', 'getParentObj', 'getSphereRadius', 'getStareAtNodeAndOffset', 'guiTrack', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleOkTeaser', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'hideBootPanel', 'hitTarget', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'itemGui', 'lastAvId', 'lastFrame', 'line', 'lineSphere', 'localAdjustingCastTask', 'localAdjustingCastTaskIndAxes', 'localToonFishing', 'madeGui', 'moveBobTask', 'neverDisable', 'nodePath', 'notify', 'parentId', 'placedAvatar', 'pole', 'poleNode', 'pond', 'pondDoId', 'postGenerateMessage', 'power', 'ptop', 'rejectEnter', 'removeAllTasks', 'removeInterest', 'removeTask', 'resetCastGui', 'ripples', 'sellFishComplete', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setBarrierData', 'setCacheable', 'setCachedData', 'setCastGui', 'setJarAmount', 'setLocation', 'setMovie', 'setNeverDisable', 'setOccupied', 'setPond', 'setPondDoId', 'setPosHpr', 'splashSounds', 'startAngleNP', 'startMoveBobTask', 'status', 'taskName', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'vZeroMax', 'waterLevel', 'zoneId']
+['DistributedObject_initialized', '_DistributedFishingSpot__allowSellFish', '_DistributedFishingSpot__appendBingoMethod', '_DistributedFishingSpot__avatarGone', '_DistributedFishingSpot__doBobBob', '_DistributedFishingSpot__dropPole', '_DistributedFishingSpot__handleEnterSphere', '_DistributedFishingSpot__hideBob', '_DistributedFishingSpot__hideCastGui', '_DistributedFishingSpot__hideHowTo', '_DistributedFishingSpot__hideLine', '_DistributedFishingSpot__hideSellFishConfirmDialog', '_DistributedFishingSpot__hideSellFishDialog', '_DistributedFishingSpot__holdPole', '_DistributedFishingSpot__initCastGui', '_DistributedFishingSpot__itemGuiClose', '_DistributedFishingSpot__loadStuff', '_DistributedFishingSpot__makeGui', '_DistributedFishingSpot__moneyChange', '_DistributedFishingSpot__placeAvatar', '_DistributedFishingSpot__removePole', '_DistributedFishingSpot__sellFish', '_DistributedFishingSpot__sellFishConfirm', '_DistributedFishingSpot__setBingoCastGui', '_DistributedFishingSpot__setFishItemPos', '_DistributedFishingSpot__setItemLabel', '_DistributedFishingSpot__showBob', '_DistributedFishingSpot__showBobFloat', '_DistributedFishingSpot__showBootItem', '_DistributedFishingSpot__showBroke', '_DistributedFishingSpot__showCastGui', '_DistributedFishingSpot__showFailureReason', '_DistributedFishingSpot__showFishItem', '_DistributedFishingSpot__showFishTankFull', '_DistributedFishingSpot__showHowTo', '_DistributedFishingSpot__showJellybeanItem', '_DistributedFishingSpot__showLineCasting', '_DistributedFishingSpot__showLineReeling', '_DistributedFishingSpot__showLineWaiting', '_DistributedFishingSpot__showQuestItem', '_DistributedFishingSpot__showSellFishConfirmDialog', '_DistributedFishingSpot__showSellFishDialog', '_DistributedFishingSpot__unmakeGui', '_DistributedFishingSpot__updateFishTankGui', '_DistributedFishingSpot__userExit', '_DistributedObject__barrierContext', '_DistributedObject__callbacks', '_DistributedObject__nextContext', '_MSGRmessengerId', '__doc__', '__init__', '__module__', '_addTask', '_autoInterestHandle', '_clearTask', '_deactivateDO', '_delayDeleteForceAllow', '_delayDeleted', '_destroyDO', '_retrieveCachedData', '_token2delayDeleteName', 'accept', 'acceptOnce', 'activeState', 'addInterest', 'addTask', 'allowedToEnter', 'angleMax', 'angleNP', 'announceGenerate', 'area', 'autoInterests', 'av', 'avId', 'b_setLocation', 'bob', 'bobBobTask', 'bobStartPos', 'cacheable', 'castGui', 'castTrack', 'children', 'classTree', 'cleanupFishPanel', 'collNode', 'collNodePath', 'collSphere', 'cr', 'createCastTrack', 'd_doCast', 'd_requestEnter', 'd_requestExit', 'd_setLocation', 'dclass', 'delete', 'deleteOrDelay', 'detectLeaks', 'disable', 'disableAndAnnounce', 'disableAnnounceAndDelete', 'doCallbackContext', 'doId', 'doMethodLater', 'doneBarrier', 'enterDistCasting', 'enterFishing', 'enterLeaving', 'enterLocalAdjusting', 'enterLocalCasting', 'enterOff', 'enterReward', 'enterSellFish', 'enterWaitForAI', 'enterWaiting', 'execCommand', 'exitDistCasting', 'exitFishing', 'exitLeaving', 'exitLocalAdjusting', 'exitLocalCasting', 'exitOff', 'exitReward', 'exitSellFish', 'exitWaitForAI', 'exitWaiting', 'firstCast', 'fishInit', 'fishPanel', 'flushCachedData', 'fsm', 'generate', 'generateInit', 'getAllAccepting', 'getAutoInterests', 'getBarrierData', 'getCacheable', 'getCachedData', 'getCallback', 'getCallbackArgs', 'getCallbackContext', 'getCurrentContexts', 'getDelayDeleteCount', 'getDelayDeleteEvent', 'getDisableEvent', 'getDoId', 'getLocation', 'getMouse', 'getNeverDisable', 'getParentNodePath', 'getParentObj', 'getSphereRadius', 'getStareAtNodeAndOffset', 'guiTrack', 'handleChildArrive', 'handleChildArriveZone', 'handleChildLeave', 'handleChildLeaveZone', 'handleOkTeaser', 'handleQueryObjectChildrenLocalDone', 'hasCachedData', 'hasParentingRules', 'hideBootPanel', 'hitTarget', 'ignore', 'ignoreAll', 'isAccepting', 'isDisabled', 'isGenerated', 'isGridParent', 'isIgnoring', 'isLocal', 'itemGui', 'lastAvId', 'lastFrame', 'line', 'lineSphere', 'localAdjustingCastTask', 'localAdjustingCastTaskIndAxes', 'localToonFishing', 'madeGui', 'moveBobTask', 'neverDisable', 'nodePath', 'notify', 'parentId', 'placedAvatar', 'pole', 'poleNode', 'pond', 'pondDoId', 'postGenerateMessage', 'power', 'ptop', 'rejectEnter', 'removeAllTasks', 'removeInterest', 'removeTask', 'resetCastGui', 'ripples', 'sellFishComplete', 'sendDeleteMsg', 'sendDisableMsg', 'sendUpdate', 'setBarrierData', 'setCacheable', 'setCachedData', 'setCastGui', 'setJarAmount', 'setLocation', 'setMovie', 'setNeverDisable', 'setOccupied', 'setPond', 'setPondDoId', 'setPosHpr', 'splashSounds', 'startAngleNP', 'startMoveBobTask', 'status', 'taskName', 'uniqueName', 'updateAllRequiredFields', 'updateRequiredFields', 'updateRequiredOtherFields', 'vZeroMax', 'waterLevel', 'zoneId']
+frame rate: 34.3 fps|0.002d|4 avs||688|691||0x1002|0x6738|426.1MB|476.4MB|16330.4MB|544|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+0
+0
+0
+0
+100000003
+0
+0
+0
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 4, in <module>
+AttributeError: 'LocalToon' object has no attribute 'getAvId'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 4, in <module>
+AttributeError: 'LocalToon' object has no attribute 'avId'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 4, in <module>
+AttributeError: 'LocalToon' object has no attribute 'getId'
+
+(100000003, <bound method LocalToon.id of render/FishingSpot-401000028/FishingSpotAngleNP-401000028/Little Zippy-100000003>)
+(0, <bound method LocalToon.id of render/FishingSpot-401000028/FishingSpotAngleNP-401000028/Little Zippy-100000003>)
+(0, <bound method LocalToon.id of render/FishingSpot-401000028/FishingSpotAngleNP-401000028/Little Zippy-100000003>)
+(0, <bound method LocalToon.id of render/FishingSpot-401000028/FishingSpotAngleNP-401000028/Little Zippy-100000003>)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 41)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 41)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 41)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 41)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 100000003)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 100000003)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 100000003)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 100000003)
+Warning: NodePath.id() is deprecated.  Use hash(NodePath) or NodePath.get_key() instead.
+(0, 100000003)
+(0, 100000003)
+(0, 100000003)
+(0, 100000003)
+(100000003, 100000003)
+<toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x24940620>
+(0, 100000003)
+(0, 100000003)
+(0, 100000003)
+frame rate: 33.6 fps|0.002d|4 avs||988|991||0x1002|0x6738|426.6MB|476.9MB|16330.4MB|545|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 34.6 fps|0.002d|4 avs||1288|1291||0x1002|0x6738|427.1MB|477.3MB|16330.4MB|545|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Exception occurred while processing Func-catch-130 of Sequence-1118:
+Sequence-1118:
+  0.000 Sequence-1118 {
+  0.000   *Func-checkSpot-129
+  0.000   *Func-catch-130
+  0.000   Wait dur 0.05
+  0.050   *Func-catch-131
+  0.050   Wait dur 0.05
+  0.100   *Func-catch-132
+  0.100   Wait dur 0.05
+  0.150   *Func-catch-133
+  0.150   Wait dur 0.05
+  0.200   *Func-catch-134
+  0.200   Wait dur 0.05
+  0.250   *Func-catch-135
+  0.250   Wait dur 0.05
+  0.300   *Func-catch-136
+  0.300   Wait dur 0.05
+  0.350   *Func-catch-137
+  0.350   Wait dur 0.05
+  0.400   *Func-catch-138
+  0.400   Wait dur 0.05
+  0.450   *Func-catch-139
+  0.450   Wait dur 0.05
+  0.500   *Func-catch-140
+  0.500   Wait dur 0.05
+  0.550   *Func-catch-141
+  0.550   Wait dur 0.05
+  0.600   *Func-catch-142
+  0.600   Wait dur 0.05
+  0.650   *Func-catch-143
+  0.650   Wait dur 0.05
+  0.700   *Func-catch-144
+  0.700   Wait dur 0.05
+  0.750   *Func-catch-145
+  0.750   Wait dur 0.05
+  0.800   *Func-catch-146
+  0.800   Wait dur 0.05
+  0.850   *Func-catch-147
+  0.850   Wait dur 0.05
+  0.900   *Func-catch-148
+  0.900   Wait dur 0.05
+  0.950   *Func-catch-149
+  0.950   Wait dur 0.05
+  1.000   *Func-catch-150
+  1.000   Wait dur 0.05
+  1.050   *Func-catch-151
+  1.050   Wait dur 0.05
+  1.100   *Func-catch-152
+  1.100   Wait dur 0.05
+  1.150   Wait dur 1e-005
+  1.150   *Func-sell-153
+  1.150   Wait dur 0.75
+  1.900 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 25, in catch
+AttributeError: 'NoneType' object has no attribute 'd_doCast'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 124, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 25, in catch
+AttributeError: 'NoneType' object has no attribute 'd_doCast'

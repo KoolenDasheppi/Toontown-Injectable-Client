@@ -1,0 +1,293 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 234, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E486300>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E483328>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E765EE0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+Doing building quest
+starting
+Teleporting back
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_DD_town.pdna
+Reading DNA file... phase_6/dna/donalds_dock_1100.pdna
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-8
+Battle Event localtoon-battle-event-13
+skipping in 3 seconds
+Exception occurred while processing Func-__handleBuildingRewardDone-1606 of movie-reward-track-with-cam-401006367:
+movie-reward-track-with-cam-401006367:
+  0.000 movie-reward-track-with-cam-401006367 {
+  0.000   movie-reward-track-401006367 {
+  0.000     Sequence-1156 {
+  0.000       Parallel-1164 {
+  0.000         Sequence-1158 {
+  0.000           *Func-show-1530
+  0.000           *Func-setForceOnscreenChat-1531
+  0.000           *Func-_setupSkipListen-1532
+  0.000           *Func-_teardownSkipListen-1598
+  0.000           *Func-_setupSkipListen-1599
+  0.000           Sequence-1161 {
+  0.000             *Func-initGagFrame-1533
+  0.000             Wait dur 1
+  1.000             *Func-showTrackIncLabel-1534
+  1.000             *Func-incrementExp-1535
+  1.000             Wait dur 0.0166667
+  1.017             *Func-incrementExp-1536
+  1.017             Wait dur 0.0166667
+  1.034             *Func-incrementExp-1537
+  1.034             Wait dur 0.0166667
+  1.051             *Func-incrementExp-1538
+  1.051             Wait dur 0.0166667
+  1.068             *Func-incrementExp-1539
+  1.068             Wait dur 0.0166667
+  1.085             *Func-incrementExp-1540
+  1.085             Wait dur 0.0166667
+  1.102             *Func-incrementExp-1541
+  1.102             Wait dur 0.0166667
+  1.119             *Func-incrementExp-1542
+  1.119             Wait dur 0.0166667
+  1.136             *Func-incrementExp-1543
+  1.136             Wait dur 0.0166667
+  1.153             *Func-incrementExp-1544
+  1.153             Wait dur 0.0166667
+  1.170             *Func-incrementExp-1545
+  1.170             Wait dur 0.0166667
+  1.187             *Func-incrementExp-1546
+  1.187             Wait dur 0.0166667
+  1.204             *Func-incrementExp-1547
+  1.204             Wait dur 0.0166667
+  1.221             *Func-incrementExp-1548
+  1.221             Wait dur 0.0166667
+  1.238             *Func-incrementExp-1549
+  1.238             Wait dur 0.0166667
+  1.255             *Func-incrementExp-1550
+  1.255             Wait dur 0.0166667
+  1.272             *Func-incrementExp-1551
+  1.272             Wait dur 0.0166667
+  1.289             *Func-incrementExp-1552
+  1.289             Wait dur 0.0166667
+  1.306             *Func-incrementExp-1553
+  1.306             Wait dur 0.0166667
+  1.323             *Func-incrementExp-1554
+  1.323             Wait dur 0.0166667
+  1.340             *Func-incrementExp-1555
+  1.340             Wait dur 0.0166667
+  1.357             *Func-incrementExp-1556
+  1.357             Wait dur 0.0166667
+  1.374             *Func-incrementExp-1557
+  1.374             Wait dur 0.0166667
+  1.391             *Func-incrementExp-1558
+  1.391             Wait dur 0.0166667
+  1.408             *Func-incrementExp-1559
+  1.408             Wait dur 0.0166667
+  1.425             *Func-incrementExp-1560
+  1.425             Wait dur 0.0166667
+  1.442             *Func-incrementExp-1561
+  1.442             Wait dur 0.0166667
+  1.459             *Func-incrementExp-1562
+  1.459             Wait dur 0.0166667
+  1.476             *Func-incrementExp-1563
+  1.476             Wait dur 0.0166667
+  1.493             *Func-incrementExp-1564
+  1.493             Wait dur 0.0166667
+  1.510             *Func-resetBarColor-1565
+  1.510             Wait dur 0.1
+  1.610             *Func-showTrackIncLabel-1566
+  1.610             *Func-incrementExp-1567
+  1.610             Wait dur 0.0166667
+  1.627             *Func-incrementExp-1568
+  1.627             Wait dur 0.0166667
+  1.644             *Func-incrementExp-1569
+  1.644             Wait dur 0.0166667
+  1.661             *Func-incrementExp-1570
+  1.661             Wait dur 0.0166667
+  1.678             *Func-incrementExp-1571
+  1.678             Wait dur 0.0166667
+  1.695             *Func-incrementExp-1572
+  1.695             Wait dur 0.0166667
+  1.712             *Func-incrementExp-1573
+  1.712             Wait dur 0.0166667
+  1.729             *Func-incrementExp-1574
+  1.729             Wait dur 0.0166667
+  1.746             *Func-incrementExp-1575
+  1.746             Wait dur 0.0166667
+  1.763             *Func-incrementExp-1576
+  1.763             Wait dur 0.0166667
+  1.780             *Func-incrementExp-1577
+  1.780             Wait dur 0.0166667
+  1.797             *Func-incrementExp-1578
+  1.797             Wait dur 0.0166667
+  1.814             *Func-incrementExp-1579
+  1.814             Wait dur 0.0166667
+  1.831             *Func-incrementExp-1580
+  1.831             Wait dur 0.0166667
+  1.848             *Func-incrementExp-1581
+  1.848             Wait dur 0.0166667
+  1.865             *Func-incrementExp-1582
+  1.865             Wait dur 0.0166667
+  1.882             *Func-incrementExp-1583
+  1.882             Wait dur 0.0166667
+  1.899             *Func-incrementExp-1584
+  1.899             Wait dur 0.0166667
+  1.916             *Func-incrementExp-1585
+  1.916             Wait dur 0.0166667
+  1.933             *Func-incrementExp-1586
+  1.933             Wait dur 0.0166667
+  1.950             *Func-incrementExp-1587
+  1.950             Wait dur 0.0166667
+  1.967             *Func-incrementExp-1588
+  1.967             Wait dur 0.0166667
+  1.984             *Func-incrementExp-1589
+  1.984             Wait dur 0.0166667
+  2.001             *Func-incrementExp-1590
+  2.001             Wait dur 0.0166667
+  2.018             *Func-incrementExp-1591
+  2.018             Wait dur 0.0166667
+  2.035             *Func-incrementExp-1592
+  2.035             Wait dur 0.0166667
+  2.052             *Func-incrementExp-1593
+  2.052             Wait dur 0.0166667
+  2.069             *Func-incrementExp-1594
+  2.069             Wait dur 0.0166667
+  2.086             *Func-incrementExp-1595
+  2.086             Wait dur 0.0166667
+  2.103             *Func-incrementExp-1596
+  2.103             Wait dur 0.0166667
+  2.120             *Func-resetBarColor-1597
+  2.120             Wait dur 0.1
+  2.220             Wait dur 0.75
+  2.970             Wait dur 0.25
+  3.220           }
+  3.220           *Func-_teardownSkipListen-1602
+  3.220           *Func-destroy-1603
+  3.220           *Func-hide-1604
+  3.220           *Func-setForceOnscreenChat-1605
+  3.220           Sequence-1160 {
+  3.220           }
+  3.220         }
+  0.000         *Sound-131 dur 3.22
+  3.220       }
+  3.220       *Func-__handleBuildingRewardDone-1606
+  3.220     }
+  3.220   }
+  0.000   Sequence-1157 {
+  0.000     Sequence-1159 {
+  0.000       Sequence-1163 {
+  0.000         *Func-chooseRewardShotNow-1601
+  0.000         Wait dur 3.22
+  3.220       }
+  3.220     }
+  3.220   }
+  3.220 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\battle\DistributedBattleBldg.py", line 53, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\battle\DistributedBattleBldg.py", line 53, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError

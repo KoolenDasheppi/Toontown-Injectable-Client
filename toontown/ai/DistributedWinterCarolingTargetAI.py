@@ -20,12 +20,11 @@ class DistributedWinterCarolingTargetAI(DistributedObjectAI, FSM):
             return
         scavengerHunt = av.getScavengerHunt()
         if self.zoneId in scavengerHunt:
-            self.sendUpdateToAvatarId(avId, 'doScavengerHunt', [0])
+            self.sendUpdate('doScavengerHunt', [0])
         else:
-            self.sendUpdateToAvatarId(avId, 'doScavengerHunt', [100])
+            self.sendUpdate('doScavengerHunt', [100])
             scavengerHunt.append(self.zoneId)
             av.b_setScavengerHunt(scavengerHunt)
-            av.addMoney(100)
         if len(scavengerHunt) == 6:
             av.b_setCheesyEffect(14, 0, 0)
 

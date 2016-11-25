@@ -45,7 +45,7 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
     if defaultSuitName == 'random':
         defaultSuitName = None
 
-    def __init__(self, air, zoneId):
+    def __init__(self, air, zoneId, setupDNAFunc=None):
         DistributedObjectAI.DistributedObjectAI.__init__(self, air)
         SuitPlannerBase.SuitPlannerBase.__init__(self)
         self.air = air
@@ -66,9 +66,14 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
         self.baseNumSuits = (
             self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_MIN] +
             self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_MAX]) / 2
-        self.targetNumSuitBuildings = SuitBuildingGlobals.buildingMinMax[self.zoneId][0]
+
+        self.targetNumSuitBuildings = SuitBuildingGlobals.buildingMinMax.get(self.zoneId, 0)
+        if self.targetNumSuitBuildings:
+            self.targetNumSuitBuildings = self.targetNumSuitBuildings[0]
+
         if ZoneUtil.isWelcomeValley(self.zoneId):
             self.targetNumSuitBuildings = 0
+
         self.pendingBuildingTracks = []
         self.pendingBuildingHeights = []
         self.suitList = []
@@ -80,7 +85,10 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
         self.cogHQDoors = []
         self.battleList = []
         self.battleMgr = BattleManagerAI.BattleManagerAI(self.air)
-        self.setupDNA()
+        if setupDNAFunc:
+            setupDNAFunc(self)
+        else:
+            self.setupDNA()
         if self.notify.getDebug():
             self.notify.debug('Creating a building manager AI in zone' + str(self.zoneId))
         self.buildingMgr = self.air.buildingManagers.get(self.zoneId)
@@ -102,6 +110,16 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
             if self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_ZONE] != suitHood:
                 self.currDesired = 0
         self.suitCountAdjust = 0
+
+    def resetSuitHoodInfo(self, zoneId):
+        for index in xrange(len(self.SuitHoodInfo)):
+            currHoodInfo = self.SuitHoodInfo[index]
+            if currHoodInfo[self.SUIT_HOOD_INFO_ZONE] == zoneId:
+                self.hoodInfoIdx = index
+
+        self.baseNumSuits = (
+            self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_MIN] +
+            self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_MAX]) / 2
 
     def cleanup(self):
         taskMgr.remove(self.taskName('sptUpkeepPopulation'))
@@ -950,7 +968,12 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
         if level is None:
             level = random.choice(self.SuitHoodInfo[self.hoodInfoIdx][self.SUIT_HOOD_INFO_LVL])
         if type is None:
-            typeChoices = range(max(level - 4, 1), min(level, self.MAX_SUIT_TYPES) + 1)
+            if level == 12:
+                typeChoices = [8]
+            elif level == 11:
+                typeChoices = [7, 8]
+            else:
+                typeChoices = range(max(level - 4, 1), min(level, self.MAX_SUIT_TYPES) + 1)
             type = random.choice(typeChoices)
         else:
             level = min(max(level, type), type + 4)

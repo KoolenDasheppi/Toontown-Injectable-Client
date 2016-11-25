@@ -8,7 +8,6 @@ from direct.task import Task
 from direct.directnotify import DirectNotifyGlobal
 import random
 
-
 class DistributedBattleAI(DistributedBattleBaseAI.DistributedBattleBaseAI):
     notify = DirectNotifyGlobal.directNotify.newCategory('DistributedBattleAI')
 

@@ -1,0 +1,22 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 206, in <module>
+NameError: name 'ToonupAnywhere' is not defined
+
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204435F8>}
+cog_icons.egg
+cog_icons.egg/-PandaNode
+cog_icons.egg/-PandaNode/-SequenceNode
+cog_icons.egg/-PandaNode/-SequenceNode/cog
+cog_icons.egg/-PandaNode/-SequenceNode/MoneyIcon
+cog_icons.egg/-PandaNode/-SequenceNode/LegalIcon
+cog_icons.egg/-PandaNode/-SequenceNode/SalesIcon
+cog_icons.egg/-PandaNode/-SequenceNode/CorpIcon
+

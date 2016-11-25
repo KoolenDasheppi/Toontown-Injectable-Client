@@ -1,9 +1,7 @@
 from toontown.toonbase.ToontownGlobals import *
-
-
-zoneUtilNotify = directNotify.newCategory('ZoneUtil')
+from direct.directnotify import DirectNotifyGlobal
+zoneUtilNotify = DirectNotifyGlobal.directNotify.newCategory('ZoneUtil')
 tutorialDict = None
-
 
 def isGoofySpeedwayZone(zoneId):
     return zoneId == 8000
@@ -239,3 +237,15 @@ def getWakeInfo(hoodId = None, zoneId = None):
         pass
 
     return (showWake, wakeWaterHeight)
+
+
+def genDNAFileName(zoneId):
+    zoneId = getCanonicalZoneId(zoneId)
+    hoodId = getCanonicalHoodId(zoneId)
+    hood = dnaMap[hoodId]
+    phase = streetPhaseMap[hoodId]
+    if zoneId == 2000:
+        phase = 4
+    if hoodId == zoneId:
+        zoneId = 'sz'
+    return 'phase_%s/dna/%s_%s.pdna' % (phase, hood, zoneId)

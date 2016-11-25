@@ -1,0 +1,365 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB8F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB20>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAA8>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4A5300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E798918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA58>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB48>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAF8>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB9B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA80>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB9E0>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABBC0>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4A2328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA08>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB8A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB98>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test
+spec = {'parentEntId': 10064, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-3
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in <module>
+AttributeError: 'NoneType' object has no attribute 'getPos'
+
+frame rate: 14.1 fps|0.008d|6 avs||384|388||0x1002|0x6738|402.1MB|431.3MB|16330.4MB|443|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 1, in <module>
+TypeError: doFindAll() takes exactly 2 arguments (1 given)
+
+[<toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB9B8>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABD78>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA08>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABF30>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x21457350>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABF08>, <toontown.uberdog.ClientServicesManager.ClientServicesManager instance at 0x1E49D530>, <toontown.friends.TTIFriendsManager.TTIFriendsManager instance at 0x1E49D620>, <toontown.safezone.DistributedTreasure.DistributedTreasure instance at 0x213E3DC8>, <toontown.safezone.DistributedTreasure.DistributedTreasure instance at 0x2145AE40>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAD0>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4A5300>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABDF0>, <toontown.safezone.DistributedTreasure.DistributedTreasure instance at 0x213E3E18>, <otp.chat.ChatAgent.ChatAgent instance at 0x1E49D440>, <toontown.uberdog.DistributedDeliveryManager.DistributedDeliveryManager instance at 0x1E49D6C0>, <otp.friends.AvatarFriendsManager.AvatarFriendsManager instance at 0x1E49D580>, <toontown.friends.TTPlayerFriendsManager.TTPlayerFriendsManager instance at 0x1E49D5D0>, <otp.distributed.CentralLogger.CentralLogger instance at 0x1E49D3F0>, <toontown.coderedemption.TTCodeRedemptionMgr.TTCodeRedemptionMgr instance at 0x1E49D760>, render/Little Zippy-100000013, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAA8>, <toontown.safezone.DistributedTreasure.DistributedTreasure instance at 0x213E3800>, <toontown.uberdog.TTSpeedchatRelay.TTSpeedchatRelay instance at 0x1E49D670>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABEE0>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E798918>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABC88>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB70>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABE18>, <toontown.fishing.DistributedFishingPond.DistributedFishingPond instance at 0x213E39E0>, render/DistributedFishingTarget, render/DistributedFishingTarget, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABF58>, render/Fisherman Frizzy-414002349, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB48>, <toontown.coghq.DistributedFactory.DistributedFactory instance at 0x2138FF58>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x21458508>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x21457C10>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x21456BC0>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA58>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABCB0>, <toontown.building.DistributedBuilding.DistributedBuilding instance at 0x21458DC8>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x213E31E8>, <toontown.building.DistributedKnockKnockDoor.DistributedKnockKnockDoor instance at 0x2145A8F0>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABE68>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x2145ADC8>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x2145AC38>, <toontown.coghq.DistributedDoorEntity.DistributedDoorEntity instance at 0x216ED0A8>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x2167CA80>, <toontown.safezone.DistributedTrolley.DistributedTrolley instance at 0x213E3D78>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x21663C60>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABA80>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4A2328>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x2145ADF0>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB940>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABCD8>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABBC0>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABDA0>, <toontown.safezone.DistributedTrolley.DistributedTrolley instance at 0x2145AE18>, <toontown.fishing.DistributedFishingPond.DistributedFishingPond instance at 0x21663AF8>, render/DistributedFishingTarget, render/DistributedFishingTarget, render/Fisherman Freud-414002978, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x2167C7D8>, <toontown.safezone.DistributedFishingSpot.DistributedFishingSpot instance at 0x2167D6E8>, render/ZoneEntity-0/-PandaNode/LegFactory/ZoneEntity-32/NodePathEntity-20095/The Mingler-414007591, render/ZoneEntity-0/-PandaNode/LegFactory/ZoneEntity-32/NodePathEntity-20095/Skelecog-414007592, render/ZoneEntity-0/-PandaNode/LegFactory/ZoneEntity-32/NodePathEntity-20095/Glad Hander-414007593, render/ZoneEntity-0/-PandaNode/LegFactory/ZoneEntity-32/NodePathEntity-20095/Glad Hander-414007594, <toontown.building.DistributedBuilding.DistributedBuilding instance at 0x216765A8>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x2167D698>, <toontown.building.DistributedKnockKnockDoor.DistributedKnockKnockDoor instance at 0x21659C38>, <toontown.building.DistributedBuilding.DistributedBuilding instance at 0x21683C10>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABDC8>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x21683D28>, <toontown.building.DistributedKnockKnockDoor.DistributedKnockKnockDoor instance at 0x21683878>, <toontown.building.DistributedBuilding.DistributedBuilding instance at 0x2167DAA8>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB8A0>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABD00>, <toontown.building.DistributedKnockKnockDoor.DistributedKnockKnockDoor instance at 0x213E3080>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x213E3D50>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x213E3350>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x213E3BC0>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABD50>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB20>, <toontown.building.DistributedDoor.DistributedDoor instance at 0x216FD0D0>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB8F0>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABE90>, <otp.ai.TimeManager.TimeManager instance at 0x20F464E0>, <otp.ai.MagicWordManager.MagicWordManager instance at 0x20F46530>, <toontown.ai.NewsManager.NewsManager instance at 0x20F466C0>, <toontown.safezone.SafeZoneManager.SafeZoneManager instance at 0x20F46800>, <toontown.tutorial.TutorialManager.TutorialManager instance at 0x20F46878>, <otp.friends.FriendManager.FriendManager instance at 0x20F46580>, <toontown.building.DistributedTrophyMgr.DistributedTrophyMgr instance at 0x20F46A58>, <toontown.estate.EstateManager.EstateManager instance at 0x20F46620>, <toontown.catalog.CatalogManager.CatalogManager instance at 0x20F469B8>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABE40>, <otp.friends.FriendManager.FriendManager instance at 0x1E49DA08>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABB98>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB968>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABD28>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7ABAF8>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABEB8>, <toontown.distributed.ToontownDistrictStats.ToontownDistrictStats instance at 0x1E7ABC38>, <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7AB9E0>]
+[]
+[]
+spec = {'parentEntId': 10064, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-9
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+test
+spec = {'parentEntId': 10064, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-15
+Exception occurred while processing Func-__handleFactoryRewardDone-1498 of movie-reward-track-with-cam-414007902:
+movie-reward-track-with-cam-414007902:
+  0.000 movie-reward-track-with-cam-414007902 {
+  0.000   movie-reward-track-414007902 {
+  0.000     Sequence-1344 {
+  0.000       Parallel-1352 {
+  0.000         Sequence-1346 {
+  0.000           *Func-show-1420
+  0.000           *Func-setForceOnscreenChat-1421
+  0.000           *Func-_setupSkipListen-1422
+  0.000           *Func-_teardownSkipListen-1490
+  0.000           *Func-_setupSkipListen-1491
+  0.000           Sequence-1349 {
+  0.000             *Func-initGagFrame-1423
+  0.000             Wait dur 1
+  1.000             *Func-showTrackIncLabel-1424
+  1.000             *Func-incrementExp-1425
+  1.000             Wait dur 0.0166667
+  1.017             *Func-incrementExp-1426
+  1.017             Wait dur 0.0166667
+  1.034             *Func-incrementExp-1427
+  1.034             Wait dur 0.0166667
+  1.051             *Func-incrementExp-1428
+  1.051             Wait dur 0.0166667
+  1.068             *Func-incrementExp-1429
+  1.068             Wait dur 0.0166667
+  1.085             *Func-incrementExp-1430
+  1.085             Wait dur 0.0166667
+  1.102             *Func-incrementExp-1431
+  1.102             Wait dur 0.0166667
+  1.119             *Func-incrementExp-1432
+  1.119             Wait dur 0.0166667
+  1.136             *Func-incrementExp-1433
+  1.136             Wait dur 0.0166667
+  1.153             *Func-incrementExp-1434
+  1.153             Wait dur 0.0166667
+  1.170             *Func-incrementExp-1435
+  1.170             Wait dur 0.0166667
+  1.187             *Func-incrementExp-1436
+  1.187             Wait dur 0.0166667
+  1.204             *Func-incrementExp-1437
+  1.204             Wait dur 0.0166667
+  1.221             *Func-incrementExp-1438
+  1.221             Wait dur 0.0166667
+  1.238             *Func-incrementExp-1439
+  1.238             Wait dur 0.0166667
+  1.255             *Func-incrementExp-1440
+  1.255             Wait dur 0.0166667
+  1.272             *Func-incrementExp-1441
+  1.272             Wait dur 0.0166667
+  1.289             *Func-incrementExp-1442
+  1.289             Wait dur 0.0166667
+  1.306             *Func-incrementExp-1443
+  1.306             Wait dur 0.0166667
+  1.323             *Func-incrementExp-1444
+  1.323             Wait dur 0.0166667
+  1.340             *Func-incrementExp-1445
+  1.340             Wait dur 0.0166667
+  1.357             *Func-incrementExp-1446
+  1.357             Wait dur 0.0166667
+  1.374             *Func-incrementExp-1447
+  1.374             Wait dur 0.0166667
+  1.391             *Func-incrementExp-1448
+  1.391             Wait dur 0.0166667
+  1.408             *Func-incrementExp-1449
+  1.408             Wait dur 0.0166667
+  1.425             *Func-incrementExp-1450
+  1.425             Wait dur 0.0166667
+  1.442             *Func-incrementExp-1451
+  1.442             Wait dur 0.0166667
+  1.459             *Func-incrementExp-1452
+  1.459             Wait dur 0.0166667
+  1.476             *Func-incrementExp-1453
+  1.476             Wait dur 0.0166667
+  1.493             *Func-incrementExp-1454
+  1.493             Wait dur 0.0166667
+  1.510             *Func-resetBarColor-1455
+  1.510             Wait dur 0.1
+  1.610             *Func-showTrackIncLabel-1456
+  1.610             *Func-incrementExp-1457
+  1.610             Wait dur 0.0166667
+  1.627             *Func-incrementExp-1458
+  1.627             Wait dur 0.0166667
+  1.644             *Func-incrementExp-1459
+  1.644             Wait dur 0.0166667
+  1.661             *Func-incrementExp-1460
+  1.661             Wait dur 0.0166667
+  1.678             *Func-incrementExp-1461
+  1.678             Wait dur 0.0166667
+  1.695             *Func-incrementExp-1462
+  1.695             Wait dur 0.0166667
+  1.712             *Func-incrementExp-1463
+  1.712             Wait dur 0.0166667
+  1.729             *Func-incrementExp-1464
+  1.729             Wait dur 0.0166667
+  1.746             *Func-incrementExp-1465
+  1.746             Wait dur 0.0166667
+  1.763             *Func-incrementExp-1466
+  1.763             Wait dur 0.0166667
+  1.780             *Func-incrementExp-1467
+  1.780             Wait dur 0.0166667
+  1.797             *Func-incrementExp-1468
+  1.797             Wait dur 0.0166667
+  1.814             *Func-incrementExp-1469
+  1.814             Wait dur 0.0166667
+  1.831             *Func-incrementExp-1470
+  1.831             Wait dur 0.0166667
+  1.848             *Func-incrementExp-1471
+  1.848             Wait dur 0.0166667
+  1.865             *Func-incrementExp-1472
+  1.865             Wait dur 0.0166667
+  1.882             *Func-incrementExp-1473
+  1.882             Wait dur 0.0166667
+  1.899             *Func-incrementExp-1474
+  1.899             Wait dur 0.0166667
+  1.916             *Func-incrementExp-1475
+  1.916             Wait dur 0.0166667
+  1.933             *Func-incrementExp-1476
+  1.933             Wait dur 0.0166667
+  1.950             *Func-incrementExp-1477
+  1.950             Wait dur 0.0166667
+  1.967             *Func-incrementExp-1478
+  1.967             Wait dur 0.0166667
+  1.984             *Func-incrementExp-1479
+  1.984             Wait dur 0.0166667
+  2.001             *Func-incrementExp-1480
+  2.001             Wait dur 0.0166667
+  2.018             *Func-incrementExp-1481
+  2.018             Wait dur 0.0166667
+  2.035             *Func-incrementExp-1482
+  2.035             Wait dur 0.0166667
+  2.052             *Func-incrementExp-1483
+  2.052             Wait dur 0.0166667
+  2.069             *Func-incrementExp-1484
+  2.069             Wait dur 0.0166667
+  2.086             *Func-incrementExp-1485
+  2.086             Wait dur 0.0166667
+  2.103             *Func-incrementExp-1486
+  2.103             Wait dur 0.0166667
+  2.120             *Func-resetBarColor-1487
+  2.120             Wait dur 0.1
+  2.220             Wait dur 0.75
+  2.970             *Func-initCogPartFrame-1489
+  2.970             Wait dur 0.25
+  3.220             *Func-setProp-1488
+  3.220             Wait dur 1
+  4.220             Wait dur 0.5
+  4.720             Wait dur 0.25
+  4.970           }
+  4.970           *Func-_teardownSkipListen-1494
+  4.970           *Func-destroy-1495
+  4.970           *Func-hide-1496
+  4.970           *Func-setForceOnscreenChat-1497
+  4.970           Sequence-1348 {
+  4.970           }
+  4.970         }
+  0.000         *Sound-91 dur 4.97
+  4.970       }
+  4.970       *Func-__handleFactoryRewardDone-1498
+  4.970     }
+  4.970   }
+  0.000   Sequence-1345 {
+  0.000     Sequence-1347 {
+  0.000       Sequence-1351 {
+  0.000         *Func-chooseRewardShotNow-1493
+  0.000         Wait dur 4.97
+  4.970       }
+  4.970     }
+  4.970   }
+  4.970 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\coghq\DistributedLevelBattle.py", line 66, in disable
+    DistributedBattle.DistributedBattle.disable(self)
+  File "toontown\battle\DistributedBattle.py", line 34, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1944, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1557, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 1031, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 1037, in deleteObject
+    obj.deleteOrDelay()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 199, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 202, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 228, in disableAndAnnounce
+    self.disable()
+  File "toontown\coghq\DistributedLevelBattle.py", line 66, in disable
+    DistributedBattle.DistributedBattle.disable(self)
+  File "toontown\battle\DistributedBattle.py", line 34, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 132, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 144, in cleanupBattle
+    self.fsm.requestFinalState()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 151, in requestFinalState
+    self.request(self.getFinalState().getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 246, in request
+    assert not self.__internalStateInFlux
+AssertionError

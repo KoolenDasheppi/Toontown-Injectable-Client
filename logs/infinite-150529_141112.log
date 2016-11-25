@@ -1,0 +1,339 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 235, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204915D0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+TIMER startTime 906
+Battle Event localtoon-battle-event-15
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+TIMER startTime 906
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DG.pdna
+Reading DNA file... phase_8/dna/storage_DG_sz.pdna
+Reading DNA file... phase_8/dna/daisys_garden_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-21
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33
+Battle Event localtoon-battle-event-39
+Battle Event localtoon-battle-event-45
+Battle Event localtoon-battle-event-51
+Battle Event localtoon-battle-event-57
+Battle Event localtoon-battle-event-63
+Battle Event localtoon-battle-event-69
+Battle Event localtoon-battle-event-75
+Battle Event localtoon-battle-event-81
+Battle Event localtoon-battle-event-87
+frame rate: 16.4 fps|0.058d|1 avs||332|334||0x1002|0x6738|447.7MB|447.9MB|16330.4MB|526|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-93
+Battle Event localtoon-battle-event-99
+Battle Event localtoon-battle-event-105
+TIMER startTime 906
+Battle Event localtoon-battle-event-111
+Battle Event localtoon-battle-event-117
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+Battle Event localtoon-battle-event-135
+Battle Event localtoon-battle-event-141
+Battle Event localtoon-battle-event-147
+Battle Event localtoon-battle-event-153
+Battle Event localtoon-battle-event-159
+Battle Event localtoon-battle-event-165
+Battle Event localtoon-battle-event-171
+TIMER startTime 906
+Battle Event localtoon-battle-event-177
+Battle Event localtoon-battle-event-183
+Battle Event localtoon-battle-event-189
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+Battle Event localtoon-battle-event-207
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+TIMER startTime 906
+Battle Event localtoon-battle-event-237
+Battle Event localtoon-battle-event-243
+Battle Event localtoon-battle-event-249
+Battle Event localtoon-battle-event-255
+Battle Event localtoon-battle-event-261
+Battle Event localtoon-battle-event-267
+Battle Event localtoon-battle-event-273
+Battle Event localtoon-battle-event-279
+Battle Event localtoon-battle-event-285
+Battle Event localtoon-battle-event-291
+Battle Event localtoon-battle-event-297
+Battle Event localtoon-battle-event-303
+Battle Event localtoon-battle-event-309
+Battle Event localtoon-battle-event-315
+TIMER startTime 906
+Battle Event localtoon-battle-event-321
+Battle Event localtoon-battle-event-327
+TIMER startTime 906
+Battle Event localtoon-battle-event-333
+frame rate: 10.0 fps|0.106d|3 avs||631|634||0x1002|0x6738|467.2MB|500.7MB|16330.4MB|679|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-339
+Battle Event localtoon-battle-event-345
+TIMER startTime 906
+Battle Event localtoon-battle-event-351
+Battle Event localtoon-battle-event-357
+TIMER startTime 906
+Battle Event localtoon-battle-event-363
+Battle Event localtoon-battle-event-369
+Battle Event localtoon-battle-event-375
+TIMER startTime 906
+Battle Event localtoon-battle-event-381
+Battle Event localtoon-battle-event-387
+Battle Event localtoon-battle-event-393
+Battle Event localtoon-battle-event-399
+Battle Event localtoon-battle-event-411
+Battle Event localtoon-battle-event-417
+Battle Event localtoon-battle-event-423
+Battle Event localtoon-battle-event-429
+Battle Event localtoon-battle-event-435
+Battle Event localtoon-battle-event-441
+Battle Event localtoon-battle-event-447
+Battle Event localtoon-battle-event-453
+Battle Event localtoon-battle-event-459
+Battle Event localtoon-battle-event-465
+Battle Event localtoon-battle-event-471
+Battle Event localtoon-battle-event-477
+TIMER startTime 906
+Battle Event localtoon-battle-event-495
+Battle Event localtoon-battle-event-501
+Battle Event localtoon-battle-event-507
+Battle Event localtoon-battle-event-513
+Battle Event localtoon-battle-event-519
+Battle Event localtoon-battle-event-525
+Battle Event localtoon-battle-event-531
+Battle Event localtoon-battle-event-543
+Battle Event localtoon-battle-event-549
+Battle Event localtoon-battle-event-555
+Battle Event localtoon-battle-event-561
+Battle Event localtoon-battle-event-567
+Battle Event localtoon-battle-event-573
+TIMER startTime 906
+Battle Event localtoon-battle-event-579
+Battle Event localtoon-battle-event-585
+Battle Event localtoon-battle-event-591
+Battle Event localtoon-battle-event-597
+Battle Event localtoon-battle-event-603
+Battle Event localtoon-battle-event-609
+TIMER startTime 906
+Battle Event localtoon-battle-event-615
+Battle Event localtoon-battle-event-621
+Battle Event localtoon-battle-event-627
+frame rate: 12.4 fps|0.089d|2 avs||931|934||0x1002|0x6738|479.1MB|512.4MB|16330.4MB|692|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-633
+Battle Event localtoon-battle-event-639
+Battle Event localtoon-battle-event-645
+Battle Event localtoon-battle-event-651
+Battle Event localtoon-battle-event-657
+Battle Event localtoon-battle-event-663
+Battle Event localtoon-battle-event-669
+Battle Event localtoon-battle-event-675
+Battle Event localtoon-battle-event-681
+TIMER startTime 906
+Battle Event localtoon-battle-event-687
+Battle Event localtoon-battle-event-693
+Battle Event localtoon-battle-event-699
+TIMER startTime 906
+Battle Event localtoon-battle-event-705
+Battle Event localtoon-battle-event-711
+Battle Event localtoon-battle-event-717
+Battle Event localtoon-battle-event-723
+Battle Event localtoon-battle-event-729
+Battle Event localtoon-battle-event-735
+TIMER startTime 906
+Battle Event localtoon-battle-event-741
+Battle Event localtoon-battle-event-747
+Battle Event localtoon-battle-event-753
+TIMER startTime 906
+Battle Event localtoon-battle-event-759
+Battle Event localtoon-battle-event-765
+Battle Event localtoon-battle-event-771
+Battle Event localtoon-battle-event-777
+Battle Event localtoon-battle-event-783
+Battle Event localtoon-battle-event-789
+Battle Event localtoon-battle-event-795
+Battle Event localtoon-battle-event-801
+Battle Event localtoon-battle-event-807
+Battle Event localtoon-battle-event-819
+Battle Event localtoon-battle-event-825
+Battle Event localtoon-battle-event-831
+TIMER startTime 906
+Battle Event localtoon-battle-event-837
+Battle Event localtoon-battle-event-843
+Battle Event localtoon-battle-event-849
+Battle Event localtoon-battle-event-855
+Battle Event localtoon-battle-event-861
+TIMER startTime 906
+Battle Event localtoon-battle-event-867
+Battle Event localtoon-battle-event-873
+Battle Event localtoon-battle-event-879
+Battle Event localtoon-battle-event-885
+Battle Event localtoon-battle-event-891
+frame rate: 14.6 fps|0.064d|3 avs||1232|1234||0x1002|0x6738|486.8MB|520.1MB|16330.4MB|700|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 906
+Battle Event localtoon-battle-event-897
+Battle Event localtoon-battle-event-903
+Battle Event localtoon-battle-event-909
+Battle Event localtoon-battle-event-915
+Battle Event localtoon-battle-event-921
+Battle Event localtoon-battle-event-927
+Battle Event localtoon-battle-event-933
+Battle Event localtoon-battle-event-939
+Battle Event localtoon-battle-event-945
+Battle Event localtoon-battle-event-951
+Battle Event localtoon-battle-event-957
+Battle Event localtoon-battle-event-963
+Battle Event localtoon-battle-event-969
+Battle Event localtoon-battle-event-975
+Battle Event localtoon-battle-event-981
+TIMER startTime 906
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-987
+Battle Event localtoon-battle-event-993
+Battle Event localtoon-battle-event-999
+Battle Event localtoon-battle-event-1005
+Battle Event localtoon-battle-event-1011
+Battle Event localtoon-battle-event-1017
+Battle Event localtoon-battle-event-1023
+Battle Event localtoon-battle-event-1029
+Battle Event localtoon-battle-event-1035
+TIMER startTime 906
+Battle Event localtoon-battle-event-1041
+Battle Event localtoon-battle-event-1047
+Battle Event localtoon-battle-event-1053
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna

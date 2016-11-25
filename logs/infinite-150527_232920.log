@@ -1,0 +1,36 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x204C31C0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+<toontown.fishing.DistributedFishingPond.DistributedFishingPond instance at 0x23975260>
+render/DistributedFishingTarget
+seed 772
+Traceback (most recent call last):
+  File "toontown\minigame\DistributedTargetGame.py", line 1174, in __updatePowerBarTask
+    self.__posBroadcast(dt)
+  File "toontown\minigame\DistributedTargetGame.py", line 1106, in __posBroadcast
+    self.getAvatar(self.localAvId).cnode.broadcastPosHprFull()
+ValueError: Node position out of range for DC file: render/Little Zippy-100000003 pos = 10 -1.2 3464.57 hpr = 0 0 0 zoneId = 0
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "toontown\minigame\DistributedTargetGame.py", line 1174, in __updatePowerBarTask
+    self.__posBroadcast(dt)
+  File "toontown\minigame\DistributedTargetGame.py", line 1106, in __posBroadcast
+    self.getAvatar(self.localAvId).cnode.broadcastPosHprFull()
+ValueError: Node position out of range for DC file: render/Little Zippy-100000003 pos = 10 -1.2 3464.57 hpr = 0 0 0 zoneId = 0

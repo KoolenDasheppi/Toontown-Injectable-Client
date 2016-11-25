@@ -1,0 +1,579 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 235, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4F05D0>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+Battle Event localtoon-battle-event-3
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-9
+TIMER startTime 941
+Battle Event localtoon-battle-event-15
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-21
+Battle Event localtoon-battle-event-27
+TIMER startTime 941
+Battle Event localtoon-battle-event-33
+Battle Event localtoon-battle-event-39
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-45
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-51
+TIMER startTime 941
+Battle Event localtoon-battle-event-57
+frame rate: 8.6 fps|0.306d|8 avs||336|339||0x1002|0x6738|481.4MB|481.1MB|16330.4MB|771|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-63
+Battle Event localtoon-battle-event-69
+Battle Event localtoon-battle-event-75
+Battle Event localtoon-battle-event-81
+TIMER startTime 941
+Battle Event localtoon-battle-event-87
+Battle Event localtoon-battle-event-93
+TIMER startTime 941
+Battle Event localtoon-battle-event-99
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-105
+Battle Event localtoon-battle-event-111
+Battle Event localtoon-battle-event-117
+Battle Event localtoon-battle-event-123
+Battle Event localtoon-battle-event-129
+Battle Event localtoon-battle-event-135
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-141
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-147
+Battle Event localtoon-battle-event-153
+Battle Event localtoon-battle-event-159
+Battle Event localtoon-battle-event-165
+Battle Event localtoon-battle-event-171
+Battle Event localtoon-battle-event-177
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-183
+Battle Event localtoon-battle-event-189
+frame rate: 9.5 fps|0.300d|16 avs||636|639||0x1002|0x6738|543.5MB|542.9MB|16330.4MB|1405|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-195
+Battle Event localtoon-battle-event-201
+Battle Event localtoon-battle-event-207
+Battle Event localtoon-battle-event-213
+Battle Event localtoon-battle-event-219
+Battle Event localtoon-battle-event-225
+Battle Event localtoon-battle-event-231
+Battle Event localtoon-battle-event-237
+Battle Event localtoon-battle-event-243
+TIMER startTime 941
+Battle Event localtoon-battle-event-249
+Battle Event localtoon-battle-event-255
+TIMER startTime 941
+Battle Event localtoon-battle-event-261
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-267
+Battle Event localtoon-battle-event-273
+Battle Event localtoon-battle-event-279
+Battle Event localtoon-battle-event-285
+Battle Event localtoon-battle-event-291
+TIMER startTime 941
+Battle Event localtoon-battle-event-297
+Battle Event localtoon-battle-event-303
+Battle Event localtoon-battle-event-309
+Battle Event localtoon-battle-event-315
+Battle Event localtoon-battle-event-321
+Battle Event localtoon-battle-event-327
+Battle Event localtoon-battle-event-333
+Battle Event localtoon-battle-event-339
+Battle Event localtoon-battle-event-345
+Battle Event localtoon-battle-event-351
+Battle Event localtoon-battle-event-357
+Battle Event localtoon-battle-event-363
+Battle Event localtoon-battle-event-369
+Battle Event localtoon-battle-event-375
+Battle Event localtoon-battle-event-381
+Battle Event localtoon-battle-event-387
+Battle Event localtoon-battle-event-393
+TIMER startTime 941
+Battle Event localtoon-battle-event-399
+Battle Event localtoon-battle-event-405
+Battle Event localtoon-battle-event-411
+frame rate: 9.0 fps|0.132d|11 avs||936|939||0x1002|0x6738|568.6MB|601.9MB|16330.4MB|1784|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 941
+Battle Event localtoon-battle-event-417
+Battle Event localtoon-battle-event-423
+Battle Event localtoon-battle-event-429
+TIMER startTime 941
+Battle Event localtoon-battle-event-435
+Battle Event localtoon-battle-event-441
+Battle Event localtoon-battle-event-447
+Battle Event localtoon-battle-event-453
+Battle Event localtoon-battle-event-459
+Battle Event localtoon-battle-event-465
+Battle Event localtoon-battle-event-471
+Battle Event localtoon-battle-event-477
+TIMER startTime 941
+Battle Event localtoon-battle-event-483
+Battle Event localtoon-battle-event-489
+Battle Event localtoon-battle-event-495
+TIMER startTime 941
+Battle Event localtoon-battle-event-501
+Battle Event localtoon-battle-event-507
+Battle Event localtoon-battle-event-513
+TIMER startTime 941
+Battle Event localtoon-battle-event-519
+Battle Event localtoon-battle-event-525
+Battle Event localtoon-battle-event-531
+TIMER startTime 941
+Battle Event localtoon-battle-event-537
+Battle Event localtoon-battle-event-543
+Battle Event localtoon-battle-event-549
+TIMER startTime 941
+Battle Event localtoon-battle-event-555
+Battle Event localtoon-battle-event-561
+Battle Event localtoon-battle-event-567
+TIMER startTime 941
+Battle Event localtoon-battle-event-573
+Battle Event localtoon-battle-event-579
+Battle Event localtoon-battle-event-585
+Battle Event localtoon-battle-event-591
+Battle Event localtoon-battle-event-597
+Battle Event localtoon-battle-event-603
+Battle Event localtoon-battle-event-609
+Battle Event localtoon-battle-event-615
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-621
+Battle Event localtoon-battle-event-627
+Battle Event localtoon-battle-event-633
+Battle Event localtoon-battle-event-639
+Battle Event localtoon-battle-event-645
+Battle Event localtoon-battle-event-651
+Battle Event localtoon-battle-event-657
+Battle Event localtoon-battle-event-663
+TIMER startTime 941
+frame rate: 7.9 fps|0.141d|12 avs||1236|1239||0x1002|0x6738|591.1MB|592.5MB|16330.4MB|1851|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-669
+Battle Event localtoon-battle-event-675
+Battle Event localtoon-battle-event-681
+TIMER startTime 941
+Battle Event localtoon-battle-event-687
+Battle Event localtoon-battle-event-693
+Battle Event localtoon-battle-event-699
+TIMER startTime 941
+Battle Event localtoon-battle-event-705
+Battle Event localtoon-battle-event-711
+Battle Event localtoon-battle-event-717
+Battle Event localtoon-battle-event-723
+Battle Event localtoon-battle-event-729
+Battle Event localtoon-battle-event-735
+Battle Event localtoon-battle-event-741
+Battle Event localtoon-battle-event-747
+Battle Event localtoon-battle-event-753
+TIMER startTime 941
+Battle Event localtoon-battle-event-759
+Battle Event localtoon-battle-event-765
+Battle Event localtoon-battle-event-771
+TIMER startTime 941
+Battle Event localtoon-battle-event-777
+Battle Event localtoon-battle-event-783
+Battle Event localtoon-battle-event-789
+TIMER startTime 941
+Battle Event localtoon-battle-event-795
+Battle Event localtoon-battle-event-801
+Battle Event localtoon-battle-event-807
+Battle Event localtoon-battle-event-813
+Battle Event localtoon-battle-event-819
+Battle Event localtoon-battle-event-825
+Battle Event localtoon-battle-event-831
+Battle Event localtoon-battle-event-837
+Battle Event localtoon-battle-event-843
+TIMER startTime 941
+Battle Event localtoon-battle-event-849
+Battle Event localtoon-battle-event-855
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-861
+Battle Event localtoon-battle-event-867
+Battle Event localtoon-battle-event-873
+Battle Event localtoon-battle-event-879
+Battle Event localtoon-battle-event-885
+Battle Event localtoon-battle-event-891
+Battle Event localtoon-battle-event-897
+Battle Event localtoon-battle-event-903
+Battle Event localtoon-battle-event-909
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+frame rate: 7.4 fps|0.476d|14 avs||1539|1541||0x1002|0x6738|628.5MB|628.8MB|16330.4MB|2241|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Battle Event localtoon-battle-event-915
+Battle Event localtoon-battle-event-921
+Battle Event localtoon-battle-event-927
+Battle Event localtoon-battle-event-933
+Battle Event localtoon-battle-event-939
+Battle Event localtoon-battle-event-945
+Battle Event localtoon-battle-event-951
+Battle Event localtoon-battle-event-957
+Battle Event localtoon-battle-event-963
+Battle Event localtoon-battle-event-969
+Battle Event localtoon-battle-event-975
+Battle Event localtoon-battle-event-981
+Battle Event localtoon-battle-event-987
+Battle Event localtoon-battle-event-993
+Battle Event localtoon-battle-event-999
+Battle Event localtoon-battle-event-1005
+Battle Event localtoon-battle-event-1011
+Battle Event localtoon-battle-event-1017
+Battle Event localtoon-battle-event-1023
+Battle Event localtoon-battle-event-1029
+Battle Event localtoon-battle-event-1035
+Battle Event localtoon-battle-event-1041
+Battle Event localtoon-battle-event-1047
+Battle Event localtoon-battle-event-1053
+Battle Event localtoon-battle-event-1059
+Battle Event localtoon-battle-event-1065
+Battle Event localtoon-battle-event-1071
+TIMER startTime 941
+Battle Event localtoon-battle-event-1077
+Battle Event localtoon-battle-event-1083
+Battle Event localtoon-battle-event-1089
+TIMER startTime 941
+Battle Event localtoon-battle-event-1095
+Battle Event localtoon-battle-event-1101
+Battle Event localtoon-battle-event-1107
+Battle Event localtoon-battle-event-1113
+Battle Event localtoon-battle-event-1119
+Battle Event localtoon-battle-event-1125
+Battle Event localtoon-battle-event-1131
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1137
+Battle Event localtoon-battle-event-1143
+Battle Event localtoon-battle-event-1149
+Battle Event localtoon-battle-event-1155
+Battle Event localtoon-battle-event-1161
+Battle Event localtoon-battle-event-1167
+Battle Event localtoon-battle-event-1173
+frame rate: 6.1 fps|0.388d|10 avs||1838|1841||0x1002|0x6738|653.9MB|688.3MB|16330.4MB|2580|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+TIMER startTime 941
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_DL.pdna
+Reading DNA file... phase_8/dna/storage_DL_sz.pdna
+Reading DNA file... phase_8/dna/donalds_dreamland_sz.pdna
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-1179
+Battle Event localtoon-battle-event-1185
+Battle Event localtoon-battle-event-1191
+Battle Event localtoon-battle-event-1197
+Battle Event localtoon-battle-event-1203
+Battle Event localtoon-battle-event-1209
+Battle Event localtoon-battle-event-1215
+Battle Event localtoon-battle-event-1221
+Battle Event localtoon-battle-event-1227
+Battle Event localtoon-battle-event-1233
+Battle Event localtoon-battle-event-1239
+Battle Event localtoon-battle-event-1245
+Battle Event localtoon-battle-event-1251
+Battle Event localtoon-battle-event-1257
+Battle Event localtoon-battle-event-1263
+Battle Event localtoon-battle-event-1269
+Battle Event localtoon-battle-event-1275
+TIMER startTime 941
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 16.1 fps|0.006d|5 avs||2138|2141||0x1002|0x6738|675.8MB|713.2MB|16330.4MB|2790|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+:05-29-2015 15:21:32: setTalk: 100000003, 'Little Zippy', 'Hello poohead'
+:05-29-2015 15:21:41: setTalk: 100000003, 'Little Zippy', 'Are you a grub'
+:05-29-2015 15:21:48: setTalk: 100000013, 'Peach Mouse', 'yes'
+:05-29-2015 15:21:53: setTalk: 100000003, 'Little Zippy', 'lol'
+:05-29-2015 15:22:03: setTalk: 100000013, 'Peach Mouse', 'poop'
+:05-29-2015 15:22:08: setTalk: 100000003, 'Little Zippy', 'Smelly head'
+:05-29-2015 15:22:17: setTalk: 100000003, 'Little Zippy', 'Lets play the trolley'
+enterTeleport: 401000001, 'Server1', 2000, 2000, 100000013
+enterTeleport: 401000001, 'Server1', 2000, 2000, 100000013
+enterTeleport: 401000001, 'Server1', 2000, 2000, 100000013
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 7, in <module>
+IndexError: list index out of range
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1943, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1558, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1862, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 2043, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2089, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 338, in updateRequiredFields
+    self.postGenerateMessage()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 333, in postGenerateMessage
+    messenger.send(self.uniqueName("generate"), [self])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\RelatedObjectMgr.py", line 238, in __generated
+    allCallback(objects)
+  File "toontown\building\DistributedBossElevator.py", line 55, in gotBldg
+    return DistributedElevator.DistributedElevator.gotBldg(self, buildingList)
+  File "toontown\building\DistributedElevator.py", line 142, in gotBldg
+    self.setupElevator()
+  File "toontown\building\DistributedCFOElevator.py", line 20, in setupElevator
+    self.elevatorModel.reparentTo(locator)
+AssertionError: other._error_type == ET_ok at line 527 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1943, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1558, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1862, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 2043, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 2089, in __doGenerate
+    self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 265, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 338, in updateRequiredFields
+    self.postGenerateMessage()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\DistributedObject.py", line 333, in postGenerateMessage
+    messenger.send(self.uniqueName("generate"), [self])
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\distributed\RelatedObjectMgr.py", line 238, in __generated
+    allCallback(objects)
+  File "toontown\building\DistributedBossElevator.py", line 55, in gotBldg
+    return DistributedElevator.DistributedElevator.gotBldg(self, buildingList)
+  File "toontown\building\DistributedElevator.py", line 142, in gotBldg
+    self.setupElevator()
+  File "toontown\building\DistributedCFOElevator.py", line 20, in setupElevator
+    self.elevatorModel.reparentTo(locator)
+AssertionError: other._error_type == ET_ok at line 527 of panda/src/pgraph/nodePath.cxx

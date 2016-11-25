@@ -1,0 +1,575 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 206, in <module>
+NameError: name 'ToonupAnywhere' is not defined
+
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1F50C238>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+:05-28-2015 21:19:14: setTalk: 100000003, 'Little Zippy', 'test'
+:05-28-2015 21:20:18: setTalk: 100000003, 'Little Zippy', 'test'
+:05-28-2015 21:20:19: setTalk: 100000003, 'Little Zippy', 'test'
+frame rate: 28.6 fps|0.009d|4 avs||331|333||0x1002|0x6738|425.3MB|479.8MB|16330.4MB|601|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 591, in <module>
+  File "<string>", line 363, in __init__
+  File "<string>", line 515, in createGui
+  File "<string>", line 41, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+frame rate: 31.9 fps|0.003d|4 avs||631|633||0x1002|0x6738|429.1MB|483.3MB|16330.4MB|602|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3.5/models/gui/friendslist_gui.bam
+phase_3/models/gui/quit_button.bam
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 592, in <module>
+  File "<string>", line 364, in __init__
+  File "<string>", line 516, in createGui
+  File "<string>", line 42, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_N', 'QuitBtn_RLVR']
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 593, in <module>
+  File "<string>", line 365, in __init__
+  File "<string>", line 517, in createGui
+  File "<string>", line 43, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+frame rate: 28.9 fps|0.004d|4 avs||931|933||0x1002|0x6738|430.8MB|484.9MB|16330.4MB|603|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_N', 'QuitBtn_RLVR']
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 593, in <module>
+  File "<string>", line 365, in __init__
+  File "<string>", line 517, in createGui
+  File "<string>", line 43, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+frame rate: 26.1 fps|0.003d|4 avs||1363|1365||0x1002|0x6738|441.9MB|497.7MB|16330.4MB|942|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+quit_button.egg
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 1
+    print(loader.loadModel('phase_3/models/gui/quit_button.bam').find(**/**))
+                                                                        ^
+SyntaxError: invalid syntax
+
+quit_button.egg
+frame rate: 25.3 fps|0.004d|4 avs||1663|1665||0x1002|0x6738|442.0MB|497.7MB|16330.4MB|942|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+frame rate: 27.4 fps|0.003d|4 avs||1963|1965||0x1002|0x6738|442.0MB|497.7MB|16330.4MB|942|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_N', 'QuitBtn_RLVR']
+kek
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 594, in <module>
+  File "<string>", line 366, in __init__
+  File "<string>", line 518, in createGui
+  File "<string>", line 44, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+**not found**
+quit_button.egg
+['DtoolClassDict', 'DtoolGetSuperBase', 'ETFail', 'ETNotFound', 'ETOk', 'ETRemoved', 'ET_fail', 'ET_not_found', 'ET_ok', 'ET_removed', '__autoLerp', '__class__', '__cmp__', '__copy__', '__deepcopy__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lerp', '__lt__', '__ne__', '__new__', '__nonzero__', '__reduce__', '__reduce_ex__', '__reduce_persist__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'addHash', 'add_hash', 'adjustAllPriorities', 'adjust_all_priorities', 'analyze', 'anyPath', 'any_path', 'applyTextureColors', 'apply_texture_colors', 'assign', 'attachCollisionRay', 'attachCollisionSegment', 'attachCollisionSphere', 'attachNewNode', 'attach_new_node', 'calcTightBounds', 'calc_tight_bounds', 'clearAntialias', 'clearAttrib', 'clearAudioVolume', 'clearBillboard', 'clearBin', 'clearClipPlane', 'clearColor', 'clearColorScale', 'clearCompass', 'clearDepthOffset', 'clearDepthTest', 'clearDepthWrite', 'clearEffect', 'clearEffects', 'clearFog', 'clearLight', 'clearMat', 'clearMaterial', 'clearModelNodes', 'clearNormalMap', 'clearOccluder', 'clearProjectTexture', 'clearPythonTag', 'clearRenderMode', 'clearScissor', 'clearShader', 'clearShaderInput', 'clearTag', 'clearTexGen', 'clearTexProjector', 'clearTexTransform', 'clearTexture', 'clearTransform', 'clearTransparency', 'clearTwoSided', 'clear_antialias', 'clear_attrib', 'clear_audio_volume', 'clear_billboard', 'clear_bin', 'clear_clip_plane', 'clear_color', 'clear_color_scale', 'clear_compass', 'clear_depth_offset', 'clear_depth_test', 'clear_depth_write', 'clear_effect', 'clear_effects', 'clear_fog', 'clear_light', 'clear_mat', 'clear_material', 'clear_model_nodes', 'clear_normal_map', 'clear_occluder', 'clear_project_texture', 'clear_python_tag', 'clear_render_mode', 'clear_scissor', 'clear_shader', 'clear_shader_input', 'clear_tag', 'clear_tex_gen', 'clear_tex_projector', 'clear_tex_transform', 'clear_texture', 'clear_transform', 'clear_transparency', 'clear_two_sided', 'colorInterval', 'colorScaleInterval', 'compareTo', 'compare_to', 'composeColorScale', 'compose_color_scale', 'copyTo', 'copy_to', 'countNumDescendants', 'count_num_descendants', 'decodeFromBamStream', 'decode_from_bam_stream', 'deselect', 'detachNode', 'detach_node', 'doBillboardAxis', 'doBillboardPointEye', 'doBillboardPointWorld', 'do_billboard_axis', 'do_billboard_point_eye', 'do_billboard_point_world', 'encodeToBamStream', 'encode_to_bam_stream', 'explore', 'fail', 'find', 'findAllMatches', 'findAllMaterials', 'findAllPathsTo', 'findAllTexcoords', 'findAllTextureStages', 'findAllTextures', 'findAllVertexColumns', 'findMaterial', 'findNetPythonTag', 'findNetTag', 'findPathTo', 'findTexture', 'findTextureStage', 'find_all_matches', 'find_all_materials', 'find_all_paths_to', 'find_all_texcoords', 'find_all_texture_stages', 'find_all_textures', 'find_all_vertex_columns', 'find_material', 'find_net_python_tag', 'find_net_tag', 'find_path_to', 'find_texture', 'find_texture_stage', 'flattenLight', 'flattenMedium', 'flattenMultitex', 'flattenStrong', 'flatten_light', 'flatten_medium', 'flatten_strong', 'forceRecomputeBounds', 'force_recompute_bounds', 'getAncestor', 'getAncestors', 'getAncestry', 'getAntialias', 'getAttrib', 'getAudioVolume', 'getBinDrawOrder', 'getBinName', 'getBounds', 'getChild', 'getChildren', 'getChildrenAsList', 'getClassType', 'getCollideMask', 'getColor', 'getColorScale', 'getCommonAncestor', 'getDepthOffset', 'getDepthTest', 'getDepthWrite', 'getDistance', 'getEffect', 'getEffects', 'getErrorType', 'getFog', 'getH', 'getHiddenAncestor', 'getHpr', 'getInstanceCount', 'getKey', 'getMat', 'getMaterial', 'getMaxSearchDepth', 'getName', 'getNetAudioVolume', 'getNetPrevTransform', 'getNetPythonTag', 'getNetState', 'getNetTag', 'getNetTransform', 'getNode', 'getNodes', 'getNumChildren', 'getNumDescendants', 'getNumNodes', 'getP', 'getParent', 'getPos', 'getPosDelta', 'getPrevTransform', 'getPythonTag', 'getPythonTagKeys', 'getQuat', 'getR', 'getRelativePoint', 'getRelativeVector', 'getRenderMode', 'getRenderModePerspective', 'getRenderModeThickness', 'getSa', 'getSb', 'getScale', 'getSg', 'getShader', 'getShaderInput', 'getShear', 'getShxy', 'getShxz', 'getShyz', 'getSort', 'getSr', 'getStashedAncestor', 'getStashedChildren', 'getState', 'getSx', 'getSy', 'getSz', 'getTag', 'getTagKeys', 'getTexGen', 'getTexGenLight', 'getTexHpr', 'getTexOffset', 'getTexPos', 'getTexProjectorFrom', 'getTexProjectorTo', 'getTexRotate', 'getTexScale', 'getTexScale3d', 'getTexTransform', 'getTexture', 'getTightBounds', 'getTop', 'getTopNode', 'getTransform', 'getTransparency', 'getTwoSided', 'getX', 'getY', 'getZ', 'get_ancestor', 'get_ancestors', 'get_antialias', 'get_attrib', 'get_audio_volume', 'get_bin_draw_order', 'get_bin_name', 'get_bounds', 'get_child', 'get_children', 'get_class_type', 'get_collide_mask', 'get_color', 'get_color_scale', 'get_common_ancestor', 'get_depth_offset', 'get_depth_test', 'get_depth_write', 'get_distance', 'get_effect', 'get_effects', 'get_error_type', 'get_fog', 'get_h', 'get_hidden_ancestor', 'get_hpr', 'get_instance_count', 'get_key', 'get_mat', 'get_material', 'get_max_search_depth', 'get_name', 'get_net_audio_volume', 'get_net_prev_transform', 'get_net_python_tag', 'get_net_state', 'get_net_tag', 'get_net_transform', 'get_node', 'get_nodes', 'get_num_children', 'get_num_nodes', 'get_p', 'get_parent', 'get_pos', 'get_pos_delta', 'get_prev_transform', 'get_python_tag', 'get_python_tag_keys', 'get_quat', 'get_r', 'get_relative_point', 'get_relative_vector', 'get_render_mode', 'get_render_mode_perspective', 'get_render_mode_thickness', 'get_sa', 'get_sb', 'get_scale', 'get_sg', 'get_shader', 'get_shader_input', 'get_shear', 'get_shxy', 'get_shxz', 'get_shyz', 'get_sort', 'get_sr', 'get_stashed_ancestor', 'get_stashed_children', 'get_state', 'get_sx', 'get_sy', 'get_sz', 'get_tag', 'get_tag_keys', 'get_tex_gen', 'get_tex_gen_light', 'get_tex_hpr', 'get_tex_offset', 'get_tex_pos', 'get_tex_projector_from', 'get_tex_projector_to', 'get_tex_rotate', 'get_tex_scale', 'get_tex_scale_3d', 'get_tex_transform', 'get_texture', 'get_tight_bounds', 'get_top', 'get_top_node', 'get_transform', 'get_transparency', 'get_two_sided', 'get_x', 'get_y', 'get_z', 'hasAntialias', 'hasAttrib', 'hasAudioVolume', 'hasBillboard', 'hasBin', 'hasClipPlane', 'hasClipPlaneOff', 'hasColor', 'hasColorScale', 'hasCompass', 'hasDepthOffset', 'hasDepthTest', 'hasDepthWrite', 'hasEffect', 'hasFog', 'hasFogOff', 'hasLight', 'hasLightOff', 'hasMat', 'hasMaterial', 'hasNetPythonTag', 'hasNetTag', 'hasOccluder', 'hasParent', 'hasPythonTag', 'hasRenderMode', 'hasScissor', 'hasTag', 'hasTexGen', 'hasTexProjector', 'hasTexTransform', 'hasTexcoord', 'hasTexture', 'hasTextureOff', 'hasTransparency', 'hasTwoSided', 'hasVertexColumn', 'has_antialias', 'has_attrib', 'has_audio_volume', 'has_billboard', 'has_bin', 'has_clip_plane', 'has_clip_plane_off', 'has_color', 'has_color_scale', 'has_compass', 'has_depth_offset', 'has_depth_test', 'has_depth_write', 'has_effect', 'has_fog', 'has_fog_off', 'has_light', 'has_light_off', 'has_mat', 'has_material', 'has_net_python_tag', 'has_net_tag', 'has_occluder', 'has_parent', 'has_python_tag', 'has_render_mode', 'has_scissor', 'has_tag', 'has_tex_gen', 'has_tex_projector', 'has_tex_transform', 'has_texcoord', 'has_texture', 'has_texture_off', 'has_transparency', 'has_two_sided', 'has_vertex_column', 'headsUp', 'heads_up', 'hide', 'hideBounds', 'hideCS', 'hideSiblings', 'hide_bounds', 'hprInterval', 'hprScaleInterval', 'iHpr', 'iPos', 'iPosHpr', 'iPosHprScale', 'iScale', 'id', 'instanceTo', 'instanceUnderNode', 'instance_to', 'instance_under_node', 'isAncestorOf', 'isEmpty', 'isHidden', 'isSameGraph', 'isSingleton', 'isStashed', 'is_ancestor_of', 'is_empty', 'is_hidden', 'is_same_graph', 'is_singleton', 'is_stashed', 'isolate', 'lerpColor', 'lerpColorRGBA', 'lerpColorRGBARGBA', 'lerpColorScale', 'lerpColorScaleRGBA', 'lerpColorScaleRGBARGBA', 'lerpColorScaleVBase4', 'lerpColorScaleVBase4VBase4', 'lerpColorVBase4', 'lerpColorVBase4VBase4', 'lerpHpr', 'lerpHprHPR', 'lerpHprVBase3', 'lerpPos', 'lerpPosHpr', 'lerpPosHprPoint3VBase3', 'lerpPosHprScale', 'lerpPosHprXYZHPR', 'lerpPosPoint3', 'lerpPosXYZ', 'lerpScale', 'lerpScaleVBase3', 'lerpScaleXYZ', 'listTags', 'list_tags', 'lookAt', 'look_at', 'ls', 'lsNames', 'lsNamesRecurse', 'node', 'notFound', 'not_found', 'output', 'pPrintString', 'place', 'posHprInterval', 'posHprScaleInterval', 'posHprScaleShearInterval', 'posInterval', 'posQuatInterval', 'posQuatScaleInterval', 'posQuatScaleShearInterval', 'premungeScene', 'premunge_scene', 'prepareScene', 'prepare_scene', 'printChildren', 'printHpr', 'printPos', 'printPosHpr', 'printPosHprScale', 'printScale', 'printTransform', 'projectTexture', 'project_texture', 'quatInterval', 'quatScaleInterval', 'r_constructCollisionTree', 'r_subdivideCollisions', 'remove', 'removeChildren', 'removeNode', 'removeNonCollisions', 'remove_node', 'removed', 'reparentTo', 'reparent_to', 'reverseLs', 'reverseLsNames', 'reverse_ls', 'rgbPanel', 'scaleInterval', 'select', 'setAllColorScale', 'setAlphaScale', 'setAntialias', 'setAttrib', 'setAudioVolume', 'setAudioVolumeOff', 'setBillboardAxis', 'setBillboardPointEye', 'setBillboardPointWorld', 'setBin', 'setClipPlane', 'setClipPlaneOff', 'setCollideMask', 'setColor', 'setColorOff', 'setColorScale', 'setColorScaleOff', 'setCompass', 'setDepthOffset', 'setDepthTest', 'setDepthWrite', 'setEffect', 'setEffects', 'setFluidPos', 'setFluidX', 'setFluidY', 'setFluidZ', 'setFog', 'setFogOff', 'setH', 'setHpr', 'setHprScale', 'setInstanceCount', 'setLight', 'setLightOff', 'setMat', 'setMaterial', 'setMaterialOff', 'setMaxSearchDepth', 'setName', 'setNormalMap', 'setOccluder', 'setP', 'setPos', 'setPosHpr', 'setPosHprScale', 'setPosHprScaleShear', 'setPosQuat', 'setPosQuatScale', 'setPosQuatScaleShear', 'setPrevTransform', 'setPythonTag', 'setQuat', 'setQuatScale', 'setR', 'setRenderMode', 'setRenderModeFilled', 'setRenderModePerspective', 'setRenderModeThickness', 'setRenderModeWireframe', 'setSa', 'setSb', 'setScale', 'setScissor', 'setSg', 'setShader', 'setShaderAuto', 'setShaderInput', 'setShaderOff', 'setShear', 'setShxy', 'setShxz', 'setShyz', 'setSr', 'setState', 'setSx', 'setSy', 'setSz', 'setTag', 'setTexGen', 'setTexHpr', 'setTexOffset', 'setTexPos', 'setTexProjector', 'setTexRotate', 'setTexScale', 'setTexTransform', 'setTexture', 'setTextureOff', 'setTransform', 'setTransparency', 'setTwoSided', 'setX', 'setY', 'setZ', 'set_all_color_scale', 'set_alpha_scale', 'set_antialias', 'set_attrib', 'set_audio_volume', 'set_audio_volume_off', 'set_billboard_axis', 'set_billboard_point_eye', 'set_billboard_point_world', 'set_bin', 'set_clip_plane', 'set_clip_plane_off', 'set_collide_mask', 'set_color', 'set_color_off', 'set_color_scale', 'set_color_scale_off', 'set_compass', 'set_depth_offset', 'set_depth_test', 'set_depth_write', 'set_effect', 'set_effects', 'set_fluid_pos', 'set_fluid_x', 'set_fluid_y', 'set_fluid_z', 'set_fog', 'set_fog_off', 'set_h', 'set_hpr', 'set_hpr_scale', 'set_instance_count', 'set_light', 'set_light_off', 'set_mat', 'set_material', 'set_material_off', 'set_max_search_depth', 'set_name', 'set_normal_map', 'set_occluder', 'set_p', 'set_pos', 'set_pos_hpr', 'set_pos_hpr_scale', 'set_pos_hpr_scale_shear', 'set_pos_quat', 'set_pos_quat_scale', 'set_pos_quat_scale_shear', 'set_prev_transform', 'set_python_tag', 'set_quat', 'set_quat_scale', 'set_r', 'set_render_mode', 'set_render_mode_filled', 'set_render_mode_perspective', 'set_render_mode_thickness', 'set_render_mode_wireframe', 'set_sa', 'set_sb', 'set_scale', 'set_scissor', 'set_sg', 'set_shader', 'set_shader_auto', 'set_shader_input', 'set_shader_off', 'set_shear', 'set_shxy', 'set_shxz', 'set_shyz', 'set_sr', 'set_state', 'set_sx', 'set_sy', 'set_sz', 'set_tag', 'set_tex_gen', 'set_tex_hpr', 'set_tex_offset', 'set_tex_pos', 'set_tex_projector', 'set_tex_rotate', 'set_tex_scale', 'set_tex_transform', 'set_texture', 'set_texture_off', 'set_transform', 'set_transparency', 'set_two_sided', 'set_x', 'set_y', 'set_z', 'shearInterval', 'show', 'showAllDescendants', 'showBounds', 'showCS', 'showSiblings', 'showThrough', 'showTightBounds', 'show_bounds', 'show_through', 'show_tight_bounds', 'stash', 'stashTo', 'stash_to', 'subdivideCollisions', 'this', 'this_metatype', 'toggleVis', 'unifyTextureStages', 'unify_texture_stages', 'unstash', 'unstashAll', 'unstash_all', 'verifyComplete', 'verify_complete', 'writeBamFile', 'writeBamStream', 'writeBounds', 'write_bam_file', 'write_bam_stream', 'write_bounds', 'wrtReparentTo', 'wrt_reparent_to']
+frame rate: 24.1 fps|0.003d|4 avs||3219|3221||0x1002|0x6738|452.8MB|508.3MB|16330.4MB|1293|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+quit_button.egg/-PandaNode
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 1, in <module>
+TypeError: Required argument 'path' (pos 1) not found
+
+quit_button.egg/-PandaNode
+
+quit_button.egg/-PandaNode
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'panda3d.core.NodePathCollection' object has no attribute 'getChildren'
+
+frame rate: 23.5 fps|0.005d|4 avs||3519|3521||0x1002|0x6738|453.0MB|508.6MB|16330.4MB|1294|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+friendslist_gui.egg/-PandaNode
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 1, in <module>
+AttributeError: 'panda3d.core.NodePath' object has no attribute 'getParents'
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 1
+    print(loader.loadModel('phase_3.5/models/gui/friendslist_gui.bam').find('**/Horiz_Arrow_UP')
+                                                                                               ^
+SyntaxError: unexpected EOF while parsing
+
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+
+friendslist_gui.egg
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+
+friendslist_gui.egg
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+
+friendslist_gui.egg
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+
+friendslist_gui.egg
+friendslist_gui.egg/-PandaNode
+friendslist_gui.egg/-PandaNode/-SequenceNode
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollUp
+friendslist_gui.egg/-PandaNode/-SequenceNode/FndsLst_ScrollDN
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_UP
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_Rllvr
+friendslist_gui.egg/-PandaNode/-SequenceNode/Horiz_Arrow_DN
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Rollover
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Open
+friendslist_gui.egg/-PandaNode/-SequenceNode/FriendsBox_Closed
+
+quit_button.egg
+quit_button.egg/-PandaNode
+quit_button.egg/-PandaNode/-SequenceNode
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_UP
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_RLVR
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_DN
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_N', 'QuitBtn_RLVR']
+kek
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 594, in <module>
+  File "<string>", line 366, in __init__
+  File "<string>", line 518, in createGui
+  File "<string>", line 44, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+
+quit_button.egg
+quit_button.egg/-PandaNode
+quit_button.egg/-PandaNode/-SequenceNode
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_UP
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_RLVR
+quit_button.egg/-PandaNode/-SequenceNode/QuitBtn_DN
+
+frame rate: 24.8 fps|0.006d|4 avs||3819|3821||0x1002|0x6738|453.9MB|509.3MB|16330.4MB|1295|nt.2.6.1|3.300,3.300|3,6 cpus|OpenGL
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+kek
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+kek

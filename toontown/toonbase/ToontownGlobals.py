@@ -1679,6 +1679,3 @@ AV_TOUCH_COUNT_TIME = 300
 
 BMovementSpeed = 0
 BMovementSpeedMultiplier = 1.3
-
-BGagAccuracy = 1
-BGagAccuracyMultiplier = 1.3

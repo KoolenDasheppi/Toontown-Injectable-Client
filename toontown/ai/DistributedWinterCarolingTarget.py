@@ -1,4 +1,4 @@
-from toontown.speedchat import TTSCIndexedTerminal
+from otp.speedchat import SpeedChatGlobals
 from direct.directnotify import DirectNotifyGlobal
 from direct.distributed import DistributedObject
 from direct.interval.IntervalGlobal import *
@@ -14,7 +14,7 @@ class DistributedWinterCarolingTarget(DistributedObject.DistributedObject):
     def announceGenerate(self):
         DistributedObject.DistributedObject.announceGenerate(self)
         DistributedWinterCarolingTarget.notify.debug('announceGenerate')
-        self.accept(TTSCIndexedTerminal.TTSCIndexedMsgEvent, self.phraseSaid)
+        self.accept(SpeedChatGlobals.SCStaticTextMsgEvent, self.phraseSaid)
 
     def phraseSaid(self, phraseId):
         self.notify.debug('Checking if phrase was said')
@@ -31,7 +31,7 @@ class DistributedWinterCarolingTarget(DistributedObject.DistributedObject):
             taskMgr.doMethodLater(self.triggerDelay, reset, 'ScavengerHunt-phrase-reset', extraArgs=[])
             
     def delete(self):
-        self.ignore(TTSCIndexedTerminal.TTSCIndexedMsgEvent)
+        self.ignore(SpeedChatGlobals.SCStaticTextMsgEvent)
         DistributedObject.DistributedObject.delete(self)
         
     def d_requestScavengerHunt(self):
@@ -39,4 +39,5 @@ class DistributedWinterCarolingTarget(DistributedObject.DistributedObject):
 
     def doScavengerHunt(self, amount):
         DistributedWinterCarolingTarget.notify.debug('doScavengerHunt')
-        base.localAvatar.winterCarolingTargetMet(amount)
+        av = base.localAvatar
+        av.winterCarolingTargetMet(amount)

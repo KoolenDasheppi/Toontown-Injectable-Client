@@ -46,6 +46,7 @@ from toontown.racing import RaceGlobals
 from toontown.shtiker import CogPageGlobals
 from toontown.suit import SuitDNA
 from toontown.toon import NPCToons
+from toontown.toon.ToonSerializer import ToonSerializer
 from toontown.toonbase import TTLocalizer
 from toontown.toonbase import ToontownAccessAI
 from toontown.toonbase import ToontownBattleGlobals
@@ -193,6 +194,7 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         self._gmDisabled = False
         self.promotionStatus = [0, 0, 0, 0]
         self.buffs = []
+        self.currentEvent = None
 
     def generate(self):
         DistributedPlayerAI.DistributedPlayerAI.generate(self)
@@ -208,6 +210,9 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         from toontown.toon.DistributedNPCToonBaseAI import DistributedNPCToonBaseAI
         if not isinstance(self, DistributedNPCToonBaseAI):
             self.sendUpdate('setDefaultShard', [self.air.districtId])
+
+        toonSerializer = ToonSerializer(self)
+        toonSerializer.restoreToon()
 
     def setLocation(self, parentId, zoneId):
         DistributedPlayerAI.DistributedPlayerAI.setLocation(self, parentId, zoneId)
@@ -229,6 +234,9 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
                     if ToontownGlobals.GoofySpeedway not in tpAccess:
                         tpAccess.append(ToontownGlobals.GoofySpeedway)
                         self.b_setTeleportAccess(tpAccess)
+
+        if self.currentEvent:
+            self.currentEvent.toonChangedZone(self.doId, zoneId)
 
     def sendDeleteEvent(self):
         if simbase.wantPets:
@@ -417,6 +425,7 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         self.sendUpdate('setDNAString', [string])
 
     def setDNAString(self, string):
+        self.dnaString = string
         self.dna.makeFromNetString(string)
         if not self.verifyDNA():
             self.notify.warning('Avatar %d has an invalid DNA string.' % self.doId)
@@ -429,6 +438,22 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
             if self.dna.gloveColor != 0:
                 self.dna.gloveColor = 0
                 valid = False
+            bodyColors = (self.dna.headColor, self.dna.armColor, self.dna.legColor)
+            if (26 in bodyColors) or (0 in bodyColors):
+                if (bodyColors[1] != bodyColors[0]) or (bodyColors[2] != bodyColors[0]):
+                    self.dna.armColor = bodyColors[0]
+                    self.dna.legColor = bodyColors[0]
+                    valid = False
+                if ((self.dna.getAnimal() != 'cat') and (26 in bodyColors)) or (
+                    (self.dna.getAnimal() != 'bear') and (0 in bodyColors)):
+                    if self.dna.getGender() == 'm':
+                        color = ToonDNA.defaultBoyColorList[0]
+                    else:
+                        color = ToonDNA.defaultGirlColorList[0]
+                    self.dna.headColor = color
+                    self.dna.armColor = color
+                    self.dna.legColor = color
+                    valid = False
             if not valid:
                 self.b_setDNAString(self.dna.makeNetString())
         return valid
@@ -605,6 +630,12 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
 
     def getNPCFriendsDict(self):
         return self.NPCFriendsDict
+
+    def getNPCFriendsList(self):
+        NPCFriendsList = []
+        for friend in self.NPCFriendsDict.keys():
+            NPCFriendsList.append((friend, self.NPCFriendsDict[friend]))
+        return NPCFriendsList
 
     def b_setNPCFriendsDict(self, NPCFriendsList):
         self.setNPCFriendsDict(NPCFriendsList)
@@ -4264,11 +4295,6 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         self.buffs[id] = 0
         self.d_setBuffs(self.buffs)
 
-    def hasBuff(self, id):
-        if len(self.buffs) <= id:
-            return False
-        return self.buffs[id] != 0
-
     def setBuffs(self, buffs):
         self.buffs = buffs
         for id, timestamp in enumerate(self.buffs):
@@ -4285,6 +4311,8 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         self.setBuffs(buffs)
         self.d_setBuffs(buffs)
 
+    def setClientInterest(self, zoneId):
+        self.sendUpdate('setClientInterest', [zoneId])
 
 @magicWord(category=CATEGORY_PROGRAMMER, types=[str, int, int])
 def cheesyEffect(value, hood=0, expire=0):
@@ -5119,32 +5147,3 @@ def nametagStyle(nametagStyle):
     target = spellbook.getTarget()
     target.b_setNametagStyle(nametagStyle)
     return 'Nametag style set to: %s.' % TTLocalizer.NametagFontNames[nametagStyle]
-
-@magicWord(category=CATEGORY_PROGRAMMER, types=[str, int, int])
-def disguise(command, suitIndex, value):
-    invoker = spellbook.getInvoker()
-
-    if suitIndex > 3:
-        return 'Invalid suit index: %s' % suitIndex
-    if value < 0:
-        return 'Invalid value: %s' % value
-
-    if command == 'parts':
-        invoker.cogParts[suitIndex] = 0
-        for _ in xrange(value):
-            invoker.giveGenericCogPart('fullSuit', suitIndex)
-        return 'Parts set.'
-    elif command == 'tier':
-        invoker.cogTypes[suitIndex] = value
-        invoker.d_setCogTypes(invoker.cogTypes)
-        return 'Tier set.'
-    elif command == 'level':
-        invoker.cogLevels[suitIndex] = value
-        invoker.d_setCogLevels(invoker.cogLevels)
-        return 'Level set.'
-    elif command == 'merits':
-        invoker.cogMerits[suitIndex] = value
-        invoker.d_setCogMerits(invoker.cogMerits)
-        return 'Merits set.'
-    else:
-        return 'Unknow command: %s' % command

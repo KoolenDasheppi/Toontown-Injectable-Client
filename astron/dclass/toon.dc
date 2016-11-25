@@ -311,6 +311,11 @@ from toontown.cogdominium import DistCogdoCrane/AI
 from toontown.cogdominium import DistCogdoCraneMoneyBag/AI
 from toontown.cogdominium import DistCogdoCraneCog/AI
 from toontown.parties.GlobalPartyManager/AI/UD import GlobalPartyManager/AI/UD
+from toontown.event import DistributedEvent/AI
+from toontown.toon import DistributedNPCExperimentEvent/AI
+from toontown.event import DistributedExperimentEvent/AI
+from toontown.event import DistributedScienceFair/AI
+from toontown.event import DistributedExperimentBarrel/AI
 
 struct GiftItem {
   blob Item;
@@ -627,6 +632,7 @@ dclass DistributedToon : DistributedPlayer {
   flagAv(uint32, uint16, string []) airecv ownsend;
   setAnimalSound(uint8 index) ram broadcast ownrecv;
   setBuffs(uint32[] = []) required ownrecv db;
+  setClientInterest(uint32 zoneId) ownrecv;
 };
 
 dclass DistributedCCharBase : DistributedObject {
@@ -784,6 +790,7 @@ dclass DistributedBossCog : DistributedNode {
   zapToon(int16/10, int16/10, int16/10, int16/10, int16/10, int16/10, int8/100, int8/100, uint8, int16) airecv clsend;
   showZapToon(uint32, int16/10, int16/10, int16/10, int16/10, int16/10, int16/10, uint8, int16) broadcast;
   setAttackCode(uint8, uint32) broadcast;
+  skipBattleCheat() airecv clsend;
 };
 
 dclass DistributedSellbotBoss : DistributedBossCog {
@@ -3363,9 +3370,8 @@ dclass TTIFriendsManager : DistributedObjectGlobal {
 
   routeTeleportQuery(uint32 toId) clsend;
   teleportQuery(uint32 fromId);
-
-  teleportResponse(uint32 fromId, uint8 tpAvailable, uint32 defaultShard, uint32 hoodId, uint32 zoneId) clsend;
-  setTeleportResponse(uint32 toId, uint8 tpAvailable, uint32 defaultShard, uint32 hoodId, uint32 zoneId);
+  routeTeleportResponse(uint32 fromId, uint8 tpAvailable, uint32 defaultShard, uint32 hoodId, uint32 zoneId) clsend;
+  teleportResponse(uint32 toId, uint8 tpAvailable, uint32 defaultShard, uint32 hoodId, uint32 zoneId);
 
   whisperSCTo(uint32 toId, uint16 msgIndex) clsend;
   setWhisperSCFrom(uint32 fromId, uint16 msgIndex);
@@ -3382,22 +3388,11 @@ dclass TTIFriendsManager : DistributedObjectGlobal {
   submitSecret(string(0-256) secret) clsend;
   submitSecretResponse(int8 status, int32 avId);
 
+
   sendTalkWhisper(uint32 toId, string message) clsend;
   receiveTalkWhisper(uint32 fromId, string message);
 
-  battleSOS(uint32 toId) clsend;
-  setBattleSOS(uint32 fromId);
-
-  teleportGiveup(uint32 toId) clsend;
-  setTeleportGiveup(uint32 fromId);
-
-  whisperSCToontaskTo(uint32, uint32, uint32, uint32, uint8) clsend;
-  setWhisperSCToontaskFrom(uint32, uint32, uint32, uint32, uint8);
-
-  sleepAutoReply(uint32 toId) clsend;
-  setSleepAutoReply(uint32 fromId);
 };
-
 
 dclass DistributedPhaseEventMgr : DistributedObject {
   setNumPhases(uint8) required broadcast ram;
@@ -3416,4 +3411,38 @@ dclass DistributedTrashcanZeroMgr : DistributedPhaseEventMgr {
 };
 
 dclass DistributedSillyMeterMgr : DistributedPhaseEventMgr {
+};
+
+dclass DistributedNPCExperimentEvent : DistributedNPCToon {
+  requestJoin(uint32 avId) clsend airecv;
+  requestLeave(uint32 avId) clsend airecv;
+  notifyJoin(uint32 avId) broadcast;
+  notifyLeave(uint32 avId) broadcast;
+  setParticipants(uint32[]) broadcast ram;
+  setCountdownStartTime(int32) broadcast ram;
+};
+
+dclass DistributedEvent : DistributedObject {
+  start() broadcast ram;
+  messageParticipants(string) broadcast;
+  joinEvent(uint32) clsend airecv;
+  leaveEvent(uint32) clsend airecv;
+  setState(string, int32) broadcast ram;
+};
+
+dclass DistributedExperimentEvent : DistributedEvent {
+  setVisGroups(uint32[]) broadcast ram;
+
+  setChallenge(uint8) broadcast ram;
+  setChallengeCount(uint8) broadcast ram;
+  challengeComplete() broadcast;
+};
+
+dclass DistributedScienceFair : DistributedObject {
+};
+
+dclass DistributedExperimentBarrel : DistributedNode {
+  setType(uint8) broadcast required ram;
+  requestGrab(uint32) clsend airecv;
+  setGrab(uint32) broadcast;
 };

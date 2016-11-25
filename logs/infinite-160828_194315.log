@@ -1,0 +1,1405 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\src\toontown\toonbase\ClientStart.py", line 240, in loadScripts
+    execfile('mods/'+scriptName,globals())
+  File "mods/Compilation.txt", line 206, in <module>
+    toonAnywhere = DirectButton(text = ("Enable Toonup anywhere", "ENABLE TOONUP ANYWHERE", "enable toonup anywhere", "enable toonup anywhere"), scale=.06, pos = (-1,-0,-.3), command=ToonupAnywhere.toonUpSetUp)
+NameError: name 'ToonupAnywhere' is not defined
+
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['FndsLst_ScrollUp', 'FndsLst_ScrollDN', 'FndsLst_ScrollUp_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3.5/models/gui/friendslist_gui.bam
+['Horiz_Arrow_UP', 'Horiz_Arrow_DN', 'Horiz_Arrow_Rllvr']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+phase_3/models/gui/quit_button.bam
+['QuitBtn_UP', 'QuitBtn_DN', 'QuitBtn_RLVR']
+test2
+{414000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AD0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858F0>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785968>, 416000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AF8>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859E0>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B7300>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E772918>, 419000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B70>, 411000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A08>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785940>, 413000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785AA8>, 415000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A80>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7859B8>, 417000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B98>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B48>, 418000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785B20>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4B4328>, 412000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785A58>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E7858A0>, 420000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E785BC0>}
+__handleAvatarChooserDone: 100000013, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+4
+5
+Doing task
+3
+5
+collecting new task
+setting movie hook function
+iterating quest
+attemping to pick quest
+4
+5
+Doing task
+4
+5
+Doing task
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3100.pdna
+empty flat building with no walls
+Battle Event localtoon-battle-event-3
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+False
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+toontown.quest.Quests.RecoverItemQuest
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+frame rate: 7.6 fps|0.147d|8 avs||335|338||0x1002|0x6738|434.5MB|441.8MB|16330.4MB|479|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+NameError: name 'taskerAutoer' is not defined
+
+4
+5
+Doing task
+4
+5
+Doing task
+<bound method TaskAutoer.isQuestComplete of <__main__.TaskAutoer instance at 0x213CCF08>>
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+[1]
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+[1]
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+[[5203, 2203, 3108, 204, 1], [5103, 2203, 1000, 1611, 1], [5126, 2203, 1000, 1612, 0], [5200, 2204, 3110, 100, 0]]
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+[render2d/aspect2d/ShtikerBook-pg414/QuestPage-pg500/QuestBookPoster-pg502, render2d/aspect2d/ShtikerBook-pg414/QuestPage-pg500/QuestBookPoster-pg516, render2d/aspect2d/ShtikerBook-pg414/QuestPage-pg500/QuestBookPoster-pg530, render2d/aspect2d/ShtikerBook-pg414/QuestPage-pg500/QuestBookPoster-pg544]
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+frame rate: 7.2 fps|0.156d|9 avs||635|639||0x1002|0x6738|438.9MB|446.2MB|16330.4MB|480|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+4
+5
+Doing task
+4
+5
+Doing task
+VISIT
+4
+5
+Doing task
+4
+5
+Doing task
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+4
+5
+Doing task
+4
+5
+Doing task
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+AttributeError: 'list' object has no attribute 'getHeadlineString'
+
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+frame rate: 6.0 fps|0.167d|5 avs||935|939||0x1002|0x6738|445.9MB|453.2MB|16330.4MB|482|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+NameError: name 'Quest' is not defined
+
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+NameError: name 'questDesc' is not defined
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3, in <module>
+NameError: name 'questDesc' is not defined
+
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 5, in <module>
+  File "toontown\quest\Quests.py", line 1611, in getCompletionStatus
+    questId, fromNpcId, toNpcId, rewardId, toonProgress = questDesc
+TypeError: 'int' object is not iterable
+
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+True
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+frame rate: 4.9 fps|0.189d|9 avs||1236|1239||0x1002|0x6738|435.7MB|456.7MB|16330.4MB|484|nt.2.6.2|3.300,3.300|3,6 cpus|OpenGL
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+4
+5
+Doing task
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 253, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 2623, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 506, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 230, in __transition
+    self.__exitCurrent(exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 188, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 210, in exit
+    self.__exitChildren(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 189, in __exitChildren
+    fsm.request((fsm.getFinalState()).getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 479, in enterGameOff
+    OTPClientRepository.OTPClientRepository.enterGameOff(self)
+  File "otp\distributed\OTPClientRepository.py", line 1314, in enterGameOff
+    self._abandonShard()
+  File "toontown\distributed\ToontownClientRepository.py", line 1047, in _abandonShard
+    if obj.parentId == localAvatar.defaultShard and obj is not localAvatar:
+AttributeError: DistributedDoor instance has no attribute 'parentId'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 253, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 2623, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 506, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 230, in __transition
+    self.__exitCurrent(exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 188, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 210, in exit
+    self.__exitChildren(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 189, in __exitChildren
+    fsm.request((fsm.getFinalState()).getName())
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 479, in enterGameOff
+    OTPClientRepository.OTPClientRepository.enterGameOff(self)
+  File "otp\distributed\OTPClientRepository.py", line 1314, in enterGameOff
+    self._abandonShard()
+  File "toontown\distributed\ToontownClientRepository.py", line 1047, in _abandonShard
+    if obj.parentId == localAvatar.defaultShard and obj is not localAvatar:
+AttributeError: DistributedDoor instance has no attribute 'parentId'

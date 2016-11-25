@@ -1,0 +1,13 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E6A2800>}
+Traceback (most recent call last):
+  File "toontown\toonbase\ToonBase.py", line 67, in pressed
+    import globals
+ImportError: No module named globals
+

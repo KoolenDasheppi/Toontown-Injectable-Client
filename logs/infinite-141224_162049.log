@@ -1,0 +1,28 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1A3769E0>}
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:12-24-2014 16:26:55: setTalk: 100000001, 'Light Blue Mouse', 'hi'
+:12-24-2014 16:27:06: setTalk: 100000001, 'Light Blue Mouse', 'Professor '
+frame rate: 13.4 fps|0.312d|3 avs||401|406||0x8086|0x0046|806.2MB|845.7MB|3886.0MB|731|nt.2.6.1|2.266,2.266|2,4 cpus|OpenGL
+Battle Event localtoon-battle-event-3
+Battle Event localtoon-battle-event-9
+Battle Event localtoon-battle-event-15
+Battle Event localtoon-battle-event-21
+frame rate: 15.5 fps|0.013d|11 avs||701|706||0x8086|0x0046|842.6MB|883.6MB|3886.0MB|745|nt.2.6.1|2.266,2.266|2,4 cpus|OpenGL
+Battle Event localtoon-battle-event-27
+Battle Event localtoon-battle-event-33

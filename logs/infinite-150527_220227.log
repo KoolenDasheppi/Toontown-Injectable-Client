@@ -1,0 +1,92 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E531148>}
+__handleAvatarChooserDone: 100000003, 'Little Zippy', ('rsl', 'ls', 'l', 'm', 19, 0, 19, 19, 10, 9, 0, 9, 7, 0), 1
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+Exception occurred while processing Func-executeToonbot-22 of Sequence-125:
+Sequence-125:
+  0.000 Sequence-125 {
+  0.000   Wait dur 20
+ 20.000   *Func-executeToonbot-22
+ 20.000 }
+
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 586, in executeToonbot
+  File "<string>", line 363, in __init__
+  File "<string>", line 515, in createGui
+  File "<string>", line 41, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "<string>", line 586, in executeToonbot
+  File "<string>", line 363, in __init__
+  File "<string>", line 515, in createGui
+  File "<string>", line 41, in createButton
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectButton.py", line 62, in __init__
+    self.initialiseoptions(DirectButton)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 242, in initialiseoptions
+    func()
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 180, in setImage
+    sort = DGG.IMAGE_SORT_INDEX)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 562, in createcomponent
+    widget = widgetClass(*widgetArgs, **kw)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 49, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\direct\gui\OnscreenImage.py", line 98, in setImage
+    self.assign(image.copyTo(parent, sort))
+AssertionError: !is_empty() at line 694 of panda/src/pgraph/nodePath.cxx

@@ -1,15 +1,9 @@
 from direct.distributed.DistributedObjectAI import DistributedObjectAI
 from DistributedFurnitureManagerAI import *
-from toontown.catalog import CatalogItem
 from toontown.catalog.CatalogWindowItem import CatalogWindowItem
 from toontown.catalog.CatalogWallpaperItem import CatalogWallpaperItem
-from toontown.catalog.CatalogMouldingItem import CatalogMouldingItem
-from toontown.catalog.CatalogFlooringItem import CatalogFlooringItem
-from toontown.catalog.CatalogWainscotingItem import CatalogWainscotingItem
 from DNAFurnitureReaderAI import DNAFurnitureReaderAI
 from toontown.dna.DNAParser import *
-import HouseGlobals
-import random
 
 # The house interior DNA files for each
 houseInteriors = [
@@ -22,18 +16,11 @@ houseInteriors = [
 ]
 
 defaultWindows = [
-    CatalogWindowItem(20, placement=2), CatalogWindowItem(20, placement=4)
+    CatalogWindowItem(20, placement=0),
 ]
 
 defaultWallpaper = [
-    CatalogWallpaperItem(1110, 0, 1010, 0),
-    CatalogMouldingItem(1000, 2),
-    CatalogFlooringItem(1000, 4),
-    CatalogWainscotingItem(1010, 4),
-    CatalogWallpaperItem(1110, 0, 1010, 0),
-    CatalogMouldingItem(1000, 2),
-    CatalogFlooringItem(1000, 4),
-    CatalogWainscotingItem(1010, 4),
+    CatalogWallpaperItem(1100, 0, 1000, 0),
 ]
 
 

@@ -26,7 +26,7 @@ print 'Starting the deployment process...'
 
 # Stop the user if they are missing vital files:
 missingFiles = []
-for filename in ('deploy.json', 'infinitecipher'):
+for filename in ('deploy.json',):
     if sys.platform == 'win32':
         # On the Windows platform, if there is no extension, we must infer that
         # this is an executable file. Therefore, let's append '.exe':
@@ -160,6 +160,7 @@ sys.stdout.flush()
 
 # Create a 'resources' directory inside the 'src' directory containing all of
 # the resource files from the desired resources branch:
+
 sys.stdout.write('Collecting resources from branch: ' + resourcesBranch + '... 0%')
 sys.stdout.flush()
 os.chdir('../resources')
@@ -213,6 +214,7 @@ for vfsMount in vfsMounts:
     cmd += ' --vfs ' + vfsMount
 for module in modules:
     cmd += ' ' + module
+print(cmd)
 os.system(cmd)
 
 # Next, run the build_client utility:
@@ -226,14 +228,18 @@ cmd = (pythonPath + ' ../tools/build_client.py' +
        ' --build-dir build')
 for module in modules:
     cmd += ' ' + module
+
+print(cmd)
 os.system(cmd)
 
 # ...and encrypt the product:
 os.chdir('build')
+'''
 if sys.platform == 'win32':
     os.system('..\\infinitecipher.exe %s GameData.bin' % output)
 else:
     os.system('../infinitecipher %s GameData.bin' % output)
+    '''
 
 # Copy the necessary patcher includes:
 for include in patcherIncludes:
@@ -255,7 +261,10 @@ os.mkdir('dist')
 # need to be updated using 'git diff'. We need to do this because two
 # compilations of the same multifile will never have the same hash:
 updatedFiles = []
+'''
 request = requests.get('http://' + ftpAddress + '/' + deployToken + '/patcher.xml')
+'''
+
 try:
     root = ElementTree.fromstring(request.text)
 except:
@@ -347,7 +356,8 @@ def compressFile(filepath):
 for filepath in updatedFiles:
     print 'Compressing %s...' % filepath
     compressFile(os.path.join('build', filepath))
-
+    
+'''
 print 'Uploading files to download.toontowninfinite.com...'
 ftp = ftplib.FTP(ftpAddress, ftpUsername, ftpPassword)
 ftp.cwd(deployToken)
@@ -364,5 +374,6 @@ for filepath in updatedFiles:
         ftp.storbinary('STOR ' + filepath, f)
 
 print 'Done uploading files.'
+'''
 
 print 'Successfully finished the deployment process!'

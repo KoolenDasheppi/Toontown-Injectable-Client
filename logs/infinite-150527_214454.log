@@ -1,0 +1,32 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+AsyncTaskManager TaskManager
+
+  Task chain "default"
+   Task                             sleep(s)   dt(ms)      avg      max   sort
+  -----------------------------------------------------------------------------
+   resetPrevTransform                                                      -51
+   dataLoop                                                                -50
+   tk test                                                                   0
+   manager-update                                                            0
+   eventManager                                                              0
+   speedHackCheck-tick                                                       0
+   connect-to-server                                                         0
+   ivalLoop                                                                 20
+   collisionLoop                                                            30
+   TelemetryLimiterEnforce                                                  40
+   Nametag3d-455511760-tick                                                 45
+   NametagGroup-455542224-tick                                              45
+   Nametag2d-455511472-tick                                                 45
+   igLoop                                                                   50
+   audioLoop                                                                60
+   allowGarbageCollect                                                     200
+   adjustGarbageCollectThreshold       299.4                                 0
+   moduleListTask                      300.0                                 0
+
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E67D828>}

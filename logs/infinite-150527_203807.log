@@ -1,0 +1,14 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "D:\Documents\ToontownSourcecode\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "D:\Documents\ToontownSourcecode\Toontown\toontown\toonbase\ClientStart.py", line 108, in <module>
+    ToonBase.ToonBase()
+  File "toontown\toonbase\ToonBase.py", line 255, in __init__
+    taskMgr.add(kek, 'tk test')
+NameError: global name 'kek' is not defined

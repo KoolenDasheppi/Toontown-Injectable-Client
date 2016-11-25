@@ -59,7 +59,6 @@ from toontown.toonbase import TTLocalizer
 from toontown.toonbase import ToontownGlobals
 from toontown.toonbase.ToontownGlobals import *
 from toontown.toontowngui import NewsPageButtonManager
-from toontown.friends.FriendHandle import FriendHandle
 
 
 WantNewsPage = base.config.GetBool('want-news-page', ToontownGlobals.DefaultWantNewsPageSetting)
@@ -1894,10 +1893,11 @@ class LocalToon(DistributedToon.DistributedToon, LocalAvatar.LocalAvatar):
 
     def setSleepAutoReply(self, fromId):
         av = base.cr.identifyAvatar(fromId)
-        if isinstance(av, (DistributedToon.DistributedToon, FriendHandle)):
-            base.localAvatar.setSystemMessage(0, TTLocalizer.SleepAutoReply % av.getName(), WTToontownBoardingGroup)
-        elif av:
+        if isinstance(av, DistributedToon.DistributedToon):
+            base.localAvatar.setSystemMessage(0, TTLocalizer.sleep_auto_reply % av.getName(), WTToontownBoardingGroup)
+        elif av is not None:
             self.notify.warning('setSleepAutoReply from non-toon %s' % fromId)
+        return
 
     def setLastTimeReadNews(self, newTime):
         self.lastTimeReadNews = newTime
@@ -1933,7 +1933,26 @@ class LocalToon(DistributedToon.DistributedToon, LocalAvatar.LocalAvatar):
         return result
 
     def doTeleportResponse(self, fromAvatar, toAvatar, avId, available, shardId, hoodId, zoneId, sendToId):
-        self.d_teleportResponse(avId, available, shardId, hoodId, zoneId, sendToId)
+        localAvatar.d_teleportResponse(avId, available, shardId, hoodId, zoneId, sendToId)
+
+    def d_teleportResponse(self, avId, available, shardId, hoodId, zoneId, sendToId = None):
+        if base.config.GetBool('want-tptrack', False):
+            if available == 1:
+                self.notify.debug('sending teleportResponseToAI')
+                self.sendUpdate('teleportResponseToAI', [avId,
+                 available,
+                 shardId,
+                 hoodId,
+                 zoneId,
+                 sendToId])
+            else:
+                self.sendUpdate('teleportResponse', [avId,
+                 available,
+                 shardId,
+                 hoodId,
+                 zoneId], sendToId)
+        else:
+            DistributedPlayer.DistributedPlayer.d_teleportResponse(self, avId, available, shardId, hoodId, zoneId, sendToId)
 
     def startQuestMap(self):
         if self.questMap:
