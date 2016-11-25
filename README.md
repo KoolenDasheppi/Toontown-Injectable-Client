@@ -1,7 +1,7 @@
 Toontown Infinite
 =================
 
-This is my edited fork of Toontown infinite to an a style "Injector" opened when launched. It also has some edited server source to run box exploits the same as they did in the original Toontown.
+This is my edited fork of Toontown infinite to include an old style "Injector" opened when launched. It also has some edited server source to run boss exploits the same as they did in the original Toontown.
 
 This distribution will also execute any sourcecode located in "mods" the same as Cody's old mod loader.
 
